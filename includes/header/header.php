@@ -48,20 +48,52 @@
                 </div>
 
                 <div id="principal-nav-items" class="d-flex align-items-end justify-content-end">
-                    <!-- <a class="principal-nav-item principal-nav-item--short font-extra-bold" href="#">QUEM SOMOS</a> -->
                     <?php 
                         include_once './includes/components/nav-item/nav-item.php';
-                        showNavItem("QUEM SOMOS");
+                        showNavItem("QUEM SOMOS", ["Manifesto", "Sobre a Biogen", "Contato"], 'short');
                     ?>
-                    <!-- <a class="principal-nav-item principal-nav-item--short font-extra-bold" href="#">O QUE É ALZHEIMER</a> -->
                     <?php 
                         include_once './includes/components/nav-item/nav-item.php';
-                        showNavItem("O QUE É ALZHEIMER");
+                        showNavItem("O QUE É ALZHEIMER", 
+                            [
+                                "O que é doença de Alzheimer", 
+                                "A história do Alzheimer", 
+                                "Fisiopatologia", 
+                                "Envelhecimento saudável x doença de Alzheimer",
+                                "Demência e doença de Alzheimer",
+                                "Fatores de risco",
+                                "Prevenção",
+                                "Fatos e números",
+                                "O que acontece com o cérebro"
+                            ], 'short');
                     ?>
-                    <a class="principal-nav-item font-extra-bold" href="#">SINAIS, SINTOMAS E DIAGNÓSTICO</a>
-                    <a class="principal-nav-item font-extra-bold" href="#">CUIDANDO DO PACIANTE</a>
-                    <a class="principal-nav-item font-extra-bold" href="#">CUIDANDO DE QUEM CUIDA</a>
-                    <a class="principal-nav-item font-extra-bold" href="#">CIDADANIA E POLÍTICAS PÚBLICAS</a>
+                    <?php 
+                        include_once './includes/components/nav-item/nav-item.php';
+                        showNavItem("SINAIS, SINTOMAS E DIAGNÓSTICO", 
+                            [
+                                "Sinais e sintomas",
+                                "Comprometimento cognitivo leve",
+                                "Diagnóstico",
+                                "Diagnóstico precoce",
+                                "Diagnóstico diferencial",
+                                "Biomarcadores",
+                                "Testes funcionais e cognitivos",
+                                "Estágios da doença de Alzheimer",
+                                "CCL x DA"
+                            ], 'regular');
+                    ?>
+                    <?php 
+                        include_once './includes/components/nav-item/nav-item.php'; 
+                        showNavItem("CUIDANDO DO PACIENTE", [], 'regular'); ?>
+                    
+                    <?php 
+                        include_once './includes/components/nav-item/nav-item.php'; 
+                        showNavItem("CUIDANDO DE QUEM CUIDA", [], 'regular'); ?>
+
+                    <?php 
+                        include_once './includes/components/nav-item/nav-item.php'; 
+                        showNavItem("CIDADANIA E POLÍTICAS PÚBLICAS", [], 'regular'); ?>
+                        
                 </div>
             </div>
         </nav>

@@ -70,16 +70,29 @@ header#header nav#principal-nav div#principal-nav-container div#principal-nav-it
     cursor: pointer;
 }
 
-header#header nav#principal-nav div#principal-nav-container div#principal-nav-items .principal-nav-item-container {
-    width: 149px;
-    height: 22px;
-
+header#header nav#principal-nav div#principal-nav-container div#principal-nav-items .principal-nav-item--regular   {
+    max-width: 7.375rem !important
 }
 
 header#header nav#principal-nav div#principal-nav-container div#principal-nav-items .principal-nav-item--short   {
     max-width: 4.375rem !important;
 }
 
+
+header#header nav#principal-nav div#principal-nav-container div#principal-nav-items .principal-nav-item-container {
+    width: 149px;
+    height: 36px;
+    display: flex;
+    flex-flow: column;
+}
+
+header#header nav#principal-nav div#principal-nav-container div#principal-nav-items .principal-nav-item-container--short {
+    width: 100px;
+}
+
+header#header nav#principal-nav div#principal-nav-container div#principal-nav-items .principal-nav-item-container--regular {
+    width: 165px;
+}
 
 header#header nav#secondary-nav div#secondary-nav-container div#secondary-nav-items div#secondary-nav-item-container:first-child {
     margin-left: 0px;
