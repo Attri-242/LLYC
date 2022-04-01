@@ -28,14 +28,18 @@ header#header nav#principal-nav {
 }
 
 
-header#header nav#principal-nav div#principal-nav-container {
+header#header 
+nav#principal-nav 
+div#principal-nav-container {
     padding-left: 8.938rem;
     padding-right: 11.188rem;
     position: relative;
     bottom: 3.188rem;
 }
 
-header#header nav#secondary-nav div#secondary-nav-container {
+header#header 
+nav#secondary-nav 
+div#secondary-nav-container {
     height: 100%;
     padding-left: 43.938rem;
     padding-right: 11.188rem;
@@ -43,22 +47,33 @@ header#header nav#secondary-nav div#secondary-nav-container {
 
 }
 
-header#header nav#principal-nav img#logo {
+header#header 
+nav#principal-nav 
+img#logo {
     position: relative;
     background-color: var(--llyc-secondary);
 }
 
-header#header nav#principal-nav div#logo-container {
+header#header 
+nav#principal-nav 
+div#logo-container {
     padding: 0 0.375rem;
     background-color: var(--llyc-secondary);
 }
 
 
-header#header nav#principal-nav div#principal-nav-container div#principal-nav-items {
+header#header 
+nav#principal-nav 
+div#principal-nav-container 
+div#principal-nav-items {
     width: 100%;
 }
 
-header#header nav#principal-nav div#principal-nav-container div#principal-nav-items .principal-nav-item {
+header#header 
+nav#principal-nav 
+div#principal-nav-container 
+div#principal-nav-items 
+.principal-nav-item {
     margin-left: 2.625rem;
     position: relative;
     bottom: 0.938rem;
@@ -70,31 +85,54 @@ header#header nav#principal-nav div#principal-nav-container div#principal-nav-it
     cursor: pointer;
 }
 
-header#header nav#principal-nav div#principal-nav-container div#principal-nav-items .principal-nav-item--regular   {
+header#header 
+nav#principal-nav 
+div#principal-nav-container 
+div#principal-nav-items 
+.principal-nav-item--regular   {
     max-width: 7.375rem !important
 }
 
-header#header nav#principal-nav div#principal-nav-container div#principal-nav-items .principal-nav-item--short   {
+header#header 
+nav#principal-nav 
+div#principal-nav-container 
+div#principal-nav-items 
+.principal-nav-item--short   {
     max-width: 4.375rem !important;
 }
 
-
-header#header nav#principal-nav div#principal-nav-container div#principal-nav-items .principal-nav-item-container {
+header#header 
+nav#principal-nav 
+div#principal-nav-container 
+div#principal-nav-items 
+.principal-nav-item-container {
     width: 9.313rem;
     height: 2.25rem;
     display: flex;
     flex-flow: column;
 }
 
-header#header nav#principal-nav div#principal-nav-container div#principal-nav-items .principal-nav-item-container--short {
+header#header 
+nav#principal-nav 
+div#principal-nav-container 
+div#principal-nav-items 
+.principal-nav-item-container--short {
     width: 6.25rem;
 }
 
-header#header nav#principal-nav div#principal-nav-container div#principal-nav-items .principal-nav-item-container--regular {
+header#header 
+nav#principal-nav 
+div#principal-nav-container 
+div#principal-nav-items 
+.principal-nav-item-container--regular {
     width: 10.313rem;
 }
 
-header#header nav#secondary-nav div#secondary-nav-container div#secondary-nav-items div#secondary-nav-item-container:first-child {
+header#header 
+nav#secondary-nav 
+div#secondary-nav-container 
+div#secondary-nav-items 
+div#secondary-nav-item-container:first-child {
     margin-left: 0px;
     max-width: 10.313rem;
     display: flex;
@@ -103,7 +141,11 @@ header#header nav#secondary-nav div#secondary-nav-container div#secondary-nav-it
 
 /* Nav com os links secundários */
 
-header#header nav#secondary-nav div#secondary-nav-container div#secondary-nav-items div#secondary-nav-item-container {
+header#header 
+nav#secondary-nav 
+div#secondary-nav-container 
+div#secondary-nav-items 
+div#secondary-nav-item-container {
     margin-left: 2.188rem;
     min-width: 8.7rem;
     display: flex;
@@ -115,11 +157,17 @@ header#header nav#secondary-nav {
     background-color: var(--llyc-secondary);
 }
 
-header#header nav#secondary-nav div#logo-container {
+header#header 
+nav#secondary-nav 
+div#logo-container {
     width: 244px;
 }
 
-header#header nav#secondary-nav div#secondary-nav-container div#secondary-nav-items .secondary-nav-item {
+header#header 
+nav#secondary-nav 
+div#secondary-nav-container 
+div#secondary-nav-items 
+.secondary-nav-item {
     margin-left:0.75rem;
     font-size: 0.8rem;
     line-height: 1.125rem;
@@ -129,11 +177,17 @@ header#header nav#secondary-nav div#secondary-nav-container div#secondary-nav-it
 }
 
 @media (min-width: 1200px) and (max-width: 1600px) {
-    header#header nav#secondary-nav div#secondary-nav-container {
+    header#header 
+    nav#secondary-nav 
+    div#secondary-nav-container {
         padding-left: 26.938rem;
     }
 
-    header#header nav#secondary-nav div#secondary-nav-container div#secondary-nav-items div#secondary-nav-item-container {
+    header#header 
+    nav#secondary-nav 
+    div#secondary-nav-container 
+    div#secondary-nav-items 
+    div#secondary-nav-item-container {
         margin-left: 2.188rem;
         min-width: 5.938rem;
         display: flex;
@@ -142,11 +196,19 @@ header#header nav#secondary-nav div#secondary-nav-container div#secondary-nav-it
 }
 
 @media (min-width: 1200px) and (max-width: 1345px) {
-    header#header nav#principal-nav div#principal-nav-container div#principal-nav-items .principal-nav-item {
+    header#header 
+    nav#principal-nav 
+    div#principal-nav-container 
+    div#principal-nav-items 
+    .principal-nav-item {
         min-width: 7rem;
     }
 
-    header#header nav#principal-nav div#principal-nav-container div#principal-nav-items .principal-nav-item:not(:first-child) {
+    header#header 
+    nav#principal-nav 
+    div#principal-nav-container 
+    div#principal-nav-items 
+    .principal-nav-item:not(:first-child) {
         margin-left: 1rem;
     }
 }
