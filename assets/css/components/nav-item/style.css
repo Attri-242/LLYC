@@ -1,0 +1,27 @@
+.floating-menu {
+    background: #FFFFFF;
+    border: 1px solid #6C4E45;
+    padding: 22px 37px 29px 29px;
+    width: 235px;
+    position: relative;
+    left: 42px;
+    bottom: 11px;
+    list-style-type: none;
+    display: none;
+ }
+
+ .floating-menu--block {
+    display: block;
+ }
+ 
+ .floating-menu-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    cursor: pointer;
+ }
+ 
+ .floating-menu-text:not(:first-child) {
+    margin-top: 17px;
+ }

@@ -1,0 +1,45 @@
+:root {
+  --llyc-background: #E5E5E5;
+  --llyc-primary: #E03C31;
+  --llyc-secondary: #FDF8EC;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+html, body {
+   width: 100%;
+   height: 100%;
+}
+
+.font-regular {
+   font-family: 'Trade Gothic Next LT Pro', 'Open Sans';
+   font-weight: 400;
+}
+
+.font-bold {
+   font-family: 'Trade Gothic Next LT Pro', 'Open Sans';
+   font-weight: 700;
+}
+
+.font-extra-bold {
+   font-family: "Trade Gothic Next LT Pro BdCn" !important;
+   font-weight: 800;
+}
+ 
+ 
+/* xl - desktop */
+@media (min-width: 1200px) {
+    html {font-size: 16px;}
+}
+
+/* md - tablet */
+@media (min-width: 577px) and (max-width: 1199px) {
+   html {font-size: 15px;}
+}
+
+/* col - mobile */
+@media (max-width: 576px) {
+   html {font-size: 14px;}
+}
