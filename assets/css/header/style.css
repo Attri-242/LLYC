@@ -77,7 +77,7 @@ div#principal-nav-items
     margin-left: 2.625rem;
     position: relative;
     bottom: 0.938rem;
-    font-size: 0.938rem;
+    font-size: 0.813rem;
     line-height: 1.125rem;
     text-decoration: none;
     max-width: 8.375rem;
@@ -169,7 +169,7 @@ div#secondary-nav-container
 div#secondary-nav-items 
 .secondary-nav-item {
     margin-left:0.75rem;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     line-height: 1.125rem;
     text-decoration: none;
     color: var(--llyc-primary);
@@ -196,13 +196,13 @@ div#secondary-nav-items
 }
 
 @media (min-width: 1200px) and (max-width: 1345px) {
-    header#header 
+    /* header#header 
     nav#principal-nav 
     div#principal-nav-container 
     div#principal-nav-items 
     .principal-nav-item {
         min-width: 7rem;
-    }
+    } */
 
     header#header 
     nav#principal-nav 

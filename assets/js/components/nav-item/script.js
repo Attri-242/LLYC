@@ -4,15 +4,19 @@ function showMenu(event) {
 
     closeAll(menuElement);
 
-    menuElement.classList.toggle('floating-menu--block');
+    if(menuElement) {
+        menuElement.classList.toggle('floating-menu--block');
+    }
 }
 
 function closeAll(elementSelected) {
     const menus = document.querySelectorAll('.floating-menu');
     if(menus) {
         menus.forEach(menu => {
-            if(elementSelected.id !== menu.id) {
-                menu.classList.remove('floating-menu--block');
+            if((elementSelected && menu) && elementSelected.id !== menu.id) {
+                if(menu) {
+                    menu.classList.remove('floating-menu--block');
+                }
             }
         });
     }
