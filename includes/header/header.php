@@ -120,7 +120,13 @@
             </div>
             <ul id="nav-mobile-items">
                 <div class="nav-mobile-item-container">
-                    <li class="nav-mobile-item" onclick="toggleMobileSubMenu(this)">QUEM SOMOS</li>
+                    <li class="nav-mobile-item">QUEM SOMOS</li>
+                    <ul class="nav-mobile-item-subcontainer">
+                        
+                    </ul>
+                </div>
+                <div class="nav-mobile-item-container">
+                    <li class="nav-mobile-item" onclick="toggleMobileSubMenu(this)">O QUE É ALZHEIMER</li>
                     <ul class="nav-mobile-item-subcontainer">
                         <li class="nav-mobile-item-subcontainer-item">O que é doença de Alzheimer</li>
                         <li class="nav-mobile-item-subcontainer-item">A história do Alzheimer</li>
@@ -132,10 +138,6 @@
                         <li class="nav-mobile-item-subcontainer-item">Fatos e números</li>
                         <li class="nav-mobile-item-subcontainer-item">O que acontece com o cérebro</li>
                     </ul>
-                </div>
-                <div class="nav-mobile-item-container">
-                    <li class="nav-mobile-item">O QUE É ALZHEIMER</li>
-                    <ul class="nav-mobile-item-subcontainer"></ul>
                 </div>
                 <div class="nav-mobile-item-container">
                     <li class="nav-mobile-item">SINAIS, SINTOMAS E DIAGNÓSTICO</li>
