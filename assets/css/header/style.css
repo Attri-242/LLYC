@@ -1,17 +1,7 @@
 @import "../style.css";
 
-/* header#header img#logo {
-    height: 8.125rem;
-    height: 8.125rem;
-} */
-
 header#header {
     width: 100%;
-}
-
-header#header div#nav-mobile-container {
-    width: 100%;
-    padding: 1.438rem 1.75rem 0 0;
 }
 
 header#header div#nav-desk-container {
@@ -90,7 +80,7 @@ nav#principal-nav
 div#principal-nav-container 
 div#principal-nav-items 
 .principal-nav-item--regular   {
-    max-width: 7.375rem !important
+    max-width: 7.175rem !important
 }
 
 header#header 
@@ -143,6 +133,12 @@ div#secondary-nav-item-container:first-child {
 
 header#header 
 nav#secondary-nav 
+div#secondary-nav-container {
+    z-index: 1000;
+}
+
+header#header 
+nav#secondary-nav 
 div#secondary-nav-container 
 div#secondary-nav-items 
 div#secondary-nav-item-container {
@@ -176,6 +172,41 @@ div#secondary-nav-items
     cursor: pointer;
 }
 
+header#header 
+nav#secondary-nav 
+div#secondary-nav-container 
+div#secondary-nav-items
+div#secondary-nav-item-container
+.principal-nav-item {
+    margin-left: 0.625rem;
+    position: relative;
+    font-size: 0.813rem;
+    line-height: 1.125rem;
+    text-decoration: none;
+    max-width: 4.375rem;
+    color: var(--llyc-primary);
+    cursor: pointer;
+}
+
+header#header 
+nav#secondary-nav 
+div#secondary-nav-container 
+div#secondary-nav-items
+.principal-nav-item-container {
+    width: 9.313rem;
+    height: 2.25rem;
+    display: flex;
+    flex-flow: column;
+}
+
+header#header 
+nav#secondary-nav 
+div#secondary-nav-container 
+div#secondary-nav-items
+.principal-nav-item-container--short {
+    width: 6.25rem;
+}
+
 @media (min-width: 1200px) and (max-width: 1600px) {
     header#header 
     nav#secondary-nav 
@@ -196,14 +227,6 @@ div#secondary-nav-items
 }
 
 @media (min-width: 1200px) and (max-width: 1345px) {
-    /* header#header 
-    nav#principal-nav 
-    div#principal-nav-container 
-    div#principal-nav-items 
-    .principal-nav-item {
-        min-width: 7rem;
-    } */
-
     header#header 
     nav#principal-nav 
     div#principal-nav-container 
@@ -215,4 +238,106 @@ div#secondary-nav-items
 
 @media (min-width: 577px) and (max-width: 1199px) { 
     
+}
+
+/* mobile */
+header#header 
+div#nav-mobile-container {
+    width: 100%;
+    padding-top: 1.438rem;
+    position: relative;
+}
+
+header#header 
+div#nav-mobile-container
+i#nav-mobile-icon {
+    right: 15px;
+    bottom: 55px;
+    position: absolute;
+    cursor: pointer;
+}
+
+header#header 
+nav#nav-mobile {
+    background-color: var(--llyc-primary);
+    z-index: 1000;
+    height: 100%;
+    position: absolute;
+    width: 80%;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
+header#header 
+nav#nav-mobile 
+div#nav-mobile-icon-container {
+    padding: 11.44px 0 0 15.44px;
+}
+
+header#header 
+nav#nav-mobile 
+div#nav-mobile-icon-container
+img#nav-mobile-close-icon {
+    cursor: pointer;
+}
+
+header#header 
+nav#nav-mobile 
+ul#nav-mobile-items {
+    margin-top: 44px;
+    padding: 0 38px 0 26px;
+    list-style-type: none;
+}
+
+header#header 
+nav#nav-mobile 
+ul#nav-mobile-items
+div.nav-mobile-item-container
+li.nav-mobile-item {
+    color: #FFF;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+header#header 
+nav#nav-mobile 
+ul#nav-mobile-items
+div.nav-mobile-item-container
+ul.nav-mobile-item-subcontainer {
+    display: none;
+    list-style-type: none;
+}
+
+.nav-mobile-item-subcontainer--block {
+    display: block !important;
+}
+
+header#header 
+nav#nav-mobile 
+ul#nav-mobile-items
+div.nav-mobile-item-container
+ul.nav-mobile-item-subcontainer
+li.nav-mobile-item-subcontainer-item {
+    list-style-type: none;
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+header#header 
+nav#nav-mobile 
+ul#nav-mobile-items
+div.nav-mobile-item-container:not(:first-child) {
+    margin-top: 30px;
+}
+
+.nav-mobile--block {
+    display: block !important;
 }

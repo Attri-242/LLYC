@@ -33,9 +33,19 @@
                         </div>
                         <div id="secondary-nav-item-container">
                             <img src="./assets/images/header/profile.png" alt="">
-                            <a class="secondary-nav-item font-bold" href="#">
-                                SELECIONE O SEU PERFIL
-                            </a>
+                            <?php 
+                                include_once './includes/components/nav-item/nav-item.php';
+                                showNavItem("SELECIONE O SEU PERFIL", 
+                                    [
+                                        "Tenho Alzheimer", 
+                                        "Sou familiar", 
+                                        "Sou médico", 
+                                        "Sou gestor de saúde", 
+                                        "Sou político", 
+                                        "Sou curioso"],
+                                    'regular',
+                                    'secondary');
+                            ?>
                         </div>
                         
                     </div>
@@ -50,7 +60,7 @@
                 <div id="principal-nav-items" class="d-flex align-items-end justify-content-end">
                     <?php 
                         include_once './includes/components/nav-item/nav-item.php';
-                        showNavItem("QUEM SOMOS", ["Manifesto", "Sobre a Biogen", "Contato"], 'short');
+                        showNavItem("QUEM SOMOS", ["Manifesto", "Sobre a Biogen", "Contato"], 'short', 'primary');
                     ?>
                     <?php 
                         include_once './includes/components/nav-item/nav-item.php';
@@ -65,7 +75,7 @@
                                 "Prevenção",
                                 "Fatos e números",
                                 "O que acontece com o cérebro"
-                            ], 'short');
+                            ], 'short', 'primary');
                     ?>
                     <?php 
                         include_once './includes/components/nav-item/nav-item.php';
@@ -80,19 +90,19 @@
                                 "Testes funcionais e cognitivos",
                                 "Estágios da doença de Alzheimer",
                                 "CCL x DA"
-                            ], 'regular');
+                            ], 'regular', 'primary');
                     ?>
                     <?php 
                         include_once './includes/components/nav-item/nav-item.php'; 
-                        showNavItem("CUIDANDO DO PACIENTE", [], 'regular'); ?>
+                        showNavItem("CUIDANDO DO PACIENTE", [], 'regular', 'primary'); ?>
                     
                     <?php 
                         include_once './includes/components/nav-item/nav-item.php'; 
-                        showNavItem("CUIDANDO DE QUEM CUIDA", [], 'regular'); ?>
+                        showNavItem("CUIDANDO DE QUEM CUIDA", [], 'regular', 'primary'); ?>
 
                     <?php 
                         include_once './includes/components/nav-item/nav-item.php'; 
-                        showNavItem("CIDADANIA E POLÍTICAS PÚBLICAS", [], 'regular'); ?>
+                        showNavItem("CIDADANIA E POLÍTICAS PÚBLICAS", [], 'regular', 'primary'); ?>
                         
                 </div>
             </div>
@@ -101,7 +111,48 @@
 
     <div class="d-flex d-xl-none align-items-center justify-content-center" id="nav-mobile-container">
         <img id="logo" src="./assets/images/header/logo-mobile.png" alt="logo">
-        <i class="bi bi-list"></i>
-
+        <i id="nav-mobile-icon" onclick="toggleMobileMenu()" class="bi bi-list">ICON</i>
     </div>
+
+    <nav id="nav-mobile">
+            <div id="nav-mobile-icon-container">
+                <img id="nav-mobile-close-icon" onclick="toggleMobileMenu()" src="./assets/images/header/close-menu-icon.svg" alt="">
+            </div>
+            <ul id="nav-mobile-items">
+                <div class="nav-mobile-item-container">
+                    <li class="nav-mobile-item" onclick="toggleMobileSubMenu(this)">QUEM SOMOS</li>
+                    <ul class="nav-mobile-item-subcontainer">
+                        <li class="nav-mobile-item-subcontainer-item">O que é doença de Alzheimer</li>
+                        <li class="nav-mobile-item-subcontainer-item">A história do Alzheimer</li>
+                        <li class="nav-mobile-item-subcontainer-item">Fisiopatologia</li>
+                        <li class="nav-mobile-item-subcontainer-item">Envelhecimento saudável x doença de Alzheimer</li>
+                        <li class="nav-mobile-item-subcontainer-item">Demência e doença de Alzheimer</li>
+                        <li class="nav-mobile-item-subcontainer-item">Fatores de risco</li>
+                        <li class="nav-mobile-item-subcontainer-item">Prevenção</li>
+                        <li class="nav-mobile-item-subcontainer-item">Fatos e números</li>
+                        <li class="nav-mobile-item-subcontainer-item">O que acontece com o cérebro</li>
+                    </ul>
+                </div>
+                <div class="nav-mobile-item-container">
+                    <li class="nav-mobile-item">O QUE É ALZHEIMER</li>
+                    <ul class="nav-mobile-item-subcontainer"></ul>
+                </div>
+                <div class="nav-mobile-item-container">
+                    <li class="nav-mobile-item">SINAIS, SINTOMAS E DIAGNÓSTICO</li>
+                    <ul class="nav-mobile-item-subcontainer"></ul>
+                </div>
+                <div class="nav-mobile-item-container">
+                    <li class="nav-mobile-item">CUIDANDO DO PACIENTE</li>
+                    <ul class="nav-mobile-item-subcontainer"></ul>
+                </div>
+                <div class="nav-mobile-item-container">
+                    <li class="nav-mobile-item">CUIDANDO DE QUEM CUIDA</li>
+                    <ul class="nav-mobile-item-subcontainer"></ul>
+                </div>
+                <div class="nav-mobile-item-container">
+                    <li class="nav-mobile-item">CIDADANIA E POLÍTICAS PÚBLICAS</li>
+                    <ul class="nav-mobile-item-subcontainer"></ul>
+                </div>
+            </ul>
+    </nav>
 </header>
