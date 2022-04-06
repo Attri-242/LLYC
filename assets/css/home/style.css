@@ -1,0 +1,145 @@
+main#home-main {
+    padding: 49px 181.18px 120px 184.18px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+main#home-main
+.cards {
+    display: flex;
+}
+
+main#home-main
+.cards:not(:first-child) {
+    margin-top: 49px;
+}
+
+main#home-main
+.cards
+.card-info {
+    max-width: 216px;
+}
+
+main#home-main
+.cards
+.card-info:not(:first-child) {
+    margin-left: 27.48px;
+}
+
+main#home-main
+.cards
+.card-info--larger {
+    max-width: 526px;
+}
+
+main#home-main
+.cards
+.card-info--larger:not(:first-child) {
+    margin-left: 27.48px;
+}
+
+main#home-main
+.cards
+.card-info--test {
+    border: 1px dashed #000;
+    max-height: 247px;
+    border-radius: 17.42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 85px 25px 93px 40px;
+}
+
+main#home-main
+.cards
+.card-info--test 
+.card-info-test-link-container {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #000000;
+}
+
+main#home-main
+.cards
+.card-info--test
+.card-info-test-link-container
+.card-info-test-text-begin {
+    font-weight: 700;
+    font-size: 17px;
+    color: #000;
+    margin-top: 10px;
+}
+
+main#home-main
+.cards
+.card-info
+.card-info-link-container {
+    display: flex;
+    flex-flow: column;
+    align-items: baseline;
+    text-decoration: none;
+}
+
+main#home-main
+.cards
+.card-info
+.card-info-link-container
+.card-info-image {
+    height: 247px;
+}
+
+main#home-main
+.cards
+.card-info
+.card-info-link-container
+.card-info-text {
+    margin-top: 20.9px;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+main#home-main
+.cards
+.card-info
+.card-info-relateds {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+main#home-main
+.cards
+.card-info
+.card-info-relateds
+.card-info-related {
+    border: 1px solid #E03C31;
+    border-radius: 14px;
+    font-size: 15px;
+    color: #E03C31;
+    font-weight: 700;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main#home-main
+.cards
+.card-info
+.card-info-relateds
+.card-info-related:not(:first-child) {
+    margin-left: 6px;
+}
+
+/* @media(min-width:1600px){
+    .cards {
+        justify-content: space-between;
+        width: 100%;
+    }    
+} */
