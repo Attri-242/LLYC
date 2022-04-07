@@ -1,0 +1,277 @@
+main#cidadania-main {
+    padding: 50px 179px 113px 176px;
+    display: flex;
+    flex-flow: column;
+}
+
+main#cidadania-main
+div#breadcrumb {
+    display: flex;
+}
+
+main#cidadania-main
+div#breadcrumb
+div.cidadania-breadcrumb-item:not(:first-child) {
+    margin-left: 14px;
+}
+
+main#cidadania-main
+div#breadcrumb
+div.cidadania-breadcrumb-item
+a.breadcrumb-item-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #000000;
+}
+
+main#cidadania-main
+div#breadcrumb
+div.cidadania-breadcrumb-item
+img.breadcrumb-item-arrow {
+    margin-left: 14px;
+    width: 20px;
+}
+
+main#cidadania-main
+div#title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+
+main#cidadania-main
+div#title
+h1#title-text {
+    font-weight: 400;
+    max-width: 620px;
+    font-size: 38px;
+}
+
+main#cidadania-main
+div#title
+div#card-info-related-container {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}
+
+main#cidadania-main
+div#title
+div#card-info-related-container
+img#card-info-related-share {
+    margin-top: 28px;
+}
+
+main#cidadania-main
+div#title
+div#card-info-related-container
+div.card-info-relateds {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+main#cidadania-main
+div#title
+div#card-info-related-container
+div.card-info-relateds
+div.card-info-related {
+    border: 1px solid #E03C31;
+    border-radius: 14px;
+    font-size: 15px;
+    color: #E03C31;
+    font-weight: 700;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main#cidadania-main
+div#title
+div#card-info-related-container
+div.card-info-relateds
+div.card-info-related:not(:first-child) {
+    margin-left: 6px;
+}
+
+main#cidadania-main
+div#news-container
+p#news-date {
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+main#cidadania-main
+div#news-container
+p.news-info {
+    width: 665px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+main#cidadania-main
+div#news-container
+div#news-table { 
+    margin-top: 50px;
+    border: 1px dashed black;
+    display: flex;
+    flex-flow: column;
+    max-width: 619px;
+}
+
+main#cidadania-main
+div#news-container
+div#news-table
+h3.news-table-title {
+    margin: 0; 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    border-bottom: 1px dashed black;
+    padding: 10px 60px 10px 63px;
+}
+
+main#cidadania-main
+div#news-container
+div#news-table
+span.news-table-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    padding: 27px 50px 27px 10px;
+    border-top: 1px dashed black;
+}
+
+main#cidadania-main
+div#news-container
+div#news-table
+span.news-table-item
+p.news-table-item-text  {
+    width: 597px;
+}
+
+main#cidadania-main
+div#news-container
+button.news-info-button {
+    margin-top: 50px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #E03C31;
+    background-color: white;
+    border: 1px solid #E03C31;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+main#cidadania-main
+div#news-container
+h2.title-subtitle {
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+    color: #000000;
+}
+
+main#cidadania-main
+div#news-container
+div#news-impacts {
+    margin-top: 50px;
+
+}
+
+main#cidadania-main
+div#news-container
+div#news-impacts
+div.news-impacts-item {
+    margin-top: 26px;
+}
+
+main#cidadania-main
+div#news-container
+div#news-impacts
+div.news-impacts-item
+span.news-impacts-item-text {
+    margin-left: 46px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+main#cidadania-main
+div#news-container
+h2.text-subtitle-little {
+    width: 600px;
+}
+
+main#cidadania-main
+div#news-container
+div#news-image-text {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+main#cidadania-main
+div#news-container
+div#news-image-text 
+div.news-image-text-items {
+    margin-left: 75px;
+    display: flex;
+    flex-flow: column;
+}
+
+main#cidadania-main
+div#news-container
+div#news-image-text 
+div.news-image-text-items
+span.news-image-text-item {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+main#cidadania-main
+div#news-container
+ul.news-info-list {
+    margin-top: 50px;
+}
+
+main#cidadania-main
+div#news-container
+ul.news-info-list
+li.news-info-list-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    color: #000000;
+}
+
+main#cidadania-main
+div#news-container
+ul.news-info-list
+li.news-info-list-item--little {
+    width: 650px;
+}
+
+main#cidadania-main
+div#news-container
+ul.style-none {
+    list-style: none;
+}

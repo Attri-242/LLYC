@@ -1,8 +1,8 @@
 <?php 
-    function showNavItem($param, $array, $type, $menuType) {
+    function showNavItem($param, $array, $type, $menuType, $redirectLink) {
         echo '<div id="' . $param .'" class="principal-nav-item-container principal-nav-item-container--' . $type . '">
                 <a onclick="showMenu(event)" 
-                class="principal-nav-item principal-nav-item--' . $type . ' font-extra-bold" href="#">' . $param . '</a>';
+                class="principal-nav-item principal-nav-item--' . $type . ' font-extra-bold" href="' . $redirectLink . '">' . $param . '</a>';
 
 
         if(count($array) > 0) {

@@ -1,3 +1,9 @@
+@import "./bootstrap/css/bootstrap.min.css";
+@import "./components/nav-item/style.css";
+@import "./header/style.css";
+@import "./footer/style.css";
+@import "../fonts/fonts.css";
+
 :root {
   --llyc-background: #E5E5E5;
   --llyc-primary: #E03C31;
