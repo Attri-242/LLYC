@@ -156,54 +156,54 @@
     
             <img class="news-container-image" src="../assets/images/oqueealzheimer/cerebro-labirinto.png" alt="">
     
-            <div id="sinais-sintomas-container">
-                <h3 id="sinais-sintomas-title">
+            <div class="icon-text-container">
+                <h3 class="icon-text-container-title">
                     Os  <a class="sintomas-link">sinais e sintomas</a> mais comuns são¹
                 </h3>
-                <div class="sinais-sintomas-container-row sinais-sintomas-container-row-mt-bigger">
-                    <div class="sinais-sintomas-item">
-                        <img class="sinais-sintomas-item-image" src="../assets/images/oqueealzheimer/perda-memoria.png" alt="">
-                        <p class="sinais-sintomas-item-text">
+                <div class="icon-text-container-row icon-text-container-row-mt-bigger">
+                    <div class="icon-text-item">
+                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/perda-memoria.png" alt="">
+                        <p class="icon-text-item-text">
                             Perda de<br> memória recente
                         </p>
                     </div>
-                    <div class="sinais-sintomas-item">
-                        <img class="sinais-sintomas-item-image" src="../assets/images/oqueealzheimer/cerebro-icone.png" alt="">
-                        <p class="sinais-sintomas-item-text">
+                    <div class="icon-text-item">
+                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/cerebro-icone.png" alt="">
+                        <p class="icon-text-item-text">
                             Repetir a mesma pergunta várias vezes
                         </p>
                     </div>
-                    <div class="sinais-sintomas-item">
-                        <img class="sinais-sintomas-item-image" src="../assets/images/oqueealzheimer/dificuldade-conversar.png" alt="">
-                        <p class="sinais-sintomas-item-text">
+                    <div class="icon-text-item">
+                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/dificuldade-conversar.png" alt="">
+                        <p class="icon-text-item-text">
                             Dificuldade em acompanhar conversas ou raciocínios complexos
                         </p>
                     </div>
                 </div>
-                <div class="sinais-sintomas-container-row">
-                    <div class="sinais-sintomas-item">
-                        <img class="sinais-sintomas-item-image" src="../assets/images/oqueealzheimer/incapacidade.png" alt="">
-                        <p class="sinais-sintomas-item-text">
+                <div class="icon-text-container-row">
+                    <div class="icon-text-item">
+                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/incapacidade.png" alt="">
+                        <p class="icon-text-item-text">
                             Incapacidade de desenvolver estratégias para solução de problemas
                         </p>
                     </div>
-                    <div class="sinais-sintomas-item">
-                        <img class="sinais-sintomas-item-image" src="../assets/images/oqueealzheimer/dificuldade-dirigir.png" alt="">
-                        <p class="sinais-sintomas-item-text">
+                    <div class="icon-text-item">
+                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/dificuldade-dirigir.png" alt="">
+                        <p class="icon-text-item-text">
                             Dificuldade para dirigir e encontrar caminhos conhecidos
                         </p>
                     </div>
-                    <div class="sinais-sintomas-item">
-                        <img class="sinais-sintomas-item-image" src="../assets/images/oqueealzheimer/dificuldade-expressar.png" alt="">
-                        <p class="sinais-sintomas-item-text">
+                    <div class="icon-text-item">
+                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/dificuldade-expressar.png" alt="">
+                        <p class="icon-text-item-text">
                             Dificuldade para expressar-se
                         </p>
                     </div>
                 </div>
-                <div class="sinais-sintomas-container-row">
-                    <div class="sinais-sintomas-item">
-                        <img class="sinais-sintomas-item-image" src="../assets/images/oqueealzheimer/mudanca-comportamento.png" alt="">
-                        <p class="sinais-sintomas-item-text sinais-sintomas-item-text--bigger">
+                <div class="icon-text-container-row">
+                    <div class="icon-text-item">
+                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/mudanca-comportamento.png" alt="">
+                        <p class="icon-text-item-text icon-text-item-text--bigger">
                             Mudanças comportamentais, como irritabilidade, agressividade, passividade,
                             interpretações erradas de estímulos visuais ou auditivos, e tendência ao isolamento
                         </p>
@@ -368,42 +368,41 @@
                     esse valor deve ultrapassar 2,8 trilhões de dólares em 2030.
                 </p>
             </div>
-    
-    
-    
-    
+        
             <h2 class="title-subtitle">Referências</h2>
-    
+
             <ul class="news-info-list style-none p-0">
                 <li class="news-info-list-item news-info-list-item--little">
-                    1. World Alzheimer Report 2019. Alzheimer’s Disease International. 
-                    Disponível em: https://www.alzint.org/u/WorldAlzheimerReport2019.pdf Acesso em 22/11/2021</li>
-                <li class="news-info-list-item news-info-list-item--little">
-                    2. Dementia Fact Sheet. World Health Organization. 
-                    Disponível em: https://www.who.int/news-room/fact-sheets/detail/dementia Acesso 22/11/2021.
+                    1. Alzheimer: o que é, causas, sintomas, tratamento, diagnóstico e prevenção. Ministério da Saúde. 
+                    Disponível em: https://antigo.saude.gov.br/saude-de-a-z/alzheimer Acesso 23/11/21
                 </li>
                 <li class="news-info-list-item news-info-list-item--little">
-                    3. Feter N, Leite JS, Caputo EL, Cardoso RK, Rombaldi AJ. 
-                    Who are the people with Alzheimer's disease in Brazil? Findings from the Brazilian Longitudinal Study of Aging. Rev Bras Epidemiol. 
-                    2021 Apr 14;24:e210018.
+                    2. Alzheimer's Disease Diagnostic Guidelines. National Institute of Aging. 
+                    Disponível em https://www.nia.nih.gov/health/alzheimers-disease-diagnostic-guidelines Acesso 23/11/21
                 </li>
                 <li class="news-info-list-item news-info-list-item--little">
-                    4. Gutierrez BAO, Silva HS da, Guimaraes C, Campino AC. 
-                    Economic impact of Alzheimer’s Disease in Brazil: is it possible to improve care and minimize costs?. Cien Saude Colet. 
-                    2014 Nov;19(11):4479–86.
+                    3. 10 warn signs. Alzheimer's Association. 
+                    Disponúvel em: https://www.alz.org/national/documents/aa_brochure_10warnsigns.pdf Acesso 23/11/21
                 </li>
                 <li class="news-info-list-item news-info-list-item--little">
-                    5. Dementia statistics. Alzheimer’s Disease International. 
-                    Disponível em: https://www.alz.co.uk/research/statistics Acesso em 22/11/2021
+                    4. Drew, L. An age-old story of dementia. Nature, Vol 559 – 2018
                 </li>
                 <li class="news-info-list-item news-info-list-item--little">
-                    6. Ferretti C, Sarti FM, Nitrini R, Ferreira FF, Brucki SMD. 
-                    An assessment of direct and indirect costs of dementia in Brazil. PLoS One. 2018;13(3):e0193209.
+                    5. 2021 Alzheimer’s Disease Facts and Figures. Alzheimer’s Association. 
+                    Disponível em: https://www.alz.org/media/documents/alzheimers-facts-and-figures.pdf Acesso 23/11/21
                 </li>
                 <li class="news-info-list-item news-info-list-item--little">
-                    7. Sandoval J de J, Turra CM, Loschi RH. 
-                    Adjusted mortality rates attributable to Alzheimer’s disease dementia, Brazil, 2009-2013. 
-                    Cad Saude Publica. 2019 Jul;35(6):e00091918.
+                    6. Protocolos Clínicos e Diretrizes Terapêuticas. Comissão Nacional de Incorporação de Tecnologias no SUS – CONITEC, 2017. 
+                    Disponível em: http://conitec.gov.br/images/Relatorios/2017/Recomendacao/
+                    Relatorio_PCDTDoen%C3%A7a_de_Alzheimer_267_17_final_SEC1207.pdf Acesso 22/11/21
+                </li>
+                <li class="news-info-list-item news-info-list-item--little">
+                    7. Jurkowski CL. A multidisciplinary approach to Alzheimer's disease: who should be members of the team? Am J Med. 1998 Apr 27;104(4A):13S-16S; 
+                    discussion 39S-42S. doi: 10.1016/s0002-9343(98)00023-0. PMID: 9617847
+                </li>
+                <li class="news-info-list-item news-info-list-item--little">
+                    8. Dementia Fact Sheet. World Health Organization, 2021. 
+                    Disponível em: https://www.who.int/news-room/fact-sheets/detail/dementia Acesso 22/11/21
                 </li>
             </ul>
         </div>

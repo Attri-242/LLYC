@@ -1,21 +1,21 @@
-main#alzheimer-main {
+main#tratamento-main {
     padding: 50px 179px 113px 176px;
     display: flex;
     flex-flow: column;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#breadcrumb {
     display: flex;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#breadcrumb
 div.cidadania-breadcrumb-item:not(:first-child) {
     margin-left: 14px;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#breadcrumb
 div.cidadania-breadcrumb-item
 a.breadcrumb-item-text {
@@ -25,7 +25,7 @@ a.breadcrumb-item-text {
     color: #000000;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#breadcrumb
 div.cidadania-breadcrumb-item
 img.breadcrumb-item-arrow {
@@ -33,14 +33,14 @@ img.breadcrumb-item-arrow {
     width: 20px;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#title {
     display: flex;
     justify-content: space-between;
     margin-top: 38px;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#title
 h1#title-text {
     font-weight: 400;
@@ -81,14 +81,14 @@ img#card-info-related-share {
     margin-left: 6px;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#page-container
 div#related-column {
     margin-top: 150px;
     width: 295px;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#page-container
 div#related-column
 div#related-doctor {
@@ -100,7 +100,7 @@ div#related-doctor {
     border-radius: 20px;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#page-container
 div#related-column
 div#related-doctor
@@ -111,13 +111,13 @@ p.related-doctor-text {
     color: #000000;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#page-container
 div#related-charts {
     margin-top: 94px
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#page-container
 div#related-charts
 div.related-chart {
@@ -127,7 +127,7 @@ div.related-chart {
     align-items: flex-start;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#page-container
 div#related-charts
 div.related-chart
@@ -140,7 +140,7 @@ p.related-chart-text {
     width: 230px;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 p#news-date {
     margin-top: 50px;
@@ -150,7 +150,7 @@ p#news-date {
     color: #000000;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 p.news-info {
     width: 665px;
@@ -161,7 +161,7 @@ p.news-info {
     color: #000000;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 h2.title-subtitle {
     margin-top: 50px;
@@ -171,25 +171,25 @@ h2.title-subtitle {
     color: #000000;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 h2.text-subtitle-little {
     width: 600px;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 img.news-container-image {
     margin-top: 50px;
 }
 
-/* main#alzheimer-main
+/* main#tratamento-main
 div#news-container
 div#sinais-sintomas-container {
     margin-top: 50px;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 div#sinais-sintomas-container
 h3#sinais-sintomas-title {
@@ -199,28 +199,28 @@ h3#sinais-sintomas-title {
     color: #000000;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 div#sinais-sintomas-container
 div.sinais-sintomas-container-row {
     display: flex;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 div#sinais-sintomas-container
 div.sinais-sintomas-container-row {
     margin-top: 33px
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 div#sinais-sintomas-container
 div.sinais-sintomas-container-row-mt-bigger {
     margin-top: 84px;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 div#sinais-sintomas-container
 div.sinais-sintomas-container-row
@@ -230,7 +230,7 @@ div.sinais-sintomas-item {
     align-items: center;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 div#sinais-sintomas-container
 div.sinais-sintomas-container-row
@@ -238,7 +238,7 @@ div.sinais-sintomas-item:not(:first-child) {
     margin-left: 68px;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 div#sinais-sintomas-container
 div.sinais-sintomas-container-row
@@ -251,7 +251,7 @@ p.sinais-sintomas-item-text {
     color: #000;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 div#sinais-sintomas-container
 div.sinais-sintomas-container-row
@@ -261,7 +261,7 @@ p.sinais-sintomas-item-text--bigger {
     width: 259px;
 } */
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 div#fatores-container {
     display: flex;
@@ -270,7 +270,7 @@ div#fatores-container {
     width: 645px;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 div#fatores-container
 div.fatores-container-item {
@@ -281,14 +281,14 @@ div.fatores-container-item {
     align-self: baseline;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 div#fatores-container
 div.fatores-container-item:not(:first-child) {
     margin-left: 44px;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 div#fatores-container
 div.fatores-container-item:last-child {
@@ -296,7 +296,7 @@ div.fatores-container-item:last-child {
     margin-top: 47px;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 div#fatores-container
 div.fatores-container-item
@@ -308,7 +308,7 @@ span.fatores-container-item-text {
     margin-top: 23px;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 div.action-card {
     margin-top: 66px;
@@ -317,7 +317,7 @@ div.action-card {
     max-width: 633px;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 div.action-card
 ul.action-card-list  {
@@ -326,7 +326,7 @@ ul.action-card-list  {
     padding: 0;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 div.action-card
 ul.action-card-list 
@@ -337,7 +337,7 @@ li.action-card-list-item  {
     color: #000;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 div.action-card
 p.action-card-text {
@@ -348,14 +348,14 @@ p.action-card-text {
     margin-top: 37px;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 ul#brain-activity {
     margin-top: 50px;
     width: 641px;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 ul#brain-activity
 li.brain-activity-item {
@@ -368,7 +368,7 @@ li.brain-activity-item {
 
 
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 button.news-info-button {
     margin-top: 50px;
@@ -383,7 +383,7 @@ button.news-info-button {
 }
 
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 h2.title-subtitle {
     margin-top: 50px;
@@ -394,13 +394,13 @@ h2.title-subtitle {
     width: 516px;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 ul.news-info-list {
     margin-top: 50px;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 ul.news-info-list
 li.news-info-list-item {
@@ -410,14 +410,14 @@ li.news-info-list-item {
     color: #000000;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 ul.news-info-list
 li.news-info-list-item--little {
     width: 650px;
 }
 
-main#alzheimer-main
+main#tratamento-main
 div#news-container
 ul.style-none {
     list-style: none;
