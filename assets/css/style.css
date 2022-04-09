@@ -53,6 +53,12 @@ div.icon-text-container-row {
 }
 
 div.icon-text-container
+div.icon-text-container-row--column {
+    display: flex;
+    flex-flow: column;
+}
+
+div.icon-text-container
 div.icon-text-container-row {
     margin-top: 33px
 }
@@ -71,6 +77,28 @@ div.icon-text-item {
 }
 
 div.icon-text-container
+div.icon-text-container-row--column
+div.icon-text-item--to-row {
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+}
+
+div.icon-text-container
+div.icon-text-container-row--column
+div.icon-text-item--to-row:not(:first-child) {
+    margin-top: 46px;
+}
+
+
+div.icon-text-container
+div.icon-text-container-row
+div.icon-text-item-row {
+    display: flex;
+    align-items: center;
+}
+
+div.icon-text-container
 div.icon-text-container-row
 div.icon-text-item:not(:first-child) {
     margin-left: 68px;
@@ -85,6 +113,35 @@ p.icon-text-item-text {
     font-size: 20px;
     line-height: 23px;
     color: #000;
+}
+
+div.icon-text-container
+div.icon-text-container-row--column
+div.icon-text-item--to-row
+p.icon-text-item-text {
+    max-width: 390px;
+    margin-top: 12px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000;
+}
+
+div.icon-text-container
+div.icon-text-container-row--column
+div.icon-text-item--to-row
+p.icon-text-item-text--little {
+    max-width: 330px;
+    margin-top: 12px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000;
+}
+
+div.icon-text-container
+div.icon-text-container-row--column
+div.icon-text-item--to-row
+p.icon-text-item-text--toRight {
+    margin-left: 60px
 }
 
 div.icon-text-container
@@ -122,6 +179,48 @@ p.icon-text-item-text--bigger {
     max-width: 259px;
     width: 259px;
 }
+
+/**/
+
+
+/* action card */
+div.action-card {
+    margin-top: 66px;
+    border: 1px dashed #000;
+    padding: 45px 40px 30px 46px;
+    max-width: 633px;
+}
+
+div.action-card
+ul.action-card-list  {
+    list-style: none;
+    margin-top: 26px;
+    padding: 0;
+}
+
+div.action-card
+ul.action-card-list 
+li.action-card-list-item  {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+}
+
+div.action-card
+p.action-card-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 37px;
+}
+
+div.action-card
+p.action-card-text--no-margin-top {
+    margin-top: 0px;
+}
+/**/
 
  
  
