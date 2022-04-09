@@ -1,0 +1,649 @@
+main#estagios-main {
+    padding: 50px 179px 113px 176px;
+    display: flex;
+    flex-flow: column;
+}
+
+main#estagios-main
+div#breadcrumb {
+    display: flex;
+}
+
+main#estagios-main
+div#breadcrumb
+div.estagios-breadcrumb-item:not(:first-child) {
+    margin-left: 14px;
+}
+
+main#estagios-main
+div#breadcrumb
+div.estagios-breadcrumb-item
+a.breadcrumb-item-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #000000;
+}
+
+main#estagios-main
+div#breadcrumb
+div.estagios-breadcrumb-item
+img.breadcrumb-item-arrow {
+    margin-left: 14px;
+    width: 20px;
+}
+
+main#estagios-main
+div#title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+
+main#estagios-main
+div#title
+h1#title-text {
+    font-weight: 400;
+    max-width: 620px;
+    font-size: 38px;
+}
+
+a.estagios-link {
+    color: #E03C31;
+    cursor: pointer;
+}
+
+.card-info-related-container {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}
+
+img#card-info-related-share {
+    margin-top: 28px;
+}
+
+.card-info-relateds {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.card-info-related {
+    border: 1px solid #E03C31;
+    border-radius: 14px;
+    font-size: 15px;
+    color: #E03C31;
+    font-weight: 700;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-info-related:not(:first-child) {
+    margin-left: 6px;
+}
+
+main#estagios-main
+div#news-container
+p#news-date {
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+main#estagios-main
+div#news-container
+p.news-info {
+    width: 665px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+main#estagios-main
+div#news-container
+h2.title-subtitle {
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+    color: #000000;
+}
+
+main#estagios-main
+div#news-container
+h2.text-subtitle-little {
+    width: 600px;
+}
+
+main#estagios-main
+div#news-container
+h2.title-italic {
+    font-style: italic;
+    font-size: 20px !important;
+    width: unset !important;
+}
+
+main#estagios-main
+div#news-container
+img.news-container-image {
+    margin-top: 50px;
+}
+
+
+/************** estagios column ****************/
+main#estagios-main
+div#news-container
+div#timeline {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+main#estagios-main
+div#news-container
+div#sintomas-timeline {
+    max-width: 1536px;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column;
+}
+
+main#estagios-main
+div#news-container
+div.sintomas-timeline-mt {
+    margin-top: 25px !important;
+}
+
+main#estagios-main
+div#news-container
+div.sintomas-timeline-mt-little {
+    margin-top: 5px !important;
+}
+
+main#estagios-main
+div#news-container
+div#timeline
+div#sintomas-timeline::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    border: 1px dashed #E03C31;
+    top: 0;
+    bottom: 0;
+    margin-left: -3px;
+}
+
+main#estagios-main
+div#news-container
+div#timeline
+div.sintomas-timeline-text {
+    width: 187px;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 13px;
+    display: flex;
+    flex-flow: column;
+}
+
+main#estagios-main
+div#news-container
+div#timeline
+div#sintomas-timeline-text-iniciais::after {
+    content: 'Pré-clínico';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -33px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #E03C31;
+}
+
+main#estagios-main
+div#news-container
+div#timeline
+div#sintomas-timeline-text-ccl::after {
+    content: 'CCL';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -16px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #E03C31;
+}
+
+main#estagios-main
+div#news-container
+div#timeline
+div#sintomas-timeline-text-leves::after {
+    content: 'Demência leve';
+    position: absolute;
+    width: 1px;
+    top: 0;
+    bottom: 0;
+    margin-left: -60px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #E03C31;
+    width: 200px;
+}
+
+main#estagios-main
+div#news-container
+div#timeline
+div#sintomas-timeline-text-moderados::after {
+    content: 'Demência moderada';
+    position: absolute;
+    width: 1px;
+    top: 0;
+    bottom: 0;
+    margin-left: -80px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #E03C31;
+    width: 200px;
+}
+
+main#estagios-main
+div#news-container
+div#timeline
+div#sintomas-timeline-text-severos::after {
+    content: 'Demência severa';
+    position: absolute;
+    width: 1px;
+    top: 0;
+    bottom: 0;
+    margin-left: -68px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #E03C31;
+    width: 200px;
+}
+
+main#estagios-main
+div#news-container
+div#timeline
+div#sintomas-timeline-text-moderados {
+    max-width: 1536px;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 13px;
+    display: flex;
+    flex-flow: column;
+}
+
+main#estagios-main
+div#news-container
+div#timeline
+div#sintomas-timeline-text-severos {
+    max-width: 1536px;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 13px;
+    display: flex;
+    flex-flow: column;
+}
+
+main#estagios-main
+div#news-container
+div#timeline
+div#sintomas-timeline-icon {
+    max-width: 1536px;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 13px;
+    display: flex;
+    flex-flow: column;
+}
+
+main#estagios-main
+div#news-container
+div#timeline
+div#sintomas-timeline-icon
+div#sintomas-timeline-container
+span.timeline-text-item {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+main#estagios-main
+div#news-container
+div#timeline
+div#sintomas-timeline-icon
+div#sintomas-timeline-container
+span.timeline-text-item:not(:first-child) {
+    margin-top: 30px;
+}
+
+main#estagios-main
+div#news-container
+div#timeline
+div#sintomas-timeline-icon
+div#sintomas-timeline-container {
+    display: flex;
+    flex-flow: column;
+    margin-top: 14px;
+    margin-left: 53px;
+    position: relative;
+}
+
+main#estagios-main
+div#news-container
+div#timeline
+div#sintomas-timeline
+div#sintomas-timeline-container {
+    display: flex;
+    flex-flow: column;
+    margin-left: 53px;
+    position: relative;
+}
+
+main#estagios-main
+div#news-container
+div#timeline
+div#sintomas-timeline
+div#sintomas-timeline-container:not(:first-child) {
+    margin-top: 30px;
+}
+
+main#estagios-main
+div#news-container
+div#timeline
+div#sintomas-timeline
+div#sintomas-timeline-container
+span.timeline-text-item {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    color: #000000;
+}
+
+main#estagios-main
+div#news-container
+div#timeline
+div#sintomas-timeline
+div#sintomas-timeline-container
+ul.timeline-text-list {
+    list-style: none;
+}
+
+main#estagios-main
+div#news-container
+div#timeline
+div#sintomas-timeline
+div#sintomas-timeline-container
+ul.timeline-text-list
+li.timeline-text-list-item {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;    
+    color: #000;
+}
+
+main#estagios-main
+div#news-container
+div#timeline
+div#sintomas-timeline
+div#sintomas-timeline-container
+ul.timeline-text-list
+li.timeline-text-list-item:first-child {
+    margin-top: 12px;
+}
+
+main#estagios-main
+div#news-container
+div#timeline
+div#sintomas-timeline
+div#sintomas-timeline-container
+span.timeline-text-item:not(:first-child) {
+    margin-top: 30px;
+}
+
+span.timeline-item-max-width {
+    max-width: 553px;
+}
+/********/
+
+
+/* estagios timeline */
+main#estagios-main
+div#news-container
+div#estagios-timeline {
+    width: 689px;
+    position: relative;
+    margin-top: 52px;
+}
+
+main#estagios-main
+div#news-container
+div#estagios-timeline
+div.estagios {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px
+}
+
+main#estagios-main
+div#news-container
+div#estagios-timeline
+div.estagios-bottom {
+    margin-top: 30px
+}
+
+main#estagios-main
+div#news-container
+div#estagios-timeline
+div.estagios
+div.estagios-container-item {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 23px;
+    color: #000;
+}
+
+main#estagios-main
+div#news-container
+div#estagios-timeline
+div.estagios
+div.container-item-little {
+    width: 125px;
+}
+
+main#estagios-main
+div#news-container
+div#estagios-timeline
+div.estagios
+div.estagios-container-item:not(:first-child) {
+    margin-left: 15px;
+}
+
+main#estagios-main
+div#news-container
+div#estagios-timeline
+div.estagios
+div.estagios-container-item--no-ml {
+    margin-left: 0px !important;
+}
+
+main#estagios-main
+div#news-container
+div#estagios-timeline
+div.estagios-bottom
+div.estagios-container-item:not(:first-child) {
+    margin-left: 46px;
+}
+
+main#estagios-main
+div#news-container
+div#estagios-timeline
+div.estagios-bottom
+div.estagios-container-item {
+    width: 110px;
+}
+
+main#estagios-main
+div#news-container
+div#estagios-timeline
+div.estagios
+img.estagios-container-arrow {
+    margin-left: 15px;
+}
+
+main#estagios-main
+div#news-container
+div#estagios-timeline
+div.timeline {
+    position: relative;
+    display: flex;
+}
+
+main#estagios-main
+div#news-container
+div#estagios-timeline
+div.timeline::after {
+    content: '';
+    position: absolute;
+    width: 689px;
+    border: 1px dashed #E03C31;
+}
+
+main#estagios-main
+div#news-container
+div#estagios-timeline
+div.timeline
+div.timeline-division::before {
+    content: url('../../images/estagios/timeline-division.png');;
+    position: absolute;
+    top: -11px;
+    width: 1px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #E03C31;
+}
+
+main#estagios-main
+div#news-container
+div#estagios-timeline
+div.timeline
+div.timeline-division-first {
+    margin-left: 24px;
+}
+
+main#estagios-main
+div#news-container
+div#estagios-timeline
+div.timeline
+div.timeline-division-second {
+    margin-left: 145px;
+}
+
+main#estagios-main
+div#news-container
+div#estagios-timeline
+div.timeline
+div.timeline-division-third {
+    margin-left: 165px;
+}
+
+main#estagios-main
+div#news-container
+div#estagios-timeline
+div.timeline
+div.timeline-division-fourth {
+    margin-left: 150px;
+}
+
+main#estagios-main
+div#news-container
+div#estagios-timeline
+div.timeline
+div.timeline-division-fifth {
+    margin-left: 150px;
+}
+/***/
+
+main#estagios-main
+div#news-container
+button.news-info-button {
+    margin-top: 50px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #E03C31;
+    background-color: white;
+    border: 1px solid #E03C31;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+
+main#estagios-main
+div#news-container
+h2.title-subtitle {
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+    color: #000000;
+    width: 516px;
+}
+
+main#estagios-main
+div#news-container
+ul.news-info-list {
+    margin-top: 50px;
+}
+
+main#estagios-main
+div#news-container
+ul.news-info-list
+li.news-info-list-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    color: #000000;
+}
+
+main#estagios-main
+div#news-container
+ul.news-info-list
+li.news-info-list-item--little {
+    width: 650px;
+}
+
+main#estagios-main
+div#news-container
+ul.style-none {
+    list-style: none;
+}
+
+a.sintomas-link {
+    color: #E03C31;
+    cursor: pointer;
+}
+
+p.news-info-with-max-width {
+    width: 540px !important;
+}
+
+span.news-info-bold {
+    font-weight: 500;
+}
