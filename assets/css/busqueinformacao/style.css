@@ -1,0 +1,380 @@
+main#informacao-main {
+    padding: 50px 179px 113px 176px;
+    display: flex;
+    flex-flow: column;
+}
+
+main#informacao-main
+div#breadcrumb {
+    display: flex;
+}
+
+main#informacao-main
+div#breadcrumb
+div.informacao-breadcrumb-item:not(:first-child) {
+    margin-left: 14px;
+}
+
+main#informacao-main
+div#breadcrumb
+div.informacao-breadcrumb-item
+a.breadcrumb-item-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #000000;
+}
+
+main#informacao-main
+div#breadcrumb
+div.informacao-breadcrumb-item
+img.breadcrumb-item-arrow {
+    margin-left: 14px;
+    width: 20px;
+}
+
+main#informacao-main
+div#title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+    margin-bottom: 0px;
+}
+
+main#informacao-main
+div#title
+h1#title-text {
+    font-weight: 400;
+    max-width: 620px;
+    font-size: 38px;
+    margin-bottom: 0;
+}
+
+a.informacao-link {
+    color: #E03C31;
+    cursor: pointer;
+}
+
+.card-info-related-container {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}
+
+img#card-info-related-share {
+    margin-top: 28px;
+}
+
+.card-info-relateds {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.card-info-related {
+    border: 1px solid #E03C31;
+    border-radius: 14px;
+    font-size: 15px;
+    color: #E03C31;
+    font-weight: 700;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.card-info-related:not(:first-child) {
+    margin-left: 6px;
+}
+
+main#informacao-main
+div#news-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+main#informacao-main
+div.news-container--align-start {
+    align-items: flex-start !important;
+}
+
+
+main#informacao-main
+div#news-container
+p#news-date {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+main#informacao-main
+div#news-container
+ul#benefits-list{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+main#informacao-main
+div#news-container
+ul#benefits-list
+li.benefits-list-item {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #000000;
+}
+
+main#informacao-main
+div#news-container
+p.news-info {
+    width: 665px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+main#informacao-main
+div#news-container
+div#localizacao {
+    display: flex;
+    align-items: baseline;
+}
+
+main#informacao-main
+div#news-container
+div#localizacao-container {
+    margin-top: 70px;
+    position: relative;
+}
+
+main#informacao-main
+div#news-container
+div#localizacao-container
+input.search-input {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    background-color: white;
+    border: 1px solid #000;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 700;
+    width: 500px;
+    height: 60px;
+    padding-right: 65px;
+}
+
+main#informacao-main
+div#news-container
+div#localizacao
+div#localizacao-container
+img.search-search {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    cursor: pointer;
+}
+
+main#informacao-main
+div#news-container
+div#termos-container {
+    margin-top: 50px;
+}
+
+h2.termos-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;    
+    text-align: center;
+    color: #000000;
+}
+
+h2.termos-title--mt {
+    margin-top: 50px;
+}
+
+h2#resultados-title {
+    display: none;
+}
+
+
+main#informacao-main
+div#news-container
+div#termos-container
+div.termos-items {
+    margin-top: 30px;
+}
+
+
+
+main#informacao-main
+div#news-container
+h2.title-subtitle {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+    color: #000000;
+}
+
+main#informacao-main
+div#news-container
+h2.text-subtitle-little {
+    width: 600px;
+}
+
+main#informacao-main
+div#news-container
+button.news-info-button {
+    margin-top: 50px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #E03C31;
+    background-color: white;
+    border: 1px solid #E03C31;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+main#informacao-main
+.cards {
+    display: none;
+}
+
+main#informacao-main
+.cards:not(:first-child) {
+    margin-top: 49px;
+}
+
+main#informacao-main
+.cards
+.card-info {
+    max-width: 216px;
+}
+
+main#informacao-main
+.cards
+.card-info:not(:first-child) {
+    margin-left: 27.48px;
+}
+
+main#informacao-main
+.cards
+.card-info--larger {
+    max-width: 526px;
+}
+
+main#informacao-main
+.cards
+.card-info--larger:not(:first-child) {
+    margin-left: 27.48px;
+}
+
+main#informacao-main
+.cards
+.card-info--test {
+    border: 1px dashed #000;
+    max-height: 247px;
+    border-radius: 17.42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 85px 25px 93px 40px;
+}
+
+main#informacao-main
+.cards
+.card-info--test 
+.card-info-test-link-container {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #000000;
+}
+
+main#informacao-main
+.cards
+.card-info--test
+.card-info-test-link-container
+.card-info-test-text-begin {
+    font-weight: 700;
+    font-size: 17px;
+    color: #000;
+    margin-top: 10px;
+}
+
+main#informacao-main
+.cards
+.card-info
+.card-info-link-container {
+    display: flex;
+    flex-flow: column;
+    align-items: baseline;
+    text-decoration: none;
+}
+
+main#informacao-main
+.cards
+.card-info
+.card-info-link-container
+.card-info-image {
+    height: 247px;
+}
+
+main#informacao-main
+.cards
+.card-info
+.card-info-link-container
+.card-info-text {
+    margin-top: 20.9px;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+main#informacao-main
+.cards
+.card-info
+.card-info-relateds {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+main#informacao-main
+.cards
+.card-info
+.card-info-relateds
+.card-info-related {
+    border: 1px solid #E03C31;
+    border-radius: 14px;
+    font-size: 15px;
+    color: #E03C31;
+    font-weight: 700;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main#informacao-main
+.cards
+.card-info
+.card-info-relateds
+.card-info-related:not(:first-child) {
+    margin-left: 6px;
+}
