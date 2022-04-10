@@ -338,6 +338,156 @@ div.nav-mobile-item-container:not(:first-child) {
     margin-top: 1.875rem;
 }
 
+header#header 
+nav#nav-mobile 
+div#nav-perfil-options {
+    margin-top: 2.75rem;
+    padding: 0 2.375rem 0 1.625rem;
+    color: #FFF;
+    cursor: pointer;
+}
+
+header#header 
+nav#nav-mobile 
+span.nav-perfil-options-txt {
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 11px;
+}
+
+
 .nav-mobile--block {
     display: block !important;
+}
+
+/* nav-perfil */
+header#header 
+div#nav-mobile-container {
+    width: 100%;
+    padding-top: 1.438rem;
+    position: relative;
+}
+
+header#header 
+div#nav-mobile-container
+i#nav-mobile-icon {
+    right: 15px;
+    bottom: 55px;
+    position: absolute;
+    cursor: pointer;
+}
+
+header#header 
+nav#nav-perfil {
+    background-color: #FFF;
+    z-index: 1000;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 0;
+    display: none;
+    flex-flow: column;
+    align-items: center;
+}
+
+header#header 
+nav#nav-perfil
+div#nav-perfil-icon-container {
+    padding: 0.715rem 0 0 0.965rem;
+    align-self: flex-start;
+}
+
+header#header 
+nav#nav-perfil
+div#nav-perfil-icon-container
+img#nav-perfil-close-icon {
+    cursor: pointer;
+}
+
+header#header 
+nav#nav-perfil
+div#nav-perfil-items-container {
+    padding: 0 2.375rem 0 1.625rem;
+}
+
+header#header 
+nav#nav-perfil
+div#nav-perfil-items-container
+h2#nav-perfil-title {
+    margin-top: 40px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 65px;
+    letter-spacing: 0.03em;
+    color: #000;
+}
+
+header#header 
+nav#nav-perfil
+div#nav-perfil-items-container
+ul#nav-perfil-items {
+    margin-top: 2.75rem;
+    list-style-type: none;
+    padding: 0;
+}
+
+header#header 
+nav#nav-perfil
+div#nav-perfil-items-container
+ul#nav-perfil-items
+div.nav-perfil-item-container
+li.nav-perfil-item {
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #E03C31;
+    cursor: pointer;
+}
+
+header#header 
+nav#nav-perfil 
+div#nav-perfil-items-container
+ul#nav-perfil-items
+div.nav-perfil-item-container
+ul.nav-perfil-item-subcontainer {
+    display: none;
+    list-style-type: none;
+}
+
+.nav-perfil-item-subcontainer--block {
+    display: block !important;
+}
+
+header#header 
+nav#nav-perfil
+div#nav-perfil-items-container
+ul#nav-perfil-items
+div.nav-perfil-item-container
+ul.nav-perfil-item-subcontainer
+li.nav-perfil-item-subcontainer-item {
+    list-style-type: none;
+    margin-top: 1.563rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.813rem;
+    line-height: 1rem;
+    color: #FFF;
+    cursor: pointer;
+}
+
+header#header 
+nav#nav-perfil
+div#nav-perfil-items-container
+ul#nav-perfil-items
+div.nav-perfil-item-container:not(:first-child) {
+    margin-top: 1.875rem;
+}
+
+.nav-perfil--block {
+    display: block !important;
+}
+
+.nav-perfil--block {
+    display: flex !important;
 }

@@ -3,7 +3,11 @@ function toggleMobileMenu() {
     navMobileMenu.classList.toggle('nav-mobile--block');
 }
 
+function togglePerfilMenu() {
+    const navMobileMenu = document.getElementById('nav-perfil');
+    navMobileMenu.classList.toggle('nav-perfil--block');
+}
+
 function toggleMobileSubMenu($event) {
-    console.log('-----event', $event.nextElementSibling);
     $event.nextElementSibling.classList.toggle('nav-mobile-item-subcontainer--block');
 }

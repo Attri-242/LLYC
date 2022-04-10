@@ -137,9 +137,157 @@ main#home-main
     margin-left: 6px;
 }
 
-/* @media(min-width:1600px){
+
+/* cards-mobile */
+main#home-main
+.cards-mobile {
+    display: flex;
+}
+
+main#home-main
+.cards-mobile:not(:first-child) {
+    margin-top: 25px;
+}
+
+main#home-main
+.cards-mobile
+.card-info {
+    width: 265px;
+}
+
+main#home-main
+.cards-mobile
+.card-info--larger {
+    max-width: 526px;
+}
+
+main#home-main
+.cards-mobile
+.card-info--test {
+    border: 1px dashed #000;
+    max-height: 247px;
+    border-radius: 17.42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 85px 25px 93px 40px;
+}
+
+main#home-main
+.cards-mobile
+.card-info--test 
+.card-info-test-link-container {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #000000;
+}
+
+main#home-main
+.cards-mobile
+.card-info--test
+.card-info-test-link-container
+.card-info-test-text-begin {
+    font-weight: 700;
+    font-size: 17px;
+    color: #000;
+    margin-top: 10px;
+}
+
+main#home-main
+.cards-mobile
+.card-info
+.card-info-link-container {
+    display: flex;
+    flex-flow: column;
+    align-items: baseline;
+    text-decoration: none;
+}
+
+main#home-main
+.cards-mobile
+.card-info
+.card-info-link-container
+.card-info-image {
+    height: 205px;
+}
+
+main#home-main
+.cards-mobile
+.card-info
+.card-info-link-container
+.card-info-text {
+    margin-top: 20.9px;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+main#home-main
+.cards-mobile
+.card-info
+.card-info-relateds {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+main#home-main
+.cards-mobile
+.card-info
+.card-info-relateds
+.card-info-related {
+    border: 1px solid #E03C31;
+    border-radius: 14px;
+    font-size: 15px;
+    color: #E03C31;
+    font-weight: 700;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main#home-main
+.cards-mobile
+.card-info
+.card-info-relateds
+.card-info-related:not(:first-child) {
+    margin-left: 5px;
+}
+
+/* md - tablet */
+@media(max-width: 1199px) {
+   html {font-size: 15px;}
+
+   main#home-main {
+        padding: 15px 27px 125px 27px;
+   }
+
+   main#home-main
     .cards {
-        justify-content: space-between;
-        width: 100%;
-    }    
+        display: none;
+    }
+
+    main#home-main
+    .cards-mobile {
+        display: flex;
+        flex-flow: column;
+        width: 306px;
+    }
+
+    main#home-main
+    .cards-mobile
+    .card-info:not(:first-child) {
+        margin-top: 50px;
+    }
+
+}
+
+/* col - mobile */
+/* @media (max-width: 576px) {
+   html {font-size: 14px;}
 } */

@@ -256,6 +256,259 @@
             </div>
         </div>
     </div>
+
+
+    <!-- card mobile -->
+    <div class="cards-mobile">
+        <div class="card-info">
+            <a class="card-info-link-container" href="#">
+                <img class="card-info-image" src="./assets/images/home/mobile.png" alt="Diagnóstico">
+                <span class="card-info-text">
+                    Como seguir a vida após o diagnóstico de Alzheimer
+                </span>
+            </a>
+            <div class="card-info-relateds">
+                <div class="card-info-related">
+                    Alzheimer
+                </div>
+                <div class="card-info-related">
+                    Diagnóstico
+                </div>
+            </div>
+            <div class="card-info-relateds">
+                <div class="card-info-related">
+                    Sinais e sintomas
+                </div>
+            </div>
+        </div>
+        <div class="card-info">
+            <a class="card-info-link-container" href="#">
+                <img class="card-info-image" src="./assets/images/home/mobile.png" alt="Atividades">
+                <span class="card-info-text">
+                    Atividades que estimulam o cérebro
+                </span>
+            </a>
+            <div class="card-info-relateds">
+                <div class="card-info-related">
+                    Alzheimer
+                </div>
+                <div class="card-info-related">
+                    Diagnóstico
+                </div>
+            </div>
+            <div class="card-info-relateds">
+                <div class="card-info-related">
+                    Sinais e sintomas
+                </div>
+            </div>
+        </div>
+        <div class="card-info">
+            <a class="card-info-link-container" href="#">
+                <img class="card-info-image" src="./assets/images/home/mobile.png" alt="Alimentação">
+                <span class="card-info-text">
+                    Uma boa alimentação é essencial para diminuir as chances de desenvolver qualquer doença
+                </span>
+            </a>
+            <div class="card-info-relateds">
+                <div class="card-info-related">
+                    Alzheimer
+                </div>
+                <div class="card-info-related">
+                    Diagnóstico
+                </div>
+            </div>
+            <div class="card-info-relateds">
+                <div class="card-info-related">
+                    Sinais e sintomas
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cards-mobile">
+        <div class="card-info">
+            <a class="card-info-link-container" href="#">
+                <img class="card-info-image" src="./assets/images/home/mobile.png" alt="Diagnóstico">
+                <span class="card-info-text">
+                    Uma boa alimentação é essencial para diminuir as chances de desenvolver qualquer doença
+                </span>
+            </a>
+            <div class="card-info-relateds">
+                <div class="card-info-related">
+                    Alzheimer
+                </div>
+                <div class="card-info-related">
+                    Diagnóstico
+                </div>
+            </div>
+            <div class="card-info-relateds">
+                <div class="card-info-related">
+                    Sinais e sintomas
+                </div>
+            </div>
+        </div>
+        <div class="card-info">
+            <a class="card-info-link-container" href="#">
+                <img class="card-info-image" src="./assets/images/home/mobile.png" alt="Atividades">
+                <span class="card-info-text">
+                    Mantenha a mente e o corpo ativos após se aposentar
+                </span>
+            </a>
+            <div class="card-info-relateds">
+                <div class="card-info-related">
+                    Alzheimer
+                </div>
+                <div class="card-info-related">
+                    Diagnóstico
+                </div>
+            </div>
+            <div class="card-info-relateds">
+                <div class="card-info-related">
+                    Sinais e sintomas
+                </div>
+            </div>
+        </div>
+        <div class="card-info">
+            <a class="card-info-link-container" href="#">
+                <img class="card-info-image" src="./assets/images/home/mobile.png" alt="Alimentação">
+                <span class="card-info-text">
+                    Se exercitar desde cedo ajuda a prevenir e retardar o desenvolvimento de demências
+                </span>
+            </a>
+            <div class="card-info-relateds">
+                <div class="card-info-related">
+                    Alzheimer
+                </div>
+                <div class="card-info-related">
+                    Diagnóstico
+                </div>
+            </div>
+            <div class="card-info-relateds">
+                <div class="card-info-related">
+                    Sinais e sintomas
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cards-mobile">
+        <div class="card-info">
+            <a class="card-info-link-container" href="#">
+                <img class="card-info-image" src="./assets/images/home/mobile.png" alt="Relacionamentos">
+                <span class="card-info-text">
+                    Os desafios dos relacionamentos com o Alzheimer
+                </span>
+            </a>
+            <div class="card-info-relateds">
+                <div class="card-info-related">
+                    Alzheimer
+                </div>
+                <div class="card-info-related">
+                    Diagnóstico
+                </div>
+            </div>
+            <div class="card-info-relateds">
+                <div class="card-info-related">
+                    Sinais e sintomas
+                </div>
+            </div>
+        </div>
+        <div class="card-info card-info--test">
+            <a class="card-info-test-link-container" href="#">
+                <span class="card-info-test-text">
+                    Que tal um teste para ver como está a sua memória?
+                </span>
+                <div class="card-info-test-text-begin">
+                    Começar
+                    <img class="card-info-test-img" src="./assets/images/home/test-arrow.png" alt="">
+                </div>
+            </a>
+        </div>
+        <div class="card-info">
+            <a class="card-info-link-container" href="#">
+                <img class="card-info-image" src="./assets/images/home/mobile.png" alt="Atividades">
+                <span class="card-info-text">
+                    Atividades que estimulam o cérebro
+                </span>
+            </a>
+            <div class="card-info-relateds">
+                <div class="card-info-related">
+                    Alzheimer
+                </div>
+                <div class="card-info-related">
+                    Diagnóstico
+                </div>
+            </div>
+            <div class="card-info-relateds">
+                <div class="card-info-related">
+                    Sinais e sintomas
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cards-mobile">
+        <div class="card-info">
+            <a class="card-info-link-container" href="#">
+                <img class="card-info-image" src="./assets/images/home/mobile.png" alt="Diagnóstico">
+                <span class="card-info-text">
+                    Uma boa alimentação é essencial para diminuir as chances de desenvolver qualquer doença
+                </span>
+            </a>
+            <div class="card-info-relateds">
+                <div class="card-info-related">
+                    Alzheimer
+                </div>
+                <div class="card-info-related">
+                    Diagnóstico
+                </div>
+            </div>
+            <div class="card-info-relateds">
+                <div class="card-info-related">
+                    Sinais e sintomas
+                </div>
+            </div>
+        </div>
+        <div class="card-info">
+            <a class="card-info-link-container" href="#">
+                <img class="card-info-image" src="./assets/images/home/mobile.png" alt="Atividades">
+                <span class="card-info-text">
+                    Mantenha a mente e o corpo ativos após se aposentar
+                </span>
+            </a>
+            <div class="card-info-relateds">
+                <div class="card-info-related">
+                    Alzheimer
+                </div>
+                <div class="card-info-related">
+                    Diagnóstico
+                </div>
+            </div>
+            <div class="card-info-relateds">
+                <div class="card-info-related">
+                    Sinais e sintomas
+                </div>
+            </div>
+        </div>
+        <div class="card-info">
+            <a class="card-info-link-container" href="#">
+                <img class="card-info-image" src="./assets/images/home/mobile.png" alt="Alimentação">
+                <span class="card-info-text">
+                    Se exercitar desde cedo ajuda a prevenir e retardar o desenvolvimento de demências
+                </span>
+            </a>
+            <div class="card-info-relateds">
+                <div class="card-info-related">
+                    Alzheimer
+                </div>
+                <div class="card-info-related">
+                    Diagnóstico
+                </div>
+            </div>
+            <div class="card-info-relateds">
+                <div class="card-info-related">
+                    Sinais e sintomas
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 
 

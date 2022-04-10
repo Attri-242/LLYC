@@ -115,46 +115,90 @@
     </div>
 
     <nav id="nav-mobile">
-            <div id="nav-mobile-icon-container">
-                <img id="nav-mobile-close-icon" onclick="toggleMobileMenu()" src="./assets/images/header/close-menu-icon.svg" alt="">
+        <div id="nav-mobile-icon-container">
+            <img id="nav-mobile-close-icon" onclick="toggleMobileMenu()" src="./assets/images/header/close-menu-icon.svg" alt="">
+        </div>
+        <ul id="nav-mobile-items">
+            <div class="nav-mobile-item-container">
+                <li class="nav-mobile-item">QUEM SOMOS</li>
+                <ul class="nav-mobile-item-subcontainer">
+                    
+                </ul>
             </div>
-            <ul id="nav-mobile-items">
-                <div class="nav-mobile-item-container">
-                    <li class="nav-mobile-item">QUEM SOMOS</li>
-                    <ul class="nav-mobile-item-subcontainer">
+            <div class="nav-mobile-item-container">
+                <li class="nav-mobile-item" onclick="toggleMobileSubMenu(this)">O QUE É ALZHEIMER</li>
+                <ul class="nav-mobile-item-subcontainer">
+                    <li class="nav-mobile-item-subcontainer-item">O que é doença de Alzheimer</li>
+                    <li class="nav-mobile-item-subcontainer-item">A história do Alzheimer</li>
+                    <li class="nav-mobile-item-subcontainer-item">Fisiopatologia</li>
+                    <li class="nav-mobile-item-subcontainer-item">Envelhecimento saudável x doença de Alzheimer</li>
+                    <li class="nav-mobile-item-subcontainer-item">Demência e doença de Alzheimer</li>
+                    <li class="nav-mobile-item-subcontainer-item">Fatores de risco</li>
+                    <li class="nav-mobile-item-subcontainer-item">Prevenção</li>
+                    <li class="nav-mobile-item-subcontainer-item">Fatos e números</li>
+                    <li class="nav-mobile-item-subcontainer-item">O que acontece com o cérebro</li>
+                </ul>
+            </div>
+            <div class="nav-mobile-item-container">
+                <li class="nav-mobile-item">SINAIS, SINTOMAS E DIAGNÓSTICO</li>
+                <ul class="nav-mobile-item-subcontainer"></ul>
+            </div>
+            <div class="nav-mobile-item-container">
+                <li class="nav-mobile-item">CUIDANDO DO PACIENTE</li>
+                <ul class="nav-mobile-item-subcontainer"></ul>
+            </div>
+            <div class="nav-mobile-item-container">
+                <li class="nav-mobile-item">CUIDANDO DE QUEM CUIDA</li>
+                <ul class="nav-mobile-item-subcontainer"></ul>
+            </div>
+            <div class="nav-mobile-item-container">
+                <li class="nav-mobile-item">CIDADANIA E POLÍTICAS PÚBLICAS</li>
+                <ul class="nav-mobile-item-subcontainer"></ul>
+            </div>
+        </ul>
+
+        <div id="nav-perfil-options" onclick="togglePerfilMenu()">
+            <img class="nav-perfil-options-img" src="./assets/images/header/perfil.png" alt="">
+            <span class="nav-perfil-options-txt">SELECIONE O SEU PERFIL</span>
+        </div>
+    </nav>
+
+    <nav id="nav-perfil">
+        <div id="nav-perfil-icon-container">
+            <img id="nav-perfil-close-icon" onclick="togglePerfilMenu()" src="./assets/images/header/close-perfil-icon.png" alt="">
+        </div>
+
+        <img id="nav-perfil-logo" src="./assets/images/header/logo-mobile.png" alt="logo">
+
+        <div id="nav-perfil-items-container">
+            <h2 id="nav-perfil-title">SELECIONE O SEU PERFIL</h2>
+            <ul id="nav-perfil-items">
+                <div class="nav-perfil-item-container">
+                    <li class="nav-perfil-item">Tenho Alzheimer</li>
+                    <ul class="nav-perfil-item-subcontainer">
                         
                     </ul>
                 </div>
-                <div class="nav-mobile-item-container">
-                    <li class="nav-mobile-item" onclick="toggleMobileSubMenu(this)">O QUE É ALZHEIMER</li>
-                    <ul class="nav-mobile-item-subcontainer">
-                        <li class="nav-mobile-item-subcontainer-item">O que é doença de Alzheimer</li>
-                        <li class="nav-mobile-item-subcontainer-item">A história do Alzheimer</li>
-                        <li class="nav-mobile-item-subcontainer-item">Fisiopatologia</li>
-                        <li class="nav-mobile-item-subcontainer-item">Envelhecimento saudável x doença de Alzheimer</li>
-                        <li class="nav-mobile-item-subcontainer-item">Demência e doença de Alzheimer</li>
-                        <li class="nav-mobile-item-subcontainer-item">Fatores de risco</li>
-                        <li class="nav-mobile-item-subcontainer-item">Prevenção</li>
-                        <li class="nav-mobile-item-subcontainer-item">Fatos e números</li>
-                        <li class="nav-mobile-item-subcontainer-item">O que acontece com o cérebro</li>
-                    </ul>
+                <div class="nav-perfil-item-container">
+                    <li class="nav-perfil-item">Sou familiar</li>
                 </div>
-                <div class="nav-mobile-item-container">
-                    <li class="nav-mobile-item">SINAIS, SINTOMAS E DIAGNÓSTICO</li>
-                    <ul class="nav-mobile-item-subcontainer"></ul>
+                <div class="nav-perfil-item-container">
+                    <li class="nav-perfil-item">Sou médico</li>
+                    <ul class="nav-perfil-item-subcontainer"></ul>
                 </div>
-                <div class="nav-mobile-item-container">
-                    <li class="nav-mobile-item">CUIDANDO DO PACIENTE</li>
-                    <ul class="nav-mobile-item-subcontainer"></ul>
+                <div class="nav-perfil-item-container">
+                    <li class="nav-perfil-item">Sou gestor de saúde</li>
+                    <ul class="nav-perfil-item-subcontainer"></ul>
                 </div>
-                <div class="nav-mobile-item-container">
-                    <li class="nav-mobile-item">CUIDANDO DE QUEM CUIDA</li>
-                    <ul class="nav-mobile-item-subcontainer"></ul>
+                <div class="nav-perfil-item-container">
+                    <li class="nav-perfil-item">Sou político</li>
+                    <ul class="nav-perfil-item-subcontainer"></ul>
                 </div>
-                <div class="nav-mobile-item-container">
-                    <li class="nav-mobile-item">CIDADANIA E POLÍTICAS PÚBLICAS</li>
-                    <ul class="nav-mobile-item-subcontainer"></ul>
+                <div class="nav-perfil-item-container">
+                    <li class="nav-perfil-item">Sou curioso</li>
+                    <ul class="nav-perfil-item-subcontainer"></ul>
                 </div>
             </ul>
+        </div>
     </nav>
 </header>
