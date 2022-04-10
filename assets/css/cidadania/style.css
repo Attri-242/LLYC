@@ -276,3 +276,417 @@ div#news-container
 ul.style-none {
     list-style: none;
 }
+
+@media (min-width: 980px) and (max-width: 1199px) {
+    main#cidadania-main
+    div#news-container
+    p.news-info {
+        width: 635px !important;
+    }
+
+    main#cidadania-main
+    div#news-container
+    ul.news-info-list
+    li.news-info-list-item--little {
+        width: 600px !important;
+    }
+}
+
+/* md - tablet */
+@media (min-width: 577px) and (max-width: 1199px) {
+
+    main#cidadania-main {
+        padding: 30px 35px 150px 35px;
+    }
+
+    main#cidadania-main
+    div#breadcrumb
+    div.cidadania-breadcrumb-item {
+        display: flex;
+        align-items: center;
+    }
+
+    main#cidadania-main
+    div#breadcrumb
+    div.cidadania-breadcrumb-item
+    a.breadcrumb-item-text {
+        font-size: 13px;
+    }
+
+    main#cidadania-main
+    div#title {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 38px;
+    }
+
+    main#cidadania-main
+    div#title
+    h1#title-text {
+        font-weight: 400;
+        font-size: 24px;
+    }
+    
+    main#cidadania-main
+    div#news-container
+    p#news-date {
+        margin-top: 14px;
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+
+    main#cidadania-main
+    div#title
+    div#card-info-related-container
+    div.card-info-relateds {
+        flex-wrap: nowrap;
+    }
+
+    main#cidadania-main
+    div#title
+    div#card-info-related-container
+    div.card-info-relateds
+    div.card-info-related {
+        font-size: 11px;
+    }
+
+    main#cidadania-main
+    div#title
+    div#card-info-related-container
+    img#card-info-related-share {
+        margin-top: 10px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    p.news-info {
+        width: 320px;
+        margin-top: 14px;
+        margin-bottom: 0px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #000;
+    }
+
+    main#cidadania-main
+    div#news-container
+    div#news-table { 
+        margin-top: 14px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    div#news-table
+    span.news-table-item {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000;
+        padding: 15px 10px 0px 10px;
+        border-top: 1px dashed black;
+    }
+
+    main#cidadania-main
+    div#news-container
+    div#news-table
+    span.news-table-item
+    p.news-table-item-text  {
+        width: 360px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    div#news-table
+    h3.news-table-title {
+        font-size: 16px;
+        line-height: 25px;
+        padding: 10px 10px 10px 9px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    h2.title-subtitle {
+        margin-top: 14px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    h2.text-subtitle-little {
+        width: 480px;
+        margin-bottom: 0px;
+    }
+
+
+    main#cidadania-main
+    div#news-container
+    div#news-impacts {
+        margin-top: 14px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    div#news-impacts
+    div.news-impacts-item {
+        margin-top: 26px;
+        display: flex;
+        align-items: center;
+        width: 300px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    div#news-impacts
+    div.news-impacts-item
+    span.news-impacts-item-text {
+        margin-left: 10px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    button.news-info-button {
+        margin-top: 15px;
+        font-size: 13px;
+        background-color: white;
+        padding: 10px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    div#news-image-text {
+        margin-top: 14px;
+        margin-bottom: 35px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    div#news-image-text 
+    div.news-image-text-items {
+        margin-left: 35px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    div#news-image-text 
+    div.news-image-text-items
+    span.news-image-text-item {
+        margin-top: 14px;
+        font-size: 16px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    ul.news-info-list {
+        margin-top: 14px;
+        margin-bottom: 0;
+    }
+
+    main#cidadania-main
+    div#news-container
+    ul.news-info-list
+    li.news-info-list-item {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    ul.news-info-list
+    li.news-info-list-item--little {
+        width: 285px;
+    }
+
+ }
+
+/* col - mobile */
+@media(max-width: 576px) {
+    html {font-size: 15px;}
+ 
+    main#cidadania-main
+    div#breadcrumb {
+        display: none;
+    }
+    
+    main#cidadania-main
+    div#title
+    div#card-info-related-container{
+        display: none;
+    }
+
+    
+    main#cidadania-main {
+        padding: 0px 45px 125px 35px;
+    }
+    
+    main#cidadania-main
+    div#title {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 38px;
+    }
+
+    main#cidadania-main
+    div#title
+    h1#title-text {
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    p#news-date {
+        margin-top: 14px;
+        font-weight: 400;
+        font-size: 12px;
+        color: #000;
+    }
+
+    main#cidadania-main
+    div#news-container
+    p.news-info {
+        width: 270px;
+        margin-top: 14px;
+        margin-bottom: 0px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000;
+    }
+
+    main#cidadania-main
+    div#news-container
+    div#news-table { 
+        margin-top: 14px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    div#news-table
+    span.news-table-item {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000;
+        padding: 15px 10px 0px 10px;
+        border-top: 1px dashed black;
+    }
+
+    main#cidadania-main
+    div#news-container
+    div#news-table
+    span.news-table-item
+    p.news-table-item-text  {
+        width: unset;
+    }
+
+    main#cidadania-main
+    div#news-container
+    div#news-table
+    h3.news-table-title {
+        font-size: 16px;
+        line-height: 25px;
+        padding: 10px 10px 10px 9px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    button.news-info-button {
+        margin-top: 15px;
+        font-size: 13px;
+        background-color: white;
+        padding: 10px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    h2.title-subtitle {
+        margin-top: 14px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    div#news-impacts {
+        margin-top: 14px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    div#news-impacts
+    div.news-impacts-item {
+        margin-top: 26px;
+        display: flex;
+        align-items: center;
+    }
+
+    main#cidadania-main
+    div#news-container
+    div#news-impacts
+    div.news-impacts-item
+    span.news-impacts-item-text {
+        margin-left: 10px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    h2.text-subtitle-little {
+        width: unset;
+        margin-bottom: 0px;
+    }
+
+
+    main#cidadania-main
+    div#news-container
+    div#news-image-text {
+        margin-top: 14px;
+        margin-bottom: 35px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    div#news-image-text 
+    div.news-image-text-items {
+        margin-left: 35px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    div#news-image-text 
+    div.news-image-text-items
+    span.news-image-text-item {
+        margin-top: 14px;
+        font-size: 16px;
+    }
+
+
+    main#cidadania-main
+    div#news-container
+    ul.news-info-list {
+        margin-top: 14px;
+        margin-bottom: 0;
+    }
+
+    main#cidadania-main
+    div#news-container
+    ul.news-info-list
+    li.news-info-list-item {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    main#cidadania-main
+    div#news-container
+    ul.news-info-list
+    li.news-info-list-item--little {
+        width: 285px;
+    }
+
+ }
+ 

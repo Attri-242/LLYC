@@ -278,20 +278,23 @@
         </ul>
 
         <button class="news-info-button">
-            Está na hora de pensar a doença de Alzheimer. Confira o nosso manifesto
+            Está na hora de pensar a doença de Alzheimer.</br> Confira o nosso manifesto
         </button>
 
         <h2 class="title-subtitle">Referências</h2>
 
         <ul class="news-info-list style-none p-0">
             <li class="news-info-list-item news-info-list-item--little">1. BRASIL. Portaria nº 2.528 de 19 de outubro de 2006. Institui Política Nacional de Saúde da Pessoa Idosa. 
-                Ministério da Saúde, Brasília. Disponível em: https://bvsms.saude.gov.br/bvs/saudelegis/gm/2006/prt2528_19_10_2006.html. Acesso 26/11/2021</li>
+                Ministério da Saúde, Brasília. Disponível em: https://bvsms.saude.gov.br/bvs/
+                saudelegis/gm/2006/
+                prt2528_19_10_2006.html. Acesso 26/11/2021</li>
             <li class="news-info-list-item news-info-list-item--little">2. O que é demência. BVS Atenção Primária em Saúde, 2009. 
                 Disponível em: https://aps.bvs.br/aps/o-que-e-demencia/. Acesso 26/11/2021</li>
             <li class="news-info-list-item news-info-list-item--little">3. Dementia Fact Sheet. World Health Organization, 2021. 
                 Disponível em: https://www.who.int/news-room/fact-sheets/detail/dementia. Acesso 26/11/2021</li>
             <li class="news-info-list-item news-info-list-item--little">4. 2021 Alzheimer’s Disease Facts and Figures. Alzheimer’s Association.
-                 Disponível em: https://www.alz.org/media/documents/alzheimers-facts-and-figures.pdf. Acesso 26/11/21</li>
+                 Disponível em: https://www.alz.org/
+                 media/documents/alzheimers-facts-and-figures.pdf. Acesso 26/11/21</li>
         </ul>
     </div>
  
