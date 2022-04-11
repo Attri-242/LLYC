@@ -265,7 +265,7 @@ ul.action-card-list  {
 
 div.action-card
 ul.action-card-list 
-li.action-card-list-item  {
+li.action-card-list-item {
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
@@ -287,7 +287,153 @@ p.action-card-text--no-margin-top {
 }
 /**/
 
- 
+/* ********** */
+div#breadcrumb {
+    display: flex;
+}
+
+div#breadcrumb
+div.breadcrumb-breadcrumb-item {
+    display: flex;
+    align-items: center;
+}
+
+div#breadcrumb
+div.breadcrumb-breadcrumb-item:not(:first-child) {
+    margin-left: 14px;
+}
+
+div#breadcrumb
+div.breadcrumb-breadcrumb-item
+a.breadcrumb-item-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #000000;
+}
+
+div#breadcrumb
+div.breadcrumb-breadcrumb-item
+img.breadcrumb-item-arrow {
+    margin-left: 14px;
+    width: 20px;
+}
+
+div#title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+
+div#title
+h1#title-text {
+    font-weight: 400;
+    max-width: 620px;
+    font-size: 38px;
+}
+
+div#title
+div#card-info-related-container {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}
+
+div#title
+div#card-info-related-container
+img#card-info-related-share {
+    margin-top: 28px;
+}
+
+div#title
+div#card-info-related-container
+div.card-info-relateds {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+div#title
+div#card-info-related-container
+div.card-info-relateds
+div.card-info-related {
+    border: 1px solid #E03C31;
+    border-radius: 14px;
+    font-size: 15px;
+    color: #E03C31;
+    font-weight: 700;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#title
+div#card-info-related-container
+div.card-info-relateds
+div.card-info-related:not(:first-child) {
+    margin-left: 6px;
+}
+
+p#news-date {
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+p.news-info {
+    width: 665px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+div#news-container
+h2.title-subtitle {
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+    color: #000000;
+}
+
+div#news-container
+h2.text-subtitle-little {
+    width: 600px;
+}
+
+div#news-container
+ul.news-info-list {
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+div#news-container
+ul.news-info-list
+li.news-info-list-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    color: #000000;
+}
+
+div#news-container
+ul.news-info-list
+li.news-info-list-item--little {
+    width: 650px;
+}
+
+div#news-container
+ul.style-none {
+    list-style: none;
+}
+/************/
+
  
 /* xl - desktop */
 @media (min-width: 1200px) {
@@ -297,9 +443,187 @@ p.action-card-text--no-margin-top {
 /* md - tablet */
 @media (min-width: 577px) and (max-width: 1199px) {
    html {font-size: 15px;}
+
+   div#news-container
+   h2.title-subtitle {
+       margin-top: 14px;
+       font-size: 24px;
+       line-height: 30px;
+   }
+
+   div#news-container
+   h2.text-subtitle-little {
+       width: 480px;
+       margin-bottom: 0px;
+   }
+
+   div#breadcrumb
+   div.breadcrumb-breadcrumb-item {
+       display: flex;
+       align-items: center;
+   }
+
+   div#breadcrumb
+   div.breadcrumb-breadcrumb-item
+   a.breadcrumb-item-text {
+       font-size: 13px;
+   }
+
+   div#title {
+       display: flex;
+       justify-content: space-between;
+       margin-top: 38px;
+   }
+
+   div#title
+   h1#title-text {
+       font-weight: 400;
+       font-size: 24px;
+   }
+   
+   div#news-container
+   p#news-date {
+       margin-top: 14px;
+       font-size: 14px;
+       margin-bottom: 0px;
+   }
+
+   div#title
+   div#card-info-related-container
+   div.card-info-relateds {
+       flex-wrap: nowrap;
+   }
+
+   div#title
+   div#card-info-related-container
+   div.card-info-relateds
+   div.card-info-related {
+       font-size: 11px;
+   }
+
+   div#title
+   div#card-info-related-container
+   img#card-info-related-share {
+       margin-top: 10px;
+   }
+
+   div#news-container
+   p.news-info {
+       width: 320px;
+       margin-top: 14px;
+       margin-bottom: 0px;
+       font-size: 16px;
+       line-height: 21px;
+   }
+
+   div#news-container
+   button.news-info-button {
+       margin-top: 15px !important;
+       font-size: 13px !important;
+       padding: 10px !important;
+   }
+
+   div#news-container
+   ul.news-info-list {
+       margin-top: 14px;
+       margin-bottom: 0;
+   }
+
+   div#news-container
+   ul.news-info-list
+   li.news-info-list-item {
+       font-size: 16px;
+       line-height: 26px;
+   }
+
+   div#news-container
+   ul.news-info-list
+   li.news-info-list-item--little {
+       width: 285px;
+   }
+
 }
 
 /* col - mobile */
 @media (max-width: 576px) {
    html {font-size: 14px;}
+
+   div#breadcrumb {
+       display: none;
+   }
+   
+   div#title
+   div#card-info-related-container{
+       display: none;
+   }
+   
+   div#title {
+       display: flex;
+       justify-content: space-between;
+       margin-top: 38px;
+   }
+
+   div#title
+   h1#title-text {
+       font-weight: 400;
+       font-size: 24px;
+   }
+
+   div#news-container
+   p#news-date {
+       margin-top: 14px;
+       font-weight: 400;
+       font-size: 12px;
+       color: #000;
+   }
+
+   div#news-container
+   p.news-info {
+       width: 270px;
+       margin-top: 14px;
+       margin-bottom: 0px;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 21px;
+       color: #000;
+   }
+
+   div#news-container
+   button.news-info-button {
+       margin-top: 15px !important;
+       font-size: 13px !important;
+       padding: 10px !important;
+   }
+   
+   div#news-container
+   h2.title-subtitle {
+       margin-top: 14px;
+       font-size: 24px;
+       line-height: 30px;
+   }
+
+   div#news-container
+   h2.text-subtitle-little {
+       width: unset;
+       margin-bottom: 0px;
+   }
+
+   div#news-container
+   ul.news-info-list {
+       margin-top: 14px;
+       margin-bottom: 0;
+   }
+
+   div#news-container
+   ul.news-info-list
+   li.news-info-list-item {
+       font-size: 16px;
+       line-height: 26px;
+   }
+
+   div#news-container
+   ul.news-info-list
+   li.news-info-list-item--little {
+       width: 285px;
+   }
 }

@@ -111,15 +111,15 @@
 
 <main id="cidadania-main">
     <div id="breadcrumb">
-        <div class="cidadania-breadcrumb-item">
+        <div class="breadcrumb-breadcrumb-item">
             <a class="breadcrumb-item-text"href="#">Home</a>
             <img class="breadcrumb-item-arrow" src="../assets/images/home/test-arrow.png" alt="">
         </div>
-        <div class="cidadania-breadcrumb-item">
+        <div class="breadcrumb-breadcrumb-item">
             <a class="breadcrumb-item-text"href="#">Está na hora de cuidar</a>
             <img class="breadcrumb-item-arrow" src="../assets/images/home/test-arrow.png" alt="">
         </div>
-        <div class="cidadania-breadcrumb-item">
+        <div class="breadcrumb-breadcrumb-item">
             <a class="breadcrumb-item-text"href="#">Está na hora de pensar a cidadania da pessoa com doença de Alzheimer</a>
         </div>
     </div>
