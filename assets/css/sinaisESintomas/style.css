@@ -5,120 +5,6 @@ main#sinais-main {
 }
 
 main#sinais-main
-div#breadcrumb {
-    display: flex;
-}
-
-main#sinais-main
-div#breadcrumb
-div.sinais-breadcrumb-item:not(:first-child) {
-    margin-left: 14px;
-}
-
-main#sinais-main
-div#breadcrumb
-div.sinais-breadcrumb-item
-a.breadcrumb-item-text {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 30px;
-    color: #000000;
-}
-
-main#sinais-main
-div#breadcrumb
-div.sinais-breadcrumb-item
-img.breadcrumb-item-arrow {
-    margin-left: 14px;
-    width: 20px;
-}
-
-main#sinais-main
-div#title {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 38px;
-}
-
-main#sinais-main
-div#title
-h1#title-text {
-    font-weight: 400;
-    max-width: 620px;
-    font-size: 38px;
-}
-
-main#sinais-main
-div#title
-div#card-info-related-container {
-    display: flex;
-    flex-flow: column;
-    align-items: flex-end;
-}
-
-main#sinais-main
-div#title
-div#card-info-related-container
-img#card-info-related-share {
-    margin-top: 28px;
-}
-
-main#sinais-main
-div#title
-div#card-info-related-container
-div.card-info-relateds {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 10px;
-}
-
-main#sinais-main
-div#title
-div#card-info-related-container
-div.card-info-relateds
-div.card-info-related {
-    border: 1px solid #E03C31;
-    border-radius: 14px;
-    font-size: 15px;
-    color: #E03C31;
-    font-weight: 700;
-    padding: 0 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-main#sinais-main
-div#title
-div#card-info-related-container
-div.card-info-relateds
-div.card-info-related:not(:first-child) {
-    margin-left: 6px;
-}
-
-main#sinais-main
-div#news-container
-p#news-date {
-    margin-top: 50px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    color: #000000;
-}
-
-main#sinais-main
-div#news-container
-p.news-info {
-    width: 665px;
-    margin-top: 50px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #000000;
-}
-
-main#sinais-main
 div#news-container
 p.news-info 
 a.news-info-link {
@@ -193,20 +79,6 @@ p.news-table-item-text  {
 
 main#sinais-main
 div#news-container
-button.news-info-button {
-    margin-top: 50px;
-    font-size: 16px;
-    line-height: 22px;
-    color: #E03C31;
-    background-color: white;
-    border: 1px solid #E03C31;
-    padding: 15px;
-    border-radius: 10px;
-    font-weight: 700;
-}
-
-main#sinais-main
-div#news-container
 div#info-card {
     width: 633px;
     margin-top: 50px;
@@ -231,45 +103,6 @@ p#info-card-text {
     font-size: 20px;
     line-height: 30px;
     margin-top: 19px;
-}
-
-main#sinais-main
-div#news-container
-ul.news-info-list {
-    margin-top: 50px;
-}
-
-main#sinais-main
-div#news-container
-ul.news-info-list
-li.news-info-list-item {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 36px;
-    color: #000000;
-}
-
-main#sinais-main
-div#news-container
-ul.news-info-list
-li.news-info-list-item--little {
-    width: 650px;
-}
-
-main#sinais-main
-div#news-container
-ul.style-none {
-    list-style: none;
-}
-
-main#sinais-main
-div#news-container
-h2.title-subtitle {
-    margin-top: 50px;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 30px;
-    color: #000000;
 }
 
 main#sinais-main
@@ -584,18 +417,7 @@ span.timeline-text-item:not(:first-child) {
 }
 
 @media (min-width: 980px) and (max-width: 1199px) {
-    main#sinais-main
-    div#news-container
-    p.news-info {
-        width: 635px !important;
-    }
 
-    main#sinais-main
-    div#news-container
-    ul.news-info-list
-    li.news-info-list-item--little {
-        width: 600px !important;
-    }
 }
 
 @media (min-width: 762px) and (max-width: 1199px) {
@@ -620,86 +442,6 @@ span.timeline-text-item:not(:first-child) {
     main#sinais-main {
         padding: 30px 35px 150px 35px;
     }
-
-    main#sinais-main
-    div#breadcrumb
-    div.sinais-breadcrumb-item {
-        display: flex;
-        align-items: center;
-    }
-
-    main#sinais-main
-    div#breadcrumb
-    div.sinais-breadcrumb-item
-    a.breadcrumb-item-text {
-        font-size: 13px;
-    }
-
-    
-    main#sinais-main
-    div#news-container
-    button.news-info-button {
-        margin-top: 15px;
-        font-size: 13px;
-        padding: 10px;
-    }
-
-    main#sinais-main
-    div#title {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 38px;
-    }
-
-    main#sinais-main
-    div#title
-    h1#title-text {
-        font-weight: 400;
-        font-size: 24px;
-    }
-    
-    main#sinais-main
-    div#news-container
-    p#news-date {
-        margin-top: 14px;
-        font-size: 14px;
-        margin-bottom: 0px;
-    }
-
-    main#sinais-main
-    div#title
-    div#card-info-related-container
-    div.card-info-relateds {
-        flex-wrap: nowrap;
-    }
-
-    main#sinais-main
-    div#title
-    div#card-info-related-container
-    div.card-info-relateds
-    div.card-info-related {
-        font-size: 11px;
-    }
-
-    main#sinais-main
-    div#title
-    div#card-info-related-container
-    img#card-info-related-share {
-        margin-top: 10px;
-    }
-
-    main#sinais-main
-    div#news-container
-    p.news-info {
-        width: 320px;
-        margin-top: 14px;
-        margin-bottom: 0px;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 21px;
-        color: #000;
-    }
-
     
     main#sinais-main
     div#news-container
@@ -752,21 +494,6 @@ span.timeline-text-item:not(:first-child) {
 
     main#sinais-main
     div#news-container
-    h2.title-subtitle {
-        margin-top: 14px;
-        font-size: 24px;
-        line-height: 30px;
-    }
-
-    main#sinais-main
-    div#news-container
-    h2.text-subtitle-little {
-        width: 480px;
-        margin-bottom: 0px;
-    }
-
-    main#sinais-main
-    div#news-container
     div#news-table { 
         margin-top: 14px;
     }
@@ -798,28 +525,6 @@ span.timeline-text-item:not(:first-child) {
         font-size: 16px;
         line-height: 25px;
         padding: 10px 10px 10px 9px;
-    }
-
-    main#sinais-main
-    div#news-container
-    ul.news-info-list {
-        margin-top: 14px;
-        margin-bottom: 0;
-    }
-
-    main#sinais-main
-    div#news-container
-    ul.news-info-list
-    li.news-info-list-item {
-        font-size: 16px;
-        line-height: 26px;
-    }
-
-    main#sinais-main
-    div#news-container
-    ul.news-info-list
-    li.news-info-list-item--little {
-        width: 285px;
     }
 
     main#sinais-main
@@ -897,58 +602,16 @@ span.timeline-text-item:not(:first-child) {
 /* col - mobile */
 @media(max-width: 576px) {
     html {font-size: 15px;}
+
+    main#sinais-main {
+        padding: 0px 45px 125px 20px;
+    }
  
     main#sinais-main
     div#breadcrumb {
         display: none;
     }
     
-    main#sinais-main
-    div#title
-    div#card-info-related-container{
-        display: none;
-    }
-
-    
-    main#sinais-main {
-        padding: 0px 45px 125px 20px;
-    }
-    
-    main#sinais-main
-    div#title {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 38px;
-    }
-
-    main#sinais-main
-    div#title
-    h1#title-text {
-        font-weight: 400;
-        font-size: 24px;
-    }
-
-    main#sinais-main
-    div#news-container
-    p#news-date {
-        margin-top: 14px;
-        font-weight: 400;
-        font-size: 12px;
-        color: #000;
-    }
-
-    main#sinais-main
-    div#news-container
-    p.news-info {
-        width: 270px;
-        margin-top: 14px;
-        margin-bottom: 0px;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 21px;
-        color: #000;
-    }
-
     main#sinais-main
     div#news-container
     div#news-table { 
@@ -983,30 +646,6 @@ span.timeline-text-item:not(:first-child) {
         line-height: 25px;
         padding: 10px 10px 10px 9px;
     }
-
-    main#sinais-main
-    div#news-container
-    button.news-info-button {
-        margin-top: 15px;
-        font-size: 13px;
-        padding: 10px;
-    }
-
-    main#sinais-main
-    div#news-container
-    h2.title-subtitle {
-        margin-top: 14px;
-        font-size: 24px;
-        line-height: 30px;
-    }
-
-    main#sinais-main
-    div#news-container
-    h2.text-subtitle-little {
-        width: unset;
-        margin-bottom: 0px;
-    }
-
 
     main#sinais-main
     div#news-container
@@ -1116,28 +755,5 @@ span.timeline-text-item:not(:first-child) {
         font-weight: 400;
         font-size: 16px;
     }
-
-    main#sinais-main
-    div#news-container
-    ul.news-info-list {
-        margin-top: 14px;
-        margin-bottom: 0;
-    }
-
-    main#sinais-main
-    div#news-container
-    ul.news-info-list
-    li.news-info-list-item {
-        font-size: 16px;
-        line-height: 26px;
-    }
-
-    main#sinais-main
-    div#news-container
-    ul.news-info-list
-    li.news-info-list-item--little {
-        width: 285px;
-    }
-
 }
  
