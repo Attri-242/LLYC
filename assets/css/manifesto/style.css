@@ -70,66 +70,6 @@ span.no-margin {
 
 main#manifesto-main
 div#news-container
-div#action-card {
-    margin-top: 66px;
-    border: 1px dashed #000;
-    padding: 45px 40px 30px 46px;
-    max-width: 633px;
-}
-
-main#manifesto-main
-div#news-container
-div#action-card
-p.action-card-text  {
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 30px;
-    color: #000000;
-}
-
-main#manifesto-main
-div#news-container
-div#action-card
-p.action-card-text-mt  {
-    margin-top: 34px;
-}
-
-main#manifesto-main
-div#news-container
-div#action-card
-div#actions-container {
-    margin-top: 19px
-}
-
-main#manifesto-main
-div#news-container
-div#action-card
-div#actions-container
-div.actions-container-item {
-    display: flex;
-    align-items: flex-start;
-}
-
-main#manifesto-main
-div#news-container
-div#action-card
-div#actions-container
-div.actions-container-item:not(:first-child) {
-    margin-top: 8px;
-}
-
-main#manifesto-main
-div#news-container
-div#action-card
-div#actions-container
-div.actions-container-item
-span.actions-text {
-    margin-left: 25px;
-    max-width: 325px;
-}
-
-main#manifesto-main
-div#news-container
 div#alert-card {
     padding: 45px 40px 47px 46px;
     background: #E03C31;
@@ -193,20 +133,6 @@ p#alert-card-text  {
 
     main#manifesto-main
     div#news-container
-    div#action-card {
-        padding: 25px 25px 30px 25px;
-    }
-
-    main#manifesto-main
-    div#news-container
-    div#action-card
-    p.action-card-text {
-        font-size: 16px;
-        line-height: 23px;
-    }
-
-    main#manifesto-main
-    div#news-container
     div#alert-card {
         padding: 21px 21px 11px 21px;
         margin-top: 20px;
@@ -219,13 +145,6 @@ p#alert-card-text  {
         font-size: 14px;
         line-height: 22px;
     }
-
-    main#manifesto-main
-    div#news-container
-    div#action-card {
-        margin-top: 20px;
-    }
-
 }
 
 
@@ -272,21 +191,6 @@ p#alert-card-text  {
     div.news-image-text-container-item
     div.image-container {
         align-items: baseline;
-    }
-
-    main#manifesto-main
-    div#news-container
-    div#action-card {
-        padding: 25px 25px 30px 25px;
-        margin-top: 20px;
-    }
-
-    main#manifesto-main
-    div#news-container
-    div#action-card
-    p.action-card-text {
-        font-size: 16px;
-        line-height: 23px;
     }
 
     main#manifesto-main
