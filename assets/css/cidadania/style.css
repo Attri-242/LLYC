@@ -121,7 +121,8 @@ span.news-image-text-item {
 @media (min-width: 577px) and (max-width: 1199px) {
 
     main#cidadania-main {
-        padding: 30px 35px 150px 35px;
+        padding: 15px 10px 125px 20px;
+
     }
 
     main#cidadania-main
@@ -213,7 +214,8 @@ span.news-image-text-item {
     html {font-size: 15px;}
 
     main#cidadania-main {
-        padding: 0px 45px 125px 35px;
+        padding: 15px 10px 125px 20px;
+
     }
 
     main#cidadania-main
