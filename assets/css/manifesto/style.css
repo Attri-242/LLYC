@@ -5,136 +5,6 @@ main#manifesto-main {
 }
 
 main#manifesto-main
-div#breadcrumb {
-    display: flex;
-}
-
-main#manifesto-main
-div#breadcrumb
-div.cidadania-breadcrumb-item:not(:first-child) {
-    margin-left: 14px;
-}
-
-main#manifesto-main
-div#breadcrumb
-div.cidadania-breadcrumb-item
-a.breadcrumb-item-text {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 30px;
-    color: #000000;
-}
-
-main#manifesto-main
-div#breadcrumb
-div.cidadania-breadcrumb-item
-img.breadcrumb-item-arrow {
-    margin-left: 14px;
-    width: 20px;
-}
-
-main#manifesto-main
-div#title {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 38px;
-}
-
-main#manifesto-main
-div#title
-h1#title-text {
-    font-weight: 400;
-    max-width: 620px;
-    font-size: 38px;
-}
-
-main#manifesto-main
-div#title
-div#card-info-related-container {
-    display: flex;
-    flex-flow: column;
-    align-items: flex-end;
-}
-
-main#manifesto-main
-div#title
-div#card-info-related-container
-img#card-info-related-share {
-    margin-top: 28px;
-}
-
-main#manifesto-main
-div#title
-div#card-info-related-container
-div.card-info-relateds {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 10px;
-}
-
-main#manifesto-main
-div#title
-div#card-info-related-container
-div.card-info-relateds
-div.card-info-related {
-    border: 1px solid #E03C31;
-    border-radius: 14px;
-    font-size: 15px;
-    color: #E03C31;
-    font-weight: 700;
-    padding: 0 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-main#manifesto-main
-div#title
-div#card-info-related-container
-div.card-info-relateds
-div.card-info-related:not(:first-child) {
-    margin-left: 6px;
-}
-
-main#manifesto-main
-div#news-container
-p#news-date {
-    margin-top: 50px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    color: #000000;
-}
-
-main#manifesto-main
-div#news-container
-p.news-info {
-    width: 665px;
-    margin-top: 50px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #000000;
-}
-
-main#manifesto-main
-div#news-container
-h2.title-subtitle {
-    margin-top: 50px;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 30px;
-    color: #000000;
-}
-
-main#manifesto-main
-div#news-container
-h2.text-subtitle-little {
-    width: 600px;
-}
-
-main#manifesto-main
 div#news-container
 div.news-image-text-container {
     margin-top: 62px;
@@ -276,31 +146,164 @@ p#alert-card-text  {
     color: #FFF;
 }
 
-main#manifesto-main
-div#news-container
-ul.news-info-list {
-    margin-top: 50px;
+@media (min-width: 577px) and (max-width: 1199px) { 
+    main#manifesto-main {
+        padding: 0px 45px 125px 20px;
+    }
+
+    
+    main#manifesto-main
+    div#news-container
+    div.news-image-text-container {
+        margin-top: 20px;
+    }   
+
+    main#manifesto-main
+    div#news-container
+    div.news-image-text-container
+    div.news-image-text-container-item
+    div.image-container
+    span.image-number {
+        font-size: 22px;
+    }
+
+    main#manifesto-main
+    div#news-container
+    div.news-image-text-container
+    div.news-image-text-container-item
+    span.news-image-text-container-item-text {
+        margin-left: -45px;
+    }
+
+    main#manifesto-main
+    div#news-container
+    div.news-image-text-container
+    div.news-image-text-container-item
+    span.news-image-text-container-item--ml-bigger {
+        margin-left: -95px;
+    }
+
+    main#manifesto-main
+    div#news-container
+    div.news-image-text-container
+    div.news-image-text-container-item
+    div.image-container {
+        align-items: baseline;
+    }
+
+    main#manifesto-main
+    div#news-container
+    div#action-card {
+        padding: 25px 25px 30px 25px;
+    }
+
+    main#manifesto-main
+    div#news-container
+    div#action-card
+    p.action-card-text {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    main#manifesto-main
+    div#news-container
+    div#alert-card {
+        padding: 21px 21px 11px 21px;
+        margin-top: 20px;
+    }
+
+    main#manifesto-main
+    div#news-container
+    div#alert-card
+    p#alert-card-text  {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    main#manifesto-main
+    div#news-container
+    div#action-card {
+        margin-top: 20px;
+    }
+
 }
 
-main#manifesto-main
-div#news-container
-ul.news-info-list
-li.news-info-list-item {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 36px;
-    color: #000000;
-}
 
-main#manifesto-main
-div#news-container
-ul.news-info-list
-li.news-info-list-item--little {
-    width: 650px;
-}
+@media(max-width: 576px) {
+    main#manifesto-main {
+        padding: 0px 45px 125px 20px;
+    }
 
-main#manifesto-main
-div#news-container
-ul.style-none {
-    list-style: none;
+    
+    main#manifesto-main
+    div#news-container
+    div.news-image-text-container {
+        margin-top: 20px;
+    }   
+
+    main#manifesto-main
+    div#news-container
+    div.news-image-text-container
+    div.news-image-text-container-item
+    div.image-container
+    span.image-number {
+        font-size: 22px;
+    }
+
+    main#manifesto-main
+    div#news-container
+    div.news-image-text-container
+    div.news-image-text-container-item
+    span.news-image-text-container-item-text {
+        margin-left: -45px;
+    }
+
+    main#manifesto-main
+    div#news-container
+    div.news-image-text-container
+    div.news-image-text-container-item
+    span.news-image-text-container-item--ml-bigger {
+        margin-left: -95px;
+    }
+
+    main#manifesto-main
+    div#news-container
+    div.news-image-text-container
+    div.news-image-text-container-item
+    div.image-container {
+        align-items: baseline;
+    }
+
+    main#manifesto-main
+    div#news-container
+    div#action-card {
+        padding: 25px 25px 30px 25px;
+        margin-top: 20px;
+    }
+
+    main#manifesto-main
+    div#news-container
+    div#action-card
+    p.action-card-text {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    main#manifesto-main
+    div#news-container
+    div#alert-card {
+        padding: 21px 21px 11px 21px;
+        margin-top: 20px;
+    }
+
+    main#manifesto-main
+    div#news-container
+    div#alert-card
+    p#alert-card-text  {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+ 
 }
+ 

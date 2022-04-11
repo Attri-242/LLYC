@@ -454,6 +454,19 @@ button.news-info-button {
     html {font-size: 16px;}
 }
 
+@media (min-width: 980px) and (max-width: 1199px) {
+    div#news-container
+    p.news-info {
+        width: 635px !important;
+    }
+
+    div#news-container
+    ul.news-info-list
+    li.news-info-list-item--little {
+        width: 600px !important;
+    }
+}
+
 /* md - tablet */
 @media (min-width: 577px) and (max-width: 1199px) {
    html {font-size: 15px;}

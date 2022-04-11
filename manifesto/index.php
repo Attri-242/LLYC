@@ -111,15 +111,15 @@
 
 <main id="manifesto-main">
     <div id="breadcrumb">
-        <div class="cidadania-breadcrumb-item">
+        <div class="breadcrumb-breadcrumb-item">
             <a class="breadcrumb-item-text"href="#">Home</a>
             <img class="breadcrumb-item-arrow" src="../assets/images/home/test-arrow.png" alt="">
         </div>
-        <div class="cidadania-breadcrumb-item">
+        <div class="breadcrumb-breadcrumb-item">
             <a class="breadcrumb-item-text"href="#">Está na hora de cuidar</a>
             <img class="breadcrumb-item-arrow" src="../assets/images/home/test-arrow.png" alt="">
         </div>
-        <div class="cidadania-breadcrumb-item">
+        <div class="breadcrumb-breadcrumb-item">
             <a class="breadcrumb-item-text"href="#">Está na hora de (re)conhecer a doença de Alzheimer</a>
         </div>
     </div>
@@ -221,7 +221,7 @@
                 <div class="image-container">
                     <img src="../assets/images/manifesto/money.png" alt="">
                 </div>
-                <span class="news-image-text-container-item-text no-margin">
+                <span class="news-image-text-container-item-text news-image-text-container-item--ml-bigger">
                     O custo social total da demência equivale a 2,2% do Produto Interno Bruto (PIB) global¹
                 </span>
             </div>
@@ -229,7 +229,7 @@
                 <div class="image-container">
                     <img src="../assets/images/manifesto/hand.png" alt="">
                 </div>
-                <span class="news-image-text-container-item-text no-margin">
+                <span class="news-image-text-container-item-text news-image-text-container-item--ml-bigger">
                     Os custos indiretos da doença de Alzheimer podem chegar a representar 169% da renda familiar brasileira6
                 </span>
             </div>
@@ -237,7 +237,7 @@
                 <div class="image-container">
                     <img src="../assets/images/manifesto/person.png" alt="">
                 </div>
-                <span class="news-image-text-container-item-text no-margin">
+                <span class="news-image-text-container-item-text news-image-text-container-item--ml-bigger">
                     Entre 2009 e 2013, a DA foi responsável por 4,4% das mortes de idosos no Brasil7
                 </span>
             </div>
@@ -298,10 +298,12 @@
         <ul class="news-info-list style-none p-0">
             <li class="news-info-list-item news-info-list-item--little">
                 1. World Alzheimer Report 2019. Alzheimer’s Disease International. 
-                Disponível em: https://www.alzint.org/u/WorldAlzheimerReport2019.pdf Acesso em 22/11/2021</li>
+                Disponível em: https://www.alzint.org/
+                u/WorldAlzheimerReport2019.pdf Acesso em 22/11/2021</li>
             <li class="news-info-list-item news-info-list-item--little">
                 2. Dementia Fact Sheet. World Health Organization. 
-                Disponível em: https://www.who.int/news-room/fact-sheets/detail/dementia Acesso 22/11/2021.
+                Disponível em: https://www.who.int/news-room/
+                fact-sheets/detail/dementia Acesso 22/11/2021.
             </li>
             <li class="news-info-list-item news-info-list-item--little">
                 3. Feter N, Leite JS, Caputo EL, Cardoso RK, Rombaldi AJ. 
