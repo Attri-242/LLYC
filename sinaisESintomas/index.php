@@ -111,15 +111,15 @@
 
 <main id="sinais-main">
     <div id="breadcrumb">
-        <div class="cidadania-breadcrumb-item">
+        <div class="sinais-breadcrumb-item">
             <a class="breadcrumb-item-text"href="#">Home</a>
             <img class="breadcrumb-item-arrow" src="../assets/images/home/test-arrow.png" alt="">
         </div>
-        <div class="cidadania-breadcrumb-item">
+        <div class="sinais-breadcrumb-item">
             <a class="breadcrumb-item-text"href="#">Está na hora de cuidar</a>
             <img class="breadcrumb-item-arrow" src="../assets/images/home/test-arrow.png" alt="">
         </div>
-        <div class="cidadania-breadcrumb-item">
+        <div class="sinais-breadcrumb-item">
             <a class="breadcrumb-item-text"href="#">Está na hora de conhecer os sinais e sintomas da doença de Alzheimer</a>
         </div>
     </div>
@@ -375,23 +375,29 @@
         <ul class="news-info-list style-none p-0">
             <li class="news-info-list-item news-info-list-item--little">
                 1. 2021 Alzheimer’s Disease Facts and Figures. Alzheimer’s Association. Disponível em:
-                https://www.alz.org/media/documents/alzheimers-facts-and-figures.pdf. Acesso 23/11/21</li>
+                https://www.alz.org/media/
+                documents
+                /alzheimers-facts-and-figures.pdf. Acesso 23/11/21</li>
             <li class="news-info-list-item news-info-list-item--little">
                 2. 10 warn signs. Alzheimer&#39;s Association. Disponível em:
-                https://www.alz.org/national/documents/aa_brochure_10warnsigns.pdf. Acesso 23/11/21
+                https://www.alz.org/national/
+                documents/
+                aa_brochure_10warnsigns.pdf. Acesso 23/11/21
             </li>
             <li class="news-info-list-item news-info-list-item--little">
                 3. Vaughn, Peggy. Alzheimer&#39;s diagnostic guidelines updated for first time in decades. Estados
                 Unidos. National Institutes of Health e the Alzheimer’s Association, 2011. Disponível em:
-                https://www.nia.nih.gov/news/alzheimers-diagnostic-guidelines-updated-first-time-decades. Acesso 23/11/21
+                https://www.nia.nih.gov/news/
+                alzheimers-diagnostic-guidelines-
+                updated-first-time-decades. Acesso 23/11/21
             </li>
             <li class="news-info-list-item news-info-list-item--little">
                 4. What Are the Signs of Alzheimer&#39;s Disease?. National Institute on Aging. Disponível em:
-                https://www.nia.nih.gov/health/what-are-signs-alzheimers-disease. Acesso em 25/11/21
+                https://www.nia.nih.gov/health/
+                what-are-signs-alzheimers-disease. Acesso em 25/11/21
             </li>
         </ul>
     </div>
- 
 </main>
 
 <footer id="footer-desk">
