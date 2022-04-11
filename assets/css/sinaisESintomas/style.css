@@ -601,8 +601,6 @@ span.timeline-text-item:not(:first-child) {
 
 /* col - mobile */
 @media(max-width: 576px) {
-    html {font-size: 15px;}
-
     main#sinais-main {
         padding: 0px 45px 125px 20px;
     }

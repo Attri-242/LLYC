@@ -126,7 +126,7 @@
 
     <div id="title">
         <h1 id="title-text">Está na hora de (re)conhecer a doença de Alzheimer</h1>
-        <div id="card-info-related-container">
+        <div class="card-info-related-container">
             <div class="card-info-relateds">
                 <div class="card-info-related">
                     Alzheimer

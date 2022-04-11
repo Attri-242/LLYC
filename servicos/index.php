@@ -127,7 +127,7 @@
     <div id="news-container">
         <div class="icon-text-container">
             <div class="icon-text-container-row">
-                <a class="icon-text-item">
+                <a class="icon-text-item" href="../associacoes/index.php">
                     <img class="icon-text-image" src="../assets/images/servicos/associacao.png" alt="">
                     <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little text-center text-center">
                         Encontre uma associação

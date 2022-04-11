@@ -111,15 +111,15 @@
 
 <main id="alzheimer-main">
     <div id="breadcrumb">
-        <div class="cidadania-breadcrumb-item">
+        <div class="breadcrumb-breadcrumb-item">
             <a class="breadcrumb-item-text"href="#">Home</a>
             <img class="breadcrumb-item-arrow" src="../assets/images/home/test-arrow.png" alt="">
         </div>
-        <div class="cidadania-breadcrumb-item">
+        <div class="breadcrumb-breadcrumb-item">
             <a class="breadcrumb-item-text"href="#">Está na hora de cuidar</a>
             <img class="breadcrumb-item-arrow" src="../assets/images/home/test-arrow.png" alt="">
         </div>
-        <div class="cidadania-breadcrumb-item">
+        <div class="breadcrumb-breadcrumb-item">
             <a class="breadcrumb-item-text"href="#">Está na hora de saber o que é doença de Alzheimer</a>
         </div>
     </div>
@@ -220,7 +220,7 @@
                 Saiba mais sobre os estágios da doença de Alzheimer
             </button>
     
-            <h2 class="title-subtitle">Será que é da idade? Envelhecer não é sinônimo de doença de Alzheimer</h2>
+            <h2 class="title-subtitle text-subtitle-little">Será que é da idade? Envelhecer não é sinônimo de doença de Alzheimer</h2>
     
             <p class="news-info news-info-with-max-width">
                 Apesar da doença de Alzheimer ser mais frequente em idosos, 
@@ -297,7 +297,7 @@
     
             <img class="news-container-image" src="../assets/images/oqueealzheimer/diagnosticos.png" alt="Diagnósticos">
     
-            <div class="action-card">
+            <div id="action-card">
                 <h3 class="action-card-title">Diagnóstico diferencial de Doença de Alzheimer6</h3>
                 <ul class="action-card-list">
                     <li class="action-card-list-item">Deficiência de vitamina B12;</li>
@@ -353,7 +353,7 @@
                     </li>
             </ul>
     
-            <div class="action-card">
+            <div id="action-card">
                 <h3 class="action-card-title">O que é demência?8</h3>
                 <p class="action-card-text">
                     Causada por lesões e alterações cerebrais, as demências englobam uma série de patologias, 
@@ -446,19 +446,19 @@
                         Uma boa alimentação é essencial para diminuir as chances de desenvolver qualquer doença
                     </p>
                     <div class="card-info-related-container align-items-start">
-                    <div class="card-info-relateds">
-                        <div class="card-info-related">
-                            Alzheimer
+                        <div class="card-info-relateds">
+                            <div class="card-info-related">
+                                Alzheimer
+                            </div>
+                            <div class="card-info-related">
+                                Diagnóstico
+                            </div>
                         </div>
-                        <div class="card-info-related">
-                            Diagnóstico
+                        <div class="card-info-relateds">
+                            <div class="card-info-related">
+                                Sinais e sintomas
+                            </div>
                         </div>
-                    </div>
-                    <div class="card-info-relateds">
-                        <div class="card-info-related">
-                            Sinais e sintomas
-                        </div>
-                    </div>
                 </div>
                 
                 <div class="related-chart">

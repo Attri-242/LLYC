@@ -5,83 +5,6 @@ main#alzheimer-main {
 }
 
 main#alzheimer-main
-div#breadcrumb {
-    display: flex;
-}
-
-main#alzheimer-main
-div#breadcrumb
-div.cidadania-breadcrumb-item:not(:first-child) {
-    margin-left: 14px;
-}
-
-main#alzheimer-main
-div#breadcrumb
-div.cidadania-breadcrumb-item
-a.breadcrumb-item-text {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 30px;
-    color: #000000;
-}
-
-main#alzheimer-main
-div#breadcrumb
-div.cidadania-breadcrumb-item
-img.breadcrumb-item-arrow {
-    margin-left: 14px;
-    width: 20px;
-}
-
-main#alzheimer-main
-div#title {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 38px;
-}
-
-main#alzheimer-main
-div#title
-h1#title-text {
-    font-weight: 400;
-    max-width: 620px;
-    font-size: 38px;
-}
-
-.card-info-related-container {
-    display: flex;
-    flex-flow: column;
-    align-items: flex-end;
-}
-
-img#card-info-related-share {
-    margin-top: 28px;
-}
-
-.card-info-relateds {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 10px;
-}
-
-.card-info-related {
-    border: 1px solid #E03C31;
-    border-radius: 14px;
-    font-size: 15px;
-    color: #E03C31;
-    font-weight: 700;
-    padding: 0 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.card-info-related:not(:first-child) {
-    margin-left: 6px;
-}
-
-main#alzheimer-main
 div#page-container
 div#related-column {
     margin-top: 150px;
@@ -140,48 +63,6 @@ p.related-chart-text {
     width: 230px;
 }
 
-main#alzheimer-main
-div#news-container
-p#news-date {
-    margin-top: 50px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    color: #000000;
-}
-
-main#alzheimer-main
-div#news-container
-p.news-info {
-    width: 665px;
-    margin-top: 50px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #000000;
-}
-
-main#alzheimer-main
-div#news-container
-h2.title-subtitle {
-    margin-top: 50px;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 30px;
-    color: #000000;
-}
-
-main#alzheimer-main
-div#news-container
-h2.text-subtitle-little {
-    width: 600px;
-}
-
-main#alzheimer-main
-div#news-container
-img.news-container-image {
-    margin-top: 50px;
-}
 
 main#alzheimer-main
 div#news-container
@@ -247,73 +128,25 @@ li.brain-activity-item {
     color: #000;
 }
 
+/* md - tablet */
+@media (min-width: 577px) and (max-width: 1199px) {
 
+    main#alzheimer-main {
+        padding: 30px 35px 150px 35px;
+    }
 
+    main#alzheimer-main
+    div#related-column {
+        display: none;
+    }
 
-main#alzheimer-main
-div#news-container
-button.news-info-button {
-    margin-top: 50px;
-    font-size: 16px;
-    line-height: 22px;
-    color: #E03C31;
-    background-color: white;
-    border: 1px solid #E03C31;
-    padding: 15px;
-    border-radius: 10px;
-    font-weight: 700;
+ }
+
+/* col - mobile */
+@media(max-width: 576px) {
+    main#alzheimer-main {
+        padding: 0px 45px 125px 20px;
+    }
+ 
 }
-
-
-main#alzheimer-main
-div#news-container
-h2.title-subtitle {
-    margin-top: 50px;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 30px;
-    color: #000000;
-    width: 516px;
-}
-
-main#alzheimer-main
-div#news-container
-ul.news-info-list {
-    margin-top: 50px;
-}
-
-main#alzheimer-main
-div#news-container
-ul.news-info-list
-li.news-info-list-item {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 36px;
-    color: #000000;
-}
-
-main#alzheimer-main
-div#news-container
-ul.news-info-list
-li.news-info-list-item--little {
-    width: 650px;
-}
-
-main#alzheimer-main
-div#news-container
-ul.style-none {
-    list-style: none;
-}
-
-a.sintomas-link {
-    color: #E03C31;
-    cursor: pointer;
-}
-
-p.news-info-with-max-width {
-    width: 540px !important;
-}
-
-span.news-info-bold {
-    font-weight: 500;
-}
+ 
