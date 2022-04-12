@@ -233,8 +233,8 @@
                         <ul class="news-info-list style-none p-0">
                             <li class="news-info-list-item news-info-list-item--little">
                                 1. 2021 Alzheimer’s Disease Facts and Figures. Alzheimer’s Association. 
-                                Disponível em: https://www.alz.org/media/documents/
-                                alzheimers-facts-and-
+                                Disponível em: https://www.alz.org/media/
+                                documents/alzheimers-facts-and-
                                 figures.pdf. Acesso 24/11/21
                             </li>
                             <li class="news-info-list-item news-info-list-item--little">
