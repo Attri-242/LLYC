@@ -589,6 +589,21 @@ span.news-info-bold {
         margin-left: 0px;
     }
 
+    main#estagios-main 
+    div#news-container 
+    div#timeline 
+    div.sintomas-timeline-text {
+        margin-left: 8px;
+    }
+
+    main#estagios-main 
+    div#news-container 
+    div#timeline 
+    div#sintomas-timeline  {
+        margin-left: 8px;
+    }
+
+
  }
 
 /* col - mobile */
@@ -735,6 +750,56 @@ span.news-info-bold {
     div#news-container
     div#timeline {
         margin-top: 14px;
+    }
+
+    main#estagios-main 
+    div#news-container 
+    div#timeline 
+    div#sintomas-timeline  {
+        margin-left: 8px;
+    }
+
+    
+    main#estagios-main 
+    div#news-container 
+    div#timeline 
+    div.sintomas-timeline-text {
+        margin-left: 8px;
+    }
+
+    main#estagios-main
+    div#news-container
+    div#timeline
+    div#sintomas-timeline-text-iniciais::after {
+        margin-left: -6px;
+    }
+
+    main#estagios-main
+    div#news-container
+    div#timeline
+    div#sintomas-timeline-text-ccl::after {
+        margin-left: -6px;
+    }
+
+    main#estagios-main
+    div#news-container
+    div#timeline
+    div#sintomas-timeline-text-leves::after {
+        margin-left: -6px;
+    }
+
+    main#estagios-main
+    div#news-container
+    div#timeline
+    div#sintomas-timeline-text-moderados::after {
+        margin-left: -46px;
+    }
+
+    main#estagios-main
+    div#news-container
+    div#timeline
+    div#sintomas-timeline-text-severos::after {
+        margin-left: -46px;
     }
 
     main#estagios-main 
