@@ -1,3 +1,8 @@
+<?php
+    $subdomain = "/LLYC";
+    $baseUrl   = ( ! empty( $_SERVER['HTTPS'] ) ? 'https' : 'http' ) . '://' . $_SERVER['HTTP_HOST'] . ( ! empty( $subdomain ) ? $subdomain : "" );
+?>
+
 <footer id="footer-desk">
     <nav id="primary-nav" class="d-flex flex-column">
         <a class="primary-nav-item" href="#">QUEM SOMOS</a>
@@ -31,26 +36,26 @@
 <footer id="footer-mobile">
     <nav id="nav-mobile" class="d-flex justify-content-between">
         <div class="nav-mobile-item">
-            <img class="nav-mobile-item-icon" src="./assets/images/header/explore.png" alt="">
+            <img class="nav-mobile-item-icon" src="<?= $baseUrl ?>/assets/images/header/explore.png" alt="">
             <a class="nav-mobile-item-text" href="#">
                 Explore o conteúdo
             </a>
         </div>
         <div class="nav-mobile-item">
-            <img class="nav-mobile-item-icon" src="./assets/images/header/search.png" alt="">
+            <img class="nav-mobile-item-icon" src="<?= $baseUrl ?>/assets/images/header/search.png" alt="">
             <a class="nav-mobile-item-text" href="#">
                 Busque informação
             </a>
         </div>
         <div class="nav-mobile-item">
-            <img class="nav-mobile-item-icon" src="./assets/images/header/favorites.png" alt="">
+            <img class="nav-mobile-item-icon" src="<?= $baseUrl ?>/assets/images/header/favorites.png" alt="">
             <a class="nav-mobile-item-text" href="#">
                 Mais acessados
             </a>
         </div>
         <div class="nav-mobile-item">
-            <img class="nav-mobile-item-icon" src="./assets/images/header/services.png" alt="">
-            <a class="nav-mobile-item-text" href="#">
+            <img class="nav-mobile-item-icon" src="<?= $baseUrl ?>/assets/images/header/services.png" alt="">
+            <a class="nav-mobile-item-text" href="./servicos/index.php">
                 Serviços
             </a>
         </div>
