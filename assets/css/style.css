@@ -721,7 +721,7 @@ img.news-container-image {
 
    div#news-container
    h2.text-subtitle-little {
-       width: unset;
+       width: unset !important;
        margin-bottom: 0px;
    }
 
@@ -745,7 +745,7 @@ img.news-container-image {
    }
 
    div#news-container
-   div#action-card {
+   div.action-card {
        padding: 25px 25px 30px 25px;
        margin-top: 20px;
    }
