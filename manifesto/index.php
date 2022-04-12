@@ -264,5 +264,7 @@
 <?php
     include '../includes/footer/footer.php'; 
 ?>
+<script src="../assets/js/components/nav-item/script.js"></script>
+<script src="../assets/js/includes/header/script.js"></script>
 </body>
 </html>
