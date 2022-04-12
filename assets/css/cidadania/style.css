@@ -211,8 +211,6 @@ span.news-image-text-item {
 
 /* col - mobile */
 @media(max-width: 576px) {
-    html {font-size: 15px;}
-
     main#cidadania-main {
         padding: 15px 10px 125px 20px;
 

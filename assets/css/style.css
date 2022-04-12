@@ -37,6 +37,7 @@ html, body {
 /* icon-text-component */
 div.icon-text-container {
     margin-top: 50px;
+    max-width: 660px !important;
 }
 
 div.icon-text-container
@@ -58,7 +59,6 @@ div.icon-text-container-row-mt-bigger {
     margin-top: 84px;
 }
 
-
 div.icon-text-container
 div.icon-text-container-row
 div.icon-text-item {
@@ -66,7 +66,6 @@ div.icon-text-item {
     flex-flow: column;
     align-items: center;
 }
-
 
 div.icon-text-container
 div.icon-text-container-row
@@ -172,7 +171,6 @@ div.icon-text-container
 div.icon-text-container-row
 div.icon-text-item
 p.icon-text-item-text {
-    /* max-width: 181px; */
     margin-top: 12px;
     font-size: 20px;
     line-height: 23px;
@@ -641,6 +639,10 @@ img.news-container-image {
         width: 100%;
     }
 
+    div.icon-text-container {
+        max-width: unset;
+    }
+
     div.icon-text-container
     div.icon-text-container-row:first-child{
         margin-top: 33px;
@@ -653,7 +655,6 @@ img.news-container-image {
         max-width: unset;
        font-size: 17px;
     }
-
 }
 
 /* col - mobile */
@@ -779,6 +780,17 @@ img.news-container-image {
        margin-top: 14px;
        width: 100%;
    }
+
+   div.icon-text-container {
+        max-width: unset;
+        margin-top: 14px;
+    }
+
+    div.icon-text-container
+    div.icon-text-container-row
+    div.icon-text-item {
+        margin-top: 15px;
+    }
 
    div.icon-text-container
    div.icon-text-container-row:first-child{
