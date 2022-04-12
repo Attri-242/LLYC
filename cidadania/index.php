@@ -40,8 +40,8 @@
     <div id="title">
         <section class="w-100 d-flex">
             <div class="container">
-                <div class="row">
-                    <h1 id="title-text" class="col-8 w-100">Está na hora de pensar a cidadania da pessoa com doença de Alzheimer</h1>
+                <div class="row d-flex flex-row justify-content-between w-lg-100">
+                    <h1 id="title-text" class="col-8">Está na hora de pensar a cidadania da pessoa com doença de Alzheimer</h1>
                     <div class="card-info-related-container col-4">
                         <div class="card-info-relateds">
                             <div class="card-info-related">

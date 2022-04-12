@@ -328,7 +328,6 @@ div#title {
 div#title
 h1#title-text {
     font-weight: 400;
-    max-width: 620px;
     font-size: 38px;
 }
 
@@ -499,20 +498,6 @@ div.actions-container-item:not(:first-child) {
     margin-top: 8px;
 }
 
-    /* div#news-container
-    div#action-card
-    div#actions-container
-    div.actions-container-item
-    span.actions-text {
-        margin-left: 25px;
-        max-width: 325px;
-    }
-
-    div#news-container
-    img.news-container-image {
-        margin-top: 50px;
-    } */
-
 div#news-container
 img.news-container-image {
     margin-top: 50px;
@@ -578,6 +563,7 @@ img.news-container-image {
    h1#title-text {
        font-weight: 400;
        font-size: 24px;
+       width: 100%;
    }
    
    div#news-container
@@ -653,6 +639,11 @@ img.news-container-image {
        line-height: 23px;
    }
 
+   div#title
+    div.card-info-related-container{
+        display: none;
+    }
+
 }
 
 /* col - mobile */
@@ -678,6 +669,7 @@ img.news-container-image {
    h1#title-text {
        font-weight: 400;
        font-size: 24px;
+       width: 100%;
    }
 
    div#news-container
@@ -746,6 +738,20 @@ img.news-container-image {
        padding: 25px 25px 30px 25px;
        margin-top: 20px;
    }
+
+   div#news-container
+   div#action-card
+   div#actions-container
+   div.actions-container-item {
+       flex-flow: column;
+    }
+
+    div#news-container
+    div#action-card
+    div#actions-container
+    div.actions-container-item:not(:first-child) {
+        margin-top: 25px;
+     }
 
    div#news-container
    div#action-card
