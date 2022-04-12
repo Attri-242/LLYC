@@ -10,6 +10,9 @@
 </head>
 <body>
 
+<?php
+    include './includes/header/header.php';
+?>
 
 <main id="home-main">
 

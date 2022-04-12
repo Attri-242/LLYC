@@ -1,5 +1,6 @@
 <?php
-    $baseUrl = 'localhost/LLYC'
+    $subdomain = "/LLYC";
+    $baseUrl   = ( ! empty( $_SERVER['HTTPS'] ) ? 'https' : 'http' ) . '://' . $_SERVER['HTTP_HOST'] . ( ! empty( $subdomain ) ? $subdomain : "" );
 ?>
 
 <header id="header">
@@ -9,33 +10,33 @@
                 <div id="logo-container" class="d-flex justify-content-center d-none d-xl-block"></div>
                 <div id="secondary-nav-items" class="d-flex">
                         <div id="secondary-nav-item-container">
-                            <img src="./assets/images/header/explore.png" alt="">
+                            <img src="<?= $baseUrl ?>/assets/images/header/explore.png" alt="">
                             <a class="secondary-nav-item font-bold" href="">
                                 EXPLORE O CONTEÚDO
                             </a>
                         </div>
                         <div id="secondary-nav-item-container">
-                            <img src="../assets/images/header/search.png" alt="">
+                            <img src="<?= $baseUrl ?>/assets/images/header/search.png" alt="">
                             <a class="secondary-nav-item font-bold" href="./busqueinformacao/index.php">
                                 BUSQUE INFORMAÇÃO
                             </a>
                         </div>
                         <div id="secondary-nav-item-container">
-                            <img src="../assets/images/header/favorites.png" alt="">
+                            <img src="<?= $baseUrl ?>/assets/images/header/favorites.png" alt="">
                             <a class="secondary-nav-item font-bold" href="#">
                                 MAIS ACESSADOS
                             </a>
                         </div>
                         <div id="secondary-nav-item-container">
-                            <img src="../assets/images/header/services.png" alt="">
+                            <img src="<?= $baseUrl ?>/assets/images/header/services.png" alt="">
                             <a class="secondary-nav-item font-bold" href="./servicos/index.php">
                                 SERVIÇOS
                             </a>
                         </div>
                         <div id="secondary-nav-item-container">
-                            <img src="./assets/images/header/profile.png" alt="">
+                            <img src="<?= $baseUrl ?>/assets/images/header/profile.png" alt="">
                             <?php
-                                include_once "../includes/components/nav-item/nav-item.php";
+                                include_once  $_SERVER['DOCUMENT_ROOT'] . "/LLYC/includes/components/nav-item/nav-item.php";
                                 showNavItem("SELECIONE O SEU PERFIL", 
                                     [
                                         "Tenho Alzheimer", 
@@ -55,16 +56,16 @@
         <nav id="principal-nav">
             <div id="principal-nav-container" class="d-flex">
                 <div id="logo-container" class="d-flex justify-content-center d-none d-xl-block">
-                    <img id="logo" src="../assets/images/header/logo.png" alt="logo">
+                    <img id="logo" src="<?= $baseUrl ?>/assets/images/header/logo.png" alt="logo">
                 </div>
 
                 <div id="principal-nav-items" class="d-flex align-items-end justify-content-end">
                     <?php 
-                        include_once '../includes/components/nav-item/nav-item.php';
+                        include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php';
                         showNavItem("QUEM SOMOS", ["Manifesto", "Sobre a Biogen", "Contato"], 'short', 'primary', './manifesto/index.php');
                     ?>
                     <?php 
-                        include_once '../includes/components/nav-item/nav-item.php';
+                        include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php';
                         showNavItem("O QUE É ALZHEIMER", 
                             [
                                 "O que é doença de Alzheimer",
@@ -79,7 +80,7 @@
                             ], 'short', 'primary', './oqueealzheimer/index.php');
                     ?>
                     <?php 
-                        include_once '../includes/components/nav-item/nav-item.php';
+                        include_once $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php';
                         showNavItem("SINAIS, SINTOMAS E DIAGNÓSTICO", 
                             [
                                 "Sinais e sintomas",
@@ -94,15 +95,15 @@
                             ], 'regular', 'primary', './sinaisESintomas/index.php');
                     ?>
                     <?php 
-                        include_once '../includes/components/nav-item/nav-item.php'; 
+                        include_once $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
                         showNavItem("CUIDANDO DO PACIENTE", [], 'regular', 'primary', '#'); ?>
                     
                     <?php 
-                        include_once '../includes/components/nav-item/nav-item.php'; 
+                        include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
                         showNavItem("CUIDANDO DE QUEM CUIDA", [], 'regular', 'primary', '#'); ?>
 
-                    <?php 
-                        include_once '../includes/components/nav-item/nav-item.php'; 
+                    <?php
+                        include_once $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
                         showNavItem("CIDADANIA E POLÍTICAS PÚBLICAS", [], 'regular', 'primary', './cidadania/index.php'); ?>
                         
                 </div>
@@ -111,13 +112,13 @@
     </div>
 
     <div class="d-flex d-xl-none align-items-center justify-content-center" id="nav-mobile-container">
-        <img id="logo" src="./assets/images/header/logo-mobile.png" alt="logo">
+        <img id="logo" src="<?= $baseUrl ?>/assets/images/header/logo-mobile.png" alt="logo">
         <i id="nav-mobile-icon" onclick="toggleMobileMenu()" class="bi bi-list">ICON</i>
     </div>
 
     <nav id="nav-mobile">
         <div id="nav-mobile-icon-container">
-            <img id="nav-mobile-close-icon" onclick="toggleMobileMenu()" src="./assets/images/header/close-menu-icon.svg" alt="">
+            <img id="nav-mobile-close-icon" onclick="toggleMobileMenu()" src="<?= $baseUrl ?>/assets/images/header/close-menu-icon.svg" alt="">
         </div>
         <ul id="nav-mobile-items">
             <div class="nav-mobile-item-container">
@@ -159,17 +160,17 @@
         </ul>
 
         <div id="nav-perfil-options" onclick="togglePerfilMenu()">
-            <img class="nav-perfil-options-img" src="./assets/images/header/perfil.png" alt="">
+            <img class="nav-perfil-options-img" src="<?= $baseUrl ?>/assets/images/header/perfil.png" alt="">
             <span class="nav-perfil-options-txt">SELECIONE O SEU PERFIL</span>
         </div>
     </nav>
 
     <nav id="nav-perfil">
         <div id="nav-perfil-icon-container">
-            <img id="nav-perfil-close-icon" onclick="togglePerfilMenu()" src="./assets/images/header/close-perfil-icon.png" alt="">
+            <img id="nav-perfil-close-icon" onclick="togglePerfilMenu()" src="<?= $baseUrl ?>/assets/images/header/close-perfil-icon.png" alt="">
         </div>
 
-        <img id="nav-perfil-logo" src="./assets/images/header/logo-mobile.png" alt="logo">
+        <img id="nav-perfil-logo" src="<?= $baseUrl ?>/assets/images/header/logo-mobile.png" alt="logo">
 
         <div id="nav-perfil-items-container">
             <h2 id="nav-perfil-title">SELECIONE O SEU PERFIL</h2>
