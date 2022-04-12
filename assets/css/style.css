@@ -162,34 +162,17 @@ div.icon-text-item-row--mt-bigger {
     margin-top: 71px !important;
 }
 
-div.icon-text-container
+/* div.icon-text-container
 div.icon-text-container-row
 div.icon-text-item:not(:first-child) {
-    margin-left: 68px;
-}
+    /* margin-left: 68px; */
 
-div.icon-text-container
-div.icon-text-container-row
-a.icon-text-item:not(:first-child) {
-    margin-left: 68px;
-}
 
 div.icon-text-container
 div.icon-text-container-row
 div.icon-text-item
 p.icon-text-item-text {
-    max-width: 181px;
-    margin-top: 12px;
-    font-size: 20px;
-    line-height: 23px;
-    color: #000;
-}
-
-div.icon-text-container
-div.icon-text-container-row
-a.icon-text-item
-p.icon-text-item-text {
-    max-width: 181px;
+    /* max-width: 181px; */
     margin-top: 12px;
     font-size: 20px;
     line-height: 23px;
@@ -501,6 +484,7 @@ div.actions-container-item:not(:first-child) {
 div#news-container
 img.news-container-image {
     margin-top: 50px;
+    width: unset;
 }
 
 /************/
@@ -521,6 +505,13 @@ img.news-container-image {
     ul.news-info-list
     li.news-info-list-item--little {
         width: 600px !important;
+    }
+
+    div.icon-text-container
+    div.icon-text-container-row
+    div.icon-text-item
+    p.icon-text-item-text {
+        max-width: unset;
     }
 }
 
@@ -640,8 +631,27 @@ img.news-container-image {
    }
 
    div#title
-    div.card-info-related-container{
-        display: none;
+   div.card-info-related-container{
+    display: none;
+   }
+
+   div#news-container
+    img.news-container-image {
+        margin-top: 14px;
+        width: 100%;
+    }
+
+    div.icon-text-container
+    div.icon-text-container-row:first-child{
+        margin-top: 33px;
+    }
+
+    div.icon-text-container
+    div.icon-text-container-row
+    div.icon-text-item
+    p.icon-text-item-text {
+        max-width: unset;
+       font-size: 17px;
     }
 
 }
@@ -764,4 +774,27 @@ img.news-container-image {
        display: none;
    }
 
+   div#news-container
+   img.news-container-image {
+       margin-top: 14px;
+       width: 100%;
+   }
+
+   div.icon-text-container
+   div.icon-text-container-row:first-child{
+       margin-top: 33px;
+   }
+
+   div.icon-text-container
+   div.icon-text-container-row{
+       margin-top: unset;
+   }
+
+   div.icon-text-container
+   div.icon-text-container-row
+   div.icon-text-item
+   p.icon-text-item-text {
+       max-width: unset;
+       font-size: 17px;
+   }
 }

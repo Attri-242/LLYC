@@ -132,7 +132,7 @@ li.brain-activity-item {
 @media (min-width: 577px) and (max-width: 1199px) {
 
     main#alzheimer-main {
-        padding: 30px 35px 150px 35px;
+        padding: 15px 10px 125px 20px;
     }
 
     main#alzheimer-main
@@ -140,13 +140,45 @@ li.brain-activity-item {
         display: none;
     }
 
+    main#alzheimer-main
+    div#news-container
+    ul#brain-activity
+    li.brain-activity-item {
+        font-size: 17px;
+        line-height: 30px
+    }
+
+    main#alzheimer-main
+    div#news-container
+    ul#brain-activity {
+        width: unset
+    }
  }
 
 /* col - mobile */
 @media(max-width: 576px) {
     main#alzheimer-main {
-        padding: 0px 45px 125px 20px;
+        padding: 15px 10px 125px 20px;
     }
  
+    main#alzheimer-main
+    div#related-column {
+        display: none;
+    }
+
+    main#alzheimer-main
+    div#news-container
+    ul#brain-activity
+    li.brain-activity-item {
+        font-size: 17px;
+        line-height: 30px
+    }
+
+    main#alzheimer-main
+    div#news-container
+    ul#brain-activity {
+        width: unset
+    }
+
 }
  
