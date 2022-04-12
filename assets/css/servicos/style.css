@@ -1,0 +1,44 @@
+main#servicos-main {
+    padding: 50px 179px 113px 176px;
+    display: flex;
+    flex-flow: column;
+}
+
+
+@media(min-width: 768px) {
+    .text-align {
+        text-align: left !important;
+    }    
+}
+
+/* md - tablet */
+@media (min-width: 577px) and (max-width: 1199px) {
+
+    main#servicos-main {
+        padding: 15px 10px 125px 20px;
+    }
+
+    p.news-info-with-max-width {
+        width: unset;
+    }
+    
+    .text-align {
+        text-align: center;
+    }    
+ }
+
+/* col - mobile */
+@media(max-width: 576px) {
+    main#servicos-main {
+        padding: 15px 10px 125px 20px;
+    }
+
+    p.news-info-with-max-width {
+        width: unset;
+    }
+
+    .text-align {
+        text-align: center;
+    }
+ }
+ 
