@@ -5,144 +5,6 @@ main#informacao-main {
 }
 
 main#informacao-main
-div#breadcrumb {
-    display: flex;
-}
-
-main#informacao-main
-div#breadcrumb
-div.informacao-breadcrumb-item:not(:first-child) {
-    margin-left: 14px;
-}
-
-main#informacao-main
-div#breadcrumb
-div.informacao-breadcrumb-item
-a.breadcrumb-item-text {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 30px;
-    color: #000000;
-}
-
-main#informacao-main
-div#breadcrumb
-div.informacao-breadcrumb-item
-img.breadcrumb-item-arrow {
-    margin-left: 14px;
-    width: 20px;
-}
-
-main#informacao-main
-div#title {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 38px;
-    margin-bottom: 0px;
-}
-
-main#informacao-main
-div#title
-h1#title-text {
-    font-weight: 400;
-    max-width: 620px;
-    font-size: 38px;
-    margin-bottom: 0;
-}
-
-a.informacao-link {
-    color: #E03C31;
-    cursor: pointer;
-}
-
-.card-info-related-container {
-    display: flex;
-    flex-flow: column;
-    align-items: flex-end;
-}
-
-img#card-info-related-share {
-    margin-top: 28px;
-}
-
-.card-info-relateds {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 10px;
-}
-
-.card-info-related {
-    border: 1px solid #E03C31;
-    border-radius: 14px;
-    font-size: 15px;
-    color: #E03C31;
-    font-weight: 700;
-    padding: 0 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.card-info-related:not(:first-child) {
-    margin-left: 6px;
-}
-
-main#informacao-main
-div#news-container {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-}
-
-main#informacao-main
-div.news-container--align-start {
-    align-items: flex-start !important;
-}
-
-
-main#informacao-main
-div#news-container
-p#news-date {
-    margin-top: 50px;
-    margin-bottom: 0px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    color: #000000;
-}
-
-main#informacao-main
-div#news-container
-ul#benefits-list{
-    margin-top: 50px;
-    margin-bottom: 0px;
-}
-
-main#informacao-main
-div#news-container
-ul#benefits-list
-li.benefits-list-item {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 36px;
-    color: #000000;
-}
-
-main#informacao-main
-div#news-container
-p.news-info {
-    width: 665px;
-    margin-top: 50px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #000000;
-    margin-bottom: 0px;
-}
-
-main#informacao-main
 div#news-container
 div#localizacao {
     display: flex;
@@ -206,15 +68,12 @@ h2#resultados-title {
     display: none;
 }
 
-
 main#informacao-main
 div#news-container
 div#termos-container
 div.termos-items {
     margin-top: 30px;
 }
-
-
 
 main#informacao-main
 div#news-container
@@ -250,23 +109,6 @@ button.news-info-button {
 main#informacao-main
 .cards {
     display: none;
-}
-
-main#informacao-main
-.cards:not(:first-child) {
-    margin-top: 49px;
-}
-
-main#informacao-main
-.cards
-.card-info {
-    max-width: 216px;
-}
-
-main#informacao-main
-.cards
-.card-info:not(:first-child) {
-    margin-left: 27.48px;
 }
 
 main#informacao-main
@@ -331,7 +173,8 @@ main#informacao-main
 .card-info
 .card-info-link-container
 .card-info-image {
-    height: 247px;
+    height: 280px;
+    object-fit: cover; 
 }
 
 main#informacao-main
@@ -378,3 +221,61 @@ main#informacao-main
 .card-info-related:not(:first-child) {
     margin-left: 6px;
 }
+
+
+/* md - tablet */
+@media(min-width:577px) and (max-width: 1199px) {
+    html {font-size: 15px;}
+ 
+    main#informacao-main {
+      padding: 15px 10px 125px 20px;
+    }
+ 
+    main#informacao-main
+    .container
+    .cards
+    .card-info {
+        margin-top: 24px;
+    }
+
+    main#informacao-main
+    div#news-container
+    div#localizacao-container {
+        width: 100%;
+    }
+
+    main#informacao-main
+    div#news-container
+    div#localizacao-container
+    input.search-input {
+        width: 100%;
+    }
+ }
+ 
+ /* col - mobile */
+ @media (max-width: 576px) {
+     main#informacao-main {
+         padding: 15px 10px 125px 20px;
+     }
+ 
+     main#informacao-main
+     .container
+     .cards
+     .card-info {
+         margin-top: 24px;
+     }
+
+    main#informacao-main
+    div#news-container
+    div#localizacao-container {
+        width: 100%;
+    }
+
+    main#informacao-main
+    div#news-container
+    div#localizacao-container
+    input.search-input {
+        width: 100%;
+    }
+
+ }

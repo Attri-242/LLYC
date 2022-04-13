@@ -48,7 +48,6 @@
             <div class="row">
                 <div class="col-12">
                     <div id="news-container">
-
                         <div class="container p-0">
                             <div class="row" id="localizacao">
                                 <div class="col-12 col-md-6 col-xl-5">
@@ -57,7 +56,6 @@
                                             placeholder="Digite o seu CEP"
                                             class="cep-input w-100" 
                                             type="text" />
-                                        <!-- <img class="cep-search" src="../assets/images/associacao/buscar.png" alt=""> -->
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-4 col-xl-3 mt-4">
