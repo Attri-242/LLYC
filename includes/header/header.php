@@ -7,7 +7,6 @@
     <div id="nav-desk-container" class="d-none d-xl-block">
         <nav id="secondary-nav">
             <div id="secondary-nav-container" class="d-flex align-items-center">
-                <!-- <div id="logo-container" class="d-flex justify-content-center d-none d-xl-block"></div> -->
                 <div id="secondary-nav-items" class="d-flex">
                     <div class="container">
                         <div class="row align-items-center justify-content-end">

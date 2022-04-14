@@ -91,25 +91,25 @@
                         <div class="icon-text-container">
                             <div class="container p-0">
                                 <div class="row no-gutters justify-content-start icon-text-container-row">
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
                                         <img class="icon-text-image" src="../assets/images/tratamento/fisio.png" alt="">
                                         <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little">
                                             Neurologista
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
                                         <img class="icon-text-image" src="../assets/images/tratamento/fisio.png" alt="">
                                         <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little">
                                             Geriatra
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
                                         <img class="icon-text-image" src="../assets/images/tratamento/fisio.png" alt="">
                                         <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little">
                                             Neuropsicólogo
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
                                         <img class="icon-text-image" src="../assets/images/tratamento/fisio.png" alt="">
                                         <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little">
                                             Psiquiatra
@@ -118,19 +118,19 @@
                                 </div>
 
                                 <div class="row no-gutters justify-content-start icon-text-container-row">
-                                    <div class="col-12 col-md-3 col-xl-4 icon-text-item d-block d-md-flex">
+                                    <div class="col-12 col-md-3 col-xl-4 icon-text-item d-flex">
                                         <img class="icon-text-image" src="../assets/images/tratamento/fisio.png" alt="">
-                                        <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little">
+                                        <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little text-center">
                                             Profissional de enfermagem
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-3 col-xl-4 icon-text-item d-block d-md-flex">
+                                    <div class="col-12 col-md-3 col-xl-4 icon-text-item d-flex">
                                         <img class="icon-text-image" src="../assets/images/tratamento/fisio.png" alt="">
                                         <p class="icon-text-item-text icon-text-item-text-mt-bigger">
                                             Fisioterapeuta
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-3 col-xl-4 icon-text-item d-block d-md-flex">
+                                    <div class="col-12 col-md-3 col-xl-4 icon-text-item d-flex">
                                         <img class="icon-text-image" src="../assets/images/tratamento/fisio.png" alt="">
                                         <p class="icon-text-item-text icon-text-item-text-mt-bigger">
                                             Nutricionista
@@ -170,19 +170,19 @@
                         <div class="icon-text-container">
                             <div class="container p-0">
                                 <div class="row no-gutters justify-content-start icon-text-container-row">
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
                                         <img class="icon-text-image" src="../assets/images/tratamento/musicas.png" alt="">
                                         <p class="icon-text-item-text icon-text-item-text--little">
                                             Ouvir músicas que gosta
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
                                         <img class="icon-text-image" src="../assets/images/tratamento/fotos.png" alt="">
                                         <p class="icon-text-item-text">
                                             Ver fotografias
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
                                         <img class="icon-text-image" src="../assets/images/tratamento/jogo-memoria.png" alt="">
                                         <p class="icon-text-item-text">
                                             Jogos da memória
@@ -207,19 +207,19 @@
                         <div class="icon-text-container">
                             <div class="container p-0">
                                 <div class="row no-gutters justify-content-start icon-text-container-row">
-                                    <div class="col-12 col-md-4 col-xl-4 icon-text-item d-block d-md-flex">
+                                    <div class="col-12 col-md-4 col-xl-4 icon-text-item d-flex">
                                         <img class="icon-text-image" src="../assets/images/tratamento/fisio.png" alt="">
                                         <p class="icon-text-item-text icon-text-item-text--little">
                                             Acompanhamento psiquiátrico
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-4 col-xl-4 icon-text-item d-block d-md-flex">
+                                    <div class="col-12 col-md-4 col-xl-4 icon-text-item d-flex">
                                         <img class="icon-text-image" src="../assets/images/tratamento/calendario.png" alt="">
                                         <p class="icon-text-item-text icon-text-item-text--smaller">
                                             Construção de uma rotina
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-4 col-xl-4 icon-text-item d-block d-md-flex">
+                                    <div class="col-12 col-md-4 col-xl-4 icon-text-item d-flex">
                                         <img class="icon-text-image" src="../assets/images/tratamento/calendario.png" alt="">
                                         <p class="icon-text-item-text">
                                             Participar de grupos de pacientes
@@ -228,13 +228,13 @@
                                 </div>
 
                                 <div class="row no-gutters justify-content-start icon-text-container-row">
-                                    <div class="col-12 col-md-3 col-xl-4 icon-text-item d-block d-md-flex">
+                                    <div class="col-12 col-md-3 col-xl-4 icon-text-item d-flex">
                                         <img class="icon-text-image" src="../assets/images/tratamento/pessoas.png" alt="">
                                         <p class="icon-text-item-text">
                                             Envolver a pessoa nas atividades da família
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-3 col-xl-4 icon-text-item d-block d-md-flex">
+                                    <div class="col-12 col-md-3 col-xl-4 icon-text-item d-flex">
                                         <img class="icon-text-image" src="../assets/images/tratamento/medicamentos.png" alt="">
                                         <p class="icon-text-item-text">
                                             Se necessário, o médico pode indicar terapia com medicamentos.

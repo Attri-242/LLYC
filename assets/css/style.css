@@ -532,14 +532,7 @@ img.news-container-image {
 
    div#breadcrumb
    div.breadcrumb-breadcrumb-item {
-       display: flex;
-       align-items: center;
-   }
-
-   div#breadcrumb
-   div.breadcrumb-breadcrumb-item
-   a.breadcrumb-item-text {
-       font-size: 13px;
+       display: none;
    }
 
    div#title {
