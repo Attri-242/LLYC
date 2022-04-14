@@ -140,6 +140,13 @@ span.nav-mobile-item-text {
 }
 
 /* md - tablet */
+@media (min-width: 1200px) and (max-width: 1350px) {
+    footer#footer-desk {
+        padding: 76px 55px 75px 177px;
+    }
+}
+
+/* md - tablet */
 @media (min-width: 577px) and (max-width: 1199px) {
     footer#footer-desk {
         display: none;

@@ -7,51 +7,69 @@
     <div id="nav-desk-container" class="d-none d-xl-block">
         <nav id="secondary-nav">
             <div id="secondary-nav-container" class="d-flex align-items-center">
-                <div id="logo-container" class="d-flex justify-content-center d-none d-xl-block"></div>
+                <!-- <div id="logo-container" class="d-flex justify-content-center d-none d-xl-block"></div> -->
                 <div id="secondary-nav-items" class="d-flex">
-                        <div id="secondary-nav-item-container">
-                            <img src="<?= $baseUrl ?>/assets/images/header/explore.png" alt="">
-                            <a class="secondary-nav-item font-bold" href="">
-                                EXPLORE O CONTEÚDO
-                            </a>
+                    <div class="container">
+                        <div class="row align-items-center justify-content-end">
+                            <div class="col-2">
+                                <div id="secondary-nav-item-container">
+                                    <img src="<?= $baseUrl ?>/assets/images/header/explore.png" alt="">
+                                    <a class="secondary-nav-item font-bold" href="">
+                                        EXPLORE O CONTEÚDO
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-2">
+                                <div id="secondary-nav-item-container">
+                                    <img src="<?= $baseUrl ?>/assets/images/header/search.png" alt="">
+                                    <a class="secondary-nav-item font-bold" href="<?= $baseUrl ?>/busqueinformacao/index.php">
+                                        BUSQUE INFORMAÇÃO
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-2">
+                                <div id="secondary-nav-item-container">
+                                    <img src="<?= $baseUrl ?>/assets/images/header/favorites.png" alt="">
+                                    <a class="secondary-nav-item font-bold" href="#">
+                                        MAIS ACESSADOS
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-2">
+                                <div id="secondary-nav-item-container">
+                                    <img src="<?= $baseUrl ?>/assets/images/header/services.png" alt="">
+                                    <a class="secondary-nav-item font-bold" href="<?= $baseUrl ?>/servicos/index.php">
+                                        SERVIÇOS
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-2">
+                                <div id="secondary-nav-item-container">
+                                    <img src="<?= $baseUrl ?>/assets/images/header/profile.png" alt="">
+                                    <?php
+                                        include_once  $_SERVER['DOCUMENT_ROOT'] . "/LLYC/includes/components/nav-item/nav-item.php";
+                                        showNavItem("SELECIONE O SEU PERFIL", 
+                                            [
+                                                ["Tenho Alzheimer", "#"], 
+                                                ["Sou familiar", "#"], 
+                                                ["Sou médico", "#"], 
+                                                ["Sou gestor de saúde", "#"], 
+                                                ["Sou político", "#"], 
+                                                ["Sou curioso", "#"]
+                                            ],
+                                            'regular',
+                                            'secondary', '#');
+                                    ?>
+                                </div>
+                            </div>
                         </div>
-                        <div id="secondary-nav-item-container">
-                            <img src="<?= $baseUrl ?>/assets/images/header/search.png" alt="">
-                            <a class="secondary-nav-item font-bold" href="<?= $baseUrl ?>/busqueinformacao/index.php">
-                                BUSQUE INFORMAÇÃO
-                            </a>
-                        </div>
-                        <div id="secondary-nav-item-container">
-                            <img src="<?= $baseUrl ?>/assets/images/header/favorites.png" alt="">
-                            <a class="secondary-nav-item font-bold" href="#">
-                                MAIS ACESSADOS
-                            </a>
-                        </div>
-                        <div id="secondary-nav-item-container">
-                            <img src="<?= $baseUrl ?>/assets/images/header/services.png" alt="">
-                            <a class="secondary-nav-item font-bold" href="<?= $baseUrl ?>/servicos/index.php">
-                                SERVIÇOS
-                            </a>
-                        </div>
-                        <div id="secondary-nav-item-container">
-                            <img src="<?= $baseUrl ?>/assets/images/header/profile.png" alt="">
-                            <?php
-                                include_once  $_SERVER['DOCUMENT_ROOT'] . "/LLYC/includes/components/nav-item/nav-item.php";
-                                showNavItem("SELECIONE O SEU PERFIL", 
-                                    [
-                                        ["Tenho Alzheimer", "#"], 
-                                        ["Sou familiar", "#"], 
-                                        ["Sou médico", "#"], 
-                                        ["Sou gestor de saúde", "#"], 
-                                        ["Sou político", "#"], 
-                                        ["Sou curioso", "#"]
-                                    ],
-                                    'regular',
-                                    'secondary', '#');
-                            ?>
-                        </div>
-                        
                     </div>
+                        
+                </div>
             </div>
         </nav>
         <nav id="principal-nav">
@@ -63,56 +81,78 @@
                 </div>
 
                 <div id="principal-nav-items" class="d-flex align-items-end justify-content-end">
-                    <?php 
-                        include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php';
-                        showNavItem("QUEM SOMOS", 
-                            [
-                                ["Manifesto", $baseUrl . "/manifesto/index.php"], 
-                                ["Sobre a Biogen", '#'], 
-                                ["Contato", '#']
-                            ], 'short', 'primary', '#');
-                    ?>
-                    <?php 
-                        include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php';
-                        showNavItem("O QUE É ALZHEIMER", 
-                            [
-                                ["O que é doença de Alzheimer", $baseUrl . "/oqueealzheimer/index.php"],
-                                ["A história do Alzheimer", "#"], 
-                                ["Fisiopatologia", "#"],
-                                ["Envelhecimento saudável x doença de Alzheimer", "#"],
-                                ["Demência e doença de Alzheimer", "#"],
-                                ["Fatores de risco", "#"],
-                                ["Prevenção", "#"],
-                                ["Fatos e números", "#"],
-                                ["O que acontece com o cérebro", "#"]
-                            ], 'short', 'primary', '#');
-                    ?>
-                    <?php 
-                        include_once $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php';
-                        showNavItem("SINAIS, SINTOMAS E DIAGNÓSTICO", 
-                            [
-                                ["Sinais e sintomas", $baseUrl . "/sinaisESintomas/index.php"],
-                                ["Comprometimento cognitivo leve", "#"],
-                                ["Diagnóstico", "#"],
-                                ["Diagnóstico precoce", "#"],
-                                ["Diagnóstico diferencial", "#"],
-                                ["Biomarcadores", "#"],
-                                ["Testes funcionais e cognitivos", "#"],
-                                ["Estágios da doença de Alzheimer", "#"],
-                                ["CCL x DA", "#"]
-                            ], 'regular', 'primary', '#');
-                    ?>
-                    <?php 
-                        include_once $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
-                        showNavItem("CUIDANDO DO PACIENTE", [], 'regular', 'primary', '#'); ?>
-                    
-                    <?php 
-                        include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
-                        showNavItem("CUIDANDO DE QUEM CUIDA", [], 'regular', 'primary', '#'); ?>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-2">
+                                <?php 
+                                    include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php';
+                                    showNavItem("QUEM SOMOS", 
+                                        [
+                                            ["Manifesto", $baseUrl . "/manifesto/index.php"], 
+                                            ["Sobre a Biogen", '#'], 
+                                            ["Contato", '#']
+                                        ], 'short', 'primary', '#');
+                                ?>
+                            </div>
 
-                    <?php
-                        include_once $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
-                        showNavItem("CIDADANIA E POLÍTICAS PÚBLICAS", [], 'regular', 'primary', $baseUrl . '/cidadania/index.php'); ?>
+                            <div class="col-2">
+                                <?php 
+                                    include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php';
+                                    showNavItem("O QUE É ALZHEIMER", 
+                                        [
+                                            ["O que é doença de Alzheimer", $baseUrl . "/oqueealzheimer/index.php"],
+                                            ["A história do Alzheimer", "#"], 
+                                            ["Fisiopatologia", "#"],
+                                            ["Envelhecimento saudável x doença de Alzheimer", "#"],
+                                            ["Demência e doença de Alzheimer", "#"],
+                                            ["Fatores de risco", "#"],
+                                            ["Prevenção", "#"],
+                                            ["Fatos e números", "#"],
+                                            ["O que acontece com o cérebro", "#"]
+                                        ], 'short', 'primary', '#');
+                                ?>
+                            </div>
+
+                            <div class="col-2">
+                                <?php 
+                                    include_once $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php';
+                                    showNavItem("SINAIS, SINTOMAS E DIAGNÓSTICO", 
+                                        [
+                                            ["Sinais e sintomas", $baseUrl . "/sinaisESintomas/index.php"],
+                                            ["Comprometimento cognitivo leve", "#"],
+                                            ["Diagnóstico", "#"],
+                                            ["Diagnóstico precoce", "#"],
+                                            ["Diagnóstico diferencial", "#"],
+                                            ["Biomarcadores", "#"],
+                                            ["Testes funcionais e cognitivos", "#"],
+                                            ["Estágios da doença de Alzheimer", "#"],
+                                            ["CCL x DA", "#"]
+                                        ], 'regular', 'primary', '#');
+                                ?>
+                            </div>
+
+                            <div class="col-2">
+                                <?php 
+                                    include_once $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
+                                    showNavItem("CUIDANDO DO PACIENTE", [], 'regular', 'primary', '#'); ?>
+                            </div>
+
+                            <div class="col-2">
+                                <?php 
+                                    include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
+                                    showNavItem("CUIDANDO DE QUEM CUIDA", [], 'regular', 'primary', '#'); ?>
+                            </div>
+
+                            <div class="col-2">
+                                <?php
+                                    include_once $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
+                                    showNavItem("CIDADANIA E POLÍTICAS PÚBLICAS", [], 'regular', 'primary', $baseUrl . '/cidadania/index.php'); ?>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
                         
                 </div>
             </div>

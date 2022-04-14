@@ -22,7 +22,7 @@ header#header
 nav#principal-nav 
 div#principal-nav-container {
     padding-left: 8.938rem;
-    padding-right: 11.188rem;
+    padding-right: 10rem;
     position: relative;
     bottom: 3.188rem;
 }
@@ -31,10 +31,10 @@ header#header
 nav#secondary-nav 
 div#secondary-nav-container {
     height: 100%;
-    padding-left: 43.938rem;
-    padding-right: 11.188rem;
+    /* padding-left: 43.938rem; */
+    padding-right: 10rem;
     position: relative;
-
+    justify-content: flex-end;
 }
 
 header#header 
@@ -58,6 +58,7 @@ nav#principal-nav
 div#principal-nav-container 
 div#principal-nav-items {
     width: 100%;
+    padding-left: 60px;
 }
 
 header#header 
@@ -65,13 +66,11 @@ nav#principal-nav
 div#principal-nav-container 
 div#principal-nav-items 
 .principal-nav-item {
-    margin-left: 2.625rem;
     position: relative;
     bottom: 0.938rem;
     font-size: 0.813rem;
     line-height: 1.125rem;
     text-decoration: none;
-    max-width: 8.375rem;
     color: var(--llyc-secondary);
     cursor: pointer;
 }
@@ -81,7 +80,7 @@ nav#principal-nav
 div#principal-nav-container 
 div#principal-nav-items 
 .principal-nav-item--regular   {
-    max-width: 7.175rem !important
+    width: 7.175rem !important
 }
 
 header#header 
@@ -89,7 +88,7 @@ nav#principal-nav
 div#principal-nav-container 
 div#principal-nav-items 
 .principal-nav-item--short   {
-    max-width: 4.375rem !important;
+    max-width: 3.375rem !important;
 }
 
 header#header 
@@ -97,7 +96,7 @@ nav#principal-nav
 div#principal-nav-container 
 div#principal-nav-items 
 .principal-nav-item-container {
-    width: 9.313rem;
+    /* width: 9.313rem; */
     height: 2.25rem;
     display: flex;
     flex-flow: column;
@@ -108,16 +107,16 @@ nav#principal-nav
 div#principal-nav-container 
 div#principal-nav-items 
 .principal-nav-item-container--short {
-    width: 6.25rem;
+    /* width: 6.25rem; */
 }
 
-header#header 
+/* header#header 
 nav#principal-nav 
 div#principal-nav-container 
 div#principal-nav-items 
 .principal-nav-item-container--regular {
     width: 10.313rem;
-}
+} */
 
 header#header 
 nav#secondary-nav 
@@ -125,7 +124,7 @@ div#secondary-nav-container
 div#secondary-nav-items 
 div#secondary-nav-item-container:first-child {
     margin-left: 0px;
-    max-width: 10.313rem;
+    /* max-width: 10.313rem; */
     display: flex;
     align-items: center;
 }
@@ -144,7 +143,7 @@ div#secondary-nav-container
 div#secondary-nav-items 
 div#secondary-nav-item-container {
     margin-left: 2.188rem;
-    min-width: 8.7rem;
+    /* min-width: 8.7rem; */
     display: flex;
     align-items: center;
 }
@@ -208,33 +207,21 @@ div#secondary-nav-items
     width: 6.25rem;
 }
 
-@media (min-width: 1200px) and (max-width: 1600px) {
+@media (min-width: 1200px) and (max-width: 1300px) {
     header#header 
-    nav#secondary-nav 
-    div#secondary-nav-container {
-        padding-left: 26.938rem;
+    nav#principal-nav 
+    div#principal-nav-container {
+        padding-left: 1.938rem;
     }
 
-    header#header 
-    nav#secondary-nav 
-    div#secondary-nav-container 
-    div#secondary-nav-items 
-    div#secondary-nav-item-container {
-        margin-left: 2.188rem;
-        min-width: 5.938rem;
-        display: flex;
-        align-items: center;
-    }
-}
-
-@media (min-width: 1200px) and (max-width: 1345px) {
     header#header 
     nav#principal-nav 
     div#principal-nav-container 
-    div#principal-nav-items 
-    .principal-nav-item:not(:first-child) {
-        margin-left: 1rem;
+    div#principal-nav-items {
+        width: 100%;
+        padding-left: 40px;
     }
+
 }
 
 @media (min-width: 577px) and (max-width: 1199px) { 
@@ -506,3 +493,7 @@ div.nav-perfil-item-container:not(:first-child) {
 .nav-perfil--block {
     display: flex !important;
 }
+
+/* .w-10 {
+    width: 10%;
+} */
