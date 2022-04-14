@@ -119,10 +119,10 @@
                                         [
                                             ["Sinais e sintomas", $baseUrl . "/sinaisESintomas/index.php"],
                                             ["Comprometimento cognitivo leve", "#"],
-                                            ["Diagnóstico", "#"],
+                                            ["Diagnóstico", $baseUrl . "/diagnostico/index.php"],
                                             ["Diagnóstico precoce", "#"],
                                             ["Diagnóstico diferencial", "#"],
-                                            ["Biomarcadores", "#"],
+                                            ["Biomarcadores", $baseUrl . "/estagios/index.php"],
                                             ["Testes funcionais e cognitivos", "#"],
                                             ["Estágios da doença de Alzheimer", "#"],
                                             ["CCL x DA", "#"]
@@ -171,13 +171,15 @@
         </div>
         <ul id="nav-mobile-items">
             <div class="nav-mobile-item-container">
-                <li class="nav-mobile-item">
-                    <a href="<?= $baseUrl ?>. /manifesto/index.php">
-                        QUEM SOMOS
-                    </a>
-                </li>
+                <li class="nav-mobile-item" onclick="toggleMobileSubMenu(this)">QUEM SOMOS</li>
                 <ul class="nav-mobile-item-subcontainer">
-                    
+                    <li class="nav-mobile-item-subcontainer-item">
+                        <a href="<?= $baseUrl ?>. /manifesto/index.php">
+                            Manifesto
+                        </a>
+                    </li>
+                    <li class="nav-mobile-item-subcontainer-item">Sobre a Biogen</li>
+                    <li class="nav-mobile-item-subcontainer-item">Contato</li>
                 </ul>
             </div>
             <div class="nav-mobile-item-container">
@@ -199,12 +201,25 @@
                 </ul>
             </div>
             <div class="nav-mobile-item-container">
-                <li class="nav-mobile-item">
-                    <a href="<?= $baseUrl ?>. /sinaisESintomas/index.php">
-                        SINAIS, SINTOMAS E DIAGNÓSTICO
-                    </a>
-                </li>
-                <ul class="nav-mobile-item-subcontainer"></ul>
+                <li class="nav-mobile-item" onclick="toggleMobileSubMenu(this)">SINAIS, SINTOMAS E DIAGNÓSTICO</li>
+                <ul class="nav-mobile-item-subcontainer">
+                    <li class="nav-mobile-item-subcontainer-item">
+                        <a href="<?= $baseUrl ?>. /sinaisESintomas/index.php">    
+                            Sinais e sintomas
+                        </a>
+                    </li>
+                    <li class="nav-mobile-item-subcontainer-item">Comprometimento cognitivo leve</li>
+                    <li class="nav-mobile-item-subcontainer-item">Diagnóstico</li>
+                    <li class="nav-mobile-item-subcontainer-item">Diagnóstico precoce</li>
+                    <li class="nav-mobile-item-subcontainer-item">Diagnóstico diferencial</li>
+                    <li class="nav-mobile-item-subcontainer-item">
+                        <a href="<?= $baseUrl ?>. /estagios/index.php">    
+                            Biomarcadores
+                        </a>
+                    </li>
+                    <li class="nav-mobile-item-subcontainer-item">Testes funcionais e cognitivos</li>
+                    <li class="nav-mobile-item-subcontainer-item">CCL x DA</li>
+                </ul>
             </div>
             <div class="nav-mobile-item-container">
                 <li class="nav-mobile-item">
