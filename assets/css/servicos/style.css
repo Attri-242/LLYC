@@ -5,7 +5,7 @@ main#servicos-main {
 }
 
 
-@media(min-width: 768px) {
+@media(min-width: 1200px) {
     .text-align {
         text-align: left !important;
     }    
@@ -21,24 +21,16 @@ main#servicos-main {
     p.news-info-with-max-width {
         width: unset;
     }
-    
-    .text-align {
-        text-align: center;
-    }    
  }
 
 /* col - mobile */
 @media(max-width: 576px) {
     main#servicos-main {
-        padding: 0.938rem 0.625rem 7.813rem 1.25rem;
+        padding: 0.938rem 0.625rem 7.813rem 0rem;
     }
 
     p.news-info-with-max-width {
         width: unset;
-    }
-
-    .text-align {
-        text-align: center;
     }
 }
  

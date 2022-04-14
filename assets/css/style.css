@@ -484,6 +484,12 @@ img.news-container-image {
     }
 }
 
+@media (min-width: 991px) and (max-width: 1199px) { 
+    div.icon-container-servicos {
+        max-width: unset !important;
+    }
+}
+
 /* md - tablet */
 @media (min-width: 577px) and (max-width: 1199px) {
    html {font-size: 15px;}
@@ -773,4 +779,15 @@ img.news-container-image {
        max-width: unset;
        font-size: 1.063rem;
    }
+
+   div.icon-text-container
+    div.icon-text-container-row
+    div.icon-text-item
+    img.icon-text-image,
+    div.icon-text-container
+    div.icon-text-container-row
+    a.icon-text-item
+    img.icon-text-image--little {
+        height: 1.813rem
+    }
 }

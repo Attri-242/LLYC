@@ -35,7 +35,7 @@
     </div>
 
     <div id="title">
-        <section class="w-100 d-flex">
+        <section class="w-100 d-none d-xl-flex">
             <div class="container">
                 <div class="row text-align w-lg-100">
                     <h1 id="title-text text-center" class="col-12">Serviços</h1>
@@ -49,29 +49,28 @@
             <div class="row">
                 <div class="col-12">
                     <div id="news-container">
-
-                        <div class="icon-text-container">
+                        <div class="icon-text-container icon-container-servicos mw-0">
                             <div class="container p-0">
-                                <div class="row no-gutters justify-content-start icon-text-container-row">
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                <div class="row no-gutters justify-content-center justify-content-xl-start icon-text-container-row">
+                                    <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="<?= $baseUrl ?>/associacoes/index.php" class="icon-text-item">
-                                            <img class="icon-text-image" src="<?= $baseUrl ?>/assets/images/servicos/associacao.png" alt="">
+                                            <img class="icon-text-image icon-text-image--little" src="<?= $baseUrl ?>/assets/images/servicos/associacao.png" alt="">
                                             <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little text-center text-center">
                                                 Encontre uma associação
                                             </p>
                                         </a>
                                     </div>
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                    <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="" class="icon-text-item">
-                                            <img class="icon-text-image" src="<?= $baseUrl ?>/assets/images/servicos/associacao.png" alt="">
+                                            <img class="icon-text-image icon-text-image--little" src="<?= $baseUrl ?>/assets/images/servicos/associacao.png" alt="">
                                             <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little text-center text-center">
                                                 Encontre um centro de referência
                                             </p>
                                         </a>
                                     </div>
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                    <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="" class="icon-text-item">
-                                            <img class="icon-text-image" src="<?= $baseUrl ?>/assets/images/servicos/associacao.png" alt="">
+                                            <img class="icon-text-image icon-text-image--little" src="<?= $baseUrl ?>/assets/images/servicos/associacao.png" alt="">
                                             <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little text-center text-center">
                                                 Encontre um especialista
                                             </p>
@@ -79,26 +78,26 @@
                                     </div>
                                 </div>
 
-                                <div class="row no-gutters justify-content-start icon-text-container-row">
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                <div class="row no-gutters justify-content-center justify-content-xl-start icon-text-container-row">
+                                    <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="" class="icon-text-item">
-                                            <img class="icon-text-image" src="<?= $baseUrl ?>/assets/images/servicos/grupo.png" alt="">
+                                            <img class="icon-text-image icon-text-image--little" src="<?= $baseUrl ?>/assets/images/servicos/grupo.png" alt="">
                                             <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little text-center text-center">
                                                 Encontre grupos de apoio
                                             </p>
                                         </a>
                                     </div>
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                    <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="" class="icon-text-item">
-                                            <img class="icon-text-image" src="<?= $baseUrl ?>/assets/images/servicos/patients.png" alt="">
+                                            <img class="icon-text-image icon-text-image--little" src="<?= $baseUrl ?>/assets/images/servicos/patients.png" alt="">
                                             <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--smaller text-center">
                                                 Patients like me
                                             </p>
                                         </a>
                                     </div>
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                    <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="" class="icon-text-item">
-                                            <img class="icon-text-image" src="<?= $baseUrl ?>/assets/images/servicos/newsletter.png" alt="">
+                                            <img class="icon-text-image icon-text-image--little" src="<?= $baseUrl ?>/assets/images/servicos/newsletter.png" alt="">
                                             <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little text-center text-center">
                                                 Assine a nossa newsletter
                                             </p>
@@ -106,18 +105,18 @@
                                     </div>
                                 </div>
 
-                                <div class="row no-gutters justify-content-start icon-text-container-row">
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                <div class="row no-gutters justify-content-center justify-content-xl-start icon-text-container-row">
+                                    <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="" class="icon-text-item">
-                                            <img class="icon-text-image" src="<?= $baseUrl ?>/assets/images/servicos/exercicios.png" alt="">
+                                            <img class="icon-text-image icon-text-image--little" src="<?= $baseUrl ?>/assets/images/servicos/exercicios.png" alt="">
                                             <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little text-center text-center">
                                                 Exercícios cognitivos
                                             </p>
                                         </a>
                                     </div>
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                    <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="" class="icon-text-item">
-                                            <img class="icon-text-image" src="<?= $baseUrl ?>/assets/images/servicos/ubs.png" alt="">
+                                            <img class="icon-text-image icon-text-image--little" src="<?= $baseUrl ?>/assets/images/servicos/ubs.png" alt="">
                                             <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--smaller text-center">
                                                 Encontre uma UBS
                                             </p>
