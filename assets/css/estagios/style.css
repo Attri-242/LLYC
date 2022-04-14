@@ -621,6 +621,7 @@ span.news-info-bold {
     div#estagios-timeline {
         display: flex;
         width: unset;
+        justify-content: center;
     }
 
     main#estagios-main
