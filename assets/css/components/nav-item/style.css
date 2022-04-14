@@ -25,18 +25,22 @@
    display: block;
 }
 
-.floating-menu-text {
+.floating-menu-text
+a {
    font-weight: 400;
    font-size: 1rem;
    line-height: 1.25rem;
    cursor: pointer;
+   color: #000;
+   text-decoration: none;
 }
 
 .floating-menu-text--primary {
    color: #000000;
 }
 
-.floating-menu-text--secondary {
+.floating-menu-text--secondary
+a {
    color: #E03C31;
 }
 

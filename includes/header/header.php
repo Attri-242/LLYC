@@ -17,7 +17,7 @@
                         </div>
                         <div id="secondary-nav-item-container">
                             <img src="<?= $baseUrl ?>/assets/images/header/search.png" alt="">
-                            <a class="secondary-nav-item font-bold" href="./busqueinformacao/index.php">
+                            <a class="secondary-nav-item font-bold" href="<?= $baseUrl ?>/busqueinformacao/index.php">
                                 BUSQUE INFORMAÇÃO
                             </a>
                         </div>
@@ -29,7 +29,7 @@
                         </div>
                         <div id="secondary-nav-item-container">
                             <img src="<?= $baseUrl ?>/assets/images/header/services.png" alt="">
-                            <a class="secondary-nav-item font-bold" href="./servicos/index.php">
+                            <a class="secondary-nav-item font-bold" href="<?= $baseUrl ?>/servicos/index.php">
                                 SERVIÇOS
                             </a>
                         </div>
@@ -39,12 +39,13 @@
                                 include_once  $_SERVER['DOCUMENT_ROOT'] . "/LLYC/includes/components/nav-item/nav-item.php";
                                 showNavItem("SELECIONE O SEU PERFIL", 
                                     [
-                                        "Tenho Alzheimer", 
-                                        "Sou familiar", 
-                                        "Sou médico", 
-                                        "Sou gestor de saúde", 
-                                        "Sou político", 
-                                        "Sou curioso"],
+                                        ["Tenho Alzheimer", "#"], 
+                                        ["Sou familiar", "#"], 
+                                        ["Sou médico", "#"], 
+                                        ["Sou gestor de saúde", "#"], 
+                                        ["Sou político", "#"], 
+                                        ["Sou curioso", "#"]
+                                    ],
                                     'regular',
                                     'secondary', '#');
                             ?>
@@ -56,43 +57,50 @@
         <nav id="principal-nav">
             <div id="principal-nav-container" class="d-flex">
                 <div id="logo-container" class="d-flex justify-content-center d-none d-xl-block">
-                    <img id="logo" src="<?= $baseUrl ?>/assets/images/header/logo.png" alt="logo">
+                    <a href="<?= $baseUrl ?>. /index.php">
+                        <img id="logo" src="<?= $baseUrl ?>/assets/images/header/logo.png" alt="logo">
+                    </a>
                 </div>
 
                 <div id="principal-nav-items" class="d-flex align-items-end justify-content-end">
                     <?php 
                         include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php';
-                        showNavItem("QUEM SOMOS", ["Manifesto", "Sobre a Biogen", "Contato"], 'short', 'primary', './manifesto/index.php');
+                        showNavItem("QUEM SOMOS", 
+                            [
+                                ["Manifesto", $baseUrl . "/manifesto/index.php"], 
+                                ["Sobre a Biogen", '#'], 
+                                ["Contato", '#']
+                            ], 'short', 'primary', '#');
                     ?>
                     <?php 
                         include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php';
                         showNavItem("O QUE É ALZHEIMER", 
                             [
-                                "O que é doença de Alzheimer",
-                                "A história do Alzheimer", 
-                                "Fisiopatologia", 
-                                "Envelhecimento saudável x doença de Alzheimer",
-                                "Demência e doença de Alzheimer",
-                                "Fatores de risco",
-                                "Prevenção",
-                                "Fatos e números",
-                                "O que acontece com o cérebro"
-                            ], 'short', 'primary', './oqueealzheimer/index.php');
+                                ["O que é doença de Alzheimer", $baseUrl . "/oqueealzheimer/index.php"],
+                                ["A história do Alzheimer", "#"], 
+                                ["Fisiopatologia", "#"],
+                                ["Envelhecimento saudável x doença de Alzheimer", "#"],
+                                ["Demência e doença de Alzheimer", "#"],
+                                ["Fatores de risco", "#"],
+                                ["Prevenção", "#"],
+                                ["Fatos e números", "#"],
+                                ["O que acontece com o cérebro", "#"]
+                            ], 'short', 'primary', '#');
                     ?>
                     <?php 
                         include_once $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php';
                         showNavItem("SINAIS, SINTOMAS E DIAGNÓSTICO", 
                             [
-                                "Sinais e sintomas",
-                                "Comprometimento cognitivo leve",
-                                "Diagnóstico",
-                                "Diagnóstico precoce",
-                                "Diagnóstico diferencial",
-                                "Biomarcadores",
-                                "Testes funcionais e cognitivos",
-                                "Estágios da doença de Alzheimer",
-                                "CCL x DA"
-                            ], 'regular', 'primary', './sinaisESintomas/index.php');
+                                ["Sinais e sintomas", $baseUrl . "/sinaisESintomas/index.php"],
+                                ["Comprometimento cognitivo leve", "#"],
+                                ["Diagnóstico", "#"],
+                                ["Diagnóstico precoce", "#"],
+                                ["Diagnóstico diferencial", "#"],
+                                ["Biomarcadores", "#"],
+                                ["Testes funcionais e cognitivos", "#"],
+                                ["Estágios da doença de Alzheimer", "#"],
+                                ["CCL x DA", "#"]
+                            ], 'regular', 'primary', '#');
                     ?>
                     <?php 
                         include_once $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
@@ -104,7 +112,7 @@
 
                     <?php
                         include_once $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
-                        showNavItem("CIDADANIA E POLÍTICAS PÚBLICAS", [], 'regular', 'primary', './cidadania/index.php'); ?>
+                        showNavItem("CIDADANIA E POLÍTICAS PÚBLICAS", [], 'regular', 'primary', $baseUrl . '/cidadania/index.php'); ?>
                         
                 </div>
             </div>
@@ -112,7 +120,9 @@
     </div>
 
     <div class="d-flex d-xl-none align-items-center justify-content-center" id="nav-mobile-container">
-        <img id="logo" src="<?= $baseUrl ?>/assets/images/header/logo-mobile.png" alt="logo">
+        <a href="<?= $baseUrl ?>. /index.php">
+            <img id="logo" src="<?= $baseUrl ?>/assets/images/header/logo-mobile.png" alt="logo">
+        </a>
         <i id="nav-mobile-icon" onclick="toggleMobileMenu()" class="bi bi-list">ICON</i>
     </div>
 
@@ -122,7 +132,11 @@
         </div>
         <ul id="nav-mobile-items">
             <div class="nav-mobile-item-container">
-                <li class="nav-mobile-item">QUEM SOMOS</li>
+                <li class="nav-mobile-item">
+                    <a href="<?= $baseUrl ?>. /manifesto/index.php">
+                        QUEM SOMOS
+                    </a>
+                </li>
                 <ul class="nav-mobile-item-subcontainer">
                     
                 </ul>
@@ -130,7 +144,11 @@
             <div class="nav-mobile-item-container">
                 <li class="nav-mobile-item" onclick="toggleMobileSubMenu(this)">O QUE É ALZHEIMER</li>
                 <ul class="nav-mobile-item-subcontainer">
-                    <li class="nav-mobile-item-subcontainer-item">O que é doença de Alzheimer</li>
+                    <li class="nav-mobile-item-subcontainer-item">
+                        <a href="<?= $baseUrl ?>. /oqueealzheimer/index.php">
+                            O que é doença de Alzheimer
+                        </a>
+                    </li>
                     <li class="nav-mobile-item-subcontainer-item">A história do Alzheimer</li>
                     <li class="nav-mobile-item-subcontainer-item">Fisiopatologia</li>
                     <li class="nav-mobile-item-subcontainer-item">Envelhecimento saudável x doença de Alzheimer</li>
@@ -142,19 +160,35 @@
                 </ul>
             </div>
             <div class="nav-mobile-item-container">
-                <li class="nav-mobile-item">SINAIS, SINTOMAS E DIAGNÓSTICO</li>
+                <li class="nav-mobile-item">
+                    <a href="<?= $baseUrl ?>. /sinaisESintomas/index.php">
+                        SINAIS, SINTOMAS E DIAGNÓSTICO
+                    </a>
+                </li>
                 <ul class="nav-mobile-item-subcontainer"></ul>
             </div>
             <div class="nav-mobile-item-container">
-                <li class="nav-mobile-item">CUIDANDO DO PACIENTE</li>
+                <li class="nav-mobile-item">
+                    <a href="#">
+                        CUIDANDO DO PACIENTE
+                    </a>
+                </li>
                 <ul class="nav-mobile-item-subcontainer"></ul>
             </div>
             <div class="nav-mobile-item-container">
-                <li class="nav-mobile-item">CUIDANDO DE QUEM CUIDA</li>
+                <li class="nav-mobile-item">
+                    <a href="#">
+                        CUIDANDO DE QUEM CUIDA
+                    </a>
+                </li>
                 <ul class="nav-mobile-item-subcontainer"></ul>
             </div>
             <div class="nav-mobile-item-container">
-                <li class="nav-mobile-item">CIDADANIA E POLÍTICAS PÚBLICAS</li>
+                <li class="nav-mobile-item">                    
+                    <a href="<?= $baseUrl ?>. /cidadania/index.php">
+                        CIDADANIA E POLÍTICAS PÚBLICAS
+                    </a>
+                </li>
                 <ul class="nav-mobile-item-subcontainer"></ul>
             </div>
         </ul>

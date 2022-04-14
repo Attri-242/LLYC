@@ -42,6 +42,7 @@ nav#principal-nav
 img#logo {
     position: relative;
     background-color: var(--llyc-secondary);
+    cursor: pointer;
 }
 
 header#header 
@@ -294,12 +295,19 @@ header#header
 nav#nav-mobile 
 ul#nav-mobile-items
 div.nav-mobile-item-container
+li.nav-mobile-item
+a,
+header#header 
+nav#nav-mobile 
+ul#nav-mobile-items
+div.nav-mobile-item-container
 li.nav-mobile-item {
     color: #FFF;
     font-style: normal;
     font-weight: 800;
     font-size: 1rem;
     cursor: pointer;
+    text-decoration: none;
 }
 
 header#header 
@@ -320,7 +328,13 @@ nav#nav-mobile
 ul#nav-mobile-items
 div.nav-mobile-item-container
 ul.nav-mobile-item-subcontainer
-li.nav-mobile-item-subcontainer-item {
+li.nav-mobile-item-subcontainer-item,
+header#header 
+nav#nav-mobile 
+ul#nav-mobile-items
+div.nav-mobile-item-container
+ul.nav-mobile-item-subcontainer
+li.nav-mobile-item-subcontainer-item a {
     list-style-type: none;
     margin-top: 1.563rem;
     font-style: normal;
@@ -329,6 +343,7 @@ li.nav-mobile-item-subcontainer-item {
     line-height: 1rem;
     color: #FFF;
     cursor: pointer;
+    text-decoration: none;
 }
 
 header#header 

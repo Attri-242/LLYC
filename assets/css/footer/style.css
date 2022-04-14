@@ -81,23 +81,33 @@ footer#footer-mobile nav#nav-mobile {
     width: 100%;
 }
 
-footer#footer-mobile nav#nav-mobile div.nav-mobile-item {
+footer#footer-mobile nav#nav-mobile a.nav-mobile-item {
     display: flex;
     flex-flow: column;
     align-items: center;
     padding-top: 13px;
     padding-bottom: 19px;
+    text-decoration: none;
+    cursor: pointer;
 }
 
-footer#footer-mobile nav#nav-mobile div.nav-mobile-item:hover {
+footer#footer-mobile 
+nav#nav-mobile 
+a.nav-mobile-item:hover {
     background-color: white;
 }
 
-footer#footer-mobile nav#nav-mobile div.nav-mobile-item img.nav-mobile-item-icon {
+footer#footer-mobile 
+nav#nav-mobile 
+a.nav-mobile-item 
+img.nav-mobile-item-icon {
     width: 18px;
 }
 
-footer#footer-mobile nav#nav-mobile div.nav-mobile-item a.nav-mobile-item-text {
+footer#footer-mobile 
+nav#nav-mobile 
+a.nav-mobile-item 
+span.nav-mobile-item-text {
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;
