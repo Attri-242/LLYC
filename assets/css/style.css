@@ -36,27 +36,27 @@ html, body {
 
 /* icon-text-component */
 div.icon-text-container {
-    margin-top: 50px;
-    max-width: 660px !important;
+    margin-top: 3.125rem;
+    max-width: 41.25rem !important;
 }
 
 div.icon-text-container
 h3.icon-text-title {
     font-weight: 400;
-    font-size: 28px;
-    line-height: 30px;
+    font-size: 1.75rem;
+    line-height: 1.875rem;
     color: #000000;
 }
 
 div.icon-text-container
 div.icon-text-container-row {
     display: flex;
-    margin-top: 33px
+    margin-top: 2.063rem;
 }
 
 div.icon-text-container
 div.icon-text-container-row-mt-bigger {
-    margin-top: 84px;
+    margin-top: 5.25rem
 }
 
 div.icon-text-container
@@ -81,72 +81,49 @@ div.icon-text-container
 div.icon-text-container-row
 div.icon-text-item
 p.icon-text-item-text-mt-bigger {
-    margin-top: 26px !important;
-}
-
-div.icon-text-container
-div.icon-text-container-row
-a.icon-text-item
-p.icon-text-item-text-mt-bigger {
-    margin-top: 26px !important;
+    margin-top: 1.625rem !important;
 }
 
 div.icon-text-container
 div.icon-text-container-row
 div.icon-text-item
+img.icon-text-image,
+div.icon-text-container
+div.icon-text-container-row
+a.icon-text-item
 img.icon-text-image {
-    height: 45px;
+    height: 2.813rem
 }
 
 div.icon-text-container
 div.icon-text-container-row
 a.icon-text-item
-img.icon-text-image {
-    height: 45px;
-}
-
+p.icon-text-item-text--little,
 div.icon-text-container
 div.icon-text-container-row
 div.icon-text-item
 p.icon-text-item-text--little {
-    max-width: 135px !important
-}
-
-div.icon-text-container
-div.icon-text-container-row
-a.icon-text-item
-p.icon-text-item-text--little {
-    max-width: 135px !important
+    max-width: 8.438rem !important
 }
 
 div.icon-text-container
 div.icon-text-container-row
 div.icon-text-item
 p.icon-text-item-text--smaller {
-    max-width: 126px !important
+    max-width: 7.875rem !important
 }
 
 div.icon-text-container
 div.icon-text-container-row
 a.icon-text-item
-p.icon-text-item-text--smaller {
-    max-width: 126px !important
-}
+p.icon-text-item-text--bigger,
 
 div.icon-text-container
 div.icon-text-container-row
 div.icon-text-item
 p.icon-text-item-text--bigger {
-    max-width: 259px;
-    width: 259px;
-}
-
-div.icon-text-container
-div.icon-text-container-row
-a.icon-text-item
-p.icon-text-item-text--bigger {
-    max-width: 259px;
-    width: 259px;
+    max-width: 16.188rem;
+    width: 16.188rem;
 }
 
 div.icon-text-container
@@ -158,22 +135,16 @@ div.icon-text-item-row {
 
 div.icon-text-container
 div.icon-text-item-row--mt-bigger {
-    margin-top: 71px !important;
+    margin-top: 4.438rem !important;
 }
-
-/* div.icon-text-container
-div.icon-text-container-row
-div.icon-text-item:not(:first-child) {
-    /* margin-left: 68px; */
-
 
 div.icon-text-container
 div.icon-text-container-row
 div.icon-text-item
 p.icon-text-item-text {
-    margin-top: 12px;
-    font-size: 20px;
-    line-height: 23px;
+    margin-top: 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1.438rem;
     color: #000;
 }
 
@@ -194,17 +165,17 @@ div.icon-text-item--to-row {
 div.icon-text-container
 div.icon-text-container-row--column
 div.icon-text-item--to-row:not(:first-child) {
-    margin-top: 46px;
+    margin-top: 2.875rem;
 }
 
 div.icon-text-container
 div.icon-text-container-row--column
 div.icon-text-item--to-row
 p.icon-text-item-text {
-    max-width: 390px;
-    margin-top: 12px;
-    font-size: 20px;
-    line-height: 23px;
+    max-width: 24.375rem;
+    margin-top: 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1.438rem;
     color: #000;
 }
 
@@ -212,10 +183,10 @@ div.icon-text-container
 div.icon-text-container-row--column
 div.icon-text-item--to-row
 p.icon-text-item-text--little {
-    max-width: 330px;
-    margin-top: 12px;
-    font-size: 20px;
-    line-height: 23px;
+    max-width: 20.625rem;
+    margin-top: 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1.438rem;
     color: #000;
 }
 
@@ -223,7 +194,7 @@ div.icon-text-container
 div.icon-text-container-row--column
 div.icon-text-item--to-row
 p.icon-text-item-text--toRight {
-    margin-left: 60px
+    margin-left: 3.75rem;
 }
 
 /**/
@@ -231,16 +202,16 @@ p.icon-text-item-text--toRight {
 
 /* action card */
 div.action-card {
-    margin-top: 66px;
-    border: 1px dashed #000;
-    padding: 45px 40px 30px 46px;
+    margin-top: 4.125rem;
+    border: 0.063rem dashed #000;
+    padding: 2.813rem 2.5rem 1.875rem 2.875rem;
     max-width: 633px;
 }
 
 div.action-card
 ul.action-card-list  {
     list-style: none;
-    margin-top: 26px;
+    margin-top: 1.625rem;
     padding: 0;
 }
 
@@ -248,18 +219,18 @@ div.action-card
 ul.action-card-list 
 li.action-card-list-item {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
     color: #000;
 }
 
 div.action-card
 p.action-card-text {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
     color: #000000;
-    margin-top: 37px;
+    margin-top: 2.313rem;
 }
 
 div.action-card
@@ -281,7 +252,7 @@ div.breadcrumb-breadcrumb-item {
 
 div#breadcrumb
 div.breadcrumb-breadcrumb-item:not(:first-child) {
-    margin-left: 14px;
+    margin-left: 0.875rem;
 }
 
 div#breadcrumb
@@ -289,27 +260,27 @@ div.breadcrumb-breadcrumb-item
 a.breadcrumb-item-text {
     font-size: 18px;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 1.875rem;
     color: #000000;
 }
 
 div#breadcrumb
 div.breadcrumb-breadcrumb-item
 img.breadcrumb-item-arrow {
-    margin-left: 14px;
-    width: 20px;
+    margin-left: 0.875rem;
+    width: 1.25rem;
 }
 
 div#title {
     display: flex;
     justify-content: space-between;
-    margin-top: 38px;
+    margin-top: 2.375rem;
 }
 
 div#title
 h1#title-text {
     font-weight: 400;
-    font-size: 38px;
+    font-size: 2.375rem;
 }
 
 div.card-info-related-container {
@@ -320,7 +291,7 @@ div.card-info-related-container {
 
 div.card-info-related-container
 img#card-info-related-share {
-    margin-top: 28px;
+    margin-top: 1.75rem;
 }
 
 div.card-info-related-container
@@ -328,18 +299,18 @@ div.card-info-relateds {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 div.card-info-related-container
 div.card-info-relateds
 div.card-info-related {
-    border: 1px solid #E03C31;
-    border-radius: 14px;
-    font-size: 15px;
+    border: 0.063rem solid #E03C31;
+    border-radius: 0.875rem;
+    font-size: 0.938rem;
     color: #E03C31;
     font-weight: 700;
-    padding: 0 10px;
+    padding: 0 0.625rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -353,19 +324,19 @@ div.card-info-related:not(:first-child) {
 }
 
 p#news-date {
-    margin-top: 50px;
+    margin-top: 3.125rem;
     font-weight: 400;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 1.875rem;
     color: #000000;
 }
 
 p.news-info {
     width: 665px;
-    margin-top: 50px;
+    margin-top: 3.125rem;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
     color: #000000;
 }
 
@@ -384,21 +355,21 @@ span.news-info-bold {
 
 div#news-container
 h2.title-subtitle {
-    margin-top: 50px;
+    margin-top: 3.125rem;
     font-weight: 500;
-    font-size: 28px;
-    line-height: 30px;
+    font-size: 1.75rem;
+    line-height: 1.875rem;
     color: #000000;
 }
 
 div#news-container
 h2.text-subtitle-little {
-    width: 600px;
+    width: 37.5rem;
 }
 
 div#news-container
 ul.news-info-list {
-    margin-top: 50px;
+    margin-top: 3.125rem;
     margin-bottom: 0;
 }
 
@@ -406,15 +377,15 @@ div#news-container
 ul.news-info-list
 li.news-info-list-item {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 36px;
+    font-size: 1.25rem;
+    line-height: 2.25rem;
     color: #000000;
 }
 
 div#news-container
 ul.news-info-list
 li.news-info-list-item--little {
-    width: 650px;
+    width: 40.625rem;
 }
 
 div#news-container
@@ -424,44 +395,44 @@ ul.style-none {
 
 div#news-container
 button.news-info-button {
-    margin-top: 50px;
-    font-size: 16px;
-    line-height: 22px;
+    margin-top: 3.125rem;
+    font-size: 1rem;
+    line-height: 1.375rem;
     color: #E03C31;
     background-color: white;
-    border: 1px solid #E03C31;
-    padding: 15px;
-    border-radius: 10px;
+    border: 0.063rem solid #E03C31;
+    padding: 0.938rem;
+    border-radius: 0.625rem;
     font-weight: 700;
 }
 
 div#news-container
 div#action-card {
-    margin-top: 66px;
-    border: 1px dashed #000;
-    padding: 45px 40px 30px 46px;
-    max-width: 633px;
+    margin-top: 4.125rem;
+    border: 0.063rem dashed #000;
+    padding: 2.813rem 2.5rem 1.875rem 2.875rem;
+    max-width: 39.563rem;
 }
 
 div#news-container
 div#action-card
 p.action-card-text  {
     font-weight: 400;
-    font-size: 19px;
-    line-height: 30px;
+    font-size: 1.188rem;
+    line-height: 1.875rem;
     color: #000000;
 }
 
 div#news-container
 div#action-card
 p.action-card-text-mt  {
-    margin-top: 34px;
+    margin-top: 2.125rem;
 }
 
 div#news-container
 div#action-card
 div#actions-container {
-    margin-top: 19px
+    margin-top: 1.188rem;
 }
 
 div#news-container
@@ -476,12 +447,12 @@ div#news-container
 div#action-card
 div#actions-container
 div.actions-container-item:not(:first-child) {
-    margin-top: 8px;
+    margin-top: 0.5rem;
 }
 
 div#news-container
 img.news-container-image {
-    margin-top: 50px;
+    margin-top: 3.125rem;
     width: unset;
 }
 
@@ -496,13 +467,13 @@ img.news-container-image {
 @media (min-width: 980px) and (max-width: 1199px) {
     div#news-container
     p.news-info {
-        width: 625px !important;
+        width: 39.063rem !important;
     }
 
     div#news-container
     ul.news-info-list
     li.news-info-list-item--little {
-        width: 600px !important;
+        width: 37.5rem !important;
     }
 
     div.icon-text-container
@@ -519,14 +490,14 @@ img.news-container-image {
 
    div#news-container
    h2.title-subtitle {
-       margin-top: 14px;
-       font-size: 24px;
-       line-height: 30px;
+       margin-top: 0.875rem;
+       font-size: 1.5rem;
+       line-height: 1.875rem;
    }
 
    div#news-container
    h2.text-subtitle-little {
-       width: 480px;
+       width: 30rem;
        margin-bottom: 0px;
    }
 
@@ -538,20 +509,20 @@ img.news-container-image {
    div#title {
        display: flex;
        justify-content: space-between;
-       margin-top: 38px;
+       margin-top: 2.375rem;
    }
 
    div#title
    h1#title-text {
        font-weight: 400;
-       font-size: 24px;
+       font-size: 1.5rem;
        width: 100%;
    }
    
    div#news-container
    p#news-date {
-       margin-top: 14px;
-       font-size: 14px;
+       margin-top: 0.875rem;
+       font-size: 0.875rem;
        margin-bottom: 0px;
    }
 
@@ -569,56 +540,56 @@ img.news-container-image {
    div#title
    div.card-info-related-container
    img#card-info-related-share {
-       margin-top: 10px;
+       margin-top: 0.625rem;
    }
 
    div#news-container
    p.news-info {
         width: unset;
-        font-size: 16px;
-        line-height: 22px;
-        margin-top: 14px;
+        font-size: 1rem;
+        line-height: 1.375rem;
+        margin-top: 0.875rem;
    }
 
    div#news-container
    button.news-info-button {
-       margin-top: 15px !important;
-       font-size: 13px !important;
-       padding: 10px !important;
+       margin-top: 0.938rem !important;
+       font-size: 0.813rem !important;
+       padding: 0.625rem !important;
    }
 
    div#news-container
    ul.news-info-list {
-       margin-top: 14px;
+       margin-top: 0.875rem;
        margin-bottom: 0;
    }
 
    div#news-container
    ul.news-info-list
    li.news-info-list-item {
-       font-size: 16px;
-       line-height: 26px;
+       font-size: 1rem;
+       line-height: 1.625rem;
    }
 
    div#news-container
    ul.news-info-list
    li.news-info-list-item--little {
-       width: 285px;
+       width: 17.813rem;
    }
 
    main#manifesto-main
    div#news-container
    div#action-card {
-       padding: 25px 25px 30px 25px;
-       margin-top: 20px;
+       padding: 1.563rem 1.563rem 1.875rem 1.563rem;
+       margin-top: 1.25rem;
    }
 
    main#manifesto-main
    div#news-container
    div#action-card
    p.action-card-text {
-       font-size: 16px;
-       line-height: 23px;
+       font-size: 1rem;
+       line-height: 1.438rem;
    }
 
    div#title
@@ -628,7 +599,7 @@ img.news-container-image {
 
    div#news-container
     img.news-container-image {
-        margin-top: 14px;
+        margin-top: 0.875rem;
         width: 100%;
     }
 
@@ -638,7 +609,7 @@ img.news-container-image {
 
     div.icon-text-container
     div.icon-text-container-row:first-child{
-        margin-top: 33px;
+        margin-top: 2.063rem;
     }
 
     div.icon-text-container
@@ -646,7 +617,7 @@ img.news-container-image {
     div.icon-text-item
     p.icon-text-item-text {
         max-width: unset;
-       font-size: 17px;
+       font-size: 1.063rem;
     }
 }
 
@@ -666,50 +637,50 @@ img.news-container-image {
    div#title {
        display: flex;
        justify-content: space-between;
-       margin-top: 38px;
+       margin-top: 2.375rem;
    }
 
    div#title
    h1#title-text {
        font-weight: 400;
-       font-size: 24px;
+       font-size: 1.5rem;
        width: 100%;
    }
 
    div#news-container
    p#news-date {
-       margin-top: 14px;
+       margin-top: 0.875rem;
        font-weight: 400;
-       font-size: 12px;
+       font-size: 0.75rem;
        color: #000;
    }
 
    div#news-container
    p.news-info {
         width: unset;
-        margin-top: 14px;
-        font-size: 16px;
-        line-height: 22px;
+        margin-top: 0.875rem;
+        font-size: 1rem;
+        line-height: 1.375rem;
    }
 
 
    div#news-container
    p.news-info-with-max-width {
-       width: 270px !important;
+       width: 16.875rem !important;
    }
 
    div#news-container
    button.news-info-button {
-       margin-top: 15px !important;
-       font-size: 13px !important;
-       padding: 10px !important;
+       margin-top: 0.938rem !important;
+       font-size: 0.813rem !important;
+       padding: 0.625rem !important;
    }
    
    div#news-container
    h2.title-subtitle {
-       margin-top: 14px;
-       font-size: 24px;
-       line-height: 30px;
+       margin-top: 0.875rem;
+       font-size: 1.5rem;
+       line-height: 1.875rem;
    }
 
    div#news-container
@@ -720,15 +691,15 @@ img.news-container-image {
 
    div#news-container
    ul.news-info-list {
-       margin-top: 14px;
+       margin-top: 0.875rem;
        margin-bottom: 0;
    }
 
    div#news-container
    ul.news-info-list
    li.news-info-list-item {
-       font-size: 16px;
-       line-height: 26px;
+       font-size: 1rem;
+       line-height: 1.625rem;
    }
 
    div#news-container
@@ -739,8 +710,8 @@ img.news-container-image {
 
    div#news-container
    div.action-card {
-       padding: 25px 25px 30px 25px;
-       margin-top: 20px;
+       padding: 1.563rem 1.563rem 1.875rem 1.563rem;
+       margin-top: 1.25rem;
    }
 
    div#news-container
@@ -754,14 +725,14 @@ img.news-container-image {
     div#action-card
     div#actions-container
     div.actions-container-item:not(:first-child) {
-        margin-top: 25px;
+        margin-top: 1.563rem;
      }
 
    div#news-container
    div#action-card
    p.action-card-text {
-       font-size: 16px;
-       line-height: 23px;
+       font-size: 1rem;
+       line-height: 1.438rem;
    }
 
    div.card-info-related-container {
@@ -770,24 +741,24 @@ img.news-container-image {
 
    div#news-container
    img.news-container-image {
-       margin-top: 14px;
+       margin-top: 0.875rem;
        width: 100%;
    }
 
    div.icon-text-container {
         max-width: unset;
-        margin-top: 14px;
+        margin-top: 0.875rem;
     }
 
     div.icon-text-container
     div.icon-text-container-row
     div.icon-text-item {
-        margin-top: 15px;
+        margin-top: 0.938rem;
     }
 
    div.icon-text-container
    div.icon-text-container-row:first-child{
-       margin-top: 33px;
+       margin-top: 2.063rem;
    }
 
    div.icon-text-container
@@ -800,6 +771,6 @@ img.news-container-image {
    div.icon-text-item
    p.icon-text-item-text {
        max-width: unset;
-       font-size: 17px;
+       font-size: 1.063rem;
    }
 }

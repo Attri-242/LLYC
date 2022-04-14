@@ -58,7 +58,7 @@ nav#principal-nav
 div#principal-nav-container 
 div#principal-nav-items {
     width: 100%;
-    padding-left: 60px;
+    padding-left: 3.75rem;
 }
 
 header#header 
@@ -156,7 +156,7 @@ header#header nav#secondary-nav {
 header#header 
 nav#secondary-nav 
 div#logo-container {
-    width: 244px;
+    width: 15.25rem;
 }
 
 header#header 
@@ -219,7 +219,7 @@ div#secondary-nav-items
     div#principal-nav-container 
     div#principal-nav-items {
         width: 100%;
-        padding-left: 40px;
+        padding-left: 2.5rem;
     }
 
 }
@@ -239,8 +239,8 @@ div#nav-mobile-container {
 header#header 
 div#nav-mobile-container
 i#nav-mobile-icon {
-    right: 15px;
-    bottom: 55px;
+    right: 0.938rem;
+    bottom: 3.438rem;
     position: absolute;
     cursor: pointer;
 }
@@ -326,7 +326,7 @@ li.nav-mobile-item-subcontainer-item a {
     margin-top: 1.563rem;
     font-style: normal;
     font-weight: 400;
-    font-size: 0.813rem;
+    font-size: 0.913rem;
     line-height: 1rem;
     color: #FFF;
     cursor: pointer;
@@ -353,8 +353,8 @@ header#header
 nav#nav-mobile 
 span.nav-perfil-options-txt {
     font-weight: 400;
-    font-size: 14px;
-    margin-left: 11px;
+    font-size: 0.875rem;
+    margin-left: 0.688rem;
 }
 
 
@@ -373,8 +373,8 @@ div#nav-mobile-container {
 header#header 
 div#nav-mobile-container
 i#nav-mobile-icon {
-    right: 15px;
-    bottom: 55px;
+    right: 0.938rem;
+    bottom: 3.438rem;
     position: absolute;
     cursor: pointer;
 }
@@ -417,10 +417,10 @@ header#header
 nav#nav-perfil
 div#nav-perfil-items-container
 h2#nav-perfil-title {
-    margin-top: 40px;
+    margin-top: 2.5rem;
     font-weight: 800;
-    font-size: 16px;
-    line-height: 65px;
+    font-size: 1rem;
+    line-height: 4.063rem;
     letter-spacing: 0.03em;
     color: #000;
 }
@@ -441,7 +441,7 @@ ul#nav-perfil-items
 div.nav-perfil-item-container
 li.nav-perfil-item {
     font-weight: 800;
-    font-size: 16px;
+    font-size: 1rem;
     letter-spacing: 0.03em;
     color: #E03C31;
     cursor: pointer;
@@ -493,7 +493,3 @@ div.nav-perfil-item-container:not(:first-child) {
 .nav-perfil--block {
     display: flex !important;
 }
-
-/* .w-10 {
-    width: 10%;
-} */

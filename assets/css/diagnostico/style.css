@@ -1,5 +1,5 @@
 main#diagnostico-main {
-    padding: 50px 179px 113px 176px;
+    padding: 3.125rem 11.188rem 7.063rem 11rem;
     display: flex;
     flex-flow: column;
 }
@@ -7,15 +7,14 @@ main#diagnostico-main {
 main#diagnostico-main
 div#news-container
 div#news-impacts {
-    margin-top: 50px;
-
+    margin-top: 3.125rem;
 }
 
 main#diagnostico-main
 div#news-container
 div#news-impacts
 div.news-impacts-item {
-    margin-top: 26px;
+    margin-top: 1.625rem;
 }
 
 main#diagnostico-main
@@ -23,23 +22,23 @@ div#news-container
 div#news-impacts
 div.news-impacts-item
 span.news-impacts-item-text {
-    margin-left: 46px;
+    margin-left: 2.875rem;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 1.25rem;
+    line-height: 1.438rem;
     color: #000000;
 }
 
 main#diagnostico-main
 div#news-container
 h2.text-subtitle-little {
-    width: 600px;
+    width: 37.5rem;
 }
 
 main#diagnostico-main
 div#news-container
 div#news-image-text {
-    margin-top: 50px;
+    margin-top: 3.125rem;
     display: flex;
     align-items: center;
 }
@@ -48,7 +47,7 @@ main#diagnostico-main
 div#news-container
 div#news-image-text 
 div.news-image-text-items {
-    margin-left: 75px;
+    margin-left: 4.688rem;
     display: flex;
     flex-flow: column;
 }
@@ -58,24 +57,24 @@ div#news-container
 div#news-image-text 
 div.news-image-text-items
 span.news-image-text-item {
-    margin-top: 30px;
+    margin-top: 1.875rem;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 1.25rem;
+    line-height: 1.438rem;
     color: #000000;
 }
 
 main#diagnostico-main
 div#news-container
 ul.news-info-list {
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 /* md - tablet */
 @media (min-width: 577px) and (max-width: 1199px) {
 
     main#diagnostico-main {
-        padding: 15px 10px 125px 20px;
+        padding: 0.938rem 0.625rem 7.813rem 1.25rem;
     }
 
     p.news-info-with-max-width {
@@ -86,7 +85,7 @@ ul.news-info-list {
 /* col - mobile */
 @media(max-width: 576px) {
     main#diagnostico-main {
-        padding: 15px 10px 125px 20px;
+        padding: 0.938rem 0.625rem 7.813rem 1.25rem;
     }
 
     p.news-info-with-max-width {

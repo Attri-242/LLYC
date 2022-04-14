@@ -86,25 +86,25 @@
                         <div class="icon-text-container">
                             <div class="container p-0">
                                 <div class="row no-gutters justify-content-start icon-text-container-row">
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
                                         <img class="icon-text-image" src="../assets/images/diagnostico/fisio.png" alt="">
                                         <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little">
                                             Neurologia
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
                                         <img class="icon-text-image" src="../assets/images/tratamento/fisio.png" alt="">
                                         <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--smaller">
                                             Neuropsicologia
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
                                         <img class="icon-text-image" src="../assets/images/tratamento/fisio.png" alt="">
                                         <p class="icon-text-item-text icon-text-item-text-mt-bigger">
                                             Geriatria
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
                                         <img class="icon-text-image" src="../assets/images/tratamento/fisio.png" alt="">
                                         <p class="icon-text-item-text icon-text-item-text-mt-bigger">
                                             Psiquiatria Geriátrica

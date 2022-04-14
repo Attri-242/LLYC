@@ -1,5 +1,5 @@
 main#home-main {
-    padding: 49px 181.18px 120px 184.18px;
+    padding: 3.063rem 11.324rem 7.5rem 11.511rem;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -15,13 +15,13 @@ main#home-main
 .cards
 .card-info--test {
     border: 1px dashed #000;
-    height: 280px;
-    border-radius: 17.42px;
+    height: 17.5rem;
+    border-radius: 1.089rem;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 85px 25px 93px 40px;
+    padding: 5.313rem 1.563rem 5.813rem 2.5rem;
 }
 
 main#home-main
@@ -29,8 +29,8 @@ main#home-main
 .card-info--test 
 .card-info-test-link-container {
     font-weight: 400;
-    font-size: 17px;
-    line-height: 23px;
+    font-size: 1.063rem;
+    line-height: 1.438rem;
     text-decoration: none;
     color: #000000;
 }
@@ -41,9 +41,9 @@ main#home-main
 .card-info-test-link-container
 .card-info-test-text-begin {
     font-weight: 700;
-    font-size: 17px;
+    font-size: 1.063rem;
     color: #000;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 main#home-main
@@ -62,7 +62,7 @@ main#home-main
 .card-info-link-container
 .card-info-image {
     object-fit: cover; 
-    height: 280px
+    height: 17.5rem;
 }
 
 main#home-main
@@ -70,9 +70,9 @@ main#home-main
 .card-info
 .card-info-link-container
 .card-info-text {
-    margin-top: 20.9px;
-    font-size: 18px;
-    line-height: 23px;
+    margin-top: 1.306rem;
+    font-size: 1.125rem;
+    line-height: 1.438rem;
     color: #000000;
 }
 
@@ -83,7 +83,7 @@ main#home-main
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 main#home-main
@@ -92,11 +92,11 @@ main#home-main
 .card-info-relateds
 .card-info-related {
     border: 1px solid #E03C31;
-    border-radius: 14px;
-    font-size: 15px;
+    border-radius: 0.875rem;
+    font-size: 0.938rem;
     color: #E03C31;
     font-weight: 700;
-    padding: 0 10px;
+    padding: 0 0.625rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,30 +112,28 @@ main#home-main
 
 /* md - tablet */
 @media(min-width:577px) and (max-width: 1199px) {
-   html {font-size: 15px;}
-
    main#home-main {
-     padding: 15px 10px 125px 20px;
+     padding: 0.938rem 0.625rem 7.813rem 1.25rem;
    }
 
    main#home-main
    .container
    .cards
    .card-info {
-       margin-top: 24px;
+       margin-top: 1.5rem;
    }
 }
 
 /* col - mobile */
 @media (max-width: 576px) {
     main#home-main {
-        padding: 15px 10px 125px 20px;
+        padding: 0.938rem 0.625rem 7.813rem 1.25rem;
     }
 
     main#home-main
     .container
     .cards
     .card-info {
-        margin-top: 24px;
+        margin-top: 1.5rem;
     }
 }

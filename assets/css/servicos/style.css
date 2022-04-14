@@ -1,5 +1,5 @@
 main#servicos-main {
-    padding: 50px 179px 113px 176px;
+    padding: 3.125rem 11.188rem 7.063rem 11rem;
     display: flex;
     flex-flow: column;
 }
@@ -15,7 +15,7 @@ main#servicos-main {
 @media (min-width: 577px) and (max-width: 1199px) {
 
     main#servicos-main {
-        padding: 15px 10px 125px 20px;
+        padding: 0.938rem 0.625rem 7.813rem 1.25rem;
     }
 
     p.news-info-with-max-width {
@@ -30,7 +30,7 @@ main#servicos-main {
 /* col - mobile */
 @media(max-width: 576px) {
     main#servicos-main {
-        padding: 15px 10px 125px 20px;
+        padding: 0.938rem 0.625rem 7.813rem 1.25rem;
     }
 
     p.news-info-with-max-width {

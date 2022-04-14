@@ -1,5 +1,5 @@
 main#alzheimer-main {
-    padding: 50px 179px 113px 176px;
+    padding: 3.125rem 11.188rem 7.063rem 11rem;
     display: flex;
     flex-flow: column;
 }
@@ -7,8 +7,8 @@ main#alzheimer-main {
 main#alzheimer-main
 div#page-container
 div#related-column {
-    margin-top: 150px;
-    width: 295px;
+    margin-top: 9.375rem;
+    width: 18.438rem;
 }
 
 main#alzheimer-main
@@ -18,9 +18,9 @@ div#related-doctor {
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding: 22px 17px 20px 18px;
+    padding: 1.375rem 1.063rem 1.25rem 1.125rem;
     border: 1px dashed #000;
-    border-radius: 20px;
+    border-radius: 1.25rem;
 }
 
 main#alzheimer-main
@@ -28,23 +28,23 @@ div#page-container
 div#related-column
 div#related-doctor
 p.related-doctor-text {
-    margin-top: 36px;
-    font-size: 12px;
-    line-height: 25px;
+    margin-top: 2.25rem;
+    font-size: 0.75rem;
+    line-height: 1.563rem;
     color: #000000;
 }
 
 main#alzheimer-main
 div#page-container
 div#related-charts {
-    margin-top: 94px
+    margin-top: 5.875rem;
 }
 
 main#alzheimer-main
 div#page-container
 div#related-charts
 div.related-chart {
-    margin-top: 40px;
+    margin-top: 2.5rem;
     display: flex;
     flex-flow: column;
     align-items: flex-start;
@@ -55,12 +55,12 @@ div#page-container
 div#related-charts
 div.related-chart
 p.related-chart-text {
-    margin-top: 40px;
+    margin-top: 2.5rem;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 1.125rem;
+    line-height: 1.438rem;
     color: #000;
-    width: 230px;
+    width: 14.375rem;
 }
 
 
@@ -69,8 +69,8 @@ div#news-container
 div#fatores-container {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 50px;
-    width: 645px;
+    margin-top: 3.125rem;
+    width: 40.313rem;
 }
 
 main#alzheimer-main
@@ -80,7 +80,7 @@ div.fatores-container-item {
     display: flex;
     flex-flow: column;
     align-items: center;
-    width: 116px;
+    width: 7.25rem;
     align-self: baseline;
 }
 
@@ -88,7 +88,7 @@ main#alzheimer-main
 div#news-container
 div#fatores-container
 div.fatores-container-item:not(:first-child) {
-    margin-left: 44px;
+    margin-left: 2.75rem;
 }
 
 main#alzheimer-main
@@ -96,7 +96,7 @@ div#news-container
 div#fatores-container
 div.fatores-container-item:last-child {
     margin-left: 0px;
-    margin-top: 47px;
+    margin-top: 2.938rem;
 }
 
 main#alzheimer-main
@@ -105,17 +105,17 @@ div#fatores-container
 div.fatores-container-item
 span.fatores-container-item-text {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
     color: #000000;
-    margin-top: 23px;
+    margin-top: 1.438rem;
 }
 
 main#alzheimer-main
 div#news-container
 ul#brain-activity {
-    margin-top: 50px;
-    width: 641px;
+    margin-top: 3.125rem;
+    width: 40.063rem;
 }
 
 main#alzheimer-main
@@ -123,8 +123,8 @@ div#news-container
 ul#brain-activity
 li.brain-activity-item {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 36px;
+    font-size: 1.25rem;
+    line-height: 2.25rem;
     color: #000;
 }
 
@@ -132,7 +132,7 @@ li.brain-activity-item {
 @media (min-width: 577px) and (max-width: 1199px) {
 
     main#alzheimer-main {
-        padding: 15px 10px 125px 20px;
+        padding: 0.938rem 0.625rem 7.813rem 1.25rem;
     }
 
     main#alzheimer-main
@@ -144,8 +144,8 @@ li.brain-activity-item {
     div#news-container
     ul#brain-activity
     li.brain-activity-item {
-        font-size: 17px;
-        line-height: 30px
+        font-size: 1.063rem;
+        line-height: 1.875rem
     }
 
     main#alzheimer-main
@@ -158,7 +158,7 @@ li.brain-activity-item {
 /* col - mobile */
 @media(max-width: 576px) {
     main#alzheimer-main {
-        padding: 15px 10px 125px 20px;
+        padding: 0.938rem 0.625rem 7.813rem 1.25rem;
     }
  
     main#alzheimer-main
@@ -170,8 +170,8 @@ li.brain-activity-item {
     div#news-container
     ul#brain-activity
     li.brain-activity-item {
-        font-size: 17px;
-        line-height: 30px
+        font-size: 1.063rem;
+        line-height: 1.875rem
     }
 
     main#alzheimer-main

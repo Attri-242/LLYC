@@ -91,19 +91,19 @@
                                                 </h3>
                                                 <div class="container">
                                                     <div class="row no-gutters justify-content-start icon-text-container-row">
-                                                        <div class="col-12 col-md-4 col-xl-4 icon-text-item d-block d-xl-flex">
+                                                        <div class="col-12 col-md-4 col-xl-4 icon-text-item d-flex">
                                                             <img class="icon-text-image" src="../assets/images/oqueealzheimer/perda-memoria.png" alt="">
                                                             <p class="icon-text-item-text">
                                                                 Perda de<br> memória recente
                                                             </p>
                                                         </div>
-                                                        <div class="col-12 col-md-4 col-xl-4 icon-text-item d-block d-xl-flex">
+                                                        <div class="col-12 col-md-4 col-xl-4 icon-text-item d-flex">
                                                             <img class="icon-text-image" src="../assets/images/oqueealzheimer/dificuldade-conversar.png" alt="">
                                                             <p class="icon-text-item-text">
                                                                 Dificuldade em acompanhar conversas ou raciocínios complexos
                                                             </p>
                                                         </div>
-                                                        <div class="col-12 col-md-4 col-xl-4 icon-text-item d-block d-xl-flex">
+                                                        <div class="col-12 col-md-4 col-xl-4 icon-text-item d-flex">
                                                             <img class="icon-text-image" src="../assets/images/oqueealzheimer/dificuldade-conversar.png" alt="">
                                                             <p class="icon-text-item-text">
                                                                 Dificuldade em acompanhar conversas ou raciocínios complexos
@@ -112,19 +112,19 @@
                                                     </div>
 
                                                     <div class="row no-gutters justify-content-start icon-text-container-row">
-                                                        <div class="col-12 col-md-4 col-xl-4 icon-text-item d-block d-xl-flex">
+                                                        <div class="col-12 col-md-4 col-xl-4 icon-text-item d-flex">
                                                             <img class="icon-text-image" src="../assets/images/oqueealzheimer/incapacidade.png" alt="">
                                                             <p class="icon-text-item-text">
                                                                 Incapacidade de desenvolver estratégias para solução de problemas
                                                             </p>
                                                         </div>
-                                                        <div class="col-12 col-md-4 col-xl-4 icon-text-item d-block d-xl-flex">
+                                                        <div class="col-12 col-md-4 col-xl-4 icon-text-item d-flex">
                                                             <img class="icon-text-image" src="../assets/images/oqueealzheimer/dificuldade-dirigir.png" alt="">
                                                             <p class="icon-text-item-text">
                                                                 Dificuldade para dirigir e encontrar caminhos conhecidos
                                                             </p>
                                                         </div>
-                                                        <div class="col-12 col-md-4 col-xl-4 icon-text-item d-block d-xl-flex">
+                                                        <div class="col-12 col-md-4 col-xl-4 icon-text-item d-flex">
                                                             <img class="icon-text-image" src="../assets/images/oqueealzheimer/dificuldade-expressar.png" alt="">
                                                             <p class="icon-text-item-text">
                                                                 Dificuldade para expressar-se
@@ -133,7 +133,7 @@
                                                     </div>
                                                     
                                                     <div class="row no-gutters justify-content-start icon-text-container-row">
-                                                        <div class="col-12 col-md-4 col-xl-6 icon-text-item d-block d-lg-flex">
+                                                        <div class="col-12 col-md-4 col-xl-6 icon-text-item d-flex">
                                                             <img class="icon-text-image" src="../assets/images/oqueealzheimer/mudanca-comportamento.png" alt="">
                                                             <p class="icon-text-item-text">
                                                                 Mudanças comportamentais, como irritabilidade, agressividade, passividade,
@@ -181,23 +181,23 @@
                                             <div class="icon-text-container">
                                                 <div class="container p-0">
                                                     <div class="row no-gutters justify-content-start icon-text-container-row">
-                                                        <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                                        <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
                                                             <img src="../assets/images/oqueealzheimer/envelhecimento.png" class="icon-text-image" alt="">
                                                             <p class="fatores-container-item-text" alt="">Envelhecimento</p>
                                                         </div>
-                                                        <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                                        <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
                                                             <img class="icon-text-image" src="../assets/images/oqueealzheimer/sexo.png" alt="">
                                                             <p class="icon-text-item-text">
                                                                 Sexo
                                                             </p>
                                                         </div>
-                                                        <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                                        <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
                                                             <img class="icon-text-image" src="../assets/images/oqueealzheimer/mudancas-geneticas.png" alt="">
                                                             <p class="icon-text-item-text">
                                                                 Mutações genéticas
                                                             </p>
                                                         </div>
-                                                        <div class="col-12 col-md-3 col-xl-3 icon-text-item d-block d-md-flex">
+                                                        <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
                                                             <img class="icon-text-image" src="../assets/images/oqueealzheimer/estilo-vida.png" alt="">
                                                             <p class="icon-text-item-text">
                                                                 Estilo de vida
@@ -206,7 +206,7 @@
                                                     </div>
 
                                                     <div class="row no-gutters justify-content-start icon-text-container-row">
-                                                        <div class="col-12 col-md-3 col-xl-4 icon-text-item d-block d-md-flex">
+                                                        <div class="col-12 col-md-3 col-xl-4 icon-text-item d-flex">
                                                             <img class="icon-text-image" src="../assets/images/oqueealzheimer/dificuldade-dirigir.png" alt="">
                                                             <p class="icon-text-item-text">
                                                                 Baixa escolaridade

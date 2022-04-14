@@ -209,7 +209,11 @@
                         </a>
                     </li>
                     <li class="nav-mobile-item-subcontainer-item">Comprometimento cognitivo leve</li>
-                    <li class="nav-mobile-item-subcontainer-item">Diagnóstico</li>
+                    <li class="nav-mobile-item-subcontainer-item">
+                        <a href="<?= $baseUrl ?>. /diagnostico/index.php">    
+                            Diagnóstico
+                        </a>
+                    </li>
                     <li class="nav-mobile-item-subcontainer-item">Diagnóstico precoce</li>
                     <li class="nav-mobile-item-subcontainer-item">Diagnóstico diferencial</li>
                     <li class="nav-mobile-item-subcontainer-item">

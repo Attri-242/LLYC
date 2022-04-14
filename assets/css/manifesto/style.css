@@ -1,5 +1,5 @@
 main#manifesto-main {
-    padding: 50px 179px 113px 176px;
+    padding: 3.125rem 11.188rem 7.063rem 11rem;
     display: flex;
     flex-flow: column;
 }
@@ -7,7 +7,7 @@ main#manifesto-main {
 main#manifesto-main
 div#news-container
 div.news-image-text-container {
-    margin-top: 62px;
+    margin-top: 3.875rem;
 }
 
 main#manifesto-main
@@ -22,7 +22,7 @@ main#manifesto-main
 div#news-container
 div.news-image-text-container
 div.news-image-text-container-item:not(:first-child) {
-    margin-top: 55px;
+    margin-top: 3.438rem;
 }
 
 main#manifesto-main
@@ -33,7 +33,7 @@ div.image-container {
     display: flex;
     flex-flow: column;
     align-items: center;
-    min-width: 172px;
+    min-width: 10.75rem;
 }
 
 main#manifesto-main
@@ -42,11 +42,11 @@ div.news-image-text-container
 div.news-image-text-container-item
 div.image-container
 span.image-number {
-    margin-top: 12px;
-    font-size: 36px;
+    margin-top: 0.75rem;
+    font-size: 2.25rem;
     color: #000000;
-    max-width: 181px;
-    line-height: 29px;
+    max-width: 11.313rem;
+    line-height: 1.813rem;
 }
 
 main#manifesto-main
@@ -54,10 +54,10 @@ div#news-container
 div.news-image-text-container
 div.news-image-text-container-item
 span.news-image-text-container-item-text {
-    margin-left: 55px;
+    margin-left: 3.438rem;
     color: #E03C31;
-    margin-bottom: 20px;
-    max-width: 345px;
+    margin-bottom: 1.25rem;
+    max-width: 21.563rem;
 }
 
 main#manifesto-main
@@ -71,31 +71,31 @@ span.no-margin {
 main#manifesto-main
 div#news-container
 div#alert-card {
-    padding: 45px 40px 47px 46px;
+    padding: 2.813rem 2.5rem 2.938rem 2.875rem;
     background: #E03C31;
-    max-width: 633px;
-    margin-top: 50px;
+    max-width: 39.563rem;
+    margin-top: 3.125rem;
 }
 
 main#manifesto-main
 div#news-container
 div#alert-card
 p#alert-card-text  {
-    font-size: 19px;
-    line-height: 30px;
+    font-size: 1.188rem;
+    line-height: 1.875rem;
     color: #FFF;
 }
 
 @media (min-width: 577px) and (max-width: 1199px) { 
     main#manifesto-main {
-        padding: 0px 45px 125px 20px;
+        padding: 0px 2.813rem 125px 1.25rem;
     }
 
     
     main#manifesto-main
     div#news-container
     div.news-image-text-container {
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }   
 
     main#manifesto-main
@@ -104,7 +104,7 @@ p#alert-card-text  {
     div.news-image-text-container-item
     div.image-container
     span.image-number {
-        font-size: 22px;
+        font-size: 1.375rem;
     }
 
     main#manifesto-main
@@ -112,7 +112,7 @@ p#alert-card-text  {
     div.news-image-text-container
     div.news-image-text-container-item
     span.news-image-text-container-item-text {
-        margin-left: -45px;
+        margin-left: -2.813rem;
     }
 
     main#manifesto-main
@@ -120,7 +120,7 @@ p#alert-card-text  {
     div.news-image-text-container
     div.news-image-text-container-item
     span.news-image-text-container-item--ml-bigger {
-        margin-left: -95px;
+        margin-left: -5.938rem;
     }
 
     main#manifesto-main
@@ -134,30 +134,30 @@ p#alert-card-text  {
     main#manifesto-main
     div#news-container
     div#alert-card {
-        padding: 21px 21px 11px 21px;
-        margin-top: 20px;
+        padding: 1.313rem 1.313rem 11px 1.313rem;
+        margin-top: 1.25rem;
     }
 
     main#manifesto-main
     div#news-container
     div#alert-card
     p#alert-card-text  {
-        font-size: 14px;
-        line-height: 22px;
+        font-size: 0.875rem;
+        line-height: 1.375rem;
     }
 }
 
 
 @media(max-width: 576px) {
     main#manifesto-main {
-        padding: 0px 45px 125px 20px;
+        padding: 0px 2.813rem 125px 1.25rem;
     }
 
     
     main#manifesto-main
     div#news-container
     div.news-image-text-container {
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }   
 
     main#manifesto-main
@@ -166,7 +166,7 @@ p#alert-card-text  {
     div.news-image-text-container-item
     div.image-container
     span.image-number {
-        font-size: 22px;
+        font-size: 1.375rem;
     }
 
     main#manifesto-main
@@ -174,7 +174,7 @@ p#alert-card-text  {
     div.news-image-text-container
     div.news-image-text-container-item
     span.news-image-text-container-item-text {
-        margin-left: -45px;
+        margin-left: -2.813rem;
     }
 
     main#manifesto-main
@@ -182,7 +182,7 @@ p#alert-card-text  {
     div.news-image-text-container
     div.news-image-text-container-item
     span.news-image-text-container-item--ml-bigger {
-        margin-left: -95px;
+        margin-left: -5.938rem;
     }
 
     main#manifesto-main
@@ -196,16 +196,16 @@ p#alert-card-text  {
     main#manifesto-main
     div#news-container
     div#alert-card {
-        padding: 21px 21px 11px 21px;
-        margin-top: 20px;
+        padding: 1.313rem 1.313rem 11px 1.313rem;
+        margin-top: 1.25rem;
     }
 
     main#manifesto-main
     div#news-container
     div#alert-card
     p#alert-card-text  {
-        font-size: 14px;
-        line-height: 22px;
+        font-size: 0.875rem;
+        line-height: 1.375rem;
     }
 
  

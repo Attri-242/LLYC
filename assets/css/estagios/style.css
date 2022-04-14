@@ -1,5 +1,5 @@
 main#estagios-main {
-    padding: 50px 179px 113px 176px;
+    padding: 3.125rem 11.188rem 7.063rem 11rem;
     display: flex;
     flex-flow: column;
 }
@@ -8,7 +8,7 @@ main#estagios-main
 div#news-container
 h2.title-italic {
     font-style: italic;
-    font-size: 20px !important;
+    font-size: 1.25rem !important;
     width: unset !important;
 }
 
@@ -16,17 +16,17 @@ h2.title-italic {
 main#estagios-main
 div#news-container
 div#timeline {
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 3.125rem;
+    margin-left: 3.125rem;
 }
 
 main#estagios-main
 div#news-container
 div#sintomas-timeline {
-    max-width: 1536px;
+    max-width: 96rem;
     position: relative;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 3.125rem;
+    margin-top: 3.125rem;
     display: flex;
     flex-flow: column;
 }
@@ -34,13 +34,13 @@ div#sintomas-timeline {
 main#estagios-main
 div#news-container
 div.sintomas-timeline-mt {
-    margin-top: 25px !important;
+    margin-top: 1.563rem !important;
 }
 
 main#estagios-main
 div#news-container
 div.sintomas-timeline-mt-little {
-    margin-top: 5px !important;
+    margin-top: 0.313rem !important;
 }
 
 main#estagios-main
@@ -60,10 +60,10 @@ main#estagios-main
 div#news-container
 div#timeline
 div.sintomas-timeline-text {
-    width: 187px;
+    width: 11.688rem;
     position: relative;
-    margin-left: 50px;
-    margin-top: 13px;
+    margin-left: 3.125rem;
+    margin-top: 0.813rem;
     display: flex;
     flex-flow: column;
 }
@@ -76,10 +76,10 @@ div#sintomas-timeline-text-iniciais::after {
     position: absolute;
     top: 0;
     bottom: 0;
-    margin-left: -33px;
+    margin-left: -2.063rem;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
     color: #E03C31;
 }
 
@@ -91,10 +91,10 @@ div#sintomas-timeline-text-ccl::after {
     position: absolute;
     top: 0;
     bottom: 0;
-    margin-left: -16px;
+    margin-left: -1rem;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
     color: #E03C31;
 }
 
@@ -107,12 +107,12 @@ div#sintomas-timeline-text-leves::after {
     width: 1px;
     top: 0;
     bottom: 0;
-    margin-left: -60px;
+    margin-left: -3.75rem;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
     color: #E03C31;
-    width: 200px;
+    width: 12.5rem;
 }
 
 main#estagios-main
@@ -124,12 +124,12 @@ div#sintomas-timeline-text-moderados::after {
     width: 1px;
     top: 0;
     bottom: 0;
-    margin-left: -80px;
+    margin-left: -5rem;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
     color: #E03C31;
-    width: 200px;
+    width: 12.5rem;
 }
 
 main#estagios-main
@@ -141,22 +141,22 @@ div#sintomas-timeline-text-severos::after {
     width: 1px;
     top: 0;
     bottom: 0;
-    margin-left: -68px;
+    margin-left: -4.25rem;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
     color: #E03C31;
-    width: 200px;
+    width: 12.5rem;
 }
 
 main#estagios-main
 div#news-container
 div#timeline
 div#sintomas-timeline-text-moderados {
-    max-width: 1536px;
+    max-width: 96rem;
     position: relative;
-    margin-left: 50px;
-    margin-top: 13px;
+    margin-left: 3.125rem;
+    margin-top: 0.813rem;
     display: flex;
     flex-flow: column;
 }
@@ -165,10 +165,10 @@ main#estagios-main
 div#news-container
 div#timeline
 div#sintomas-timeline-text-severos {
-    max-width: 1536px;
+    max-width: 96rem;
     position: relative;
-    margin-left: 50px;
-    margin-top: 13px;
+    margin-left: 3.125rem;
+    margin-top: 0.813rem;
     display: flex;
     flex-flow: column;
 }
@@ -177,10 +177,10 @@ main#estagios-main
 div#news-container
 div#timeline
 div#sintomas-timeline-icon {
-    max-width: 1536px;
+    max-width: 96rem;
     position: relative;
-    margin-left: 50px;
-    margin-top: 13px;
+    margin-left: 3.125rem;
+    margin-top: 0.813rem;
     display: flex;
     flex-flow: column;
 }
@@ -192,8 +192,8 @@ div#sintomas-timeline-icon
 div#sintomas-timeline-container
 span.timeline-text-item {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 1.25rem;
+    line-height: 1.438rem;
     color: #000000;
 }
 
@@ -203,7 +203,7 @@ div#timeline
 div#sintomas-timeline-icon
 div#sintomas-timeline-container
 span.timeline-text-item:not(:first-child) {
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 main#estagios-main
@@ -213,8 +213,8 @@ div#sintomas-timeline-icon
 div#sintomas-timeline-container {
     display: flex;
     flex-flow: column;
-    margin-top: 14px;
-    margin-left: 53px;
+    margin-top: 0.875rem;
+    margin-left: 3.313rem;
     position: relative;
 }
 
@@ -225,7 +225,7 @@ div#sintomas-timeline
 div#sintomas-timeline-container {
     display: flex;
     flex-flow: column;
-    margin-left: 53px;
+    margin-left: 3.313rem;
     position: relative;
 }
 
@@ -234,7 +234,7 @@ div#news-container
 div#timeline
 div#sintomas-timeline
 div#sintomas-timeline-container:not(:first-child) {
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 main#estagios-main
@@ -244,8 +244,8 @@ div#sintomas-timeline
 div#sintomas-timeline-container
 span.timeline-text-item {
     font-weight: 400;
-    font-size: 19px;
-    line-height: 23px;
+    font-size: 1.188rem;
+    line-height: 1.438rem;
     color: #000000;
 }
 
@@ -266,8 +266,8 @@ div#sintomas-timeline-container
 ul.timeline-text-list
 li.timeline-text-list-item {
     font-weight: 400;
-    font-size: 19px;
-    line-height: 23px;    
+    font-size: 1.188rem;
+    line-height: 1.438rem;    
     color: #000;
 }
 
@@ -278,7 +278,7 @@ div#sintomas-timeline
 div#sintomas-timeline-container
 ul.timeline-text-list
 li.timeline-text-list-item:first-child {
-    margin-top: 12px;
+    margin-top: 0.75rem;
 }
 
 main#estagios-main
@@ -287,11 +287,11 @@ div#timeline
 div#sintomas-timeline
 div#sintomas-timeline-container
 span.timeline-text-item:not(:first-child) {
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 span.timeline-item-max-width {
-    max-width: 553px;
+    max-width: 34.563rem;
 }
 /********/
 
@@ -300,9 +300,9 @@ span.timeline-item-max-width {
 main#estagios-main
 div#news-container
 div#estagios-timeline {
-    width: 689px;
+    width: 43.063rem;
     position: relative;
-    margin-top: 52px;
+    margin-top: 3.25rem;
 }
 
 main#estagios-main
@@ -311,14 +311,14 @@ div#estagios-timeline
 div.estagios {
     display: flex;
     align-items: center;
-    margin-bottom: 30px
+    margin-bottom: 1.875rem
 }
 
 main#estagios-main
 div#news-container
 div#estagios-timeline
 div.estagios-bottom {
-    margin-top: 30px
+    margin-top: 1.875rem
 }
 
 main#estagios-main
@@ -327,8 +327,8 @@ div#estagios-timeline
 div.estagios
 div.estagios-container-item {
     font-weight: 300;
-    font-size: 15px;
-    line-height: 23px;
+    font-size: 0.938rem;
+    line-height: 1.438rem;
     color: #000;
 }
 
@@ -337,7 +337,7 @@ div#news-container
 div#estagios-timeline
 div.estagios
 div.container-item-little {
-    width: 125px;
+    width: 7.813rem;
 }
 
 main#estagios-main
@@ -345,7 +345,7 @@ div#news-container
 div#estagios-timeline
 div.estagios
 div.estagios-container-item:not(:first-child) {
-    margin-left: 15px;
+    margin-left: 0.938rem;
 }
 
 main#estagios-main
@@ -361,7 +361,7 @@ div#news-container
 div#estagios-timeline
 div.estagios-bottom
 div.estagios-container-item:not(:first-child) {
-    margin-left: 46px;
+    margin-left: 2.875rem;
 }
 
 main#estagios-main
@@ -369,7 +369,7 @@ div#news-container
 div#estagios-timeline
 div.estagios-bottom
 div.estagios-container-item {
-    width: 110px;
+    width: 6.875rem;
 }
 
 main#estagios-main
@@ -377,7 +377,7 @@ div#news-container
 div#estagios-timeline
 div.estagios
 img.estagios-container-arrow {
-    margin-left: 15px;
+    margin-left: 0.938rem;
 }
 
 main#estagios-main
@@ -394,7 +394,7 @@ div#estagios-timeline
 div.timeline::after {
     content: '';
     position: absolute;
-    width: 689px;
+    width: 43.063rem;
     border: 1px dashed #E03C31;
 }
 
@@ -405,11 +405,11 @@ div.timeline
 div.timeline-division::before {
     content: url('../../images/estagios/timeline-division.png');;
     position: absolute;
-    top: -11px;
+    top: -0.688px;
     width: 1px;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
     color: #E03C31;
 }
 
@@ -418,7 +418,7 @@ div#news-container
 div#estagios-timeline
 div.timeline
 div.timeline-division-first {
-    margin-left: 24px;
+    margin-left: 1.5rem;
 }
 
 main#estagios-main
@@ -426,7 +426,7 @@ div#news-container
 div#estagios-timeline
 div.timeline
 div.timeline-division-second {
-    margin-left: 145px;
+    margin-left: 9.063rem;
 }
 
 main#estagios-main
@@ -434,7 +434,7 @@ div#news-container
 div#estagios-timeline
 div.timeline
 div.timeline-division-third {
-    margin-left: 165px;
+    margin-left: 10.313rem;
 }
 
 main#estagios-main
@@ -442,7 +442,7 @@ div#news-container
 div#estagios-timeline
 div.timeline
 div.timeline-division-fourth {
-    margin-left: 150px;
+    margin-left: 9.375rem;
 }
 
 main#estagios-main
@@ -450,7 +450,7 @@ div#news-container
 div#estagios-timeline
 div.timeline
 div.timeline-division-fifth {
-    margin-left: 150px;
+    margin-left: 9.375rem;
 }
 /***/
 
@@ -465,7 +465,7 @@ a.estagios-link {
 }
 
 p.news-info-with-max-width {
-    width: 540px !important;
+    width: 33.75rem !important;
 }
 
 span.news-info-bold {
@@ -476,7 +476,7 @@ span.news-info-bold {
 @media (min-width: 577px) and (max-width: 1199px) {
 
     main#estagios-main {
-        padding: 15px 10px 125px 20px;
+        padding: 0.938rem 0.625rem 7.813rem 1.25rem;
     }
 
     p.news-info-with-max-width {
@@ -504,8 +504,8 @@ span.news-info-bold {
     div#estagios-timeline
     div.estagios
     div.estagios-container-item {
-        max-width: 130px;
-        margin-top: 20px;
+        max-width: 8.125rem;
+        margin-top: 1.25rem;
     }
 
     main#estagios-main
@@ -513,7 +513,7 @@ span.news-info-bold {
     div#estagios-timeline
     div.estagios
     img.estagios-container-arrow {
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
 
     main#estagios-main
@@ -521,7 +521,7 @@ span.news-info-bold {
     div#estagios-timeline
     div.timeline::after {
         width: 1px;
-        height: 515px;
+        height: 32.188rem;
     }
 
     main#estagios-main
@@ -529,7 +529,7 @@ span.news-info-bold {
     div#estagios-timeline
     div.estagios-bottom {
         margin-top: 0px;
-        margin-left: 24px
+        margin-left: 1.5rem
     }
 
     main#estagios-main
@@ -593,14 +593,14 @@ span.news-info-bold {
     div#news-container 
     div#timeline 
     div.sintomas-timeline-text {
-        margin-left: 8px;
+        margin-left: 0.5rem;
     }
 
     main#estagios-main 
     div#news-container 
     div#timeline 
     div#sintomas-timeline  {
-        margin-left: 8px;
+        margin-left: 0.5rem;
     }
 
 
@@ -609,7 +609,7 @@ span.news-info-bold {
 /* col - mobile */
 @media(max-width: 576px) {
     main#estagios-main {
-        padding: 15px 10px 125px 20px;
+        padding: 0.938rem 0.625rem 7.813rem 1.25rem;
     }
 
     p.news-info-with-max-width {
@@ -637,8 +637,8 @@ span.news-info-bold {
     div#estagios-timeline
     div.estagios
     div.estagios-container-item {
-        max-width: 130px;
-        margin-top: 20px;
+        max-width: 8.125rem;
+        margin-top: 1.25rem;
     }
 
     main#estagios-main
@@ -646,7 +646,7 @@ span.news-info-bold {
     div#estagios-timeline
     div.estagios
     img.estagios-container-arrow {
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
 
     main#estagios-main
@@ -654,7 +654,7 @@ span.news-info-bold {
     div#estagios-timeline
     div.timeline::after {
         width: 1px;
-        height: 515px;
+        height: 32.188rem;
     }
 
     main#estagios-main
@@ -662,7 +662,7 @@ span.news-info-bold {
     div#estagios-timeline
     div.estagios-bottom {
         margin-top: 0px;
-        margin-left: 24px
+        margin-left: 1.5rem
     }
 
     main#estagios-main
@@ -734,8 +734,8 @@ span.news-info-bold {
     div#sintomas-timeline
     div#sintomas-timeline-container
     span.timeline-text-item {
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
     }
 
     main#estagios-main
@@ -744,20 +744,20 @@ span.news-info-bold {
     div#sintomas-timeline-icon
     div#sintomas-timeline-container
     span.timeline-text-item {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     main#estagios-main
     div#news-container
     div#timeline {
-        margin-top: 14px;
+        margin-top: 0.875rem;
     }
 
     main#estagios-main 
     div#news-container 
     div#timeline 
     div#sintomas-timeline  {
-        margin-left: 8px;
+        margin-left: 0.5rem;
     }
 
     
@@ -765,42 +765,42 @@ span.news-info-bold {
     div#news-container 
     div#timeline 
     div.sintomas-timeline-text {
-        margin-left: 8px;
+        margin-left: 0.5rem;
     }
 
     main#estagios-main
     div#news-container
     div#timeline
     div#sintomas-timeline-text-iniciais::after {
-        margin-left: -6px;
+        margin-left: -0.375rem;
     }
 
     main#estagios-main
     div#news-container
     div#timeline
     div#sintomas-timeline-text-ccl::after {
-        margin-left: -6px;
+        margin-left: -0.375rem;
     }
 
     main#estagios-main
     div#news-container
     div#timeline
     div#sintomas-timeline-text-leves::after {
-        margin-left: -6px;
+        margin-left: -0.375rem;
     }
 
     main#estagios-main
     div#news-container
     div#timeline
     div#sintomas-timeline-text-moderados::after {
-        margin-left: -46px;
+        margin-left: -2.875rem;
     }
 
     main#estagios-main
     div#news-container
     div#timeline
     div#sintomas-timeline-text-severos::after {
-        margin-left: -46px;
+        margin-left: -2.875rem;
     }
 
     main#estagios-main 
@@ -808,7 +808,7 @@ span.news-info-bold {
     div#timeline 
     div#sintomas-timeline 
     div#sintomas-timeline-container {
-        margin-left: 10px;
+        margin-left: 0.625rem;
     }
 
     main#estagios-main 
@@ -818,7 +818,7 @@ span.news-info-bold {
     div#sintomas-timeline-container 
     ul.timeline-text-list 
     li.timeline-text-list-item {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
  }

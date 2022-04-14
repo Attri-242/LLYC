@@ -1,5 +1,5 @@
 main#informacao-main {
-    padding: 50px 179px 113px 176px;
+    padding: 3.125rem 11.188rem 7.063rem 11rem;
     display: flex;
     flex-flow: column;
 }
@@ -14,7 +14,7 @@ div#localizacao {
 main#informacao-main
 div#news-container
 div#localizacao-container {
-    margin-top: 70px;
+    margin-top: 4.375rem;
     position: relative;
 }
 
@@ -23,16 +23,16 @@ div#news-container
 div#localizacao-container
 input.search-input {
     font-style: normal;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 1rem;
+    line-height: 1.375rem;
     background-color: white;
     border: 1px solid #000;
-    padding: 15px;
-    border-radius: 10px;
+    padding: 0.938rem;
+    border-radius: 0.625rem;
     font-weight: 700;
-    width: 500px;
-    height: 60px;
-    padding-right: 65px;
+    width: 31.25rem;
+    height: 3.75rem;
+    padding-right: 4.063rem;
 }
 
 main#informacao-main
@@ -41,27 +41,27 @@ div#localizacao
 div#localizacao-container
 img.search-search {
     position: absolute;
-    top: 18px;
-    right: 20px;
+    top: 1.125rem;
+    right: 1.25rem;
     cursor: pointer;
 }
 
 main#informacao-main
 div#news-container
 div#termos-container {
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 h2.termos-title {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;    
+    font-size: 1.25rem;
+    line-height: 1.875rem;    
     text-align: center;
     color: #000000;
 }
 
 h2.termos-title--mt {
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 h2#resultados-title {
@@ -72,37 +72,20 @@ main#informacao-main
 div#news-container
 div#termos-container
 div.termos-items {
-    margin-top: 30px;
-}
-
-main#informacao-main
-div#news-container
-h2.title-subtitle {
-    margin-top: 50px;
-    margin-bottom: 0px;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 30px;
-    color: #000000;
-}
-
-main#informacao-main
-div#news-container
-h2.text-subtitle-little {
-    width: 600px;
+    margin-top: 1.875rem;
 }
 
 main#informacao-main
 div#news-container
 button.news-info-button {
-    margin-top: 50px;
-    font-size: 16px;
-    line-height: 22px;
+    margin-top: 3.125rem;
+    font-size: 1rem;
+    line-height: 1.375rem;
     color: #E03C31;
     background-color: white;
     border: 1px solid #E03C31;
-    padding: 15px;
-    border-radius: 10px;
+    padding: 0.938rem;
+    border-radius: 0.625rem;
     font-weight: 700;
 }
 
@@ -114,26 +97,26 @@ main#informacao-main
 main#informacao-main
 .cards
 .card-info--larger {
-    max-width: 526px;
+    max-width: 32.875rem;
 }
 
 main#informacao-main
 .cards
 .card-info--larger:not(:first-child) {
-    margin-left: 27.48px;
+    margin-left: 1.718rem;
 }
 
 main#informacao-main
 .cards
 .card-info--test {
     border: 1px dashed #000;
-    max-height: 247px;
-    border-radius: 17.42px;
+    max-height: 15.438rem;
+    border-radius: 1.063rem;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 85px 25px 93px 40px;
+    padding: 5.313rem 1.563rem 5.813rem 2.5rem;
 }
 
 main#informacao-main
@@ -141,8 +124,8 @@ main#informacao-main
 .card-info--test 
 .card-info-test-link-container {
     font-weight: 400;
-    font-size: 17px;
-    line-height: 23px;
+    font-size: 1.063rem;
+    line-height: 1.438rem;
     text-decoration: none;
     color: #000000;
 }
@@ -153,9 +136,9 @@ main#informacao-main
 .card-info-test-link-container
 .card-info-test-text-begin {
     font-weight: 700;
-    font-size: 17px;
+    font-size: 1.063rem;
     color: #000;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 main#informacao-main
@@ -182,9 +165,9 @@ main#informacao-main
 .card-info
 .card-info-link-container
 .card-info-text {
-    margin-top: 20.9px;
-    font-size: 18px;
-    line-height: 23px;
+    margin-top: 1.313rem;
+    font-size: 1.125rem;
+    line-height: 1.438rem;
     color: #000000;
 }
 
@@ -195,7 +178,7 @@ main#informacao-main
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 main#informacao-main
@@ -204,11 +187,11 @@ main#informacao-main
 .card-info-relateds
 .card-info-related {
     border: 1px solid #E03C31;
-    border-radius: 14px;
-    font-size: 15px;
+    border-radius: 0.875rem;
+    font-size: 0.938rem;
     color: #E03C31;
     font-weight: 700;
-    padding: 0 10px;
+    padding: 0 0.625rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -219,16 +202,14 @@ main#informacao-main
 .card-info
 .card-info-relateds
 .card-info-related:not(:first-child) {
-    margin-left: 6px;
+    margin-left: 0.375rem;
 }
 
 
 /* md - tablet */
-@media(min-width:577px) and (max-width: 1199px) {
-    html {font-size: 15px;}
- 
+@media(min-width:577px) and (max-width: 1199px) { 
     main#informacao-main {
-      padding: 15px 10px 125px 20px;
+      padding: 0.938rem 0.625rem 7.813rem 1.25rem;
     }
  
     main#informacao-main
@@ -255,14 +236,14 @@ main#informacao-main
  /* col - mobile */
  @media (max-width: 576px) {
      main#informacao-main {
-         padding: 15px 10px 125px 20px;
+         padding: 0.938rem 0.625rem 7.813rem 1.25rem;
      }
  
      main#informacao-main
      .container
      .cards
      .card-info {
-         margin-top: 24px;
+         margin-top: 1.5rem;
      }
 
     main#informacao-main

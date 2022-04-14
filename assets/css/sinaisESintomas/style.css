@@ -1,5 +1,5 @@
 main#sinais-main {
-    padding: 50px 179px 113px 176px;
+    padding: 3.125rem 11.188rem 7.063rem 11rem;
     display: flex;
     flex-flow: column;
 }
@@ -29,11 +29,11 @@ main#sinais-main
 div#news-container
 div#news-table-container
 div.news-table { 
-    margin-top: 50px;
+    margin-top: 3.125rem;
     border: 1px dashed black;
     display: flex;
     flex-flow: column;
-    max-width: 310px;
+    max-width: 19.375rem;
 }
 
 main#sinais-main
@@ -43,12 +43,12 @@ div.news-table
 h3.news-table-title {
     font-weight: 400;
     margin: 0; 
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 1.25rem;
+    line-height: 1.563rem;
     text-align: center;
     color: #000000;
     border-bottom: 1px dashed black;
-    padding: 10px 0px;
+    padding: 0.625rem 0px;
 }
 
 main#sinais-main
@@ -57,12 +57,12 @@ div#news-table-container
 div.news-table
 span.news-table-item {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 1.25rem;
+    line-height: 1.563rem;
     color: #000000;
     border-top: 1px dashed black;
-    height: 76px;
-    padding: 13px;
+    height: 4.75rem;
+    padding: 0.813rem;
     display: flex;
     align-items: center;
 }
@@ -73,17 +73,17 @@ div#news-table-container
 div.news-table
 span.news-table-item
 p.news-table-item-text  {
-    width: 253px;
+    width: 15.813rem;
     margin: 0;
 }
 
 main#sinais-main
 div#news-container
 div#info-card {
-    width: 633px;
-    margin-top: 50px;
+    width: 39.563rem;
+    margin-top: 3.125rem;
     border: 1px dashed #000;
-    padding: 31px 40px;
+    padding: 1.938rem 2.5rem;
 }
 
 main#sinais-main
@@ -91,7 +91,7 @@ div#news-container
 div#info-card 
 h3#info-card-title {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.5rem;
     margin: 0;
 }
 
@@ -100,24 +100,24 @@ div#news-container
 div#info-card 
 p#info-card-text {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    margin-top: 19px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    margin-top: 1.188rem;
 }
 
 main#sinais-main
 div#news-container
 div#timeline {
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 main#sinais-main
 div#news-container
 div#sintomas-timeline {
-    max-width: 1536px;
+    max-width: 96rem;
     position: relative;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 3.125rem;
+    margin-top: 3.125rem;
     display: flex;
     flex-flow: column;
 }
@@ -125,13 +125,13 @@ div#sintomas-timeline {
 main#sinais-main
 div#news-container
 div.sintomas-timeline-mt {
-    margin-top: 25px !important;
+    margin-top: 1.563rem !important;
 }
 
 main#sinais-main
 div#news-container
 div.sintomas-timeline-mt-little {
-    margin-top: 5px !important;
+    margin-top: 0.313rem !important;
 }
 
 main#sinais-main
@@ -144,17 +144,17 @@ div#sintomas-timeline::after {
     border: 1px dashed #E03C31;
     top: 0;
     bottom: 0;
-    margin-left: -3px;
+    margin-left: -0.188rem;
 }
 
 main#sinais-main
 div#news-container
 div#timeline
 div#sintomas-timeline-text-iniciais {
-    max-width: 1536px;
+    max-width: 96rem;
     position: relative;
-    margin-left: 50px;
-    margin-top: 13px;
+    margin-left: 3.125rem;
+    margin-top: 0.813rem;
     display: flex;
     flex-flow: column;
 }
@@ -168,10 +168,10 @@ div#sintomas-timeline-text-iniciais::after {
     width: 1px;
     top: 0;
     bottom: 0;
-    margin-left: -33px;
+    margin-left: -2.063rem;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
     color: #E03C31;
 }
 
@@ -179,10 +179,10 @@ main#sinais-main
 div#news-container
 div#timeline
 div#sintomas-timeline-text-moderados {
-    max-width: 1536px;
+    max-width: 96rem;
     position: relative;
-    margin-left: 50px;
-    margin-top: 13px;
+    margin-left: 3.125rem;
+    margin-top: 0.813rem;
     display: flex;
     flex-flow: column;
 }
@@ -196,10 +196,10 @@ div#sintomas-timeline-text-moderados::after {
     width: 1px;
     top: 0;
     bottom: 0;
-    margin-left: -33px;
+    margin-left: -2.063rem;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
     color: #E03C31;
 }
 
@@ -207,10 +207,10 @@ main#sinais-main
 div#news-container
 div#timeline
 div#sintomas-timeline-text-severos {
-    max-width: 1536px;
+    max-width: 96rem;
     position: relative;
-    margin-left: 50px;
-    margin-top: 13px;
+    margin-left: 3.125rem;
+    margin-top: 0.813rem;
     display: flex;
     flex-flow: column;
 }
@@ -224,10 +224,10 @@ div#sintomas-timeline-text-severos::after {
     width: 1px;
     top: 0;
     bottom: 0;
-    margin-left: -33px;
+    margin-left: -2.063rem;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
     color: #E03C31;
 }
 
@@ -235,10 +235,10 @@ main#sinais-main
 div#news-container
 div#timeline
 div#sintomas-timeline-icon {
-    max-width: 1536px;
+    max-width: 96rem;
     position: relative;
-    margin-left: 50px;
-    margin-top: 13px;
+    margin-left: 3.125rem;
+    margin-top: 0.813rem;
     display: flex;
     flex-flow: column;
 }
@@ -252,10 +252,10 @@ div#sintomas-timeline-icon::after {
     width: 1px;
     top: 0;
     bottom: 0;
-    margin-left: -27px;
+    margin-left: -1.688rem;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
     color: #E03C31;
 }
 
@@ -266,8 +266,8 @@ div#sintomas-timeline-icon
 div#sintomas-timeline-container
 span.timeline-text-item {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 1.25rem;
+    line-height: 1.438rem;
     color: #000000;
 }
 
@@ -277,7 +277,7 @@ div#timeline
 div#sintomas-timeline-icon
 div#sintomas-timeline-container
 span.timeline-text-item:not(:first-child) {
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 main#sinais-main
@@ -287,8 +287,8 @@ div#sintomas-timeline-icon
 div#sintomas-timeline-container {
     display: flex;
     flex-flow: column;
-    margin-top: 14px;
-    margin-left: 53px;
+    margin-top: 0.875rem;
+    margin-left: 3.313rem;
     position: relative;
 }
 
@@ -299,7 +299,7 @@ div#sintomas-timeline
 div#sintomas-timeline-container {
     display: flex;
     flex-flow: column;
-    margin-left: 53px;
+    margin-left: 3.313rem;
     position: relative;
 }
 
@@ -308,7 +308,7 @@ div#news-container
 div#timeline
 div#sintomas-timeline
 div.sintomas-timeline-container-first {
-    min-height: 91px;
+    min-height: 5.688rem;
 }
 
 main#sinais-main
@@ -316,7 +316,7 @@ div#news-container
 div#timeline
 div#sintomas-timeline
 div.sintomas-timeline-container-second {
-    min-height: 126px;
+    min-height: 7.875rem;
 }
 
 main#sinais-main
@@ -324,7 +324,7 @@ div#news-container
 div#timeline
 div#sintomas-timeline
 div.sintomas-timeline-container-third {
-    min-height: 120px;
+    min-height: 7.5rem;
 }
 
 main#sinais-main
@@ -332,7 +332,7 @@ div#news-container
 div#timeline
 div#sintomas-timeline
 div.sintomas-timeline-container-fourth {
-    min-height: 91px;
+    min-height: 5.688rem;
 }
 
 main#sinais-main
@@ -340,7 +340,7 @@ div#news-container
 div#timeline
 div#sintomas-timeline
 div.sintomas-timeline-container-fifth {
-    min-height: 83px;
+    min-height: 5.188rem;
 }
 
 main#sinais-main
@@ -348,7 +348,7 @@ div#news-container
 div#timeline
 div#sintomas-timeline
 div.sintomas-timeline-container-sixth {
-    min-height: 169px;
+    min-height: 10.563rem;
 }
 
 main#sinais-main
@@ -356,7 +356,7 @@ div#news-container
 div#timeline
 div#sintomas-timeline
 div.sintomas-timeline-container-seventh {
-    min-height: 106px;
+    min-height: 6.625rem;
 }
 
 main#sinais-main
@@ -364,7 +364,7 @@ div#news-container
 div#timeline
 div#sintomas-timeline
 div.sintomas-timeline-container-eighth {
-    min-height: 57px;
+    min-height: 3.563rem;
 }
 
 main#sinais-main
@@ -372,7 +372,7 @@ div#news-container
 div#timeline
 div#sintomas-timeline
 div.sintomas-timeline-container-ninth {
-    min-height: 35px;
+    min-height: 2.188rem;
 }
 
 main#sinais-main
@@ -380,7 +380,7 @@ div#news-container
 div#timeline
 div#sintomas-timeline
 div.sintomas-timeline-container-tenth {
-    min-height: 228px;
+    min-height: 14.25rem;
 }
 
 main#sinais-main
@@ -388,7 +388,7 @@ div#news-container
 div#timeline
 div#sintomas-timeline
 div#sintomas-timeline-container:not(:first-child) {
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 main#sinais-main
@@ -398,13 +398,13 @@ div#sintomas-timeline
 div#sintomas-timeline-container
 span.timeline-text-item {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 1.25rem;
+    line-height: 1.438rem;
     color: #000000;
 }
 
 span.timeline-item-max-width {
-    max-width: 553px;
+    max-width: 34.563rem;
 }
 
 main#sinais-main
@@ -413,7 +413,7 @@ div#timeline
 div#sintomas-timeline
 div#sintomas-timeline-container
 span.timeline-text-item:not(:first-child) {
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 @media (min-width: 980px) and (max-width: 1199px) {
@@ -432,7 +432,7 @@ span.timeline-text-item:not(:first-child) {
     div#news-table-container 
     div.new-table-second-item {
         border-left: unset !important;
-        margin-top: 50px !important;
+        margin-top: 3.125rem !important;
     }
 }
 
@@ -440,7 +440,7 @@ span.timeline-text-item:not(:first-child) {
 @media (min-width: 577px) and (max-width: 1199px) {
 
     main#sinais-main {
-        padding: 30px 35px 150px 35px;
+        padding: 1.875rem 2.188rem 150px 2.188rem;
     }
     
     main#sinais-main
@@ -452,7 +452,7 @@ span.timeline-text-item:not(:first-child) {
     main#sinais-main
     div#news-container
     div#news-table { 
-        margin-top: 14px;
+        margin-top: 0.875rem;
     }
 
     main#sinais-main
@@ -460,7 +460,7 @@ span.timeline-text-item:not(:first-child) {
     div#news-table-container 
     div.new-table-second-item {
         border-left: 1px dashed black !important;
-        margin-top: 25px;
+        margin-top: 1.563rem;
     }
 
     main#sinais-main
@@ -468,10 +468,10 @@ span.timeline-text-item:not(:first-child) {
     div#news-table
     span.news-table-item {
         font-weight: 500;
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
         color: #000;
-        padding: 15px 10px 0px 10px;
+        padding: 0.938rem 0.625rem 0px 0.625rem;
         border-top: 1px dashed black;
     }
 
@@ -488,14 +488,14 @@ span.timeline-text-item:not(:first-child) {
     div#news-table
     h3.news-table-title {
         font-size: 16px;
-        line-height: 25px;
-        padding: 10px 10px 10px 9px;
+        line-height: 1.563rem;
+        padding: 0.625rem 0.625rem 0.625rem 0.563rem;
     }
 
     main#sinais-main
     div#news-container
     div#news-table { 
-        margin-top: 14px;
+        margin-top: 0.875rem;
     }
 
     main#sinais-main
@@ -503,10 +503,10 @@ span.timeline-text-item:not(:first-child) {
     div#news-table
     span.news-table-item {
         font-weight: 500;
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
         color: #000;
-        padding: 15px 10px 0px 10px;
+        padding: 0.938rem 0.625rem 0px 0.625rem;
         border-top: 1px dashed black;
     }
 
@@ -523,16 +523,16 @@ span.timeline-text-item:not(:first-child) {
     div#news-table
     h3.news-table-title {
         font-size: 16px;
-        line-height: 25px;
-        padding: 10px 10px 10px 9px;
+        line-height: 1.563rem;
+        padding: 0.625rem 0.625rem 0.625rem 0.563rem;
     }
 
     main#sinais-main
     div#news-container
     div#info-card {
         width: unset;
-        padding: 31px 20px;
-        margin-top: 14px;
+        padding: 1.938rem 1.25rem;
+        margin-top: 0.875rem;
     }
 
     main#sinais-main
@@ -540,7 +540,7 @@ span.timeline-text-item:not(:first-child) {
     div#info-card 
     h3#info-card-title {
         font-weight: 500;
-        font-size: 17px;
+        font-size: 1.063rem;
         margin: 0;
     }
 
@@ -548,8 +548,8 @@ span.timeline-text-item:not(:first-child) {
     div#news-container
     div#info-card 
     p#info-card-text {
-        font-size: 16px;
-        line-height: 25px;
+        font-size: 1rem;
+        line-height: 1.563rem;
     }
 
     main#sinais-main
@@ -558,8 +558,8 @@ span.timeline-text-item:not(:first-child) {
     div#sintomas-timeline
     div#sintomas-timeline-container
     span.timeline-text-item {
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
     }
 
     main#sinais-main
@@ -568,26 +568,26 @@ span.timeline-text-item:not(:first-child) {
     div#sintomas-timeline-icon
     div#sintomas-timeline-container
     span.timeline-text-item {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     main#sinais-main
     div#news-container
     div#timeline {
-        margin-top: 14px;
+        margin-top: 0.875rem;
     }
 
     main#sinais-main
     div#news-container
     div#info-card {
-        width: 455PX
+        width: 28.438rem
     }
 
     main#sinais-main
     div#news-container
     div#info-card 
     h3#info-card-title {
-        font-size: 17px;
+        font-size: 1.063rem;
     }
 
     main#sinais-main
@@ -595,14 +595,14 @@ span.timeline-text-item:not(:first-child) {
     div#info-card 
     p#info-card-text {
         font-weight: 400;
-        font-size: 16px;
+        font-size: 1rem;
     }
  }
 
 /* col - mobile */
 @media(max-width: 576px) {
     main#sinais-main {
-        padding: 0px 45px 125px 20px;
+        padding: 0px 2.813rem 7.813rem 1.25rem;
     }
  
     main#sinais-main
@@ -613,7 +613,7 @@ span.timeline-text-item:not(:first-child) {
     main#sinais-main
     div#news-container
     div#news-table { 
-        margin-top: 14px;
+        margin-top: 0.875rem;
     }
 
     main#sinais-main
@@ -621,10 +621,10 @@ span.timeline-text-item:not(:first-child) {
     div#news-table
     span.news-table-item {
         font-weight: 500;
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
         color: #000;
-        padding: 15px 10px 0px 10px;
+        padding: 0.938rem 0.625rem 0px 0.625rem;
         border-top: 1px dashed black;
     }
 
@@ -641,15 +641,15 @@ span.timeline-text-item:not(:first-child) {
     div#news-table
     h3.news-table-title {
         font-size: 16px;
-        line-height: 25px;
-        padding: 10px 10px 10px 9px;
+        line-height: 1.563rem;
+        padding: 0.625rem 0.625rem 0.625rem 0.563rem;
     }
 
     main#sinais-main
     div#news-container
     div#news-image-text {
-        margin-top: 14px;
-        margin-bottom: 35px;
+        margin-top: 0.875rem;
+        margin-bottom: 2.188rem;
     }
 
     main#sinais-main
@@ -663,7 +663,7 @@ span.timeline-text-item:not(:first-child) {
     div#news-table-container 
     div.new-table-second-item {
         border-left: 1px dashed black !important;
-        margin-top: 25px;
+        margin-top: 1.563rem;
     }
 
     main#sinais-main
@@ -672,7 +672,7 @@ span.timeline-text-item:not(:first-child) {
     div.news-table
     h3.news-table-title {
         margin: 0; 
-        font-size: 17px;
+        font-size: 1.063rem;
     }
 
     main#sinais-main
@@ -680,15 +680,15 @@ span.timeline-text-item:not(:first-child) {
     div#news-table-container
     div.news-table
     span.news-table-item {
-        font-size: 17px;
+        font-size: 1.063rem;
     }
 
     main#sinais-main
     div#news-container
     div#info-card {
         width: unset;
-        padding: 31px 20px;
-        margin-top: 14px;
+        padding: 1.938rem 1.25rem;
+        margin-top: 0.875rem;
     }
 
     main#sinais-main
@@ -696,7 +696,7 @@ span.timeline-text-item:not(:first-child) {
     div#info-card 
     h3#info-card-title {
         font-weight: 500;
-        font-size: 17px;
+        font-size: 1.063rem;
         margin: 0;
     }
 
@@ -704,8 +704,8 @@ span.timeline-text-item:not(:first-child) {
     div#news-container
     div#info-card 
     p#info-card-text {
-        font-size: 16px;
-        line-height: 25px;
+        font-size: 1rem;
+        line-height: 1.563rem;
     }
 
     main#sinais-main
@@ -714,8 +714,8 @@ span.timeline-text-item:not(:first-child) {
     div#sintomas-timeline
     div#sintomas-timeline-container
     span.timeline-text-item {
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
     }
 
     main#sinais-main
@@ -724,13 +724,13 @@ span.timeline-text-item:not(:first-child) {
     div#sintomas-timeline-icon
     div#sintomas-timeline-container
     span.timeline-text-item {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     main#sinais-main
     div#news-container
     div#timeline {
-        margin-top: 14px;
+        margin-top: 0.875rem;
     }
 
     main#sinais-main
@@ -743,7 +743,7 @@ span.timeline-text-item:not(:first-child) {
     div#news-container
     div#info-card 
     h3#info-card-title {
-        font-size: 17px;
+        font-size: 1.063rem;
     }
 
     main#sinais-main
@@ -751,7 +751,7 @@ span.timeline-text-item:not(:first-child) {
     div#info-card 
     p#info-card-text {
         font-weight: 400;
-        font-size: 16px;
+        font-size: 1rem;
     }
 }
  
