@@ -162,7 +162,9 @@
         <a href="<?= $baseUrl ?>. /index.php">
             <img id="logo" src="<?= $baseUrl ?>/assets/images/header/logo-mobile.png" alt="logo">
         </a>
-        <i id="nav-mobile-icon" onclick="toggleMobileMenu()" class="bi bi-list">ICON</i>
+        <i id="nav-mobile-icon" onclick="toggleMobileMenu()" class="bi bi-list">
+            <img src="<?= $baseUrl ?>/assets/images/header/menu-hamburguer.png">
+        </i>
     </div>
 
     <nav id="nav-mobile">
