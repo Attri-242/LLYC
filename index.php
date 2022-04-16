@@ -14,6 +14,81 @@
     include './includes/header/header.php';
 ?>
 
+<div class="cookies">
+    <img src="./assets/images/home/close-cookies.png" onclick="closeCookies()" class="cookies-close">
+    <div class="cookies-container">
+        <div class="container d-flex justify-content-center">
+            <div class="cookie-card">
+                <div class="d-flex">
+                    <div class="container">
+                        <div class="row d-flex justify-content-between">
+                            <div class="col-12 col-md-6 col-xl-6">
+                                <h1 class="cookies-title">NOSSO SITE UTILIZA COOKIES</h1>
+                                <p class="cookies-info">
+                                    Nosso site utiliza cookies e tecnologias semelhantes para personalizar sua experiência 
+                                    e melhor compreender como nosso site é utilizado por você e outros visitantes. 
+                                    Acesse a nossa Política de Privacidade para obter mais informações sobre nossas práticas 
+                                    de coleta e tratamento de dados. Ao clicar em "Concordar e acessar o site", você concorda 
+                                    com o uso de cookies, conforme indicado Preferências de Cookies.
+                                </p>
+    
+                                <p class="cookies-info-second">
+                                    Queremos ser transparentes sobre os dados que nós e nossos parceiros coletamos e como os utilizamos, 
+                                    para que você possa ter maior controle sobre seus dados pessoais. 
+                                    Para obter mais informações, consulte a nossa política de privacidade.
+                                    Gostaríamos de utilizar cookies dos seguintes parceiros para melhorar a sua experiência geral de 
+                                    navegação na Web. Os cookies e tecnologias semelhantes são utilizados para conectar você às suas redes 
+                                    sociais e adaptar a publicidade aos seus interesses. Você pode optar por não participar dessa 
+                                    coleta de informações desmarcando as caixas ao lado.
+                                </p>
+    
+                                <div class="cookie-buttons d-none d-md-flex">
+                                    <button class="cookie-button primary" onclick="closeCookies();">Declinar</button>
+                                    <button class="cookie-button secondary" onclick="closeCookies();">Aceitar</button>
+                                </div>
+                            </div>
+    
+                            <div class="col-12 col-md-6 col-xl-5">
+                                <form class="cookies-choices d-flex flex-column">
+                                    <label class="cookie-label">
+                                        <input class="cookie-input" type="radio" name="pesquisa">
+                                        <span class="cookie-input-span">Provedor de pesquisa</span>
+                                    </label>
+    
+                                    <label class="cookie-label">
+                                        <input class="cookie-input" type="radio" name="otimizador">
+                                        <span class="cookie-input-span">Otimizador</span>
+                                    </label>
+    
+                                    <label class="cookie-label d-flex flex-column">
+                                        <input class="cookie-input" type="radio" name="personalizacao">
+                                        <span class="cookie-input-span">Personalização</span>
+                                        <span class="cookie-input-span-auxiliar">
+                                            Estabelecemos parcerias com estes fornecedores para garantir uma experiência 
+                                            de utilizador adaptada especificamente a si, com base nos seus hábitos de navegação.
+                                        </span>
+                                    </label>
+    
+                                    <label class="cookie-label d-flex flex-column">
+                                        <input class="cookie-input cookie-input-required" checked type="radio" name="agencia">
+                                        <span class="cookie-input-span">Agência</span>
+                                        <span class="cookie-input-span-auxiliar mt-2">Exigido</span>
+                                    </label>
+                                </form>
+
+                                <div class="cookie-buttons d-flex d-md-none">
+                                    <button class="cookie-button primary" onclick="closeCookies();">Declinar</button>
+                                    <button class="cookie-button secondary" onclick="closeCookies();">Aceitar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <main id="home-main">
 
     <section class="w-100">
@@ -305,5 +380,6 @@
 ?>
 <script src="./assets/js/components/nav-item/script.js"></script>
 <script src="./assets/js/includes/header/script.js"></script>
+<script src="./assets/js/home/script.js"></script>
 </body>
 </html>
