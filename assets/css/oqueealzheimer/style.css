@@ -177,7 +177,8 @@ li.brain-activity-item {
     main#alzheimer-main
     div#news-container
     ul#brain-activity {
-        width: unset
+        width: unset;
+        margin-top: 1.125rem;
     }
 
 }

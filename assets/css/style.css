@@ -65,6 +65,13 @@ div.icon-text-item {
     display: flex;
     flex-flow: column;
     align-items: center;
+    margin-top: 30px;
+}
+
+div.icon-text-container
+div.icon-text-container-row
+div.icon-text-item--no-margin {
+    margin-top: 0px !important;
 }
 
 div.icon-text-container
@@ -146,6 +153,7 @@ p.icon-text-item-text {
     font-size: 1.25rem;
     line-height: 1.438rem;
     color: #000;
+    margin-bottom: 0px;
 }
 
 div.icon-text-container
@@ -170,13 +178,36 @@ div.icon-text-item--to-row:not(:first-child) {
 
 div.icon-text-container
 div.icon-text-container-row--column
-div.icon-text-item--to-row
+div.icon-text-item:not(:first-child) {
+    margin-top: 2rem;
+}
+
+
+div.icon-text-container
+div.icon-text-container-row--column
+div.icon-text-item
+img.icon-text-image {
+    height: 2.813rem;
+}
+
+div.icon-text-container
+div.icon-text-container-row--column
+div.icon-text-item
+img.icon-text-image--no-height {
+    height: unset;
+}
+
+div.icon-text-container
+div.icon-text-container-row--column
+div.icon-text-item
 p.icon-text-item-text {
     max-width: 24.375rem;
     margin-top: 0.75rem;
     font-size: 1.25rem;
     line-height: 1.438rem;
     color: #000;
+    padding: 0px;
+    margin-bottom: 0px;
 }
 
 div.icon-text-container
@@ -633,6 +664,13 @@ img.news-container-image {
         max-width: unset;
        font-size: 1.063rem;
     }
+
+    div.icon-text-container
+    div.icon-text-container-row--column
+    div.icon-text-item
+    p.icon-text-item-text {
+        font-size: 1rem;
+    }
 }
 
 /* col - mobile */
@@ -786,6 +824,7 @@ img.news-container-image {
    p.icon-text-item-text {
        max-width: unset;
        font-size: 1.063rem;
+       margin-top: 0px;
    }
 
    div.icon-text-container
@@ -796,6 +835,20 @@ img.news-container-image {
     div.icon-text-container-row
     a.icon-text-item
     img.icon-text-image--little {
-        height: 1.813rem
+        height: 2.813rem
     }
+
+    div.icon-text-container
+    div.icon-text-container-row
+    div.icon-text-item {
+        margin-top: 30px;
+    }
+
+    div.icon-text-container
+    div.icon-text-container-row--column
+    div.icon-text-item
+    p.icon-text-item-text {
+        font-size: 1rem;
+    }
+ 
 }

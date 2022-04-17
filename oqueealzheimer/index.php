@@ -78,281 +78,351 @@
                                             <p id="news-date">Publicado em 14 de novembro de 2021</p>
                                         
                                             <p class="news-info">
-                                                A doença de Alzheimer (DA) é um tipo de demência, neurodegenerativa e progressiva, que se
-                                                manifesta por meio de deterioração cognitiva e da memória, comprometimento das atividades diárias e da independência do paciente,
-                                                alterações comportamentais e sintomas neuropsiquiátricos¹.
+                                                A doença de Alzheimer (DA) é progressiva, neurodegenerativa, crônica e irreversível, 
+                                                associada à perda de memória e ao declínio cognitivo. Ela também pode estar acompanhada 
+                                                de mudanças comportamentais e de personalidade, inclusive com sintomas como apatia e depressão. 
+                                                Além dessas, as manifestações comuns da DA englobam dificuldade de lembrar conversas recentes, 
+                                                nomes ou eventos, por exemplo.¹ 
                                             </p>
+
+                                            <p class="news-info">
+                                                Ela é causada por alterações cerebrais, como o acúmulo anormal de placas beta-amiloides tóxicas, 
+                                                o que pode começar até 20 anos antes dos primeiros sintomas da doença. O comprometimento cognitivo leve 
+                                                (CCL) devido à DA também é um dos estágios iniciais da doença de Alzheimer – é nele em que as 
+                                                manifestações ficam mais visíveis para o diagnóstico.¹
+                                            </p>
+
+                                            <p class="news-info">
+                                                Conforme a DA avança, a comunicação é prejudicada. Desorientação, confusão, mal julgamento e 
+                                                dificuldade para falar, engolir e andar também fazem parte dos sintomas tardios.¹
+                                            </p>
+
+                                            <h2 class="title-subtitle text-subtitle-little">
+                                                Doença de Alzheimer é um tipo de demência. Mas o que é demência?¹,²
+                                            </h2>
+
+                                            <ul id="brain-activity">
+                                                <li class="brain-activity-item">
+                                                    Demência é uma condição médica que apresenta sintomas como dificuldades de memória, 
+                                                    linguagem e habilidades cognitivas que afetam a realização de atividades cotidianas. 
+                                                </li>
+                                                <li class="brain-activity-item">
+                                                    Ela é causada por lesões e alterações cerebrais e engloba uma série de patologias, 
+                                                    como a DA, demência vascular, demência com corpos de Lewy, entre outras. 
+                                                </li>
+                                                <li class="brain-activity-item">
+                                                    Na demência, há deterioração da função cognitiva, com impacto físico, psicológico, 
+                                                    social e econômico para a pessoa com a condição e sua família. 
+                                                </li>
+                                                <li class="brain-activity-item">
+                                                    Mais de 55 milhões de pessoas vivem com demência em todo o mundo – por conta 
+                                                    do envelhecimento populacional, esse número deve chegar a 130 milhões até 2050.
+                                                </li>
+                                                <li class="brain-activity-item">
+                                                    Em 2019, o custo social global da demência foi de 1,3 trilhões de dólares e 
+                                                    esse valor deve ultrapassar 2,8 trilhões de dólares em 2030.
+                                                </li>
+                                                <li class="brain-activity-item">
+                                                    A forma de demência mais frequente é a doença de Alzheimer, responsável por 60-70% dos 
+                                                    casos. 
+                                                </li>
+                                            </ul>              
                     
-                                            <img class="news-container-image" src="../assets/images/oqueealzheimer/cerebro-labirinto.png" alt="">
-                                    
                                             <div class="icon-text-container">
                                                 <h3 class="icon-text-container-title">
-                                                    Os  <a class="sintomas-link">sinais e sintomas</a> mais comuns são¹
+                                                    Como consigo identificar a doença de Alzheimer?
                                                 </h3>
-                                                <div class="container">
-                                                    <div class="row no-gutters justify-content-start icon-text-container-row">
-                                                        <div class="col-12 col-md-4 col-xl-4 icon-text-item d-flex">
-                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/perda-memoria.png" alt="">
-                                                            <p class="icon-text-item-text">
-                                                                Perda de<br> memória recente
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-12 col-md-4 col-xl-4 icon-text-item d-flex">
-                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/dificuldade-conversar.png" alt="">
-                                                            <p class="icon-text-item-text">
-                                                                Dificuldade em acompanhar conversas ou raciocínios complexos
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-12 col-md-4 col-xl-4 icon-text-item d-flex">
-                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/dificuldade-conversar.png" alt="">
-                                                            <p class="icon-text-item-text">
-                                                                Dificuldade em acompanhar conversas ou raciocínios complexos
-                                                            </p>
-                                                        </div>
-                                                    </div>
 
-                                                    <div class="row no-gutters justify-content-start icon-text-container-row">
-                                                        <div class="col-12 col-md-4 col-xl-4 icon-text-item d-flex">
-                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/incapacidade.png" alt="">
+                                                <p class="news-info">
+                                                    Os sinais e sintomas mais comuns são:³
+                                                </p>
+
+                                                <div class="container">
+                                                    <div class="row no-gutters justify-content-start icon-text-container-row--column">
+                                                        <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/memoria.png" alt="">
+                                                            <p class="icon-text-item-text">
+                                                                Perda de memória recente
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/perguntas.png" alt="">
+                                                            <p class="icon-text-item-text">
+                                                                Repetir a mesma pergunta várias vezes
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/conversar.png" alt="">
+                                                            <p class="icon-text-item-text">
+                                                                Dificuldade em acompanhar conversas ou raciocínios complexos
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/estrategia.png" alt="">
                                                             <p class="icon-text-item-text">
                                                                 Incapacidade de desenvolver estratégias para solução de problemas
                                                             </p>
                                                         </div>
-                                                        <div class="col-12 col-md-4 col-xl-4 icon-text-item d-flex">
-                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/dificuldade-dirigir.png" alt="">
+                                                        <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/dirigir.png" alt="">
                                                             <p class="icon-text-item-text">
                                                                 Dificuldade para dirigir e encontrar caminhos conhecidos
                                                             </p>
                                                         </div>
-                                                        <div class="col-12 col-md-4 col-xl-4 icon-text-item d-flex">
-                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/dificuldade-expressar.png" alt="">
+                                                        <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/expressar.png" alt="">
                                                             <p class="icon-text-item-text">
                                                                 Dificuldade para expressar-se
                                                             </p>
                                                         </div>
-                                                    </div>
-                                                    
-                                                    <div class="row no-gutters justify-content-start icon-text-container-row">
-                                                        <div class="col-12 col-md-4 col-xl-6 icon-text-item d-flex">
-                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/mudanca-comportamento.png" alt="">
+                                                        <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/comportamento.png" alt="">
                                                             <p class="icon-text-item-text">
-                                                                Mudanças comportamentais, como irritabilidade, agressividade, passividade,
+                                                                Mudanças comportamentais, como irritabilidade, agressividade, passividade, 
                                                                 interpretações erradas de estímulos visuais ou auditivos, e tendência ao isolamento
                                                             </p>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                    
+                                                                                
                                             <p class="news-info news-info-with-max-width">
-                                                Em geral, a doença de Alzheimer é dividida em três grandes estágios: <span class="news-info-bold">pré-clínico</span>, 
-                                                <a class="sintomas-link">comprometimento cognitivo leve (CCL)</a> <span class="news-info-bold">e demência³</span>.
+                                                Existe uma tendência em focar nos casos já moderados e graves da doença de Alzheimer, 
+                                                mas a evolução da doença de Alzheimer deve ser considerada dentro de um processo contínuo que inclui os estágios: ¹
                                             </p>
-                                    
+
+                                            <ul id="brain-activity">
+                                                <li class="brain-activity-item">
+                                                    pré-clínico, quando não há sintomas;
+                                                </li>
+                                                <li class="brain-activity-item">
+                                                    comprometimento cognitivo leve (CCL), quando os sintomas começam a ser visíveis;
+                                                </li>
+                                                <li class="brain-activity-item">
+                                                    demência leve;
+                                                </li>
+                                                <li class="brain-activity-item">
+                                                    demência moderada;
+                                                </li>
+                                                <li class="brain-activity-item">
+                                                    demência grave. 
+                                                </li>
+                                            </ul>
+
                                             <button class="news-info-button">
                                                 Saiba mais sobre os estágios da doença de Alzheimer
                                             </button>
-                                    
-                                            <h2 class="title-subtitle text-subtitle-little">Será que é da idade? Envelhecer não é sinônimo de doença de Alzheimer</h2>
-                                    
+
+                                            <h2 class="title-subtitle text-subtitle-little">
+                                                Será que é da idade? Envelhecer não é sinônimo de doença de Alzheimer
+                                            </h2>
+
                                             <p class="news-info news-info-with-max-width">
-                                                Apesar da doença de Alzheimer ser mais frequente em idosos, 
-                                                <a class="sintomas-link">ela não é natural do processo de envelhecimento¹.</a>
+                                                Envelhecer é um processo natural de diminuição progressiva da capacidade funcional do 
+                                                indivíduo. Contudo, um grande erro comum deve ser continuamente evitado: considerar 
+                                                que todas as alterações cognitivas e funcionais são decorrentes da idade avançada, 
+                                                como parte do envelhecimento4. Isso acontece, por exemplo, com a doença de Alzheimer e 
+                                                seus sintomas iniciais³. 
                                             </p>
-                                    
-                                            <img class="news-container-image" src="../assets/images/oqueealzheimer/atividades.png" alt="">
-                                    
-                                            <p class="news-info">
-                                                Estilo de vida saudável ajuda na
-                                                <a class="sintomas-link"> prevenção4</a>
+
+                                            <p class="news-info news-info-with-max-width">
+                                                De vez em quando, esquecer nomes, precisar de ajuda para realizar tarefas, se 
+                                                confundir com compromissos e datas, perder coisas, e ficar irritado com situações específicas, 
+                                                por exemplo, são sinais normais entre os idosos. Contudo, é preciso ficar alerta e buscar ajuda 
+                                                quando essas situações se tornam frequentes.5
                                             </p>
-                                    
-                                            <p class="news-info">
-                                                De vez em quando, esquecer nomes, precisar de ajuda para realizar tarefas, se confundir com compromissos e datas, perder coisas 
-                                                (óculos e chaves, por exemplo), e ficar irritado com situações específicas, por exemplo,
-                                                são sinais normais entre os idosos. Contudo, é preciso ficar alerta e buscar ajuda quando 
-                                                essas situações se tornam frequentes3.
-                                            </p>
-                                    
-                                            <p class="news-info">
-                                                Os principais <a class="sintomas-link"> fatores de risco</a> da doença de Alzheimer são
-                                            </p>
+
+                                            <h2 class="title-subtitle text-subtitle-little">
+                                                Algumas coisas aumentam a chance de desenvolver DA6
+                                            </h2>
 
                                             <div class="icon-text-container">
-                                                <div class="container p-0">
-                                                    <div class="row no-gutters justify-content-start icon-text-container-row">
-                                                        <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
-                                                            <img src="../assets/images/oqueealzheimer/envelhecimento.png" class="icon-text-image" alt="">
-                                                            <p class="fatores-container-item-text" alt="">Envelhecimento</p>
-                                                        </div>
-                                                        <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
-                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/sexo.png" alt="">
-                                                            <p class="icon-text-item-text">
-                                                                Sexo
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
-                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/mudancas-geneticas.png" alt="">
-                                                            <p class="icon-text-item-text">
-                                                                Mutações genéticas
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
-                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/estilo-vida.png" alt="">
-                                                            <p class="icon-text-item-text">
-                                                                Estilo de vida
-                                                            </p>
-                                                        </div>
-                                                    </div>
+                                                <p class="news-info">
+                                                    Os principais fatores de risco da doença de Alzheimer são:
+                                                </p>
 
+                                                <div class="container">
                                                     <div class="row no-gutters justify-content-start icon-text-container-row">
-                                                        <div class="col-12 col-md-3 col-xl-4 icon-text-item d-flex">
-                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/dificuldade-dirigir.png" alt="">
+                                                        <div class="col-12 col-md-6 col-xl-6 icon-text-item
+                                                                    icon-text-item--no-margin
+                                                                    d-flex flex-column flex-md-row align-items-center 
+                                                                    justify-content-center
+                                                                    justify-content-md-start">
+                                                            <img class="icon-text-image--no-height" src="../assets/images/oqueealzheimer/idade.png" alt="">
+                                                            <p class="icon-text-item-text">
+                                                                Idade
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-12 col-md-6 col-xl-6 icon-text-item
+                                                                    icon-text-item--no-margin
+                                                                    d-flex flex-column flex-md-row align-items-center 
+                                                                    justify-content-center 
+                                                                    justify-content-md-start">
+                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/lesao.png" alt="">
+                                                            <p class="icon-text-item-text">
+                                                                Lesão cerebral traumática
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-12 col-md-6 col-xl-6 icon-text-item 
+                                                                    d-flex flex-column flex-md-row align-items-center 
+                                                                    justify-content-center 
+                                                                    justify-content-md-start">
+                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/hipertensao.png" alt="">
+                                                            <p class="icon-text-item-text">
+                                                                Hipertensão
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="col-12 col-md-6 col-xl-6 icon-text-item 
+                                                                    d-flex flex-column flex-md-row align-items-center 
+                                                                    justify-content-center 
+                                                                    justify-content-md-start">
+                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/vascular.png" alt="">
+                                                            <p class="icon-text-item-text">
+                                                                Doença vascular
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-12 col-md-6 col-xl-6 icon-text-item 
+                                                                    d-flex flex-column flex-md-row align-items-center 
+                                                                    justify-content-center 
+                                                                    justify-content-md-start">
+                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/obesidade.png" alt="">
+                                                            <p class="icon-text-item-text">
+                                                                Obesidade
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-12 col-md-6 col-xl-6 icon-text-item 
+                                                                    d-flex flex-column flex-md-row align-items-center 
+                                                                    justify-content-center 
+                                                                    justify-content-md-start">
+                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/sedentarismo.png" alt="">
+                                                            <p class="icon-text-item-text">
+                                                                Sedentarismo
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-12 col-md-6 col-xl-6 icon-text-item 
+                                                                    d-flex flex-column flex-md-row align-items-center 
+                                                                    justify-content-center 
+                                                                    justify-content-md-start">
+                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/diabetes.png" alt="">
+                                                            <p class="icon-text-item-text">
+                                                                Diabetes
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-12 col-md-6 col-xl-6 icon-text-item 
+                                                                    d-flex flex-column flex-md-row align-items-center 
+                                                                    justify-content-center 
+                                                                    justify-content-md-start">
+                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/depressao.png" alt="">
+                                                            <p class="icon-text-item-text">
+                                                                Depressão
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-12 col-md-6 col-xl-6 icon-text-item 
+                                                                    d-flex flex-column flex-md-row align-items-center 
+                                                                    justify-content-center 
+                                                                    justify-content-md-start">
+                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/escolaridade.png" alt="">
                                                             <p class="icon-text-item-text">
                                                                 Baixa escolaridade
                                                             </p>
                                                         </div>
+                                                        <div class="col-12 col-md-6 col-xl-6 icon-text-item 
+                                                                    d-flex flex-column flex-md-row align-items-center 
+                                                                    justify-content-center 
+                                                                    justify-content-md-start">
+                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/tabagismo.png" alt="">
+                                                            <p class="icon-text-item-text">
+                                                                Tabagismo
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-12 col-md-6 col-xl-6 icon-text-item 
+                                                                    d-flex flex-column flex-md-row align-items-center 
+                                                                    justify-content-center 
+                                                                    justify-content-md-start">
+                                                            <img class="icon-text-image" src="../assets/images/oqueealzheimer/sistema.png" alt="">
+                                                            <p class="icon-text-item-text">
+                                                                Fatores relacionados ao sistema imunológico
+                                                            </p>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>  
-                                    
-                                            <p class="news-info">
-                                                Alguns fatores de risco para doença de Alzheimer não são modificáveis, como envelhecimento, 
-                                                sexo (mulheres são afetadas até duas vezes mais que homens) e mutações genéticas. 
-                                                Porém, diabetes, obesidade, depressão, tabagismo e baixo nível de escolaridade também aumentam
-                                                as chances de ter DA e podem ser controlados e ajustados ao longo da vida. Por isso, hábitos 
-                                                de vida saudáveis podem ajudar a prevenir a patologia.
+                                            </div>
+
+                                            <h2 class="title-subtitle text-subtitle-little">E como é feito o diagnóstico?7</h2>
+
+                                            <p class="news-info news-info-with-max-width">
+                                                O diagnóstico é clínico, feito por meio de avaliação médica, exames e história do paciente. 
+                                                Testes psicológicos para verificar o funcionamento cognitivo em diferentes esferas fazem parte dessa análise. 
+                                                Seus resultados são associados a dados coletados da observação do comportamento do indivíduo, o que permite 
+                                                identificar a DA e seu estágio. 
                                             </p>
-                                    
-                                            <h2 class="title-subtitle">E como é feito o diagnóstico?</h2>
-                                    
-                                            <p class="news-info">
-                                                O diagnóstico é feito a partir de análise clínica, como testes físicos e cognitivos e histórico familiar. 
-                                                A partir dessa avaliação o médico consegue oferecer um diagnóstico adequado.  
-                                                Se necessário, exames complementares, de sangue e de imagem, podem ser solicitados5.
+
+                                            <p class="news-info news-info-with-max-width">
+                                                A hipótese da presença de outras doenças pode ser excluída a partir da realização de exames de 
+                                                sangue e de imagem, como tomografia e ressonância magnética do crânio.
                                             </p>
-                                    
+
                                             <button class="news-info-button">
-                                                Saiba mais sobre o diagnóstico da doença de Alzheimer
+                                                Saiba mais sobre os diagnóstico da doença de Alzheimer
                                             </button>
-                                    
-                                            <p class="news-info">
-                                                Na hora do diagnóstico, é importante descartar outras condições que podem causar manifestações similares à DA, 
-                                                como tumores e faltas de vitaminas. Ainda, é possível identificar se há associação entre doença de Alzheimer e 
-                                                outros tipos de demência. Por exemplo, 50% dos pacientes mais idosos com DA apresentam sinais de demência vascular. 
-                                                ambém é comum a coexistência com a demência com corpos de Lewy5.
+
+                                            <h2 class="title-subtitle text-subtitle-little">Cuidado multidisciplinar é fundamental</h2>
+
+                                            <p class="news-info news-info-with-max-width">
+                                                Na doença de Alzheimer, é fundamental ter um time de cuidado multidisciplinar, 
+                                                cujo objetivo é preservar a funcionalidade e independência do paciente, minimizando os distúrbios comportamentais. 
+                                                Dentre os profissionais envolvidos, além do neurologista, devem constar enfermeiro, nutricionista, psiquiatra e, 
+                                                quando necessário, especialista em cuidado domiciliar.8
                                             </p>
-                                    
-                                            <img class="news-container-image" src="../assets/images/oqueealzheimer/diagnosticos.png" alt="Diagnósticos">
-                                    
-                                            <div id="action-card">
-                                                <h3 class="action-card-title">Diagnóstico diferencial de Doença de Alzheimer6</h3>
-                                                <ul class="action-card-list">
-                                                    <li class="action-card-list-item">Deficiência de vitamina B12;</li>
-                                                    <li class="action-card-list-item">Hipotireoidismo;</li>
-                                                    <li class="action-card-list-item">Depressão;</li>
-                                                    <li class="action-card-list-item">Acidente vascular cerebral isquêmico;</li>
-                                                    <li class="action-card-list-item">Câncer;</li>
-                                                    <li class="action-card-list-item">Outras demências.</li>
-                                                </ul>
-                                            </div>
-                                    
-                                            <h2 class="title-subtitle">Cuidado multidisciplinar é fundamental</h2>
-                                    
-                                            <p class="news-info">
-                                                Na doença de Alzheimer, é fundamental ter um time de cuidado multidisciplinar, cujo objetivo é preservar a 
-                                                funcionalidade e independência do paciente, minimizando os distúrbios comportamentais. Dentre os profissionais 
-                                                envolvidos, além do neurologista, devem constar enfermeiro, nutricionista, psiquiatra e, quando necessário, 
-                                                especialista em cuidado domiciliar7. O Sistema Único de Saúde (SUS) disponibiliza centros de referência com tratamento 
-                                                multidisciplinar, integral e gratuito para pessoas com DA¹.
+
+                                            <p class="news-info news-info-with-max-width">
+                                                A doença de Alzheimer não tem cura, mas o cuidado adequado permite melhorar os sinais e 
+                                                sintomas, e diminuir a progressão da doença ao aumentar o número de neurotransmissores no cérebro.¹
                                             </p>
-                                    
-                                            <p class="news-info">
-                                                Já a terapia medicamentosa visa melhorar os sinais e sintomas, 
-                                                e diminuir a progressão da doença ao aumentar o número de neurotransmissores no cérebro5.
-                                            </p>
-                                    
-                                            <h2 class="title-subtitle">Entenda o que acontece com o cérebro na doença de Alzheimer5</h2>
-                                    
-                                            <img class="news-container-image" src="../assets/images/oqueealzheimer/acao-alzheimer.png" alt="Diagnósticos">
-                                    
-                                            <ul id="brain-activity">
-                                                    <li class="brain-activity-item">
-                                                        A doença de Alzheimer está associada ao acúmulo das proteínas beta-amilóides e TAU no cérebro.
-                                                    </li>
-                                                    <li class="brain-activity-item">
-                                                        As placas de beta-amilóides atuam fora dos neurônios interferindo na comunicação entre eles (sinapse).
-                                                    </li>
-                                                    <li class="brain-activity-item">
-                                                        O acúmulo de TAU bloqueia o transporte de nutrientes e 
-                                                        outras moléculas essenciais dentro dos neurônios.
-                                                    </li>
-                                                    <li class="brain-activity-item">
-                                                        Quanto mais beta-amilóide, maior será a progressão da proteína de TAU. 
-                                                        Juntas, elas causam perda de sinapse, morte neuronal e declínio cognitivo.
-                                                    </li>
-                                                    <li class="brain-activity-item">
-                                                        Além disso, a sobrecarga dessas proteínas causa inflamação e atrofia do cérebro, 
-                                                        pois o sistema imunológico ativa células de defesa para eliminar as proteínas tóxicas e células mortas do cérebro, 
-                                                        gerando um processo inflamatório na região.</li>
-                                                    <li class="brain-activity-item">
-                                                        A atrofia acontece pela perda de células cerebrais e compromete a capacidade do órgão em metabolizar a glicose, 
-                                                        fundamental para o bom funcionamento do cérebro.
-                                                    </li>
-                                            </ul>
-                                    
-                                            <div id="action-card">
-                                                <h3 class="action-card-title">O que é demência?8</h3>
-                                                <p class="action-card-text">
-                                                    Causada por lesões e alterações cerebrais, as demências englobam uma série de patologias, 
-                                                    como a DA, demência vascular, demência com corpos de Lewy, entre outras. 
-                                                    A mais frequente é a doença de Alzheimer, responsável por 60-70% dos casos. 
-                                                    Mais de 55 milhões de pessoas vivem com demência em todo o mundo – por conta do envelhecimento populacional, 
-                                                    esse número deve chegar a 130 milhões até 2050.
-                                                </p>
-                                                <p class="action-card-text">
-                                                    Nela, há deterioração da função cognitiva, com impacto físico, psicológico, social e econômico para o 
-                                                    paciente e sua família. Em 2019, o custo social global da demência foi de 1,3 trilhões de dólares e 
-                                                    esse valor deve ultrapassar 2,8 trilhões de dólares em 2030.
-                                                </p>
-                                            </div>
                                         
                                             <h2 class="title-subtitle">Referências</h2>
                                 
                                             <ul class="news-info-list style-none p-0">
                                                 <li class="news-info-list-item news-info-list-item--little">
-                                                    1. Alzheimer: o que é, causas, sintomas, tratamento, diagnóstico e prevenção. Ministério da Saúde. 
-                                                    Disponível em: https://antigo.saude.gov.br/saude-de-a-z/alzheimer Acesso 23/11/21
+                                                    1. Alzheimer’s Association. 2021 Alzheimer’s Disease Facts and Figures. 
+                                                    Disponível em: https://www.alz.org/media/documents/
+                                                    alzheimers-facts-and-figures.pdf Acesso em 23/11/21
                                                 </li>
                                                 <li class="news-info-list-item news-info-list-item--little">
-                                                    2. Alzheimer's Disease Diagnostic Guidelines. National Institute of Aging. 
-                                                    Disponível em https://www.nia.nih.gov/health/alzheimers-disease-diagnostic-guidelines Acesso 23/11/21
+                                                    2.World Health Organization. Dementia Fact Sheet. Disponível em: 
+                                                    https://www.who.int/news-room/fact-sheets/detail/
+                                                    dementia Acesso em 22/11/21
                                                 </li>
                                                 <li class="news-info-list-item news-info-list-item--little">
-                                                    3. 10 warn signs. Alzheimer's Association. 
-                                                    Disponúvel em: https://www.alz.org/national/documents/
+                                                    3.Ministério da Saúde. Alzheimer: o que é, causas, sintomas,
+                                                     tratamento, diagnóstico e prevenção. Disponível em: 
+                                                     https://bvsms.saude.gov.br/doenca-de-
+                                                     alzheimer-3/ Acesso 23/11/21
+                                                </li>
+                                                <li class="news-info-list-item news-info-list-item--little">
+                                                    4. Ministério da Saúde. Envelhecimento e saúde da pessoa idosa. Cadernos de Atenção Básica - n.º 19. 
+                                                    Disponível em: https://bvsms.saude.gov.br/bvs/publicacoes
+                                                    /evelhecimento_saude_pessoa_idosa.pdf Acesso em 5/1/2022
+                                                </li>
+                                                <li class="news-info-list-item news-info-list-item--little">
+                                                    5.Alzheimer's Association. 10 warn signs. Disponível em: 
+                                                    https://www.alz.org/national/documents/
                                                     aa_brochure_10warnsigns.pdf Acesso 23/11/21
                                                 </li>
                                                 <li class="news-info-list-item news-info-list-item--little">
-                                                    4. Drew, L. An age-old story of dementia. Nature, Vol 559 – 2018
+                                                    6.A Armstrong R. Risk factors for Alzheimer’s disease. Folia Neuropathol. 2019;57(2):87–105.
                                                 </li>
                                                 <li class="news-info-list-item news-info-list-item--little">
-                                                    5. 2021 Alzheimer’s Disease Facts and Figures. Alzheimer’s Association. 
-                                                    Disponível em: https://www.alz.org/media/documents/alzheimers-facts-and-figures.pdf Acesso 23/11/21
+                                                    7.Associação Brasileira de Alzheimer. Sobre Alzheimer - Diagnóstico. Disponível em 
+                                                    https://abraz.org.br/2020/sobre-alzheimer/
+                                                    diagnostico-2/ Acesso em 5/1/2022
                                                 </li>
                                                 <li class="news-info-list-item news-info-list-item--little">
-                                                    6. Protocolos Clínicos e Diretrizes Terapêuticas. Comissão Nacional de Incorporação de Tecnologias no SUS – CONITEC, 2017. 
-                                                    Disponível em: http://conitec.gov.br/images/Relatorios/2017/
-                                                    Recomendacao/Relatorio_PCDTDoen
-                                                    %C3%A7a_de_Alzheimer_267_17_final_SEC1207.pdf Acesso 22/11/21
-                                                </li>
-                                                <li class="news-info-list-item news-info-list-item--little">
-                                                    7. Jurkowski CL. A multidisciplinary approach to Alzheimer's disease: who should be members of the team? Am J Med. 1998 Apr 27;104(4A):13S-16S; 
-                                                    discussion 39S-42S. doi: 10.1016/s0002-9343(98)00023-0. PMID: 9617847
-                                                </li>
-                                                <li class="news-info-list-item news-info-list-item--little">
-                                                    8. Dementia Fact Sheet. World Health Organization, 2021. 
-                                                    Disponível em: https://www.who.int/news-room/fact-sheets/detail/dementia Acesso 22/11/21
+                                                    8.Jurkowski CL. A multidisciplinary approach to Alzheimer's disease: who should be members 
+                                                    of the team? Am J Med. 1998 Apr 27;104(4A):13S-16S; discussion 39S-42S. doi: 
+                                                    10.1016/s0002-9343(98)00023-0. PMID: 9617847
                                                 </li>
                                             </ul>
                                         </div>
