@@ -72,18 +72,23 @@
                         <p id="news-date">Publicado em 14 de novembro de 2021</p>
                     
                         <p class="news-info">
-                            As abordagens terapêuticas da doença de Alzheimer (DA) englobam exercícios e reabilitação
-                            motora e cognitiva; manejo de sintomas psicológicos e comportamentais; terapia ocupacional;
-                            e acompanhamento com psicólogo. Intervenções tecnológicas também pode ser amplamente
-                            usada, como em jogos para fortalecimento cognitivo. Esse cuidado com olhar universal para 
-                            a pessoa com DA beneficia sua qualidade de vida e saúde física e mental, além de ter impacto
-                            positivo na sobrecarga do cuidador.
+                            O cuidado multidisciplinar olha a pessoa em toda sua universalidade, zelando não só pela sua saúde, 
+                            mas também bem-estar e qualidade de vida. Na doença de Alzheimer (DA) esse tipo de atenção é fundamental, 
+                            já que os impactos são sentidos tanto pelo paciente, quanto pela pessoa responsável por seu cuidado.
                         </p>
                 
                         <p class="news-info">
-                            A DA é neurodegenerativa e progressiva. Conforme ela avança, os danos neurais passam a
-                            afetar a capacidade de realizar funções corporais básicas, como caminhar e engolir. 
-                            Por isso, é fundamental contar com um time multidisciplinar para cuidar da pessoa com a doença.
+                            As abordagens terapêuticas da doença de Alzheimer variam de acordo com a progressão do caso. Elas englobam exercícios 
+                            e reabilitação motora e cognitiva; manejo de sintomas psicológicos e comportamentais; terapia ocupacional; e 
+                            acompanhamento com psicólogo. Intervenções tecnológicas também podem ser amplamente usadas, como em jogos para 
+                            fortalecimento cognitivo. Esse cuidado com olhar universal para a pessoa com DA beneficia sua qualidade de vida e 
+                            saúde física e mental, além de ter impacto positivo na sobrecarga do cuidador.¹
+                        </p>
+
+                        <p class="news-info">
+                            DA é uma condição neurodegenerativa, progressiva e fatal. Conforme ela avança, os danos neurais passam a 
+                            afetar a capacidade de realizar funções corporais básicas, como caminhar e engolir. Por isso, é fundamental 
+                            contar com um time multidisciplinar para cuidar da pessoa com a doença.¹
                         </p>
                 
                         <h2 class="title-subtitle">Profissionais envolvidos no cuidado da pessoa</br> com doença de Alzheimer</h2>
@@ -92,25 +97,25 @@
                             <div class="container p-0">
                                 <div class="row no-gutters justify-content-start icon-text-container-row">
                                     <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
-                                        <img class="icon-text-image" src="../assets/images/tratamento/fisio.png" alt="">
+                                        <img class="icon-text-image" src="../assets/images/tratamento/neurologia.svg" alt="">
                                         <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little">
                                             Neurologista
                                         </p>
                                     </div>
                                     <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
-                                        <img class="icon-text-image" src="../assets/images/tratamento/fisio.png" alt="">
+                                        <img class="icon-text-image" src="../assets/images/tratamento/geriatrica.svg" alt="">
                                         <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little">
                                             Geriatra
                                         </p>
                                     </div>
                                     <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
-                                        <img class="icon-text-image" src="../assets/images/tratamento/fisio.png" alt="">
+                                        <img class="icon-text-image" src="../assets/images/tratamento/neuropsicologo.svg" alt="">
                                         <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little">
                                             Neuropsicólogo
                                         </p>
                                     </div>
                                     <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
-                                        <img class="icon-text-image" src="../assets/images/tratamento/fisio.png" alt="">
+                                        <img class="icon-text-image" src="../assets/images/tratamento/psiquiatria.svg" alt="">
                                         <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little">
                                             Psiquiatra
                                         </p>
@@ -119,19 +124,19 @@
 
                                 <div class="row no-gutters justify-content-start icon-text-container-row">
                                     <div class="col-12 col-md-3 col-xl-4 icon-text-item d-flex">
-                                        <img class="icon-text-image" src="../assets/images/tratamento/fisio.png" alt="">
+                                        <img class="icon-text-image" src="../assets/images/tratamento/enfermagem.svg" alt="">
                                         <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little text-center">
                                             Profissional de enfermagem
                                         </p>
                                     </div>
                                     <div class="col-12 col-md-3 col-xl-4 icon-text-item d-flex">
-                                        <img class="icon-text-image" src="../assets/images/tratamento/fisio.png" alt="">
+                                        <img class="icon-text-image" src="../assets/images/tratamento/fisioterapeuta.svg" alt="">
                                         <p class="icon-text-item-text icon-text-item-text-mt-bigger">
                                             Fisioterapeuta
                                         </p>
                                     </div>
                                     <div class="col-12 col-md-3 col-xl-4 icon-text-item d-flex">
-                                        <img class="icon-text-image" src="../assets/images/tratamento/fisio.png" alt="">
+                                        <img class="icon-text-image" src="../assets/images/tratamento/nutricionista.svg" alt="">
                                         <p class="icon-text-item-text icon-text-item-text-mt-bigger">
                                             Nutricionista
                                         </p>
@@ -140,29 +145,49 @@
                             </div>
                         </div>  
                 
-                        <h2 class="title-subtitle">Cuidando da saúde física</h2>
+                        <h2 class="title-subtitle">O diagnóstico precoce faz diferença3-6</h2>
                 
-                        <p class="news-info news-info-with-max-width">
-                            Atividade física aeróbica aumenta o fluxo sanguíneo cerebral, a extração de oxigênio e a
-                            utilização da glicose. Deste modo, ela melhora a função cognitiva e desacelera o seu declínio
-                            nas pessoas com doença de Alzheimer. Praticar exercícios físicos regularmente ajuda a
-                            prevenir o declínio funcional, melhorando também o humor e a qualidade de vida, reduzindo a frequência de quedas, 
-                            e preservando a saúde cardíaca. Ainda, seus benefícios estendem-se à
-                            massa muscular, metabolismo energético e aptidão funcional geral, como flexibilidade e equilíbrio.
+                        <p class="news-info">
+                            O diagnóstico precoce permite que manejo e tratamento também comecem antes, permitindo que a pessoa 
+                            permaneça nos estágios iniciais da doença de Alzheimer por mais tempo. Indivíduos com comprometimento 
+                            cognitivo leve (CCL) ou DA leve apresentam poucos sintomas e demandam menos supervisão, assim preservando 
+                            sua independência e diminuindo a sobrecarga para os cuidadores.
+                        </p>
+
+                        <p class="news-info">
+                            Conforme a doença progride, a funcionalidade e a cognição são reduzidas, ampliando a carga àqueles 
+                            responsáveis pelo cuidado, bem como custo geral para esse manejo.  
+                        </p>
+
+                        <p class="news-info">
+                            Por isso, é fundamental conhecer os sinais, os sintomas e os estágios da doença de Alzheimer, a fim de identificar 
+                            suas primeiras manifestações e buscar um médico para diagnosticar e tratar o quanto antes. 
+                        </p>
+
+                        <button class="news-info-button">
+                            Confira os estágios da DA
+                        </button>
+                
+                        <h2 class="title-subtitle">Cuidando da saúde física2,7</h2>
+                
+                        <p class="news-info">
+                            Atividade física aeróbica aumenta o fluxo sanguíneo cerebral, a extração de oxigênio e a utilização da glicose. 
+                            Deste modo, ela melhora a função cognitiva e desacelera o seu declínio nas pessoas com doença de Alzheimer. 
+                            Praticar exercícios físicos regularmente ajuda a prevenir o declínio funcional, melhora o humor e a qualidade de vida, 
+                            reduz a frequência de quedas e preserva a saúde cardíaca. Ainda há outros benefícios gerados a partir das atividades físicas: 
+                            ganho de massa muscular, metabolismo energético e aptidão funcional geral, como flexibilidade e equilíbrio. 
+                        </p>
+
+                        <h2 class="title-subtitle">Treinamento e reabilitação cognitiva2,7</h2>
+                
+                        <p class="news-info">
+                            Essas estratégias frequentemente são aplicadas nos primeiros estágios da doença de Alzheimer – o que reforça a 
+                            importância do diagnóstico precoce. O treinamento tem como objetivo melhorar o desempenho da pessoa com DA em tarefas cognitivas, 
+                            com estímulos gerais de memória e atenção. Já a reabilitação é desenhada para cada caso, seguindo a necessidade específica do indivíduo, 
+                            considerando estágio da doença e nível de comprometimento, com foco em melhorar o funcionamento na vida cotidiana.
                         </p>
                 
-                        <h2 class="title-subtitle">Treinamento e reabilitação cognitiva</h2>
-                
-                        <p class="news-info news-info-with-max-width">
-                            Essas estratégias frequentemente são aplicadas nos primeiros estágios da doença de
-                            Alzheimer – o que reforça a importância do diagnóstico precoce. O treinamento tem como
-                            objetivo melhorar o desempenho da pessoa com DA em tarefas cognitivas, com estímulos gerais de memória e atenção. 
-                            Já a reabilitação é desenhada para cada caso, seguindo a necessidade específica do indivíduo, considerando estágio da doença e nível de
-                            comprometimento, com foco em melhorar o funcionamento na vida cotidiana. massa muscular, metabolismo energético e aptidão funcional geral, 
-                            como flexibilidade e equilíbrio.
-                        </p>
-                
-                        <p class="news-info news-info-with-max-width">
+                        <p class="news-info">
                             O estímulo cognitivo beneficia também a qualidade de vida e o bem-estar da pessoa com DA,
                             reduzindo sinais de depressão e ansiedade. Atividades simples podem ser realizadas com esse objetivo:
                         </p>
@@ -171,19 +196,19 @@
                             <div class="container p-0">
                                 <div class="row no-gutters justify-content-start icon-text-container-row">
                                     <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
-                                        <img class="icon-text-image" src="../assets/images/tratamento/musicas.png" alt="">
+                                        <img class="icon-text-image" src="../assets/images/tratamento/musica.svg" alt="">
                                         <p class="icon-text-item-text icon-text-item-text--little">
                                             Ouvir músicas que gosta
                                         </p>
                                     </div>
                                     <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
-                                        <img class="icon-text-image" src="../assets/images/tratamento/fotos.png" alt="">
+                                        <img class="icon-text-image" src="../assets/images/tratamento/fotografias.svg" alt="">
                                         <p class="icon-text-item-text">
                                             Ver fotografias
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
-                                        <img class="icon-text-image" src="../assets/images/tratamento/jogo-memoria.png" alt="">
+                                    <div class="col-12 col-md-2 col-xl-2 icon-text-item d-flex">
+                                        <img class="icon-text-image" src="../assets/images/tratamento/jogos.svg" alt="">
                                         <p class="icon-text-item-text">
                                             Jogos da memória
                                         </p>
@@ -203,74 +228,102 @@
                         <p class="news-info">
                             O tratamento desses casos envolve:
                         </p>
+                        <ul class="news-info-list news-info-list--no-margin-top">
+                            <li class="news-info-list-item news-info-list-item--little">
+                                Acompanhamento psiquiátrico
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                Construção de uma rotina 
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                Participar de grupos de pacientes
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                Envolver a pessoa nas atividades da família
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                Se necessário, o médico pode indicar tratamento farmacológico
+                            </li>
+                        </ul>
 
-                        <div class="icon-text-container">
-                            <div class="container p-0">
-                                <div class="row no-gutters justify-content-start icon-text-container-row">
-                                    <div class="col-12 col-md-4 col-xl-4 icon-text-item d-flex">
-                                        <img class="icon-text-image" src="../assets/images/tratamento/fisio.png" alt="">
-                                        <p class="icon-text-item-text icon-text-item-text--little">
-                                            Acompanhamento psiquiátrico
-                                        </p>
-                                    </div>
-                                    <div class="col-12 col-md-4 col-xl-4 icon-text-item d-flex">
-                                        <img class="icon-text-image" src="../assets/images/tratamento/calendario.png" alt="">
-                                        <p class="icon-text-item-text icon-text-item-text--smaller">
-                                            Construção de uma rotina
-                                        </p>
-                                    </div>
-                                    <div class="col-12 col-md-4 col-xl-4 icon-text-item d-flex">
-                                        <img class="icon-text-image" src="../assets/images/tratamento/calendario.png" alt="">
-                                        <p class="icon-text-item-text">
-                                            Participar de grupos de pacientes
-                                        </p>
-                                    </div>
-                                </div>
+                        <h2 class="title-subtitle">Também é preciso cuidar de quem cuida</h2>
 
-                                <div class="row no-gutters justify-content-start icon-text-container-row">
-                                    <div class="col-12 col-md-3 col-xl-4 icon-text-item d-flex">
-                                        <img class="icon-text-image" src="../assets/images/tratamento/pessoas.png" alt="">
-                                        <p class="icon-text-item-text">
-                                            Envolver a pessoa nas atividades da família
-                                        </p>
-                                    </div>
-                                    <div class="col-12 col-md-3 col-xl-4 icon-text-item d-flex">
-                                        <img class="icon-text-image" src="../assets/images/tratamento/medicamentos.png" alt="">
-                                        <p class="icon-text-item-text">
-                                            Se necessário, o médico pode indicar terapia com medicamentos.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>  
-                        
+                        <p class="news-info">
+                            Em geral, a pessoa com DA depende de um cuidador para realizar tarefas cotidianas – uma carga que 
+                            cresce com a progressão da doença, demandando cada vez mais atenção e dedicação.9 
+                        </p>
+
+                        <p class="news-info">
+                            Tempo dedicado ao cuidado da pessoa com DA por mês de acordo com o estágio da doença:9
+                        </p>
+                        <ul class="news-info-list news-info-list--no-margin-top">
+                            <li class="news-info-list-item news-info-list-item--little">
+                                Leve – 4,7 dias
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                Moderada – 7 dias
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                Grave – 12,4 dias
+                            </li>
+                        </ul>
+
+                        <p class="news-info">
+                            Além disso, a qualidade de vida dessas pessoas é amplamente afetada, tal qual sua saúde. 
+                            Os cuidadores tendem a ser mais obesos, fumantes e terem mais comorbidades, como diabetes e hipertensão. 
+                            Ainda, são mais suscetíveis a desenvolver depressão, ansiedade, insônia e dor.10
+                        </p>
+
+                        <p class="news-info">
+                            Por isso, é essencial que essa pessoa tenha suporte familiar, médico e psicológico para exercer a função de cuidador. 
+                            Trocar experiencias com outras pessoas que estão passando pela mesma situação também ajuda – seja 
+                            como parte de uma associação de pacientes ou até em grupos nas redes sociais. Acesse a nossa aba Serviços e encontre pessoas próximas a você. 
+                        </p>
                 
                         <h2 class="title-subtitle">Referências</h2>
                 
                         <ul class="news-info-list style-none p-0">
                             <li class="news-info-list-item news-info-list-item--little">
-                                1. BRASIL. Portaria nº 2.528 de 19 de outubro de 2006. Institui Política Nacional de Saúde da
-                                Pessoa Idosa. Ministério da Saúde, Brasília. Disponível em:
-                                https://bvsms.saude.gov.br/
-                                bvs/saudelegis/gm/2006/
-                                prt2528_19_10_2006.html. Acesso
-                                26/11/2021
+                                1. Zucchella C, Sinforiani E, Tamburin S, Federico A, Mantovani E, Bernini S, Casale R, 
+                                Bartolo M. The Multidisciplinary Approach to Alzheimer's Disease and Dementia. 
+                                A Narrative Review of Non-Pharmacological Treatment. Front Neurol. 2018 Dec 13;9:1058.
                             </li>
                             <li class="news-info-list-item news-info-list-item--little">
-                                2. O que é demência. BVS Atenção Primária em Saúde, 2009. Disponível em:
-                                https://aps.bvs.br/aps/
-                                o-que-e-demencia/. Acesso 26/11/2021
+                                2. Grand JH, Caspar S, Macdonald SW. Clinical features and multidisciplinary approaches to dementia care. 
+                                J Multidiscip Healthc. 2011;4:125-147.
                             </li>
                             <li class="news-info-list-item news-info-list-item--little">
-                                3. Dementia Fact Sheet. World Health Organization, 2021. Disponível em:
-                                https://www.who.int/news-room/
-                                fact-sheets/detail/dementia. Acesso 26/11/2021
+                                3. Feldman HH, Woodward M. Neurology 2005;65:S10-S17
                             </li>
                             <li class="news-info-list-item news-info-list-item--little">
-                                4. 2021 Alzheimer’s Disease Facts and Figures. Alzheimer’s Association. Disponível em:
-                                https://www.alz.org/media/
-                                documents/
-                                alzheimers-facts-and-figures.pdf. Acesso 26/11/21
+                                4. Sot ME, et al. J Nutr Heealth Aging 2008; 12-703-713
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                5. Hui JS, et al. Neurology 2003;61:1356-1361
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                6. Wilson RS, et al. Int J Geriatr Psychiatry 2006;21:356-362
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                7. Alzheimer’s Association. 2021 Alzheimer’s Disease Facts and Figures. 
+                                Disponível em: https://www.alz.org/media/documents/
+                                alzheimers-facts-and-figures.pdf. 
+                                Acesso 26/11/21
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                8. Alzheimer’s Association. Depression. Disponível em: 
+                                https://www.alz.org/help-support/caregiving
+                                /stages-behaviors/depression 
+                                Acesso 26/11/21
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                9. Garrison LP Jr, Baumgart M, El-Hayek YH, Holzapfel D LC. 
+                                Defining elements of value in Alzheimer’s disease. Value & Outcomes Spotlight.
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                10. Laks J, Goren A, Duenas H, Novick D, Kahle-Wrobleski K. Caregiving for patients with 
+                                Alzheimer’s disease or dementia and its association with psychiatric and clinical comorbidities 
+                                and other health outcomes in Brazil. Int J Geriatr Psychiatry [Internet]. 2016 Feb;31(2):176–85.
                             </li>
                         </ul>
                     </div>
