@@ -112,14 +112,14 @@ main#home-main
 
 div.cookies-container {
     width: 100%;
-    height: 57.5rem;
+    height: 100%;
     background:rgba(255, 255, 255, 0.95);
-    position: absolute;
+    position: fixed;
     z-index: 1000;
     display: flex;
     justify-content: center;
     align-items: center;
-    top: -2.5rem;
+    top: 0;
 }
 
 div.cookie-card {
@@ -130,7 +130,7 @@ div.cookie-card {
 }
 
 img.cookies-close {
-    position: absolute;
+    position: fixed;
     top: 3.125rem;
     right: 3.438rem;
     z-index: 10000;

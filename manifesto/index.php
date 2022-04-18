@@ -121,7 +121,7 @@
                             Demência é uma condição caracterizada pela deterioração da função cognitiva que vai além do esperado 
                             como consequência do envelhecimento biológico. Ela afeta a capacidade de memória, orientação, 
                             compreensão, cálculo, aprendizagem, linguagem e julgamento. Causada por lesões cerebrais, 
-                            provoca prejuízos à independência de idosos mundialmente, além de impactos físicos, psicológicos, sociais e econômicos.²  
+                            provoca prejuízos à independência de idosos mundialmente, além de impactos físicos, psicológicos, sociais e econômicos.²
                         </p>
 
                         <p class="news-info">
