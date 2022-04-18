@@ -190,9 +190,10 @@
                         <div id="info-card" class="d-flex flex-column align-items-center align-items-xl-start">
                             <h3 id="info-card-title">Nem todo CCL leve é doença de Alzheimer¹</h3>
                             <p id="info-card-text">
-                                O comprometimento cognitivo leve não caracteriza diagnóstico de DA ou demência, podendo
-                                progredir ou não para alguma dessas doenças¹. Por isso, é fundamental identificar de forma correta o CCL,
-                                para que seja possível realizar o diagnóstico adequado de doença de Alzheimer.</p>
+                                O comprometimento cognitivo leve não caracteriza diagnóstico de DA ou demência, podendo progredir 
+                                ou não para alguma dessas doenças¹. Por isso, é fundamental identificar de forma correta o CCL, para que seja 
+                                possível realizar o diagnóstico adequado da doença de Alzheimer. 
+                            </p>
                         </div>
                 
                         <button class="news-info-button">
