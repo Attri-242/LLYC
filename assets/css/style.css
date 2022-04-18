@@ -213,6 +213,13 @@ p.icon-text-item-text {
 
 div.icon-text-container
 div.icon-text-container-row--column
+div.icon-text-item
+p.icon-text-item-text--no-mw {
+    max-width: unset;
+}
+
+div.icon-text-container
+div.icon-text-container-row--column
 div.icon-text-item--to-row
 p.icon-text-item-text--little {
     max-width: 20.625rem;
@@ -411,6 +418,11 @@ div#news-container
 ul.news-info-list {
     margin-top: 3.125rem;
     margin-bottom: 0;
+}
+
+div#news-container
+ul.news-info-list--no-margin-top {
+    margin-top: 1.125rem !important;
 }
 
 div#news-container

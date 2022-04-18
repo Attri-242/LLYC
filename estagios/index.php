@@ -71,33 +71,85 @@
                         <p id="news-date">Publicado em 14 de novembro de 2021</p>
                     
                         <p class="news-info">
-                            A evolução da doença de Alzheimer (DA) é acontece em um processo contínuo, cuja duração
-                            varia em cada caso. Ela é dividida em três estágios: pré-clínico, <a class="estagios-link"> comprometimento cognitivo leve (CCL) e demência</a>. 
-                            Ao atingir a demência, ela é subcategorizada em três níveis – leve,
-                            moderada e grave. A duração de cada fase também é diferente entre os indivíduos com DA,
-                            sendo influenciada por idade, genética e sexo, por exemplo¹.
+                            Normalmente, ao ouvir falar sobre a doença de Alzheimer (DA), surge uma imagem relacionada aos casos mais graves. 
+                            Essa figura entregue pelo senso comum apresenta uma pessoa com alto comprometimento cognitivo, com memória e 
+                            independência altamente afetadas. Mas não é bem assim. 
                         </p>
+
+                        <div class="icon-text-container">
+                            <p class="news-info">
+                                A evolução da doença de Alzheimer (DA) acontece em um processo contínuo. 
+                                Ela é dividida em três estágios:¹
+                            </p>
+
+                            <div class="container">
+                                <div class="row no-gutters justify-content-start icon-text-container-row--column">
+                                    <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                                        <img class="icon-text-image" src="../assets/images/estagios/pre-clinico.svg" alt="">
+                                        <p class="icon-text-item-text icon-text-item-text--no-mw">
+                                            Pré-clínico, quando já existe o acúmulo de beta-amiloide no cérebro, mas ainda não há sintomas
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                                        <img class="icon-text-image" src="../assets/images/estagios/comprometimento.svg" alt="">
+                                        <p class="icon-text-item-text icon-text-item-text--no-mw">
+                                            Comprometimento cognitivo leve (CCL), em que há sintomas, mas não impactam nas atividades do dia a dia
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                                        <img class="icon-text-image" src="../assets/images/estagios/demencia.svg" alt="">
+                                        <p class="icon-text-item-text icon-text-item-text--no-mw">
+                                            Demência devido à DA, com notável repercussão na capacidade cognitiva e funcional
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="news-info">
+                            Ao atingir a demência, ela é subcategorizada em três níveis – leve, moderada e grave. 
+                            A duração de cada fase também é diferente entre os indivíduos com DA, sendo influenciada por idade,
+                            genética e sexo, por exemplo.¹
+                        </p>
+
+                        <div class="action-card">
+                            <h3 class="action-card-title">A doença de Alzheimer não começa com a manifestação dos sintomas</h3>
+                            <p class="action-card-text">
+                                Antigamente, era muito comum a DA ser associada exclusivamente à demência, porém, com o avanço da 
+                                ciência, hoje entende-se que ela inicia muito antes1. A doença de Alzheimer está associada ao acúmulo de 
+                                placas de beta-amiloide tóxicas no cérebro, o que causa efeitos secundários, como a agregação da proteína TAU. 
+                                Por conta desse processo, também há perda neural, prejudicando a cognição e a independência. 
+                                Tudo isso pode começar mais de 20 anos antes dos primeiros sintomas².
+                            </p>
+                        </div>
+
+                        
+                        <h2 class="title-subtitle text-subtitle-little">
+                            A progressão da doença de Alzheimer
+                        </h2>
+
+                        <img class="news-container-image d-none d-lg-block" src="../assets/images/estagios/infografico.svg" alt="">
                     
-                        <div id="estagios-timeline">
+                        <div id="estagios-timeline" class="d-flex d-lg-none">
                             <div class="estagios">
                                 <div class="estagios-container-item container-item-little">
                                     Pré-clínico
                                 </div>
                                 <img class="estagios-container-arrow" src="../assets/images/estagios/timeline-arrow.png" alt="">
                                 <div class="estagios-container-item">
-                                    Comprometi</br>mento cognitivo leve ligado à DA
+                                    Comprometi</br>mento cognitivo leve devido à DA
                                 </div>
                                 <img class="estagios-container-arrow" src="../assets/images/estagios/timeline-arrow.png" alt="">
                                 <div class="estagios-container-item">
-                                    Demência leve ligada à DA
+                                    Demência leve devido à DA
                                 </div>
                                 <img class="estagios-container-arrow" src="../assets/images/estagios/timeline-arrow.png" alt="">
                                 <div class="estagios-container-item">
-                                    Demência moderada ligada à DA
+                                    Demência moderada devido à DA
                                 </div>
                                 <img class="estagios-container-arrow" src="../assets/images/estagios/timeline-arrow.png" alt="">
                                 <div class="estagios-container-item">
-                                    Demência severa ligada à DA
+                                    Demência severa devido à DA
                                 </div>
                             </div>
                             <div class="timeline">
@@ -125,27 +177,47 @@
                                 </div>
                             </div>
                         </div>
-                    
-                        <h2 class="title-subtitle title-italic">Figura adaptada de 2021 Alzheimer’s Disease Facts and Figures</h2>
+
+                        <h2 class="title-subtitle text-subtitle-little">
                             
+                        </h2>
+
                         <p class="news-info">
-                            O <a class="estagios-link">diagnóstico</a> precoce é fundamental para preservar a capacidade funcional e cognitiva do
-                            indivíduo, bem como sua qualidade de vida e bem-estar. Ao identificar os primeiros <a class="estagios-link">sinais 
-                            sintomas</a> da doença de Alzheimer, busque um médico.
+                            No Brasil, estima-se que existam:3,4
                         </p>
-                    
-                        <div class="action-card">
-                            <h3 class="action-card-title">A doença de Alzheimer</br> não começa na demência</h3>
-                            <p class="action-card-text">
-                                Antigamente, era muito comum a DA ser associada exclusivamente à demência, porém, com o
-                                avanço da ciência, hoje entende-se que ela inicia muito antes. Ou seja, demência é uma parte
-                                da doença de Alzheimer, mas não o todo¹. Primeiramente, a DA está associada ao acúmulo de
-                                duas proteínas no cérebro, a beta-amilóide e a TAU, o que pode começar mais de 20 anos
-                                antes dos primeiros sintomas². Além disso, pessoas com CCL relacionado à doença de
-                                Alzheimer já estão nas fases iniciais da patologia, ainda que sem grandes impactos em sua
-                                independência e qualidade de vida¹.
-                            </p>
-                        </div>
+
+                        <ul class="news-info-list news-info-list--no-margin-top">
+                            <li class="news-info-list-item news-info-list-item--little">
+                                9,5 milhões de pessoas com CCL devido à DA
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                2,8 milhões de pessoas com demência leve devido à DA
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                1,7 milhão de pessoas com demência moderada devido à DA
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                1,4 milhão de pessoas com demência grave devido à DA
+                            </li>
+                        </ul>
+
+                        <p class="news-info">
+                            A prevalência mundial estimada de doença de Alzheimer é de aproximadamente 35 milhões de casos4. 
+                            Contudo, esse número considera apenas as pessoas que vivem com demência devido à DA – ou seja, não 
+                            levam em conta aqueles no estágio pré-clínico e CCL6, quando a patologia está no início. 
+                        </p>
+                        
+                        <p class="news-info">
+                            Em todo o globo, apenas uma em cada quatro pessoas com DA foram diagnosticadas precocemente7. 
+                            Isso impacta negativamente na perspectiva de redução da progressão da doença1. Conforme a DA progride, 
+                            aumentam também os custos – inclusive os não percebidos, como perda na produtividade e despesas gerais pelo cuidado8.
+                        </p>
+
+                        <p class="news-info">
+                            Conhecer os estágios da doença de Alzheimer, bem como conseguir identificar suas manifestações, 
+                            beneficia o diagnóstico precoce e, consequentemente, a saúde e o bem-estar do paciente e de todos a sua volta. 
+                        </p>
+                        
                     
                         <h2 class="title-subtitle">Estágios da doença do Alzheimer¹</h2>
                     
@@ -219,27 +291,47 @@
                         </div>
                     
                         <p class="news-info">
-                            Cada estágio da doença de Alzheimer demanda um cuidado específico, composto por um <a class="estagios-link">time
-                            multidisciplinar</a> capaz de zelar pela saúde e bem-estar do indivíduo.
+                            Cada estágio da doença de Alzheimer demanda um cuidado específico, composto por um time multidisciplinar capaz 
+                            de zelar pela saúde e bem-estar do indivíduo. 
                         </p>
                     
                         <button class="news-info-button">
                             Confira os cuidados multidisciplinares da doença de Alzheimer
                         </button>
                     
-                    
-                    
                         <h2 class="title-subtitle">Referências</h2>
                         <ul class="news-info-list style-none p-0">
                             <li class="news-info-list-item news-info-list-item--little">
-                                1. 2021 Alzheimer’s Disease Facts and Figures. Alzheimer’s Association. 
-                                Disponível em: https://www.alz.org/media/
-                                documents/alzheimers-facts-and-
-                                figures.pdf. Acesso 24/11/21
+                                1. Alzheimer’s Association. 2021 Alzheimer’s Disease Facts and Figures. 
+                                Disponível em: https://www.alz.org/media/documents/
+                                alzheimers-facts-and-figures.pdf. 
+                                Acesso 24/11/21
                             </li>
                             <li class="news-info-list-item news-info-list-item--little">
-                                2. Dubois B, Hampel H, Feldman H, et al. Preclinical Alzheimer’s disease: Definition, natural
-                                history, and diagnostic criteria. Alzheimer’s Dement. 2016;12(3):292–323
+                                2. Dubois B, Hampel H, Feldman H, et al. Preclinical Alzheimer’s disease: 
+                                Definition, natural history, and diagnostic criteria. Alzheimer’s Dement. 2016;12(3):292–323
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                3. Knopman DS et al. Alzheimer Dement (Amst.). 2016; 2:1:11
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                4. Biogen. Apresentação, doença de Alzheimer
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                5. World Health Organization. Dementia Fact Sheet. 
+                                Disponível em: https://www.who.int/news-room/
+                                fact-sheets/detail/dementia 
+                                Acesso em 7/1/2022
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                7. Alzheimer’s Disease International. Dementia statistics. 
+                                Disponível em: https://www.alz.co.uk/research/
+                                statistics 
+                                Acesso em 7/1/2022
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                8. Garrison L, Baumgart M, El-Hayek Y, Holzapfel D, Leibman C. Defining elements of value in Alzheimer’s disease. 
+                                Value & Outcomes Spotlight. 2021;7(Suppl. 1):S7–1
                             </li>
                         </ul>
                     </div>
