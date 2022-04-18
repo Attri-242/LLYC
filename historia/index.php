@@ -158,9 +158,11 @@
                             Associações de pacientes podem ajudar nesse processo de aprendizagem e 
                             cuidado da doença de Alzheimer.
                         </p>
-                    
+
                         <button class="news-info-button">
-                            Ache uma associação perto de você
+                            <a class="link-text" href="<?= $baseUrl ?>. /associacoes/index.php">
+                                Ache uma associação perto de você
+                            </a>
                         </button>
                     </div>
                 </div>

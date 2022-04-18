@@ -9,7 +9,7 @@
         <a class="primary-nav-item" href="<?= $baseUrl ?>. /oqueealzheimer/index.php">O QUE É ALZHEIMER</a>
         <a class="primary-nav-item" href="<?= $baseUrl ?>. /sinaisESintomas/index.php">SINAIS, SINTOMAS E DIAGNÓSTICO</a>
         <a class="primary-nav-item" href="#">CUIDANDO DO PACIANTE</a>
-        <a class="primary-nav-item" href="#">CUIDANDO DE QUEM CUIDA</a>
+        <a class="primary-nav-item" href="<?= $baseUrl ?> . /historia/index.php">CUIDANDO DE QUEM CUIDA</a>
         <a class="primary-nav-item" href="<?= $baseUrl ?>. /cidadania/index.php">CIDADANIA</a>
         <a class="primary-nav-item" href="#">ENCONTRE APOIO</a>
     </nav>

@@ -410,7 +410,9 @@
                     </div>
 
                     <button class="news-info-button">
-                        Conheça os estágios da doença de Alzheimer
+                        <a class="link-text" href="<?= $baseUrl ?>. /estagios/index.php">
+                            Conheça os estágios da doença de Alzheimer
+                        </a>
                     </button>
 
                     <h2 class="title-subtitle">Como comunicar o diagnóstico da DA?16</h2>

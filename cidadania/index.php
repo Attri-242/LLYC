@@ -318,7 +318,9 @@
                         </p>
 
                         <button class="news-info-button">
-                            Está na hora de pensar a doença de Alzheimer. Confira o nosso manifesto
+                            <a class="link-text" href="<?= $baseUrl ?>. /manifesto/index.php">
+                                Está na hora de pensar a doença de Alzheimer. Confira o nosso manifesto
+                            </a>
                         </button>
                 
                         <h2 class="title-subtitle">Referências</h2>

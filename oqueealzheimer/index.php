@@ -206,9 +206,11 @@
                                 demência grave. 
                             </li>
                         </ul>
-                    
+
                         <button class="news-info-button">
-                            Saiba mais sobre os estágios da doença de Alzheimer
+                            <a class="link-text" href="<?= $baseUrl ?>. /estagios/index.php">
+                                Saiba mais sobre os estágios da doença de Alzheimer
+                            </a>
                         </button>
                     
                         <h2 class="title-subtitle text-subtitle-little">
@@ -360,9 +362,11 @@
                             A hipótese da presença de outras doenças pode ser excluída a partir da realização de exames de 
                             sangue e de imagem, como tomografia e ressonância magnética do crânio.
                         </p>
-                    
+  
                         <button class="news-info-button">
-                            Saiba mais sobre os diagnóstico da doença de Alzheimer
+                            <a class="link-text" href="<?= $baseUrl ?>. /diagnostico/index.php">
+                                Saiba mais sobre os diagnóstico da doença de Alzheimer
+                            </a>
                         </button>
                     
                         <h2 class="title-subtitle text-subtitle-little">Cuidado multidisciplinar é fundamental</h2>

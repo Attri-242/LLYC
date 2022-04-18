@@ -221,7 +221,9 @@
                         </p>
 
                         <button class="news-info-button">
-                            Conheça os sinais e sintomas da doença de Alzheimer
+                            <a class="link-text" href="<?= $baseUrl ?>. /manifesto/index.php">
+                                Conheça os sinais e sintomas da doença de Alzheimer
+                            </a>
                         </button>
 
                         <h2 class="title-subtitle text-subtitle-little">Impactos sociais e econômicos </h2>

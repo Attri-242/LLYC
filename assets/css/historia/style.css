@@ -46,6 +46,7 @@ img.historia {
 
 .info-video {
     margin-left: 10px;
+    width: 300px !important;
 }
 
 /* md - tablet */
@@ -74,6 +75,7 @@ img.historia {
 
     .info-video {
         margin-left: 0px;
+        width: 300px;
     }
  }
 
@@ -97,6 +99,7 @@ img.historia {
 
     .info-video {
         margin-left: 0px;
+        width: unset !important;
     }
  }
 
@@ -116,6 +119,7 @@ img.historia {
 
     .info-video {
         margin-left: 0px;
+        width: unset !important;
     }
  }
 

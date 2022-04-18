@@ -165,9 +165,11 @@
                             Por isso, é fundamental conhecer os sinais, os sintomas e os estágios da doença de Alzheimer, a fim de identificar 
                             suas primeiras manifestações e buscar um médico para diagnosticar e tratar o quanto antes. 
                         </p>
-                
+
                         <button class="news-info-button">
-                            Confira os estágios da DA
+                            <a class="link-text" href="<?= $baseUrl ?>. /estagios/index.php">
+                             Confira os estágios da DA
+                            </a>
                         </button>
                 
                         <h2 class="title-subtitle">Cuidando da saúde física2,7</h2>

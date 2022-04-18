@@ -139,7 +139,7 @@
                             <div class="col-2">
                                 <?php 
                                     include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
-                                    showNavItem("CUIDANDO DE QUEM CUIDA", [], 'regular', 'primary', '#'); ?>
+                                    showNavItem("CUIDANDO DE QUEM CUIDA", [], 'regular', 'primary', $baseUrl . "/historia/index.php"); ?>
                             </div>
 
                             <div class="col-2">
@@ -149,10 +149,6 @@
                             </div>
                         </div>
                     </div>
-
-                    
-
-                        
                 </div>
             </div>
         </nav>
@@ -237,7 +233,7 @@
             </div>
             <div class="nav-mobile-item-container">
                 <li class="nav-mobile-item">
-                    <a href="#">
+                    <a href="<?= $baseUrl ?> . /historia/index.php">
                         CUIDANDO DE QUEM CUIDA
                     </a>
                 </li>

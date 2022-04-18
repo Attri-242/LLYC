@@ -177,7 +177,7 @@
                             especialmente devido ao acúmulo das proteínas beta-amiloide e TAU¹.
                         </p>
 
-                        <img class="news-container-image" src="../assets/images/sinaisESintomas/clinicas.svg" alt="">
+                        <img class="news-container-image news-container-image--with-height" src="../assets/images/sinaisESintomas/clinicas.svg" alt="">
 
                         <p class="news-info">
                             O comprometimento cognitivo leve é um dos estágios iniciais da doença e quando os sintomas 
@@ -328,9 +328,11 @@
                                 </div>
                             </div>
                         </div>
-                
+
                         <button class="news-info-button">
-                            Conheça os estágios da doença de Alzheimer
+                            <a class="link-text" href="<?= $baseUrl ?>. /estagios/index.php">
+                                Saiba mais sobre os estágios da doença de Alzheimer
+                            </a>
                         </button>
                 
                         <h2 class="title-subtitle">Referências</h2>
