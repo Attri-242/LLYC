@@ -70,6 +70,127 @@ ul.news-info-list {
     margin-top: 3.125rem;
 }
 
+main#diagnostico-main
+div#news-container
+div.outros-diagnosticos {
+    border: 1px dashed black;
+    max-width: 42.375rem;
+}
+
+main#diagnostico-main
+div#news-container
+div.outros-diagnosticos
+h3.outros-diagnosticos-title {
+    font-weight: 500;
+    margin: 0; 
+    font-size: 1.25rem;
+    line-height: 1.563rem;
+    text-align: center;
+    color: #000000;
+    border-bottom: 1px dashed black;
+    padding: 0.625rem 0px;
+}
+
+main#diagnostico-main
+div#news-container
+div.outros-diagnosticos
+div.sintomas {
+    border-right: 1px dashed black;
+}
+
+main#diagnostico-main
+div#news-container
+div.outros-diagnosticos
+div.sintomas--border-top {
+    border-top: 1px dashed black;
+    margin: 0;
+}
+
+main#diagnostico-main
+div#news-container
+div.outros-diagnosticos
+div.sintomas-itens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.813rem;
+
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #000000;
+}
+
+main#diagnostico-main
+div#news-container
+div.outros-diagnosticos
+div.diagnosticos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.813rem;
+}
+
+main#diagnostico-main
+div#news-container
+div.outros-diagnosticos
+div.diagnosticos
+ul.diagnosticos-itens {
+    list-style: none;
+}
+
+main#diagnostico-main
+div#news-container
+div.outros-diagnosticos
+div.diagnosticos
+ul.diagnosticos-itens
+li.diagnosticos-item {
+    margin-top: 1.125rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #000000;
+}
+
+@media(max-width: 1199px) {
+    main#diagnostico-main
+    div#news-container
+    div.outros-diagnosticos {
+        max-width: unset;
+        width: 100%;
+    }
+
+    main#diagnostico-main
+    div#news-container
+    div.outros-diagnosticos
+    div.diagnosticos
+    ul.diagnosticos-itens {
+        padding-left: 0px;
+    }
+
+    
+    main#diagnostico-main
+    div#news-container
+    div.outros-diagnosticos
+    div.diagnosticos {
+        padding: 0rem;
+    }
+
+    main#diagnostico-main
+    div#news-container
+    div.outros-diagnosticos
+    div.diagnosticos
+    ul.diagnosticos-itens
+    li.diagnosticos-item {
+        font-size: 1rem;
+    }
+
+    main#diagnostico-main
+    div#news-container
+    div.outros-diagnosticos
+    div.sintomas-itens {
+        font-size: 1rem;
+    }
+}
+
 /* md - tablet */
 @media (min-width: 577px) and (max-width: 1199px) {
 
@@ -91,5 +212,4 @@ ul.news-info-list {
     p.news-info-with-max-width {
         width: unset;
     }
- }
- 
+}

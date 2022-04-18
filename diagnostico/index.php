@@ -19,7 +19,7 @@
         <section class="w-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 d-flex">
+                    <div class="col-12 d-flex align-items-center align-items-xl-start">
                         <div class="breadcrumb-breadcrumb-item">
                             <a class="breadcrumb-item-text"href="#">Home</a>
                             <img class="breadcrumb-item-arrow" src="../assets/images/home/test-arrow.png" alt="">
@@ -29,7 +29,7 @@
                             <img class="breadcrumb-item-arrow" src="../assets/images/home/test-arrow.png" alt="">
                         </div>
                         <div class="breadcrumb-breadcrumb-item">
-                            <a class="breadcrumb-item-text"href="#">Está na hora de pensar o diagnóstico de doença de Alzheimer</a>
+                            <a class="breadcrumb-item-text"href="#"> Está na hora de repensar o diagnóstico da doença de Alzheimer</a>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
         <section class="w-100 d-flex">
             <div class="container">
                 <div class="row d-flex flex-row justify-content-between w-lg-100">
-                    <h1 id="title-text" class="col-8">Está na hora de pensar o diagnóstico de doença de Alzheimer</h1>
+                    <h1 id="title-text" class="col-8 d-flex flex-column align-items-center align-items-xl-start"> Está na hora de repensar o diagnóstico da doença de Alzheimer</h1>
                     <div class="card-info-related-container col-4">
                         <div class="card-info-relateds">
                             <div class="card-info-related">
@@ -63,186 +63,471 @@
         </section>
     </div>
 
-    <section class="w-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div id="news-container">
-                        <p id="news-date">Publicado em 14 de novembro de 2021</p>
+    <div id="news-container">
+        <section class="w-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
+                    <p id="news-date">Publicado em 14 de novembro de 2021</p>
                     
+                    <p class="news-info">
+                        Você sabia que apenas uma em cada quatro pessoas com doença de Alzheimer (DA) é diagnosticada?¹ 
+                        Quando é identificada, em geral a DA já está em estágio avançado². A falta de informação sobre seus sintomas 
+                        iniciais corrobora para esse cenário, especialmente pela associação com o processo natural do envelhecimento – 
+                        o que acontece entre pacientes, familiares e até profissionais de saúde, que limitam a DA à demência, desconsiderando 
+                        as fases pré-clínica e de comprometimento cognitivo leve (CCL)3,4. Ou seja, é preciso trabalhar para que haja não 
+                        só mais diagnósticos, mas também mais diagnósticos precoces. 
+                    </p>
+            
+                    <p class="news-info">
+                        As principais especialidades para identificar doença de Alzheimer5
+                    </p>
+
+                    <div class="icon-text-container">
                         <p class="news-info">
-                            Em geral, os casos de demência são subdiagnosticados ou identificados em estágios
-                            avançados. O diagnóstico precoce é fundamental para o prognóstico da doença, inclusive
-                            oferecendo melhores perspectivas de redução da sua progressão.
+                            Os principais fatores de risco da doença de Alzheimer são:
                         </p>
-                
-                        <p class="news-info">
-                            E isso também se aplica à doença de Alzheimer (DA). Saber quais são seus sinais e sintomas
-                            ajuda a reconhecer a existência de um comprometimento cognitivo e procurar um médico para rastrear e, eventualmente, detectar a DA.
-                        </p>
-                
-                        <h2 class="title-subtitle text-subtitle-little">Profissionais envolvidos no cuidado da pessoa com doença de Alzheimer</h2>
-                
-                        <div class="icon-text-container">
-                            <div class="container p-0">
-                                <div class="row no-gutters justify-content-start icon-text-container-row">
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
-                                        <img class="icon-text-image" src="../assets/images/diagnostico/fisio.png" alt="">
-                                        <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little">
-                                            Neurologia
-                                        </p>
-                                    </div>
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
-                                        <img class="icon-text-image" src="../assets/images/tratamento/fisio.png" alt="">
-                                        <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--smaller">
-                                            Neuropsicologia
-                                        </p>
-                                    </div>
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
-                                        <img class="icon-text-image" src="../assets/images/tratamento/fisio.png" alt="">
-                                        <p class="icon-text-item-text icon-text-item-text-mt-bigger">
-                                            Geriatria
-                                        </p>
-                                    </div>
-                                    <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
-                                        <img class="icon-text-image" src="../assets/images/tratamento/fisio.png" alt="">
-                                        <p class="icon-text-item-text icon-text-item-text-mt-bigger">
-                                            Psiquiatria Geriátrica
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>  
-                
-                        <p class="news-info">
-                            Ainda não há um teste específico para demência devido à doença de Alzheimer e o médico,
-                            pode pedir uma série de exames físicos e clínicos para identificar a patologia. Os principais
-                            são:
-                        </p>
-                
-                        <div class="icon-text-container">
-                            <div class="icon-text-container-row--column">
-                                <div class="icon-text-item--to-row">
-                                    <img class="icon-text-image" src="../assets/images/diagnostico/historico.png" alt="">
-                                    <p class="icon-text-item-text icon-text-item-text--toRight">
-                                        Histórico médico e familiar do paciente
+
+                        <div class="container">
+                            <div class="row no-gutters justify-content-start icon-text-container-row">
+                                <div class="col-12 col-md-6 col-xl-4 icon-text-item
+                                            icon-text-item--no-margin
+                                            d-flex flex-column flex-md-row align-items-center 
+                                            justify-content-center
+                                            justify-content-md-start">
+                                    <img class="icon-text-image" src="../assets/images/diagnostico/neurologia.svg" alt="">
+                                    <p class="icon-text-item-text icon-text-item-text--little">
+                                        Neurologia
                                     </p>
                                 </div>
-                                <div class="icon-text-item--to-row">
-                                    <img class="icon-text-image" src="../assets/images/diagnostico/mudancas.png" alt="">
-                                    <p class="icon-text-item-text icon-text-item-text--toRight">
-                                        Mudanças cognitivas e comportamentais
+                                <div class="col-12 col-md-6 col-xl-4 icon-text-item
+                                            icon-text-item--no-margin
+                                            d-flex flex-column flex-md-row align-items-center 
+                                            justify-content-center 
+                                            justify-content-md-start">
+                                    <img class="icon-text-image" src="../assets/images/diagnostico/geriatria.svg" alt="">
+                                    <p class="icon-text-item-text">
+                                        Geriatria
                                     </p>
                                 </div>
-                                <div class="icon-text-item--to-row">
-                                    <img class="icon-text-image" src="../assets/images/diagnostico/testes.png" alt="">
-                                    <p class="icon-text-item-text icon-text-item-text--toRight icon-text-item-text--little">
-                                        Realização de resolução de problemas, memória e outros testes cognitivos
-                                    </p>
-                                </div>
-                                <div class="icon-text-item--to-row">
-                                    <img class="icon-text-image" src="../assets/images/diagnostico/exame-neuro.png" alt="">
-                                    <p class="icon-text-item-text icon-text-item-text--toRight">
-                                        Exames físicos e neurológicos
-                                    </p>
-                                </div>
-                                <div class="icon-text-item--to-row">
-                                    <img class="icon-text-image" src="../assets/images/diagnostico/exame.png" alt="">
-                                    <p class="icon-text-item-text icon-text-item-text--toRight">
-                                        Exames de sangue e de imagem do cérebro
+                                <div class="col-12 col-md-6 col-xl-4 icon-text-item
+                                            icon-text-item--no-margin
+                                            d-flex flex-column flex-md-row align-items-center 
+                                            justify-content-center 
+                                            justify-content-md-start">
+                                    <img class="icon-text-image" src="../assets/images/diagnostico/psiquiatria.svg" alt="">
+                                    <p class="icon-text-item-text">
+                                        Psiquiatria
                                     </p>
                                 </div>
                             </div>
                         </div>
-                
-                        <p class="news-info">
-                            Além desses exames, os médicos também devem conversar com familiares, amigos ou
-                            cuidadores sobre mudanças nas habilidades de pensamento do indivíduo com suspeita de DA.
-                            Como a causa do comprometimento cognitivo leve pode estar associado a deficiências de vitaminas, 
-                            distúrbios metabólicos e infecções, por exemplo, é preciso descartar essas possibilidades para continuar investigando a causa do declínio cognitivo4. 
-                            Os exames de imagens, como tomografias e ressonância magnética, também ajudam a diferenciar a doença
-                            de Alzheimer de outras demências, tumores cerebrais, hemorragias e fluxo sanguíneos no cérebro.
-                        </p>
-                
-                        <div class="action-card">
-                            <h3 class="action-card-title">Diagnóstico diferencial de Doença de Alzheimer6</h3>
-                            <ul class="action-card-list">
-                                <li class="action-card-list-item">Deficiência de vitamina B12;</li>
-                                <li class="action-card-list-item">Hipotireoidismo;</li>
-                                <li class="action-card-list-item">Depressão;</li>
-                                <li class="action-card-list-item">Acidente vascular cerebral isquêmico;</li>
-                                <li class="action-card-list-item">Câncer;</li>
-                                <li class="action-card-list-item">Outras demências.</li>
-                            </ul>
-                        </div>
-                
-                        <p class="news-info">
-                            Tomografia por emissão de pósitrons (PET) do cérebro e punção lombar, ambas com a
-                            utilização de biomarcadores, ajudam a analisar os níveis das proteínas beta-amilóide e tau.
-                        </p>
-                
-                        <h2 class="title-subtitle text-subtitle-little">É possível detectar a doença de Alzheimer ainda no estágio pré-clínico?</h2>
-                
-                        <p class="news-info">
-                            A doença de Alzheimer está associada ao acúmulo das proteínas beta-amilóides e tau no
-                            cérebro e o excesso dessas moléculas pode surgir até 20 anos antes dos primeiros sintomas. 
-                            Para diagnosticar a DA ainda na etapa pré-clínica é preciso utilizar biomarcadores, que
-                            detectam níveis anormais dessas proteínas².
-                        </p>
-                
-                        <div class="action-card">
-                            <p class="action-card-text action-card-text--no-margin-top">
-                                Anteriormente, as diretrizes para doença de Alzheimer abordavam apenas a demência como
-                                estágio da doença sendo a perda de memória sua a característica principal. Atualmente, são
-                                reconhecidos cinco estágios de DA: pré-clínico, comprometimento cognitivo leve, e demência
-                                leve, moderada e severa. Sabe-se também que aspectos da cognição, como capacidade de
-                                encontrar palavras ou julgamento, podem ser prejudicados antes da memória³.
-                            </p>
-                        </div>
-                
-                        <button class="news-info-button">
-                            Conheça os estágios da doença de Alzheimer
-                        </button>
-                
-                        <h2 class="title-subtitle text-subtitle-little">Comunicando sobre o diagnóstico de DA</h2>
-                
-                        <p class="news-info">
-                            A recomendação da OMS é de que seja feito um trabalho prévio para determinar as
-                            preferências dos pacientes e seus familiares sobre recebimento da notícia, levando em
-                            consideração questões culturais. O diagnóstico deve ser acompanhado de informações
-                            relevantes sobre a doença de acordo com a cultura e a compreensão das pessoas com
-                            demência e seus familiares, além do apoio e do cuidado que podem ser prestados.
-                        </p>
-                
-                        <h2 class="title-subtitle">Referências</h2>
-                
-                        <ul class="news-info-list style-none p-0">
-                            <li class="news-info-list-item news-info-list-item--little">
-                                1. BRASIL. Portaria nº 2.528 de 19 de outubro de 2006. Institui Política Nacional de Saúde da
-                                Pessoa Idosa. Ministério da Saúde, Brasília. Disponível em:
-                                https://bvsms.saude.gov.br/bvs/saudelegis/gm/2006/
-                                prt2528_19_10_2006.html. Acesso
-                                26/11/2021
-                            </li>
-                            <li class="news-info-list-item news-info-list-item--little">
-                                2. O que é demência. BVS Atenção Primária em Saúde, 2009. Disponível em:
-                                https://aps.bvs.br/aps/o-que-e-demencia/. Acesso 26/11/2021
-                            </li>
-                            <li class="news-info-list-item news-info-list-item--little">
-                                3. Dementia Fact Sheet. World Health Organization, 2021. Disponível em:
-                                https://www.who.int/news-room/fact-sheets/detail/dementia. Acesso 26/11/2021</li>
-                            <li class="news-info-list-item news-info-list-item--little">
-                                4. 2021 Alzheimer’s Disease Facts and Figures. Alzheimer’s Association. Disponível em:
-                                https://www.alz.org/media/documents/alzheimers-facts-and-figures.pdf. Acesso 26/11/21
-                            </li>
-                        </ul>
                     </div>
-                 
+           
+                    <div class="icon-text-container">
+                        <h3 class="icon-text-container-title">
+                            O diagnóstico parte da identificação de uma demência6
+                        </h3>
+
+                        <p class="news-info">
+                            O Protocolo Clínico e Diretrizes Terapêuticas (PCDT) da doença de Alzheimer determina que o 
+                            seu diagnóstico clínico começa com a identificação de uma demência de qualquer etiologia.
+                        </p>
+
+                        <p class="news-info">
+                            A demência é diagnosticada quando há manifestações cognitivas ou comportamentais que:
+                        </p>
+
+                        <div class="container">
+                            <div class="row no-gutters justify-content-start icon-text-container-row--column">
+                                <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                                    <img class="icon-text-image" src="../assets/images/diagnostico/habilidade.png" alt="">
+                                    <p class="icon-text-item-text">
+                                        Interferem com a habilidade no trabalho ou em atividades usuais
+                                    </p>
+                                </div>
+                                <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                                    <img class="icon-text-image" src="../assets/images/diagnostico/declinio.png" alt="">
+                                    <p class="icon-text-item-text">
+                                        Representam declínio em relação a níveis prévios de 
+                                        funcionamento e desempenho
+                                    </p>
+                                </div>
+                                <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                                    <img class="icon-text-image" src="../assets/images/diagnostico/delirium.png" alt="">
+                                    <p class="icon-text-item-text">
+                                        Não são explicáveis por delirium (estado de confusão agudo) 
+                                        ou doença psiquiátrica maior
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="title-subtitle text-subtitle-little">
+                        E qual a importância do diagnóstico precoce?
+                    </h2>
+
+                    <ul class="news-info-list">
+                        <li class="news-info-list-item news-info-list-item--little">
+                            Diagnóstico precoce contribui para melhor prognóstico da DA, inclusive oferecendo 
+                            melhores perspectivas de redução da sua progressão5
+                        </li>
+                        <li class="news-info-list-item news-info-list-item--little">
+                            Identificar a doença de Alzheimer nos estágios de CCL ou de demência leve permite 
+                            que a pessoa tome decisões sobre seu futuro enquanto ainda é capaz, como questões relacionadas 
+                            às finanças e às adaptações necessárias na casa e no dia a dia7-9
+                        </li>
+                        <li class="news-info-list-item news-info-list-item--little">
+                            Paciente e família têm benefícios psicológicos com a diminuição da incerteza acerca 
+                            da doença, como após o teste de biomarcadores10,11
+                        </li>
+                        <li class="news-info-list-item news-info-list-item--little">
+                            Pessoas diagnosticadas e tratadas precocemente apresentam melhores funções executivas e 
+                            maior velocidade de processamento de informações12
+                        </li>
+                    </ul>
+
+                    <h2 class="title-subtitle text-subtitle-little">
+                        Como é feito o diagnóstico de doença de Alzheimer
+                    </h2>
+
+                    <p class="news-info">
+                        O diagnóstico é clínico, com avaliação médica, exames e análise da história do paciente. O acúmulo das 
+                        proteínas beta-amiloide e TAU pode ser constatado a partir do estudo desses biomarcadores. 
+                        A jornada até o diagnóstico pode envolver:5 
+                    </p>
+
+                    <img class="news-container-image news-container-image--with-height" src="../assets/images/diagnostico/infografico.svg" alt="">
+
+                    <p class="news-info">
+                        Os médicos também devem conversar com familiares, amigos ou cuidadores sobre mudanças nas habilidades de pensamento do 
+                        indivíduo com suspeita de DA.13 
+                    </p>
+
+                    <p class="news-info">
+                        Como a causa do CCL pode estar associado a deficiências de vitaminas, distúrbios metabólicos e 
+                        infecções, por exemplo, é preciso descartar essas possibilidades para continuar investigando a causa do 
+                        declínio cognitivo.14 
+                    </p>
+
+                    <p class="news-info">
+                        Os exames de imagens, como tomografias e ressonância magnética, também ajudam a diferenciar a doença 
+                        de Alzheimer de outras demências, tumores cerebrais, hemorragias e fluxos sanguíneos no cérebro14.
+                    </p>
+
+                    <div class="outros-diagnosticos">
+                        <h3 class="outros-diagnosticos-title">Outros diagnósticos diferenciais de demência15</h3>
+                        
+                        <div class="container p-0">
+                            <div class="row">
+                                <div class="col-6 d-flex align-items-center sintomas">
+                                    <div class="sintomas-itens">
+                                        Transtornos degenerativos
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="diagnosticos">
+                                        <ul class="diagnosticos-itens">
+                                            <li class="diagnosticos-item">Doença de Alzheimer</li>
+                                            <li class="diagnosticos-item">Demência de corpos de Lewy</li>
+                                            <li class="diagnosticos-item">Demência frontotemporal</li>
+                                            <li class="diagnosticos-item">Doença de Huntington</li>
+                                            <li class="diagnosticos-item">Degeneração gangliônica córtico-basal</li>
+                                            <li class="diagnosticos-item">Doença de Parkinson</li>
+                                            <li class="diagnosticos-item">Paralisia supranuclear progressiva</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row sintomas--border-top">
+                                <div class="col-6 d-flex align-items-center sintomas">
+                                    <div class="sintomas-itens">
+                                        Causas vasculares
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="diagnosticos">
+                                        <ul class="diagnosticos-itens">
+                                            <li class="diagnosticos-item">Demência vascular</li>
+                                            <li class="diagnosticos-item">
+                                                CADASIL (Arteriopatia Cerebral Autossómica Dominante com Enfartes Subcorticais e Leucoencefalopatia)
+                                            </li>
+                                            <li class="diagnosticos-item">Vasculite</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row sintomas--border-top">
+                                <div class="col-6 d-flex align-items-center sintomas">
+                                    <div class="sintomas-itens">
+                                        Demência mista
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="diagnosticos">
+                                        <ul class="diagnosticos-itens">
+                                            <li class="diagnosticos-item">Vascular e DA</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row sintomas--border-top">
+                                <div class="col-6 d-flex align-items-center sintomas">
+                                    <div class="sintomas-itens">
+                                        Trauma
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="diagnosticos">
+                                        <ul class="diagnosticos-itens">
+                                            <li class="diagnosticos-item">Hematoma sub-dural</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row sintomas--border-top">
+                                <div class="col-6 d-flex align-items-center sintomas">
+                                    <div class="sintomas-itens">
+                                        Tumores intracranianos
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="diagnosticos">
+                                        <ul class="diagnosticos-itens">
+                                            <li class="diagnosticos-item"></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row sintomas--border-top">
+                                <div class="col-6 d-flex align-items-center sintomas">
+                                    <div class="sintomas-itens">
+                                        Doenças infecciosas
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="diagnosticos">
+                                        <ul class="diagnosticos-itens">
+                                            <li class="diagnosticos-item">Sífilis</li>
+                                            <li class="diagnosticos-item">Variante de doença de Creutzfeldt-Jakob</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row sintomas--border-top">
+                                <div class="col-6 d-flex align-items-center sintomas">
+                                    <div class="sintomas-itens">
+                                        Hidrocefalia de pressão-compensada
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="diagnosticos">
+                                        <ul class="diagnosticos-itens">
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row sintomas--border-top">
+                                <div class="col-6 d-flex align-items-center sintomas">
+                                    <div class="sintomas-itens">
+                                        Distúrbios tóxicos, endócrinos e metabólicos
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="diagnosticos">
+                                        <ul class="diagnosticos-itens">
+                                            <li class="diagnosticos-item">Alcoolismo crônico</li>
+                                            <li class="diagnosticos-item">Intoxicação por droga</li>
+                                            <li class="diagnosticos-item">Hipotireoidismo</li>
+                                            <li class="diagnosticos-item">Deficiências de vitamina B2 e ácido fólico</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row sintomas--border-top">
+                                <div class="col-6 d-flex align-items-center sintomas">
+                                    <div class="sintomas-itens">
+                                        Anóxia (privação total do oxigênio dentro dos tecidos ou dos órgãos)
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="diagnosticos">
+                                        <ul class="diagnosticos-itens">
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        </div>
+                    </div>
+
+                    
+                    <h2 class="title-subtitle text-subtitle-little">
+                        É possível detectar a doença de Alzheimer ainda no estágio pré-clínico?5
+                    </h2>
+
+                    <p class="news-info">
+                        A doença de Alzheimer está associada ao acúmulo das proteínas beta-amilóides e tau no cérebro 
+                        e o excesso dessas moléculas pode surgir até 20 anos antes dos primeiros sintomas clínicos. Para identificar 
+                        a DA ainda na etapa pré-clínica é preciso utilizar biomarcadores, que detectam níveis anormais dessas proteínas 
+                        e têm papel importante para o diagnóstico da doença de Alzheimer.
+                    </p>
+
+                    <div class="action-card">
+                        <p class="action-card-text action-card-text--no-margin-top">
+                            Antigamente, as diretrizes para doença de Alzheimer abordavam apenas a demência como estágio da 
+                            doença sendo a perda de memória sua característica principal. Atualmente, são reconhecidos cinco estágios de DA: 
+                            pré-clínico, comprometimento cognitivo leve e demência leve, moderada e severa. Sabe-se também que aspectos da cognição, 
+                            como capacidade de encontrar palavras ou julgamento, podem ser prejudicados antes da memória.13
+                        </p>
+
+                        <p class="action-card-text action-card-text--no-margin-top">
+                            O diagnóstico precoce contribui para o melhor manejo da doença. É também uma oportunidade
+                            para iniciar algumas práticas de saúde: exercícios físicos, atividades mentais e envolvimento social.
+                        </p>
+                    </div>
+
+                    <button class="news-info-button">
+                        Conheça os estágios da doença de Alzheimer
+                    </button>
+
+                    <h2 class="title-subtitle">Como comunicar o diagnóstico da DA?16</h2>
+
+                    <p class="news-info">
+                        A recomendação da Organização Mundial da Saúde (OMS) é de que seja feito um trabalho prévio para determinar 
+                        as preferências dos pacientes e seus familiares sobre recebimento da notícia, levando em consideração questões culturais. 
+                        O diagnóstico deve ser acompanhado de informações relevantes sobre a doença de acordo com a cultura e a compreensão das pessoas 
+                        com demência e seus familiares, além do apoio e do cuidado que podem ser prestados.
+                    </p>
+
+                    <h2 class="title-subtitle">Referências</h2>
+                
+                    <ul class="news-info-list style-none">
+                        <li class="news-info-list-item news-info-list-item--little">
+                            1.Alzheimer’s Disease International. Dementia statistics. 
+                            Disponível em: https://www.alz.co.uk/research/statistics 
+                            Acesso em 22/11/2021
+                        </li>
+                        <li class="news-info-list-item news-info-list-item--little">
+                            2.World Health Organization. Global action plan on the public health response 
+                            to dementia 2017–2025. Disponível em: 
+                            https://www.who.int/publications/i/
+                            item/9789241513487 
+                            Acesso em 24/11/2021
+                        </li>
+                        <li class="news-info-list-item news-info-list-item--little">
+                            3.Wilkinson D, Stave C, Keohane D, Vincenzino O. The role of general practitioners 
+                            in the diagnosis and treatment of Alzheimer’s  disease: a multinational survey. 
+                            J Int Med Res. 2004;32(2):149–59.
+                        </li>
+                        <li class="news-info-list-item news-info-list-item--little">
+                            4.Alzheimer’s Association. Earlier Diagnosis 2021. 
+                            Disponível em: https://www.alz.org/alzheimers-dementia
+                            /research_progress/earlier-diagnosis 
+                            Acesso em 6/1/2022
+                        </li>
+                        <li class="news-info-list-item news-info-list-item--little">
+                            5.Alzheimer’s Association. 2021 Alzheimer’s Disease Facts and Figures. 
+                            Disponível em: https://www.alz.org/media/documents/
+                            alzheimers-facts-and-figures.pdf. 
+                            Acesso 24/11/2021
+                        </li>
+                        <li class="news-info-list-item news-info-list-item--little">
+                            6.Ministério da Saúde. Secretaria de Atenção à Saúde. 
+                            Portaria conjunta Nº 13, de 28 de novembro de 2017. 
+                            Protocolo Clínico e Diretrizes Terapêuticas da Doença de Alzheimer. 
+                            33 p.
+                        </li>
+                        <li class="news-info-list-item news-info-list-item--little">
+                            7.Alzheimer’s Disease International. World Alzheimer Report 2011. 
+                            The benefits of early diagnosis and intervention. Alzheimer’s Disease International. 
+                            2011. Disponível em: https://www.alz.co.uk/research
+                            /WorldAlzheimerReport2011.pdf 
+                            Acesso em 6/1/2022
+                        </li>
+
+                        <li class="news-info-list-item news-info-list-item--little">
+                            8.Brooker D, Fontaine J, Evans S, Bray J, Saad K. Public health guidance to facilitate 
+                            timely diagnosis of dementia: Alzheimer’s Cooperative Valuation in Europe recommendations. 
+                            Int J Geriatr Psychiatry 2014; 29: 682–693
+                        </li>
+
+                        <li class="news-info-list-item news-info-list-item--little">
+                            9.Bradford A, Kunik ME, Schulz P, Williams SP, Singh H. Missed and delayed diagnosis of dementia 
+                            in primary care: prevalence and contributing factors. Alzheimer Dis Assoc Disord. 2009;23(4):306–314
+                        </li>
+
+                        <li class="news-info-list-item news-info-list-item--little">
+                            10.Alzheimer Europe. European Carers’ Report 2018. 
+                            Disponível em: https://eurocarers.org/2018-annual
+                            -report/ Acesso em 6/1/2022
+                        </li>
+
+                        <li class="news-info-list-item news-info-list-item--little">
+                            11. de Wilde A, van der Flier WM, Pelkmans W, et al. Association of Amyloid Positron 
+                            Emission Tomography With Changes in Diagnosis and Patient Treatment in an Unselected Memory 
+                            Clinic Cohort: The ABIDE Project. JAMA Neurol. 
+                            2018;75(9):1062–1070.
+                        </li>
+
+                        <li class="news-info-list-item news-info-list-item--little">
+                            12.Ngandu T, Lehtisalo J, Solomon A, et al. A 2 year multidomain intervention of diet, exercise, 
+                            cognitive training, and vascular risk monitoring versus control to prevent cognitive decline in at-risk 
+                            elderly people (FINGER): a randomised controlled trial. The Lancet. 2015; 385(9984): 2255-2263.​
+                        </li>
+
+                        <li class="news-info-list-item news-info-list-item--little">
+                            13.National Institute on Aging. Alzheimer's Disease Diagnostic Guidelines. 
+                            Estados Unidos. https://www.nia.nih.gov/health/alzheimers-disease
+                            -diagnostic-guidelines. 
+                            Acesso 24/11/21
+                        </li>
+
+                        <li class="news-info-list-item news-info-list-item--little">
+                            14.Alzheimer Portugal. Exames utilizados no Diagnóstico de Demência. 
+                            Disponível em: https://alzheimerportugal.org/pt/text-0-9
+                            -33-21-exames-utilizados-no-diagnostico-de-demencia. 
+                            Acesso em 26/11/2021
+                        </li>
+
+                        <li class="news-info-list-item news-info-list-item--little">
+                            15.Associação Brasileira de Alzheimer. Projeto Sinapses. Aula 1, Avaliação diagnóstica das síndromes demenciais. 
+                            Aula fornecida por Dr. Rodrigo Schultz, presidente da Abraz.
+                        </li>
+
+                        <li class="news-info-list-item news-info-list-item--little">
+                            16.World Health Organization. How to deliver the diagnosis of dementia. 
+                            Disponível em: https://www.who.int/teams/mental-health-and-substance-use/
+                            treatment-care/mental-health-gap-action-programme/evidence-centre/dementia/
+                            how-to-deliver-the-diagnosis-of-dementia. 
+                            Acesso 24/11/2021
+                        </li>
+                    </ul>
 
                 </div>
             </div>
-        </div>
-    </section>
+        <section>
+    </div>
 
 </main>
 

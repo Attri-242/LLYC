@@ -149,7 +149,8 @@ div.icon-text-container
 div.icon-text-container-row
 div.icon-text-item
 p.icon-text-item-text {
-    margin-top: 0.75rem;
+    /* margin-top: 0.75rem; */
+    margin-left: 10px;
     font-size: 1.25rem;
     line-height: 1.438rem;
     color: #000;
@@ -495,6 +496,11 @@ img.news-container-image {
     width: unset;
 }
 
+div#news-container
+img.news-container-image--with-height {
+    height: 500px;
+}
+
 /************/
 
 /* Bootstrap carousel */
@@ -536,7 +542,6 @@ img.news-container-image {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
 }
 
 img.carousel-image {
@@ -557,7 +562,7 @@ img.carousel-image {
     div#news-container
     ul.news-info-list
     li.news-info-list-item--little {
-        width: 37.5rem !important;
+        width: 100% !important;
     }
 
     div.icon-text-container
@@ -661,7 +666,7 @@ img.carousel-image {
    div#news-container
    ul.news-info-list
    li.news-info-list-item--little {
-       width: 17.813rem;
+        width: 100% !important;
    }
 
    main#manifesto-main
@@ -711,11 +716,15 @@ img.carousel-image {
     p.icon-text-item-text {
         font-size: 1rem;
     }
+
+    img.news-container-image--with-height {
+        height: 230px;
+    }
 }
 
 /* col - mobile */
 @media (max-width: 576px) {
-   html {font-size: 14px;}
+   html {font-size: 14px !important;}
 
    div#breadcrumb {
        display: none;
@@ -792,7 +801,7 @@ img.carousel-image {
    div#news-container
    ul.news-info-list
    li.news-info-list-item--little {
-       width: 285px;
+        width: 100% !important;
    }
 
    div#news-container
@@ -829,6 +838,11 @@ img.carousel-image {
    img.news-container-image {
        width: 100%;
    }
+
+    div#news-container
+    img.news-container-image--with-height {
+        height: 230px;
+    }
 
    div.icon-text-container {
         max-width: unset;
