@@ -163,7 +163,7 @@ main#sinais-main
 div#news-container
 div#timeline
 div#sintomas-timeline-text-iniciais::after {
-    content: 'Iniciais4';
+    content: 'Iniciais7';
     position: absolute;
     width: 1px;
     top: 0;
@@ -191,7 +191,7 @@ main#sinais-main
 div#news-container
 div#timeline
 div#sintomas-timeline-text-moderados::after {
-    content: 'Moderados4';
+    content: 'Moderados7';
     position: absolute;
     width: 1px;
     top: 0;
@@ -219,7 +219,7 @@ main#sinais-main
 div#news-container
 div#timeline
 div#sintomas-timeline-text-severos::after {
-    content: 'Severos4';
+    content: 'Grave7';
     position: absolute;
     width: 1px;
     top: 0;
@@ -416,8 +416,30 @@ span.timeline-text-item:not(:first-child) {
     margin-top: 1.875rem;
 }
 
-@media (min-width: 980px) and (max-width: 1199px) {
+@media(max-width: 1199px) {
+    main#sinais-main
+    div#news-container
+    div#news-table-container
+    div.news-table { 
+        width: 100%;
+        max-width: unset;
+    }
 
+    main#sinais-main
+    div#news-container
+    div#news-table-container
+    span.news-table-item
+    p.news-table-item-text  {
+        width: unset !important;
+    }
+
+    main#sinais-main
+    div#news-container
+    div#news-table-container 
+    div.new-table-second-item {
+        border-left: unset !important;
+    }
+    
 }
 
 @media (min-width: 762px) and (max-width: 1199px) {
@@ -426,13 +448,14 @@ span.timeline-text-item:not(:first-child) {
     div#news-table-container {
         flex-flow: row !important;
     }
+}
 
+@media (min-width: 577px) and (max-width: 767px) {
     main#sinais-main
     div#news-container
     div#news-table-container 
     div.new-table-second-item {
-        border-left: unset !important;
-        margin-top: 3.125rem !important;
+        border-left: 1px dashed black !important;
     }
 }
 
@@ -453,14 +476,6 @@ span.timeline-text-item:not(:first-child) {
     div#news-container
     div#news-table { 
         margin-top: 0.875rem;
-    }
-
-    main#sinais-main
-    div#news-container
-    div#news-table-container 
-    div.new-table-second-item {
-        border-left: 1px dashed black !important;
-        margin-top: 1.563rem;
     }
 
     main#sinais-main
@@ -579,12 +594,6 @@ span.timeline-text-item:not(:first-child) {
 
     main#sinais-main
     div#news-container
-    div#info-card {
-        width: 28.438rem
-    }
-
-    main#sinais-main
-    div#news-container
     div#info-card 
     h3#info-card-title {
         font-size: 1.063rem;
@@ -610,12 +619,6 @@ span.timeline-text-item:not(:first-child) {
         display: none;
     }
     
-    main#sinais-main
-    div#news-container
-    div#news-table { 
-        margin-top: 0.875rem;
-    }
-
     main#sinais-main
     div#news-container
     div#news-table
@@ -664,6 +667,13 @@ span.timeline-text-item:not(:first-child) {
     div.new-table-second-item {
         border-left: 1px dashed black !important;
         margin-top: 1.563rem;
+    }
+
+    main#sinais-main
+    div#news-container
+    div#news-table-container
+    div.news-table { 
+        width: 100%;
     }
 
     main#sinais-main

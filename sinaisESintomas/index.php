@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+'<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -19,7 +19,7 @@
         <section class="w-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 d-flex">
+                    <div class="col-12 d-flex align-items-center align-items-xl-start">
                         <div class="breadcrumb-breadcrumb-item">
                             <a class="breadcrumb-item-text"href="#">Home</a>
                             <img class="breadcrumb-item-arrow" src="../assets/images/home/test-arrow.png" alt="">
@@ -41,7 +41,9 @@
         <section class="w-100 d-flex">
             <div class="container">
                 <div class="row">
-                    <h1 id="title-text" class="col-8">Está na hora de conhecer os sinais e sintomas da doença de Alzheimer</h1>
+                    <h1 id="title-text" class="col-8 d-flex flex-column align-items-center align-items-xl-start">
+                        Está na hora de conhecer os sinais e sintomas da doença de Alzheimer
+                    </h1>
                     <div class="card-info-related-container col-4">
                         <div class="card-info-relateds">
                             <div class="card-info-related">
@@ -67,24 +69,26 @@
         <section class="w-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
                         <p id="news-date">Publicado em 14 de novembro de 2021</p>
                     
                         <p class="news-info">
-                            Os sinais e sintomas podem variar entre as pessoas com doença de Alzheimer (DA). Eles se
-                            tornam mais evidentes conforme a DA avança, relacionando-se aos seus <a class="news-info-link">estágios¹</a>. Um
-                            importante sinal de alerta são mudanças recentes na capacidade de realizar tarefas ou
-                            atividades em que a pessoa costumava ter habilidade2
+                            É comum que os sintomas iniciais da doença de Alzheimer (DA) sejam confundidos com o processo de 
+                            envelhecimento normal – o que tende a adiar a busca por orientação profissional e diagnóstico¹. 
+                            Indivíduos com DA, bem como pessoas próximas a eles, deixam passar manifestações da doença, 
+                            relacionando-os à idade avançada2. Inclusive, essa má interpretação dos primeiros sinais da doença 
+                            também acontece entre os profissionais de saúde – mundialmente 60% deles entendem demência como parte 
+                            do envelhecimento normal³. 
                         </p>
                 
                         <p class="news-info">
-                            Além disso, as primeiras manifestações são comumente confundidas com características do
-                            envelhecimento – por isso é importante diferenciá-las, favorecendo o diagnóstico precoce¹.
+                            Por isso, é importante conhecer os sinais e sintomas da doença de Alzheimer e diferenciá-los 
+                            do processo de envelhecimento.
                         </p>
                 
-                        <div id="news-table-container">
+                        <div id="news-table-container" class="w-100">
                             <div class="news-table">
-                                <h3 class="news-table-title">Sinais de Doença de Alzheimer²</h3>
+                                <h3 class="news-table-title">Sinais de Doença de Alzheimer4</h3>
                                 <img class="news-table-image" src="../assets/images/sinaisESintomas/image-table-1.png" alt="">
                                 <span class="news-table-item">
                                     <p class="news-table-item-text">Dificuldade de julgamento e tomada de decisão</p> 
@@ -104,7 +108,7 @@
                             </div>
                 
                             <div class="news-table new-table-second-item">
-                                <h3 class="news-table-title">Características comuns à idade²</h3>
+                                <h3 class="news-table-title">Características comuns à idade4</h3>
                                 <img class="news-table-image" src="../assets/images/sinaisESintomas/image-table-2.png" alt="">
                                 <span class="news-table-item">
                                     <p class="news-table-item-text">Fazer escolhas ruins de vez em quando</p> 
@@ -127,31 +131,63 @@
                         <button class="news-info-button">
                             Leia mais sobre como diagnosticar a doença de Alzheimer
                         </button>
-                
+
+                        <h2 class="title-subtitle">5 critérios clínicos diagnósticos5</h2>
+
                         <p class="news-info">
-                            A perda de memória não é o primeiro ou único sintoma principal da doença de Alzheimer.
-                            Outros aspectos da patologia podem ser afetados primeiro, como a dificuldade para encontrar
-                            palavras ou fazer julgamentos. A DA é dividida em três estágios: pré-clínico, 
-                            <a class="news-info-link">comprometimento cognitivo leve (CCL) e demência</a>. 
-                            E cada um deles conta com manifestações específicas e
-                            diferentes níveis de impacto na função cognitiva e até física3.
+                            Para identificação de demência, é avaliado se os comprometimentos cognitivos ou 
+                            comportamentais afetam pelo menos dois dos itens abaixo:
                         </p>
-                
-                
+
+                        <div id="carousel" class="carousel slide carousel-container" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block img-fluid carousel-image" src="../assets/images/sinaisESintomas/memoria.svg" alt="First slide">
+                                </div>
+                                <div class="carousel-item carousel-image">
+                                    <img class="d-block img-fluid carousel-image" src="../assets/images/sinaisESintomas/funcoes-executivas.svg">
+                                </div>
+                                <div class="carousel-item carousel-image">
+                                    <img class="d-block img-fluid carousel-image" src="../assets/images/sinaisESintomas/habilidades-visuais.svg">
+                                </div>
+                                <div class="carousel-item carousel-image">
+                                    <img class="d-block img-fluid carousel-image" src="../assets/images/sinaisESintomas/linguagem.svg">
+                                </div>
+                                <div class="carousel-item carousel-image">
+                                    <img class="d-block img-fluid carousel-image" src="../assets/images/sinaisESintomas/personalidade.svg">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" data-bs-target="#carousel" role="button" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            </a>
+                            <a class="carousel-control-next" data-bs-target="#carousel" role="button" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            </a>
+                        </div>
+
+                        <h2 class="title-subtitle text-subtitle-little">A perda de memória não é o primeiro ou único sintoma da doença de Alzheimer¹</h2>
+
                         <p class="news-info">
-                            Na fase pré-clínica ainda não há sintomas evidentes. Contudo, é quando começam as
-                            alterações cerebrais, especialmente devido ao acúmulo das proteínas beta-amilóde e TAU¹.
+                            A DA é dividida nos estágios: pré-clínico, comprometimento cognitivo leve (CCL) e demência leve, moderada e grave. 
+                            Cada um deles conta com manifestações específicas e diferentes níveis de impacto na função cognitiva e funcional.6 
                         </p>
-                
+
                         <p class="news-info">
-                            Já quando há comprometimento cognitivo leve, as manifestações começam a ficar mais
-                            evidentes. As funções cognitivas mais afetadas são a memória e a resolução de problemas. 
-                            Mas, apesar do declínio cognitivo ser evidente para ele e pessoas próximas, e a realização de
-                            tarefas complexas serem mais difíceis, o indivíduo se mantém independente e continua a
-                            realizar atividades diárias¹,³.
+                            Na fase pré-clínica ainda não há sintomas evidentes6. Contudo, é quando começam as alterações cerebrais, 
+                            especialmente devido ao acúmulo das proteínas beta-amiloide e TAU¹.
                         </p>
-                
-                        <div id="info-card">
+
+                        <img class="news-container-image" src="../assets/images/sinaisESintomas/clinicas.svg" alt="">
+
+                        <p class="news-info">
+                            O comprometimento cognitivo leve é um dos estágios iniciais da doença e quando os sintomas 
+                            começam a ficar mais visíveis e detectáveis. As funções cognitivas mais afetadas são a memória 
+                            e a resolução de problemas. Mas, apesar do declínio cognitivo ser evidente para ele e pessoas próximas, 
+                            e a realização de tarefas complexas serem mais difíceis, o indivíduo se mantém independente e continua 
+                            a realizar atividades diárias1,6. 
+                        </p>
+
+                        <div id="info-card" class="d-flex flex-column align-items-center align-items-xl-start">
                             <h3 id="info-card-title">Nem todo CCL leve é doença de Alzheimer¹</h3>
                             <p id="info-card-text">
                                 O comprometimento cognitivo leve não caracteriza diagnóstico de DA ou demência, podendo
@@ -163,14 +199,14 @@
                             Saiba mais sobre o CCL
                         </button>
                 
-                        <h2 class="title-subtitle">Quais são os sintomas da doença do Alzheimer?</h2>
+                        <h2 class="title-subtitle">Veja as manifestações da DA em cada fase da doença</h2>
                 
                         <div id="timeline">
                             <div id="sintomas-timeline-text-iniciais"></div>
                             <div id="sintomas-timeline">
                                 <div id="sintomas-timeline-container" class="sintomas-timeline-container-first">
                                     <span class="timeline-text-item timeline-item-max-width">Perda de memória</span>
-                                    <span class="timeline-text-item timeline-item-max-width">Demora para completar as tarefas diárias normais</span>
+                                    <span class="timeline-text-item timeline-item-max-width">Julgamento que levam a decisões erradas</span>
                                 </div>
                             </div>
                     
@@ -182,9 +218,12 @@
                     
                             <div id="sintomas-timeline" class="sintomas-timeline-mt">
                                 <div id="sintomas-timeline-container" class="sintomas-timeline-container-second">
-                                    <span class="timeline-text-item timeline-item-max-width">Julgamento que levam a decisões erradas</span>
+                                    <span class="timeline-text-item timeline-item-max-width">Demora para completar as tarefas diárias normais</span>
                                     <span class="timeline-text-item timeline-item-max-width">Perguntas repetitivas</span>
                                     <span class="timeline-text-item timeline-item-max-width">Problemas para lidar com dinheiro e pagar contas</span>
+                                    <span class="timeline-text-item timeline-item-max-width">Perder coisas com frequência</span>
+                                    <span class="timeline-text-item timeline-item-max-width">Mudanças de humor e personalidade</span>
+                                    <span class="timeline-text-item timeline-item-max-width">Aumento de ansiedade e/ou agressão</span>
                                 </div>
                             </div>
                     
@@ -300,24 +339,40 @@
                                 1. 2021 Alzheimer’s Disease Facts and Figures. Alzheimer’s Association. Disponível em:
                                 https://www.alz.org/media/
                                 documents
-                                /alzheimers-facts-and-figures.pdf. Acesso 23/11/21</li>
-                            <li class="news-info-list-item news-info-list-item--little">
-                                2. 10 warn signs. Alzheimer&#39;s Association. Disponível em:
-                                https://www.alz.org/national/
-                                documents/
-                                aa_brochure_10warnsigns.pdf. Acesso 23/11/21
+                                /alzheimers-facts-and-figures.pdf. Acesso 23/11/21
                             </li>
                             <li class="news-info-list-item news-info-list-item--little">
-                                3. Vaughn, Peggy. Alzheimer&#39;s diagnostic guidelines updated for first time in decades. Estados
-                                Unidos. National Institutes of Health e the Alzheimer’s Association, 2011. Disponível em:
-                                https://www.nia.nih.gov/news/
-                                alzheimers-diagnostic-guidelines-
-                                updated-first-time-decades. Acesso 23/11/21
+                                2.James, A. Wilcox; Duffy PR. Is it a “senior moment” or early dementia? 
+                                Addressing memory concerns in older patients. Curr Psychiatr [Internet]. 
+                                15(5)(28-30,32-34,40). Disponível em: https://www.mdedge.com/psychiatry/
+                                article/108301/alzheimers-cognition/it-senior-moment-
+                                or-early-dementia-addressing-memory. 
+                                Acesso em 5/1/2022
                             </li>
                             <li class="news-info-list-item news-info-list-item--little">
-                                4. What Are the Signs of Alzheimer&#39;s Disease?. National Institute on Aging. Disponível em:
-                                https://www.nia.nih.gov/health/
-                                what-are-signs-alzheimers-disease. Acesso em 25/11/21
+                                3.Alzheimer’s Disease International. World Alzheimer Report 2019, Attitudes to dementia. 2019.
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                4.Alzheimer's Association. 10 warn signs. 
+                                Disponível em: https://www.alz.org/national/
+                                documents/aa_brochure_10warnsigns.pdf. 
+                                Acesso 23/11/21
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                5.National Institute of Aging and Alzheimer's Association Workgroup / DC-ABN
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                6.Vaughn, Peggy. Alzheimer's diagnostic guidelines updated for first time in decades. 
+                                Estados Unidos. National Institutes of Health e the Alzheimer’s Association, 2011. 
+                                Disponível em: https://www.nia.nih.gov/news/alzheimers-
+                                diagnostic-guidelines-updated-first-time-decades. 
+                                Acesso 23/11/21
+                            </li>
+                            <li class="news-info-list-item news-info-list-item--little">
+                                7.National Institute on Aging. What Are the Signs of Alzheimer's Disease?. 
+                                Disponível em: https://www.nia.nih.gov/health/what-
+                                are-signs-alzheimers-disease. 
+                                Acesso em 25/11/21
                             </li>
                         </ul>
 
@@ -331,7 +386,8 @@
 <?php
     include '../includes/footer/footer.php'; 
 ?>
+<script src="../assets/js/bootstrap/js/bootstrap.js"></script>
 <script src="../assets/js/components/nav-item/script.js"></script>
 <script src="../assets/js/includes/header/script.js"></script>
 </body>
-</html>
+</html>'
