@@ -184,7 +184,7 @@
                             </div>
                         </div>
                                                             
-                        <p class="news-info news-info-with-max-width">
+                        <p class="news-info">
                             Existe uma tendência em focar nos casos já moderados e graves da doença de Alzheimer, 
                             mas a evolução da doença de Alzheimer deve ser considerada dentro de um processo contínuo que inclui os estágios: ¹
                         </p>
@@ -217,7 +217,7 @@
                             Será que é da idade? Envelhecer não é sinônimo de doença de Alzheimer
                         </h2>
                     
-                        <p class="news-info news-info-with-max-width">
+                        <p class="news-info">
                             Envelhecer é um processo natural de diminuição progressiva da capacidade funcional do 
                             indivíduo. Contudo, um grande erro comum deve ser continuamente evitado: considerar 
                             que todas as alterações cognitivas e funcionais são decorrentes da idade avançada, 
@@ -225,7 +225,7 @@
                             seus sintomas iniciais³. 
                         </p>
                     
-                        <p class="news-info news-info-with-max-width">
+                        <p class="news-info">
                             De vez em quando, esquecer nomes, precisar de ajuda para realizar tarefas, se 
                             confundir com compromissos e datas, perder coisas, e ficar irritado com situações específicas, 
                             por exemplo, são sinais normais entre os idosos. Contudo, é preciso ficar alerta e buscar ajuda 
@@ -351,14 +351,14 @@
                     
                         <h2 class="title-subtitle text-subtitle-little">E como é feito o diagnóstico?7</h2>
                     
-                        <p class="news-info news-info-with-max-width">
+                        <p class="news-info">
                             O diagnóstico é clínico, feito por meio de avaliação médica, exames e história do paciente. 
                             Testes psicológicos para verificar o funcionamento cognitivo em diferentes esferas fazem parte dessa análise. 
                             Seus resultados são associados a dados coletados da observação do comportamento do indivíduo, o que permite 
                             identificar a DA e seu estágio. 
                         </p>
                     
-                        <p class="news-info news-info-with-max-width">
+                        <p class="news-info">
                             A hipótese da presença de outras doenças pode ser excluída a partir da realização de exames de 
                             sangue e de imagem, como tomografia e ressonância magnética do crânio.
                         </p>
@@ -371,14 +371,14 @@
                     
                         <h2 class="title-subtitle text-subtitle-little">Cuidado multidisciplinar é fundamental</h2>
                     
-                        <p class="news-info news-info-with-max-width">
+                        <p class="news-info">
                             Na doença de Alzheimer, é fundamental ter um time de cuidado multidisciplinar, 
                             cujo objetivo é preservar a funcionalidade e independência do paciente, minimizando os distúrbios comportamentais. 
                             Dentre os profissionais envolvidos, além do neurologista, devem constar enfermeiro, nutricionista, psiquiatra e, 
                             quando necessário, especialista em cuidado domiciliar.8
                         </p>
                     
-                        <p class="news-info news-info-with-max-width">
+                        <p class="news-info">
                             A doença de Alzheimer não tem cura, mas o cuidado adequado permite melhorar os sinais e 
                             sintomas, e diminuir a progressão da doença ao aumentar o número de neurotransmissores no cérebro.¹
                         </p>

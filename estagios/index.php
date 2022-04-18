@@ -78,7 +78,7 @@
                             independência altamente afetadas. Mas não é bem assim. 
                         </p>
                     
-                        <div class="icon-text-container">
+                        <div class="icon-text-container icon-text-container--no-margin-top">
                             <p class="news-info">
                                 A evolução da doença de Alzheimer (DA) acontece em um processo contínuo. 
                                 Ela é dividida em três estágios:¹

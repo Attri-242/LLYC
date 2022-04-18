@@ -94,7 +94,7 @@
                             DA – como a enxergamos, entendemos e conhecemos.
                         </p>
 
-                        <div id="action-card">
+                        <div class="action-card">
                             <div id="actions-container">
                                 <div class="actions-container-item">
                                     <img class="actions-image" src="../assets/images/manifesto/esta-na-hora.png" alt="">

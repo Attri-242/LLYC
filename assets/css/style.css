@@ -37,8 +37,12 @@ html, body {
 /* icon-text-component */
 div.icon-text-container {
     margin-top: 3.125rem;
-    max-width: 41.25rem !important;
+    max-width: 41.25rem;
 }
+
+div.icon-text-container--no-margin-top {
+    margin-top: 0px !important;
+} 
 
 div.icon-text-container
 h3.icon-text-title {
@@ -65,7 +69,7 @@ div.icon-text-item {
     display: flex;
     flex-flow: column;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 div.icon-text-container
@@ -149,8 +153,7 @@ div.icon-text-container
 div.icon-text-container-row
 div.icon-text-item
 p.icon-text-item-text {
-    /* margin-top: 0.75rem; */
-    margin-left: 10px;
+    margin-left: 1rem;
     font-size: 1.25rem;
     line-height: 1.438rem;
     color: #000;
@@ -244,7 +247,7 @@ div.action-card {
     margin-top: 4.125rem;
     border: 0.063rem dashed #000;
     padding: 2.813rem 2.5rem 1.875rem 2.875rem;
-    max-width: 633px;
+    max-width: 39.563rem;
 }
 
 div.action-card
@@ -297,7 +300,7 @@ div.breadcrumb-breadcrumb-item:not(:first-child) {
 div#breadcrumb
 div.breadcrumb-breadcrumb-item
 a.breadcrumb-item-text {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
     line-height: 1.875rem;
     color: #000000;
@@ -359,19 +362,19 @@ div.card-info-related {
 div.card-info-related-container
 div.card-info-relateds
 div.card-info-related:not(:first-child) {
-    margin-left: 6px;
+    margin-left: 0.375rem;
 }
 
 p#news-date {
     margin-top: 3.125rem;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 1.875rem;
     color: #000000;
 }
 
 p.news-info {
-    width: 665px;
+    width: 41.563rem;
     margin-top: 3.125rem;
     font-weight: 400;
     font-size: 1.25rem;
@@ -393,7 +396,7 @@ a.sintomas-link {
 }
 
 p.news-info-with-max-width {
-    width: 540px !important;
+    width: 33.75rem !important;
 }
 
 span.news-info-bold {
@@ -456,7 +459,7 @@ button.news-info-button {
     padding: 0.938rem;
     border-radius: 0.625rem;
     font-weight: 700;
-    max-width: 665px;
+    max-width: 41.563rem;
 }
 
 div#news-container
@@ -494,12 +497,6 @@ p.action-card-text-mt  {
 
 div#news-container
 div#action-card
-div#actions-container {
-    /* margin-top: 1.188rem; */
-}
-
-div#news-container
-div#action-card
 div#actions-container
 div.actions-container-item {
     display: flex;
@@ -520,7 +517,7 @@ img.news-container-image {
 
 div#news-container
 img.news-container-image--with-height {
-    height: 500px;
+    height: 31.25rem;
 }
 
 div#news-container
@@ -565,7 +562,7 @@ img.news-container-image--no-margin-top {
 }
 
 .carousel-container {
-    max-width: 600px;
+    max-width: 37.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -574,10 +571,17 @@ img.news-container-image--no-margin-top {
 img.carousel-image {
     width: 37.5rem;
 }
- 
-/* xl - desktop */
-@media (min-width: 1200px) {
-    html {font-size: 16px;}
+
+@media (max-width: 1199px) {
+    div.action-card {
+        max-width: unset;
+    }
+
+    
+   div.icon-text-container {
+        max-width: unset;
+    }
+    
 }
 
 @media (min-width: 980px) and (max-width: 1199px) {
@@ -654,7 +658,7 @@ img.carousel-image {
    div.card-info-related-container
    div.card-info-relateds
    div.card-info-related {
-       font-size: 11px;
+       font-size: 0.688rem;
    }
 
    div#title
@@ -745,7 +749,7 @@ img.carousel-image {
     }
 
     img.news-container-image--with-height {
-        height: 230px;
+        height: 14.375rem;
     }
 }
 
@@ -868,7 +872,7 @@ img.carousel-image {
 
     div#news-container
     img.news-container-image--with-height {
-        height: 230px;
+        height: 14.375rem;
     }
 
    div.icon-text-container {
@@ -914,7 +918,7 @@ img.carousel-image {
     div.icon-text-container
     div.icon-text-container-row
     div.icon-text-item {
-        margin-top: 30px;
+        margin-top: 1.875rem;
     }
 
     div.icon-text-container

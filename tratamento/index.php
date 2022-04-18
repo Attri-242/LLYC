@@ -196,7 +196,7 @@
                             reduzindo sinais de depressão e ansiedade. Atividades simples podem ser realizadas com esse objetivo:
                         </p>
                 
-                        <div class="icon-text-container">
+                        <div class="icon-text-container icon-text-container--no-margin-top">
                             <div class="container p-0">
                                 <div class="row no-gutters justify-content-start icon-text-container-row">
                                     <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">

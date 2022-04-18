@@ -80,14 +80,10 @@
                         as fases pré-clínica e de comprometimento cognitivo leve (CCL)3,4. Ou seja, é preciso trabalhar para que haja não 
                         só mais diagnósticos, mas também mais diagnósticos precoces. 
                     </p>
-            
-                    <p class="news-info">
-                        As principais especialidades para identificar doença de Alzheimer5
-                    </p>
 
-                    <div class="icon-text-container">
+                    <div class="icon-text-container icon-text-container--no-margin-top">
                         <p class="news-info">
-                            Os principais fatores de risco da doença de Alzheimer são:
+                            As principais especialidades para identificar doença de Alzheimer5
                         </p>
 
                         <div class="container">
@@ -126,7 +122,7 @@
                         </div>
                     </div>
            
-                    <div class="icon-text-container">
+                    <div class="icon-text-container d-flex flex-column align-items-center justify-content-center ">
                         <h3 class="icon-text-container-title">
                             O diagnóstico parte da identificação de uma demência6
                         </h3>
@@ -141,21 +137,21 @@
                         </p>
 
                         <div class="container">
-                            <div class="row no-gutters justify-content-start icon-text-container-row--column">
-                                <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                            <div class="row no-gutters justify-content-center justify-content-xl-start icon-text-container-row--column">
+                                <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center justify-content-center justify-content-xl-start">
                                     <img class="icon-text-image" src="../assets/images/diagnostico/habilidade.png" alt="">
                                     <p class="icon-text-item-text">
                                         Interferem com a habilidade no trabalho ou em atividades usuais
                                     </p>
                                 </div>
-                                <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                                <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center justify-content-center justify-content-xl-start">
                                     <img class="icon-text-image" src="../assets/images/diagnostico/declinio.png" alt="">
                                     <p class="icon-text-item-text">
                                         Representam declínio em relação a níveis prévios de 
                                         funcionamento e desempenho
                                     </p>
                                 </div>
-                                <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                                <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center justify-content-center justify-content-xl-start">
                                     <img class="icon-text-image" src="../assets/images/diagnostico/delirium.png" alt="">
                                     <p class="icon-text-item-text">
                                         Não são explicáveis por delirium (estado de confusão agudo) 
