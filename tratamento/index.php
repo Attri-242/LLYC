@@ -19,7 +19,7 @@
         <section class="w-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 d-flex">
+                    <div class="col-12 d-flex align-items-center align-items-xl-start">
                         <div class="breadcrumb-breadcrumb-item">
                             <a class="breadcrumb-item-text"href="#">Home</a>
                             <img class="breadcrumb-item-arrow" src="../assets/images/home/test-arrow.png" alt="">
@@ -41,7 +41,9 @@
         <section class="w-100 d-flex">
             <div class="container">
                 <div class="row d-flex flex-row justify-content-between w-lg-100">
-                    <h1 id="title-text" class="col-8">Está na hora de pensar o cuidado multidisciplinar da doença de Alzheimer</h1>
+                    <h1 id="title-text" class="col-8 d-flex flex-column align-items-center align-items-xl-start">
+                        Está na hora de pensar o cuidado multidisciplinar da doença de Alzheimer
+                    </h1>
                     <div class="card-info-related-container col-4">
                         <div class="card-info-relateds">
                             <div class="card-info-related">
@@ -64,11 +66,11 @@
         </section>
     </div>
 
-    <section class="w-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div id="news-container">
+    <div id="news-container">
+        <section class="w-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
                         <p id="news-date">Publicado em 14 de novembro de 2021</p>
                     
                         <p class="news-info">
@@ -84,7 +86,7 @@
                             fortalecimento cognitivo. Esse cuidado com olhar universal para a pessoa com DA beneficia sua qualidade de vida e 
                             saúde física e mental, além de ter impacto positivo na sobrecarga do cuidador.¹
                         </p>
-
+                
                         <p class="news-info">
                             DA é uma condição neurodegenerativa, progressiva e fatal. Conforme ela avança, os danos neurais passam a 
                             afetar a capacidade de realizar funções corporais básicas, como caminhar e engolir. Por isso, é fundamental 
@@ -92,7 +94,7 @@
                         </p>
                 
                         <h2 class="title-subtitle">Profissionais envolvidos no cuidado da pessoa</br> com doença de Alzheimer</h2>
-
+                
                         <div class="icon-text-container">
                             <div class="container p-0">
                                 <div class="row no-gutters justify-content-start icon-text-container-row">
@@ -121,7 +123,7 @@
                                         </p>
                                     </div>
                                 </div>
-
+                
                                 <div class="row no-gutters justify-content-start icon-text-container-row">
                                     <div class="col-12 col-md-3 col-xl-4 icon-text-item d-flex">
                                         <img class="icon-text-image" src="../assets/images/tratamento/enfermagem.svg" alt="">
@@ -153,17 +155,17 @@
                             cognitivo leve (CCL) ou DA leve apresentam poucos sintomas e demandam menos supervisão, assim preservando 
                             sua independência e diminuindo a sobrecarga para os cuidadores.
                         </p>
-
+                
                         <p class="news-info">
                             Conforme a doença progride, a funcionalidade e a cognição são reduzidas, ampliando a carga àqueles 
                             responsáveis pelo cuidado, bem como custo geral para esse manejo.  
                         </p>
-
+                
                         <p class="news-info">
                             Por isso, é fundamental conhecer os sinais, os sintomas e os estágios da doença de Alzheimer, a fim de identificar 
                             suas primeiras manifestações e buscar um médico para diagnosticar e tratar o quanto antes. 
                         </p>
-
+                
                         <button class="news-info-button">
                             Confira os estágios da DA
                         </button>
@@ -177,7 +179,7 @@
                             reduz a frequência de quedas e preserva a saúde cardíaca. Ainda há outros benefícios gerados a partir das atividades físicas: 
                             ganho de massa muscular, metabolismo energético e aptidão funcional geral, como flexibilidade e equilíbrio. 
                         </p>
-
+                
                         <h2 class="title-subtitle">Treinamento e reabilitação cognitiva2,7</h2>
                 
                         <p class="news-info">
@@ -191,7 +193,7 @@
                             O estímulo cognitivo beneficia também a qualidade de vida e o bem-estar da pessoa com DA,
                             reduzindo sinais de depressão e ansiedade. Atividades simples podem ser realizadas com esse objetivo:
                         </p>
-
+                
                         <div class="icon-text-container">
                             <div class="container p-0">
                                 <div class="row no-gutters justify-content-start icon-text-container-row">
@@ -245,14 +247,14 @@
                                 Se necessário, o médico pode indicar tratamento farmacológico
                             </li>
                         </ul>
-
+                
                         <h2 class="title-subtitle">Também é preciso cuidar de quem cuida</h2>
-
+                
                         <p class="news-info">
                             Em geral, a pessoa com DA depende de um cuidador para realizar tarefas cotidianas – uma carga que 
                             cresce com a progressão da doença, demandando cada vez mais atenção e dedicação.9 
                         </p>
-
+                
                         <p class="news-info">
                             Tempo dedicado ao cuidado da pessoa com DA por mês de acordo com o estágio da doença:9
                         </p>
@@ -267,13 +269,13 @@
                                 Grave – 12,4 dias
                             </li>
                         </ul>
-
+                
                         <p class="news-info">
                             Além disso, a qualidade de vida dessas pessoas é amplamente afetada, tal qual sua saúde. 
                             Os cuidadores tendem a ser mais obesos, fumantes e terem mais comorbidades, como diabetes e hipertensão. 
                             Ainda, são mais suscetíveis a desenvolver depressão, ansiedade, insônia e dor.10
                         </p>
-
+                
                         <p class="news-info">
                             Por isso, é essencial que essa pessoa tenha suporte familiar, médico e psicológico para exercer a função de cuidador. 
                             Trocar experiencias com outras pessoas que estão passando pela mesma situação também ajuda – seja 
@@ -329,9 +331,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
+        </section>
+    </div>
 </main>
 
 <?php

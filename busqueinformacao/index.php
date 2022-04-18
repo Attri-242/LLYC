@@ -37,17 +37,17 @@
         <section class="w-100 d-flex">
             <div class="container">
                 <div class="row text-align w-lg-100">
-                    <h1 id="title-text text-center" class="col-12">Busque informação</h1>
+                    <h1 id="title-text text-center" class="col-12 d-flex flex-column align-items-center align-items-xl-start">Busque informação</h1>
                 </div>
             </div>
         </section>
     </div>
 
-    <section class="w-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div id="news-container">
+    <div id="news-container">
+        <section class="w-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex flex-column align-items-center">
                         <div id="localizacao">
                             <div id="localizacao-container">
                                 <input 
@@ -57,10 +57,10 @@
                                 <img onclick="search()" class="search-search" src="../assets/images/associacao/buscar.png" alt="">
                             </div>
                         </div>
-                
+                    
                         <div id="termos-container">
                             <h2 class="termos-title">Termos mais buscados</h2>
-                
+                    
                             <div class="termos-items">
                                 <div class="card-info-related-container d-flex align-items-center">
                                     <div class="card-info-relateds d-flex flex-column flex-sm-row">
@@ -102,9 +102,9 @@
                                 </div>
                             </div>
                         </div>
-                
+                    
                         <h2 id="resultados-title" class="termos-title termos-title--mt ">Resultados para o termo “alimentação”</h2>
-                
+                    
                         <section class="w-100">
                             <div class="container">
                                 <div class="row">
@@ -242,13 +242,11 @@
                             </div>
                         </section>
                     </div>
-
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
- 
 </main>
 
 <?php

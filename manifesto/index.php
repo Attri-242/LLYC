@@ -19,7 +19,7 @@
         <section class="w-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 d-flex">
+                    <div class="col-12 d-flex align-items-center align-items-xl-start">
                         <div class="breadcrumb-breadcrumb-item">
                             <a class="breadcrumb-item-text"href="#">Home</a>
                             <img class="breadcrumb-item-arrow" src="../assets/images/home/test-arrow.png" alt="">
@@ -41,7 +41,9 @@
         <section class="w-100 d-flex">
             <div class="container">
                 <div class="row">
-                    <h1 id="title-text" class="col-8">Está na hora de (re)pensar a doença de Alzheimer. E você sabe o porquê?</h1>
+                    <h1 id="title-text" class="col-8 d-flex flex-column align-items-center align-items-xl-start">
+                        Está na hora de (re)pensar a doença de Alzheimer. E você sabe o porquê?
+                    </h1>
                     <div class="card-info-related-container col-4">
                         <div class="card-info-relateds">
                             <div class="card-info-related">
@@ -67,7 +69,7 @@
         <section class="w-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
                         <p id="news-date">Publicado em 14 de novembro de 2021</p>
                     
                         <p class="news-info">

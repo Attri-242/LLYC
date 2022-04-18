@@ -19,7 +19,7 @@
         <section class="w-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 d-flex">
+                    <div class="col-12 d-flex align-items-center align-items-xl-start">
                         <div class="breadcrumb-breadcrumb-item">
                             <a class="breadcrumb-item-text"href="#">Home</a>
                             <img class="breadcrumb-item-arrow" src="../assets/images/home/test-arrow.png" alt="">
@@ -41,7 +41,9 @@
         <section class="w-100 d-flex">
             <div class="container">
                 <div class="row d-flex flex-row justify-content-between w-lg-100">
-                    <h1 id="title-text" class="col-8">Está na hora de conhecer os estágios da doença de Alzheimer</h1>
+                    <h1 id="title-text" class="col-8 d-flex flex-column align-items-center align-items-xl-start">
+                        Está na hora de conhecer os estágios da doença de Alzheimer
+                    </h1>
                     <div class="card-info-related-container col-4">
                         <div class="card-info-relateds">
                             <div class="card-info-related">
@@ -63,11 +65,11 @@
         </section>
     </div>
 
-    <section class="w-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div id="news-container">
+    <div id="news-container">
+        <section class="w-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
                         <p id="news-date">Publicado em 14 de novembro de 2021</p>
                     
                         <p class="news-info">
@@ -75,13 +77,13 @@
                             Essa figura entregue pelo senso comum apresenta uma pessoa com alto comprometimento cognitivo, com memória e 
                             independência altamente afetadas. Mas não é bem assim. 
                         </p>
-
+                    
                         <div class="icon-text-container">
                             <p class="news-info">
                                 A evolução da doença de Alzheimer (DA) acontece em um processo contínuo. 
                                 Ela é dividida em três estágios:¹
                             </p>
-
+                    
                             <div class="container">
                                 <div class="row no-gutters justify-content-start icon-text-container-row--column">
                                     <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
@@ -105,13 +107,13 @@
                                 </div>
                             </div>
                         </div>
-
+                    
                         <p class="news-info">
                             Ao atingir a demência, ela é subcategorizada em três níveis – leve, moderada e grave. 
                             A duração de cada fase também é diferente entre os indivíduos com DA, sendo influenciada por idade,
                             genética e sexo, por exemplo.¹
                         </p>
-
+                    
                         <div class="action-card">
                             <h3 class="action-card-title">A doença de Alzheimer não começa com a manifestação dos sintomas</h3>
                             <p class="action-card-text">
@@ -122,12 +124,12 @@
                                 Tudo isso pode começar mais de 20 anos antes dos primeiros sintomas².
                             </p>
                         </div>
-
+                    
                         
                         <h2 class="title-subtitle text-subtitle-little">
                             A progressão da doença de Alzheimer
                         </h2>
-
+                    
                         <img class="news-container-image d-none d-lg-block" src="../assets/images/estagios/infografico.svg" alt="">
                     
                         <div id="estagios-timeline" class="d-flex d-lg-none">
@@ -177,15 +179,15 @@
                                 </div>
                             </div>
                         </div>
-
+                    
                         <h2 class="title-subtitle text-subtitle-little">
                             
                         </h2>
-
+                    
                         <p class="news-info">
                             No Brasil, estima-se que existam:3,4
                         </p>
-
+                    
                         <ul class="news-info-list news-info-list--no-margin-top">
                             <li class="news-info-list-item news-info-list-item--little">
                                 9,5 milhões de pessoas com CCL devido à DA
@@ -200,7 +202,7 @@
                                 1,4 milhão de pessoas com demência grave devido à DA
                             </li>
                         </ul>
-
+                    
                         <p class="news-info">
                             A prevalência mundial estimada de doença de Alzheimer é de aproximadamente 35 milhões de casos4. 
                             Contudo, esse número considera apenas as pessoas que vivem com demência devido à DA – ou seja, não 
@@ -212,7 +214,7 @@
                             Isso impacta negativamente na perspectiva de redução da progressão da doença1. Conforme a DA progride, 
                             aumentam também os custos – inclusive os não percebidos, como perda na produtividade e despesas gerais pelo cuidado8.
                         </p>
-
+                    
                         <p class="news-info">
                             Conhecer os estágios da doença de Alzheimer, bem como conseguir identificar suas manifestações, 
                             beneficia o diagnóstico precoce e, consequentemente, a saúde e o bem-estar do paciente e de todos a sua volta. 
@@ -337,9 +339,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
+        </section>
+    </div>
 </main>
 
 

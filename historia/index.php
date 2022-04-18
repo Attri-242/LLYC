@@ -19,7 +19,7 @@
         <section class="w-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 d-flex">
+                    <div class="col-12 d-flex align-items-center align-items-xl-start">
                         <div class="breadcrumb-breadcrumb-item">
                             <a class="breadcrumb-item-text"href="#">Home</a>
                             <img class="breadcrumb-item-arrow" src="../assets/images/home/test-arrow.png" alt="">
@@ -41,7 +41,9 @@
         <section class="w-100 d-flex">
             <div class="container">
                 <div class="row d-flex flex-row justify-content-between w-lg-100">
-                    <h1 id="title-text" class="col-8">Está na hora de conhecer histórias da comunidade da doença de Alzheimer</h1>
+                    <h1 id="title-text" class="col-8 d-flex flex-column align-items-center align-items-xl-start">
+                        Está na hora de conhecer histórias da comunidade da doença de Alzheimer
+                    </h1>
                     <div class="card-info-related-container col-4">
                         <div class="card-info-relateds">
                             <div class="card-info-related">
@@ -63,11 +65,11 @@
         </section>
     </div>
 
-    <section class="w-100">
-        <div class="container">
-            <div class="col">
-                <div class="row-12">
-                    <div id="news-container">
+    <div id="news-container">
+        <section class="w-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
                         <p id="news-date">Publicado em 14 de novembro de 2021</p>
                     
                         <p class="news-info">
@@ -76,9 +78,9 @@
                             confusas com as adaptações necessárias e até com a saúde mental prejudicada. Nesses momentos, 
                             encontrar suporte pode ajudar a tornar essa vivência mais plena e fluida. 
                         </p>
-                
+                    
                         <h2 class="title-subtitle">Dentre os benefícios, estão</h2>
-                
+                    
                         <ul id="benefits-list">
                         
                             <li class="benefits-list-item">
@@ -97,13 +99,13 @@
                                 Encontrar mais informações sobre doença de Alzheimer.
                             </li>
                         </ul>
-                
+                    
                         <p class="news-info">
                             A fim de conscientizar a sociedade sobre temas importantes relacionados à doença de Alzheimer, 
                             a Biogen lidera a campanha “Está na Hora”. A iniciativa global chama a atenção para prevalência de DA no mundo, 
                             estigma que cerca os pacientes, entendimento sobre a patologia, diagnóstico e tratamento, entre outros. 
                         </p>
-
+                    
                         <p class="news-info">
                             A campanha “Está na hora” também mostra histórias reais de quem vive diariamente com a doença de Alzheimer 
                             e amplia a voz dessas pessoas em diversos lugares do mundo. Ao compartilhar as experiências de pacientes 
@@ -111,33 +113,33 @@
                             descontruir práticas discriminatórias em diversas esferas da sociedade e incentivar o cuidado precoce 
                             e adequado da patologia.
                         </p>
-
+                    
                         <p class="news-info">
                             Assista ao vídeo da campanha e veja por que está na hora de ouvir quem vive e convive com a doença. 
                         </p>
-
+                    
                         <a class="" target="_blank" 
                         href="https://www.youtube.com/watch?v=UPA5I9iJzqQ&list=PLDsLActuZqM7u9cgARmLHAJ-0mLDa6tie&index=3">
                             <div class="video-container d-flex align-items-center">
                                 <img class="news-container-image historia" src="../assets/images/historia/esta-na-hora.png" alt="">
                                 <img class="news-container-image play" src="../assets/images/historia/play.png" alt="">
                             </div>
-
+                    
                         </a>
-
+                    
                         <h2 class="title-subtitle">Conheça histórias de quem vive com DA</h2>
-
+                    
                         <a class="link-container d-flex flex-column flex-xl-row" target="_blank" 
                         href="https://www.youtube.com/watch?v=NWwWL275MG8">
                             <div class="video-container d-flex align-items-center">
                                 <img class="news-container-image" src="../assets/images/historia/historia-video.jpg" alt="">
                                 <img class="news-container-image play play--to-left" src="../assets/images/historia/play.png" alt="">
                             </div>
-
+                    
                             <p class="news-info info-video">
                                 Uma dessas histórias é a da brasileira Maria Cecilia e sua filha Thayná. 
                             </p>
-
+                    
                         </a>
                         
                         <p class="news-info">
@@ -148,25 +150,23 @@
                             familiar é fundamental para o cuidado da mãe hoje e será ainda mais quando a doença estiver em estágios nos 
                             quais a dependência é maior. 
                         </p>
-                
+                    
                         
                         <h2 class="title-subtitle">Faça parte de uma rede de apoio</h2>
-                
+                    
                         <p class="news-info">
                             Associações de pacientes podem ajudar nesse processo de aprendizagem e 
                             cuidado da doença de Alzheimer.
                         </p>
-                
+                    
                         <button class="news-info-button">
                             Ache uma associação perto de você
                         </button>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
- 
+        </section>
+    </div>
 </main>
 
 <?php

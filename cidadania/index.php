@@ -19,7 +19,7 @@
         <section class="w-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 d-flex">
+                    <div class="col-12 d-flex align-items-center align-items-xl-start">
                         <div class="breadcrumb-breadcrumb-item">
                             <a class="breadcrumb-item-text"href="#">Home</a>
                             <img class="breadcrumb-item-arrow" src="../assets/images/home/test-arrow.png" alt="">
@@ -41,7 +41,9 @@
         <section class="w-100 d-flex">
             <div class="container">
                 <div class="row d-flex flex-row justify-content-between w-lg-100">
-                    <h1 id="title-text" class="col-8">Está na hora de pensar a cidadania da pessoa com doença de Alzheimer</h1>
+                    <h1 id="title-text" class="col-8 d-flex flex-column align-items-center align-items-xl-start">
+                        Está na hora de pensar a cidadania da pessoa com doença de Alzheimer
+                    </h1>
                     <div class="card-info-related-container col-4">
                         <div class="card-info-relateds">
                             <div class="card-info-related">
@@ -65,11 +67,10 @@
     </div>
 
     <div id="news-container">
-
         <section class="w-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
                         <p id="news-date">Publicado em 14 de novembro de 2021</p>
 
                         <p class="news-info">
@@ -259,7 +260,7 @@
                             a independência dos idosos5.
                         </p>
 
-                        <div id="news-table">
+                        <div id="news-table" class="align-self-normal">
                             <h3 class="news-table-title">Diretrizes da Política Nacional de Saúde da Pessoa Idosa¹</h3>
                             <img class="news-table-image" src="../assets/images/cidadania/diretrizes.png" alt="">
                             <span class="news-table-item">

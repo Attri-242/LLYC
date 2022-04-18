@@ -19,7 +19,7 @@
         <section class="w-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 d-flex">
+                    <div class="col-12 d-flex align-items-center align-items-xl-start">
                         <div class="breadcrumb-breadcrumb-item">
                             <a class="breadcrumb-item-text"href="#">Home</a>
                             <img class="breadcrumb-item-arrow" src="../assets/images/home/test-arrow.png" alt="">
@@ -37,17 +37,17 @@
         <section class="w-100 d-flex">
             <div class="container">
                 <div class="row text-align w-lg-100">
-                    <h1 id="title-text text-center" class="col-12">Encontre uma associação</h1>
+                    <h1 id="title-text text-center" class="col-12 d-flex flex-column align-items-center align-items-xl-start">Encontre uma associação</h1>
                 </div>
             </div>
         </section>
     </div>
-
-    <section class="w-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div id="news-container">
+    
+    <div id="news-container">
+        <section class="w-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
                         <div class="container p-0">
                             <div class="row" id="localizacao">
                                 <div class="col-12 col-md-6 col-xl-5">
@@ -66,7 +66,7 @@
                                 </div>
                             </div>
                         </div>
-
+                    
                         <div id="cards-container" class="container">
                             <div class="cards-container-row row">
                                 <div class="card-container-item col-12 col-md-5 col-xl-4">
@@ -92,14 +92,14 @@
                                                 <p class="card-item-info-text">http://associacao.wordpress.com</p>
                                             </div>
                                         </div>
-                
+                    
                                         <div class="card-item-infos">
                                             <div class="card-item-info">
                                                 <img class="card-item-info-img" src="../assets/images/associacao/endereco.png" alt="">
                                                 <p class="card-item-info-text card-item-info-text--with-width">R. do Sertão, 223, Santana, São Paulo. CEP 5554S-021</p>
                                             </div>
                                         </div>
-                
+                    
                                         <div class="card-item-infos">
                                             <div class="card-item-info">
                                                 <img class="card-item-info-img" src="../assets/images/associacao/face.png" alt="">
@@ -131,14 +131,14 @@
                                                 <p class="card-item-info-text">http://associacao.wordpress.com</p>
                                             </div>
                                         </div>
-                
+                    
                                         <div class="card-item-infos">
                                             <div class="card-item-info">
                                                 <img class="card-item-info-img" src="../assets/images/associacao/endereco.png" alt="">
                                                 <p class="card-item-info-text card-item-info-text--with-width">R. do Sertão, 223, Santana, São Paulo. CEP 5554S-021</p>
                                             </div>
                                         </div>
-                
+                    
                                         <div class="card-item-infos">
                                             <div class="card-item-info">
                                                 <img class="card-item-info-img" src="../assets/images/associacao/face.png" alt="">
@@ -172,14 +172,14 @@
                                                 <p class="card-item-info-text">http://associacao.wordpress.com</p>
                                             </div>
                                         </div>
-                
+                    
                                         <div class="card-item-infos">
                                             <div class="card-item-info">
                                                 <img class="card-item-info-img" src="../assets/images/associacao/endereco.png" alt="">
                                                 <p class="card-item-info-text card-item-info-text--with-width">R. do Sertão, 223, Santana, São Paulo. CEP 5554S-021</p>
                                             </div>
                                         </div>
-                
+                    
                                         <div class="card-item-infos">
                                             <div class="card-item-info">
                                                 <img class="card-item-info-img" src="../assets/images/associacao/face.png" alt="">
@@ -211,14 +211,14 @@
                                                 <p class="card-item-info-text">http://associacao.wordpress.com</p>
                                             </div>
                                         </div>
-                
+                    
                                         <div class="card-item-infos">
                                             <div class="card-item-info">
                                                 <img class="card-item-info-img" src="../assets/images/associacao/endereco.png" alt="">
                                                 <p class="card-item-info-text card-item-info-text--with-width">R. do Sertão, 223, Santana, São Paulo. CEP 5554S-021</p>
                                             </div>
                                         </div>
-                
+                    
                                         <div class="card-item-infos">
                                             <div class="card-item-info">
                                                 <img class="card-item-info-img" src="../assets/images/associacao/face.png" alt="">
@@ -228,7 +228,7 @@
                                     </div>
                                 </div>
                             </div>
-                
+                    
                             <div class="cards-container-row row">
                                 <div class="card-container-item col-12 col-md-5 col-xl-4">
                                     <h4 class="card-item-title">
@@ -253,14 +253,14 @@
                                                 <p class="card-item-info-text">http://associacao.wordpress.com</p>
                                             </div>
                                         </div>
-                
+                    
                                         <div class="card-item-infos">
                                             <div class="card-item-info">
                                                 <img class="card-item-info-img" src="../assets/images/associacao/endereco.png" alt="">
                                                 <p class="card-item-info-text card-item-info-text--with-width">R. do Sertão, 223, Santana, São Paulo. CEP 5554S-021</p>
                                             </div>
                                         </div>
-                
+                    
                                         <div class="card-item-infos">
                                             <div class="card-item-info">
                                                 <img class="card-item-info-img" src="../assets/images/associacao/face.png" alt="">
@@ -292,14 +292,14 @@
                                                 <p class="card-item-info-text">http://associacao.wordpress.com</p>
                                             </div>
                                         </div>
-                
+                    
                                         <div class="card-item-infos">
                                             <div class="card-item-info">
                                                 <img class="card-item-info-img" src="../assets/images/associacao/endereco.png" alt="">
                                                 <p class="card-item-info-text card-item-info-text--with-width">R. do Sertão, 223, Santana, São Paulo. CEP 5554S-021</p>
                                             </div>
                                         </div>
-                
+                    
                                         <div class="card-item-infos">
                                             <div class="card-item-info">
                                                 <img class="card-item-info-img" src="../assets/images/associacao/face.png" alt="">
@@ -309,7 +309,7 @@
                                     </div>
                                 </div>
                             </div>
-                
+                    
                             <div class="cards-container-row row">
                                 <div class="card-container-item col-12 col-md-5 col-xl-4">
                                     <h4 class="card-item-title">
@@ -334,14 +334,14 @@
                                                 <p class="card-item-info-text">http://associacao.wordpress.com</p>
                                             </div>
                                         </div>
-                
+                    
                                         <div class="card-item-infos">
                                             <div class="card-item-info">
                                                 <img class="card-item-info-img" src="../assets/images/associacao/endereco.png" alt="">
                                                 <p class="card-item-info-text card-item-info-text--with-width">R. do Sertão, 223, Santana, São Paulo. CEP 5554S-021</p>
                                             </div>
                                         </div>
-                
+                    
                                         <div class="card-item-infos">
                                             <div class="card-item-info">
                                                 <img class="card-item-info-img" src="../assets/images/associacao/face.png" alt="">
@@ -373,14 +373,14 @@
                                                 <p class="card-item-info-text">http://associacao.wordpress.com</p>
                                             </div>
                                         </div>
-                
+                    
                                         <div class="card-item-infos">
                                             <div class="card-item-info">
                                                 <img class="card-item-info-img" src="../assets/images/associacao/endereco.png" alt="">
                                                 <p class="card-item-info-text card-item-info-text--with-width">R. do Sertão, 223, Santana, São Paulo. CEP 5554S-021</p>
                                             </div>
                                         </div>
-                
+                    
                                         <div class="card-item-infos">
                                             <div class="card-item-info">
                                                 <img class="card-item-info-img" src="../assets/images/associacao/face.png" alt="">
@@ -391,6 +391,17 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="w-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="news-container">
                 
                     </div>
 

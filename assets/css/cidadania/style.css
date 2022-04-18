@@ -12,6 +12,7 @@ div#news-table {
     display: flex;
     flex-flow: column;
     max-width: 619px;
+    align-self: normal;
 }
 
 main#cidadania-main
