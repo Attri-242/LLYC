@@ -513,6 +513,11 @@ img.news-container-image--with-height {
     height: 500px;
 }
 
+div#news-container
+img.news-container-image--no-margin-top {
+    margin-top: 0px !important;
+}
+
 /************/
 
 /* Bootstrap carousel */

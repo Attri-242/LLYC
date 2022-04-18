@@ -129,6 +129,7 @@ span.news-image-text-item {
     div#news-container
     div#news-table { 
         margin-top: 0.875rem;
+        max-width: unset;
     }
 
     div#news-container
@@ -140,14 +141,6 @@ span.news-image-text-item {
         color: #000;
         padding: 0.938rem 0.625rem 0px 0.625rem;
         border-top: 1px dashed black;
-    }
-
-    main#cidadania-main
-    div#news-container
-    div#news-table
-    span.news-table-item
-    p.news-table-item-text  {
-        width: 0.875rem;
     }
 
     main#cidadania-main
@@ -220,6 +213,7 @@ span.news-image-text-item {
     div#news-container
     div#news-table { 
         margin-top: 0.875rem;
+        max-width: unset;
     }
 
     main#cidadania-main
