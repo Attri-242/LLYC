@@ -29,7 +29,7 @@
                             <img class="breadcrumb-item-arrow" src="../assets/images/home/test-arrow.png" alt="">
                         </div>
                         <div class="breadcrumb-breadcrumb-item">
-                            <a class="breadcrumb-item-text"href="#">Está na hora de conhecer histórias da doença de Alzheimer</a>
+                            <a class="breadcrumb-item-text"href="#">Está na hora de conhecer histórias da comunidade da doença de Alzheimer</a>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
         <section class="w-100 d-flex">
             <div class="container">
                 <div class="row d-flex flex-row justify-content-between w-lg-100">
-                    <h1 id="title-text" class="col-8">Está na hora de conhecer histórias da doença de Alzheimer</h1>
+                    <h1 id="title-text" class="col-8">Está na hora de conhecer histórias da comunidade da doença de Alzheimer</h1>
                     <div class="card-info-related-container col-4">
                         <div class="card-info-relateds">
                             <div class="card-info-related">
@@ -71,10 +71,10 @@
                         <p id="news-date">Publicado em 14 de novembro de 2021</p>
                     
                         <p class="news-info">
-                            Uma rede de apoio sólida é primordial para todos os envolvidos com a doença de Alzheimer
-                            (DA). As pessoas dedicadas à atenção da pessoa com DA podem encontrar-se constantemente
-                            sobrecarregadas, confusas com as adaptações necessárias e até com a saúde mental prejudicada. 
-                            Por isso, encontrar suporte pode ajudar a tornar essa vivência mais plena e fluida.
+                            Uma rede de apoio sólida é primordial para todos os envolvidos com a doença de Alzheimer (DA). 
+                            As pessoas dedicadas à atenção da pessoa com DA podem encontrar-se constantemente sobrecarregadas, 
+                            confusas com as adaptações necessárias e até com a saúde mental prejudicada. Nesses momentos, 
+                            encontrar suporte pode ajudar a tornar essa vivência mais plena e fluida. 
                         </p>
                 
                         <h2 class="title-subtitle">Dentre os benefícios, estão</h2>
@@ -99,31 +99,67 @@
                         </ul>
                 
                         <p class="news-info">
-                            Associações de pacientes são ONGs que podem ajudar nesse processo de aprendizagem e
+                            A fim de conscientizar a sociedade sobre temas importantes relacionados à doença de Alzheimer, 
+                            a Biogen lidera a campanha “Está na Hora”. A iniciativa global chama a atenção para prevalência de DA no mundo, 
+                            estigma que cerca os pacientes, entendimento sobre a patologia, diagnóstico e tratamento, entre outros. 
+                        </p>
+
+                        <p class="news-info">
+                            A campanha “Está na hora” também mostra histórias reais de quem vive diariamente com a doença de Alzheimer 
+                            e amplia a voz dessas pessoas em diversos lugares do mundo. Ao compartilhar as experiências de pacientes 
+                            de forma positiva e esperançosa, a ação visa aumentar o entendimento social sobre a DA, 
+                            descontruir práticas discriminatórias em diversas esferas da sociedade e incentivar o cuidado precoce 
+                            e adequado da patologia.
+                        </p>
+
+                        <p class="news-info">
+                            Assista ao vídeo da campanha e veja por que está na hora de ouvir quem vive e convive com a doença. 
+                        </p>
+
+                        <a class="" target="_blank" 
+                        href="https://www.youtube.com/watch?v=UPA5I9iJzqQ&list=PLDsLActuZqM7u9cgARmLHAJ-0mLDa6tie&index=3">
+                            <div class="video-container d-flex align-items-center">
+                                <img class="news-container-image historia" src="../assets/images/historia/esta-na-hora.png" alt="">
+                                <img class="news-container-image play" src="../assets/images/historia/play.png" alt="">
+                            </div>
+
+                        </a>
+
+                        <h2 class="title-subtitle">Conheça histórias de quem vive com DA</h2>
+
+                        <a class="link-container d-flex flex-column flex-xl-row" target="_blank" 
+                        href="https://www.youtube.com/watch?v=NWwWL275MG8">
+                            <div class="video-container d-flex align-items-center">
+                                <img class="news-container-image" src="../assets/images/historia/historia-video.jpg" alt="">
+                                <img class="news-container-image play play--to-left" src="../assets/images/historia/play.png" alt="">
+                            </div>
+
+                            <p class="news-info info-video">
+                                Uma dessas histórias é a da brasileira Maria Cecilia e sua filha Thayná. 
+                            </p>
+
+                        </a>
+                        
+                        <p class="news-info">
+                            Identificada aos 64 anos com doença de Alzheimer, Maria Cecilia fala sobre a importância 
+                            do diagnóstico precoce em sua vida. De forma bem-humorada, ela conta como foi quebrar o estigma da 
+                            DA – tanto para si, quanto para amigos e família. Thayná, sua filha, foi peça-chave para o diagnóstico 
+                            e agora é quem está ao seu lado no dia a dia com a doença. Ela também aborda sobre como a rede de apoio 
+                            familiar é fundamental para o cuidado da mãe hoje e será ainda mais quando a doença estiver em estágios nos 
+                            quais a dependência é maior. 
+                        </p>
+                
+                        
+                        <h2 class="title-subtitle">Faça parte de uma rede de apoio</h2>
+                
+                        <p class="news-info">
+                            Associações de pacientes podem ajudar nesse processo de aprendizagem e 
                             cuidado da doença de Alzheimer.
                         </p>
                 
                         <button class="news-info-button">
-                            Ache uma ONG perto de você
+                            Ache uma associação perto de você
                         </button>
-                        
-                        <h2 class="title-subtitle">Conheça as histórias</h2>
-                
-                        <p class="news-info">
-                            A filha de Maria Cecilia é quem está ao lado dela no cuidado da doença de Alzheimer.
-                        </p>
-                
-                        <img class="news-container-image" src="../assets/images/historia/historia.png" alt="">
-                
-                        <p class="news-info">
-                            A importância do diagnóstico precoce é evidente na história de Maria
-                            Cecilia, cuja doença de Alzheimer foi identificada aos 64 anos. De forma
-                            bem-humorada, ela conta como foi quebrar o estigma da DA – tanto para
-                            si, quanto para amigos e família.Thayná, sua filha, foi peça-chave para
-                            o diagnóstico e agora é quem está ao seu lado no dia a dia com a doença.
-                            Ela fala sobre como a rede de apoio familiar é fundamental para o cuidado da mãe hoje e será
-                            ainda mais quando a doença estiver em estágios nos quais a dependência é maior.
-                        </p>
                     </div>
                 </div>
             </div>

@@ -502,7 +502,6 @@ div.actions-container-item {
     margin-top: 1rem;
 }
 
-div#news-container
 img.news-container-image {
     margin-top: 3.125rem;
     width: unset;
@@ -705,7 +704,6 @@ img.carousel-image {
     display: none;
    }
 
-   div#news-container
     img.news-container-image {
         width: 100%;
     }
@@ -851,7 +849,6 @@ img.carousel-image {
        display: none;
    }
 
-   div#news-container
    img.news-container-image {
        width: 100%;
    }
