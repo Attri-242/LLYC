@@ -134,7 +134,7 @@
                     
                         <div id="estagios-timeline" class="d-flex d-lg-none">
                             <div class="estagios">
-                                <div class="estagios-container-item container-item-little">
+                                <div class="estagios-container-item container-item-little no-margin-top">
                                     Pré-clínico
                                 </div>
                                 <img class="estagios-container-arrow" src="../assets/images/estagios/timeline-arrow.png" alt="">
@@ -162,19 +162,19 @@
                                 <div class="timeline-division timeline-division-fifth"></div>
                             </div>
                             <div class="estagios estagios-bottom">
-                                <div class="estagios-container-item container-item-little">
+                                <div class="estagios-container-item container-item-little no-margin-top">
                                     Sem</br> sintomas
                                 </div>
                                 <div class="estagios-container-item estagios-container-item--no-ml">
                                     Sintomas leves que não interferem nas atividades diárias
                                 </div>
-                                <div class="estagios-container-item">
+                                <div class="estagios-container-item container-item-little">
                                     Sintomas que interferem em algumas atividades diárias
                                 </div>
-                                <div class="estagios-container-item">
+                                <div class="estagios-container-item container-item-little">
                                     Sintomas que interferem em muitas atividades diárias
                                 </div>
-                                <div class="estagios-container-item">
+                                <div class="estagios-container-item container-item-little">
                                     Sintomas que interferem na maioria das atividades diárias
                                 </div>
                             </div>

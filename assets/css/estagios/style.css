@@ -303,6 +303,7 @@ div#estagios-timeline {
     width: 43.063rem;
     position: relative;
     margin-top: 3.25rem;
+    width: 100%;
 }
 
 main#estagios-main
@@ -354,6 +355,10 @@ div#estagios-timeline
 div.estagios
 div.estagios-container-item--no-ml {
     margin-left: 0px !important;
+}
+
+.no-margin-top {
+    margin-top: unset;
 }
 
 main#estagios-main
@@ -488,7 +493,8 @@ span.news-info-bold {
     div#estagios-timeline {
         display: flex;
         width: unset;
-        justify-content: center;
+        justify-content: space-between;
+        width: 100%;
     }
 
     main#estagios-main
@@ -504,8 +510,20 @@ span.news-info-bold {
     div#estagios-timeline
     div.estagios
     div.estagios-container-item {
-        max-width: 8.125rem;
-        margin-top: 1.25rem;
+        /* max-width: 8.125rem; */
+        margin-top: 2.25rem;
+    }
+
+    main#estagios-main
+    div#news-container
+    div#estagios-timeline
+    div.estagios
+    div.container-item-little {
+        width: 9.825rem !important;
+    }
+
+    .no-margin-top {
+        margin-top: 0.75rem !important;
     }
 
     main#estagios-main
