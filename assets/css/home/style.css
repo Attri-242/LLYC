@@ -302,7 +302,7 @@ button.secondary {
     div.cookie-card {
         padding: 0.625rem;
         position: relative;
-        top: 1.25rem;
+        top: -3rem;
     }
     
     .cookies-choices {
