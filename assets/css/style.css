@@ -912,7 +912,7 @@ img.carousel-image {
     div.icon-text-container-row
     a.icon-text-item
     img.icon-text-image--little {
-        height: 2.813rem
+        height: 3.813rem
     }
 
     div.icon-text-container
@@ -927,5 +927,12 @@ img.carousel-image {
     p.icon-text-item-text {
         font-size: 1rem;
     }
+
+    div.icon-text-container
+    div.icon-text-container-row
+    div.icon-text-item--no-margin {
+        margin-top: 1.875rem !important;
+    }
+
  
 }

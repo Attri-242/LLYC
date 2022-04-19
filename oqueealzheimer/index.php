@@ -135,45 +135,45 @@
                             </p>
                     
                             <div class="container">
-                                <div class="row no-gutters justify-content-start icon-text-container-row--column">
-                                    <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                                <div class="row no-gutters justify-content-start icon-text-container-row">
+                                    <div class="col-12 col-md-6 col-xl-6 icon-text-item d-flex align-items-center">
                                         <img class="icon-text-image" src="../assets/images/oqueealzheimer/memoria.png" alt="">
                                         <p class="icon-text-item-text">
                                             Perda de memória recente
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                                    <div class="col-12 col-md-6 col-xl-6 icon-text-item d-flex align-items-center">
                                         <img class="icon-text-image" src="../assets/images/oqueealzheimer/perguntas.png" alt="">
                                         <p class="icon-text-item-text">
                                             Repetir a mesma pergunta várias vezes
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                                    <div class="col-12 col-md-6 col-xl-6 icon-text-item d-flex align-items-center">
                                         <img class="icon-text-image" src="../assets/images/oqueealzheimer/conversar.png" alt="">
                                         <p class="icon-text-item-text">
                                             Dificuldade em acompanhar conversas ou raciocínios complexos
                                         </p>
                                     </div>
                     
-                                    <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                                    <div class="col-12 col-md-6 col-xl-6 icon-text-item d-flex align-items-center">
                                         <img class="icon-text-image" src="../assets/images/oqueealzheimer/estrategia.png" alt="">
                                         <p class="icon-text-item-text">
                                             Incapacidade de desenvolver estratégias para solução de problemas
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                                    <div class="col-12 col-md-6 col-xl-6 icon-text-item d-flex align-items-center">
                                         <img class="icon-text-image" src="../assets/images/oqueealzheimer/dirigir.png" alt="">
                                         <p class="icon-text-item-text">
                                             Dificuldade para dirigir e encontrar caminhos conhecidos
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                                    <div class="col-12 col-md-6 col-xl-6 icon-text-item d-flex align-items-center">
                                         <img class="icon-text-image" src="../assets/images/oqueealzheimer/expressar.png" alt="">
                                         <p class="icon-text-item-text">
                                             Dificuldade para expressar-se
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
+                                    <div class="col-12 col-md-6 col-xl-6 icon-text-item d-flex align-items-center">
                                         <img class="icon-text-image" src="../assets/images/oqueealzheimer/comportamento.png" alt="">
                                         <p class="icon-text-item-text">
                                             Mudanças comportamentais, como irritabilidade, agressividade, passividade, 
@@ -236,7 +236,7 @@
                             Algumas coisas aumentam a chance de desenvolver DA6
                         </h2>
                     
-                        <div class="icon-text-container">
+                        <div class="icon-text-container d-flex flex-column align-items-center align-items-md-start">
                             <p class="news-info">
                                 Os principais fatores de risco da doença de Alzheimer são:
                             </p>
