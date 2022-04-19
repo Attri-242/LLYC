@@ -121,7 +121,7 @@
                         <a class="" target="_blank" 
                         href="https://www.youtube.com/watch?v=UPA5I9iJzqQ&list=PLDsLActuZqM7u9cgARmLHAJ-0mLDa6tie&index=3">
                             <div class="video-container d-flex align-items-center">
-                                <img class="news-container-image historia" src="../assets/images/historia/esta-na-hora.png" alt="">
+                                <img class="news-container-image historia historia-img" src="../assets/images/historia/esta-na-hora.png" alt="">
                                 <img class="news-container-image play" src="../assets/images/historia/play.png" alt="">
                             </div>
                     
@@ -132,7 +132,7 @@
                         <a class="link-container d-flex flex-column flex-xl-row" target="_blank" 
                         href="https://www.youtube.com/watch?v=NWwWL275MG8">
                             <div class="video-container d-flex align-items-center">
-                                <img class="news-container-image" src="../assets/images/historia/historia-video.jpg" alt="">
+                                <img class="news-container-image historia-img" src="../assets/images/historia/historia-video.jpg" alt="">
                                 <img class="news-container-image play play--to-left" src="../assets/images/historia/play.png" alt="">
                             </div>
                     

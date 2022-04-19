@@ -131,7 +131,6 @@
                                         </p>
                                     </div>
                                     <div class="col-12 col-md-6 col-xl-6 icon-text-item
-                                                icon-text-item--no-margin
                                                 d-flex flex-column flex-md-row align-items-center 
                                                 justify-content-center 
                                                 justify-content-md-start">
