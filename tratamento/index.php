@@ -93,7 +93,7 @@
                             contar com um time multidisciplinar para cuidar da pessoa com a doença.¹
                         </p>
                 
-                        <h2 class="title-subtitle">Profissionais envolvidos no cuidado da pessoa</br> com doença de Alzheimer</h2>
+                        <h2 class="title-subtitle text-subtitle-little">Profissionais envolvidos no cuidado da pessoa com doença de Alzheimer</h2>
                 
                         <div class="icon-text-container icon-text-container--no-margin-top">
                             <div class="container p-0">
@@ -127,7 +127,7 @@
                                 <div class="row no-gutters justify-content-start icon-text-container-row">
                                     <div class="col-12 col-md-3 col-xl-4 icon-text-item d-flex">
                                         <img class="icon-text-image" src="../assets/images/tratamento/enfermagem.svg" alt="">
-                                        <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little text-center">
+                                        <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--no-ml icon-text-item-text--little text-center">
                                             Profissional de enfermagem
                                         </p>
                                     </div>
@@ -147,7 +147,7 @@
                             </div>
                         </div>  
                 
-                        <h2 class="title-subtitle">O diagnóstico precoce faz diferença3-6</h2>
+                        <h2 class="title-subtitle">O diagnóstico precoce faz diferença³<sup>-</sup>⁶</h2>
                 
                         <p class="news-info">
                             O diagnóstico precoce permite que manejo e tratamento também comecem antes, permitindo que a pessoa 
@@ -172,7 +172,7 @@
                             </a>
                         </button>
                 
-                        <h2 class="title-subtitle">Cuidando da saúde física2,7</h2>
+                        <h2 class="title-subtitle">Cuidando da saúde física²<sup>,</sup>⁷</h2>
                 
                         <p class="news-info">
                             Atividade física aeróbica aumenta o fluxo sanguíneo cerebral, a extração de oxigênio e a utilização da glicose. 
@@ -182,7 +182,7 @@
                             ganho de massa muscular, metabolismo energético e aptidão funcional geral, como flexibilidade e equilíbrio. 
                         </p>
                 
-                        <h2 class="title-subtitle">Treinamento e reabilitação cognitiva2,7</h2>
+                        <h2 class="title-subtitle">Treinamento e reabilitação cognitiva²<sup>,</sup>⁷</h2>
                 
                         <p class="news-info">
                             Essas estratégias frequentemente são aplicadas nos primeiros estágios da doença de Alzheimer – o que reforça a 
@@ -221,7 +221,7 @@
                             </div>
                         </div>  
                 
-                        <h2 class="title-subtitle">Depressão e doença de Alzheimer</h2>
+                        <h2 class="title-subtitle">Depressão e doença de Alzheimer⁸</h2>
                 
                         <p class="news-info">
                             Estima-se que cerca de 40% das pessoas com DA têm depressão. Identificar seus sinais pode
@@ -254,11 +254,11 @@
                 
                         <p class="news-info">
                             Em geral, a pessoa com DA depende de um cuidador para realizar tarefas cotidianas – uma carga que 
-                            cresce com a progressão da doença, demandando cada vez mais atenção e dedicação.9 
+                            cresce com a progressão da doença, demandando cada vez mais atenção e dedicação.⁹
                         </p>
                 
                         <p class="news-info">
-                            Tempo dedicado ao cuidado da pessoa com DA por mês de acordo com o estágio da doença:9
+                            Tempo dedicado ao cuidado da pessoa com DA por mês de acordo com o estágio da doença:⁹
                         </p>
                         <ul class="news-info-list news-info-list--no-margin-top">
                             <li class="news-info-list-item news-info-list-item--little">
@@ -275,7 +275,7 @@
                         <p class="news-info">
                             Além disso, a qualidade de vida dessas pessoas é amplamente afetada, tal qual sua saúde. 
                             Os cuidadores tendem a ser mais obesos, fumantes e terem mais comorbidades, como diabetes e hipertensão. 
-                            Ainda, são mais suscetíveis a desenvolver depressão, ansiedade, insônia e dor.10
+                            Ainda, são mais suscetíveis a desenvolver depressão, ansiedade, insônia e dor.¹⁰
                         </p>
                 
                         <p class="news-info">

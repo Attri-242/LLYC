@@ -76,9 +76,9 @@
                             É comum que os sintomas iniciais da doença de Alzheimer (DA) sejam confundidos com o processo de 
                             envelhecimento normal – o que tende a adiar a busca por orientação profissional e diagnóstico¹. 
                             Indivíduos com DA, bem como pessoas próximas a eles, deixam passar manifestações da doença, 
-                            relacionando-os à idade avançada2. Inclusive, essa má interpretação dos primeiros sinais da doença 
+                            relacionando-os à idade avançada². Inclusive, essa má interpretação dos primeiros sinais da doença 
                             também acontece entre os profissionais de saúde – mundialmente 60% deles entendem demência como parte 
-                            do envelhecimento normal³. 
+                            do envelhecimento normal³.
                         </p>
                 
                         <p class="news-info">
@@ -88,7 +88,7 @@
                 
                         <div id="news-table-container" class="w-100">
                             <div class="news-table">
-                                <h3 class="news-table-title">Sinais de Doença de Alzheimer4</h3>
+                                <h3 class="news-table-title">Sinais de Doença de Alzheimer⁴</h3>
                                 <img class="news-table-image" src="../assets/images/sinaisESintomas/image-table-1.png" alt="">
                                 <span class="news-table-item">
                                     <p class="news-table-item-text">Dificuldade de julgamento e tomada de decisão</p> 
@@ -108,7 +108,7 @@
                             </div>
                 
                             <div class="news-table new-table-second-item">
-                                <h3 class="news-table-title">Características comuns à idade4</h3>
+                                <h3 class="news-table-title">Características comuns à idade⁴</h3>
                                 <img class="news-table-image" src="../assets/images/sinaisESintomas/image-table-2.png" alt="">
                                 <span class="news-table-item">
                                     <p class="news-table-item-text">Fazer escolhas ruins de vez em quando</p> 
@@ -132,7 +132,7 @@
                             Leia mais sobre como diagnosticar a doença de Alzheimer
                         </button>
 
-                        <h2 class="title-subtitle">5 critérios clínicos diagnósticos5</h2>
+                        <h2 class="title-subtitle">5 critérios clínicos diagnósticos⁵</h2>
 
                         <p class="news-info">
                             Para identificação de demência, é avaliado se os comprometimentos cognitivos ou 
@@ -169,7 +169,7 @@
 
                         <p class="news-info">
                             A DA é dividida nos estágios: pré-clínico, comprometimento cognitivo leve (CCL) e demência leve, moderada e grave. 
-                            Cada um deles conta com manifestações específicas e diferentes níveis de impacto na função cognitiva e funcional.6 
+                            Cada um deles conta com manifestações específicas e diferentes níveis de impacto na função cognitiva e funcional⁶.
                         </p>
 
                         <p class="news-info">
@@ -184,7 +184,7 @@
                             começam a ficar mais visíveis e detectáveis. As funções cognitivas mais afetadas são a memória 
                             e a resolução de problemas. Mas, apesar do declínio cognitivo ser evidente para ele e pessoas próximas, 
                             e a realização de tarefas complexas serem mais difíceis, o indivíduo se mantém independente e continua 
-                            a realizar atividades diárias1,6. 
+                            a realizar atividades diárias¹<sup>,</sup>⁶. 
                         </p>
 
                         <div id="info-card" class="d-flex flex-column align-items-center align-items-xl-start">

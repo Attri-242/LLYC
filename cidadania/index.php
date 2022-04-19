@@ -74,7 +74,7 @@
                         <p id="news-date">Publicado em 14 de novembro de 2021</p>
 
                         <p class="news-info news-info-no--margin-top">
-                            A Organização Mundial da Saúde reconhece a demência – incluindo a doença de Alzheimer -como uma prioridade de 
+                            A Organização Mundial da Saúde reconhece a demência – incluindo a doença de Alzheimer - como uma prioridade de 
                             saúde pública e estabeleceu em 2017 um plano global que reforça aos países membros a importância da adoção de 
                             estratégias para combater a doença até 2025. Entre as metas estão¹: 
                         </p>
@@ -239,14 +239,14 @@
                             Em 2018, a Global Coalition on Aging (GCOA) e Alzheimer’s Disease International (ADI) produziram um Índice de Prontidão 
                             para Inovação em Demência comparando Argentina, Brasil, China, Índia e Arábia Saudita. Os países foram escolhidos diante de 
                             sua liderança na reunião do G20, encontro das 20 maiores economias do mundo, em 2020, e pelo fato de que a demência aumentará 
-                            de forma significativa em países em desenvolvimento. No ranking, o Brasil teve o pior desempenho4. 
+                            de forma significativa em países em desenvolvimento. No ranking, o Brasil teve o pior desempenho⁴. 
                         </p>
 
                         <img class="news-container-image news-container-image--no-margin-top" src="../assets/images/cidadania/grafico.svg" alt="">
 
                         <p class="news-info">
                             O resultado foi fruto de estratégia e compromisso político, 
-                            padrões de cuidados e ecossistema construído abaixo do esperado4. 
+                            padrões de cuidados e ecossistema construído abaixo do esperado⁴. 
                         </p>
 
                         <h2 class="title-subtitle text-subtitle-little">
@@ -256,7 +256,7 @@
                         <p class="news-info">
                             Foi estabelecida em 2006 a Política Nacional de Saúde da Pessoa Idosa que, além de concentrar e 
                             atualizar as diretrizes para essa parcela da população, prevê recuperar, manter e promover a autonomia e 
-                            a independência dos idosos5.
+                            a independência dos idosos⁵.
                         </p>
 
                         <div id="news-table" class="align-self-normal">

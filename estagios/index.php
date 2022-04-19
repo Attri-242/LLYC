@@ -118,7 +118,7 @@
                             <h3 class="action-card-title">A doença de Alzheimer não começa com a manifestação dos sintomas</h3>
                             <p class="action-card-text">
                                 Antigamente, era muito comum a DA ser associada exclusivamente à demência, porém, com o avanço da 
-                                ciência, hoje entende-se que ela inicia muito antes1. A doença de Alzheimer está associada ao acúmulo de 
+                                ciência, hoje entende-se que ela inicia muito antes¹. A doença de Alzheimer está associada ao acúmulo de 
                                 placas de beta-amiloide tóxicas no cérebro, o que causa efeitos secundários, como a agregação da proteína TAU. 
                                 Por conta desse processo, também há perda neural, prejudicando a cognição e a independência. 
                                 Tudo isso pode começar mais de 20 anos antes dos primeiros sintomas².
@@ -185,7 +185,7 @@
                         </h2>
                     
                         <p class="news-info">
-                            No Brasil, estima-se que existam:3,4
+                            No Brasil, estima-se que existam:³<sup>,</sup>⁴
                         </p>
                     
                         <ul class="news-info-list news-info-list--no-margin-top">
@@ -203,20 +203,20 @@
                             </li>
                         </ul>
                     
-                        <p class="news-info">
-                            A prevalência mundial estimada de doença de Alzheimer é de aproximadamente 35 milhões de casos4. 
+                        <p class="news-info mt-5">
+                            A prevalência mundial estimada de doença de Alzheimer é de aproximadamente 35 milhões de casos⁴. 
                             Contudo, esse número considera apenas as pessoas que vivem com demência devido à DA – ou seja, não 
-                            levam em conta aqueles no estágio pré-clínico e CCL6, quando a patologia está no início. 
+                            levam em conta aqueles no estágio pré-clínico e CCL⁶, quando a patologia está no início. 
                         </p>
                         
                         <p class="news-info">
-                            Em todo o globo, apenas uma em cada quatro pessoas com DA foram diagnosticadas precocemente7. 
-                            Isso impacta negativamente na perspectiva de redução da progressão da doença1. Conforme a DA progride, 
-                            aumentam também os custos – inclusive os não percebidos, como perda na produtividade e despesas gerais pelo cuidado8.
+                            Em todo o globo, apenas uma em cada quatro pessoas com DA foram diagnosticadas precocemente⁷. 
+                            Isso impacta negativamente na perspectiva de redução da progressão da doença¹. Conforme a DA progride, 
+                            aumentam também os custos – inclusive os não percebidos, como perda na produtividade e despesas gerais pelo cuidado⁸.
                         </p>
                     
                         <p class="news-info">
-                            Conhecer os estágios da doença de Alzheimer, bem como conseguir identificar suas manifestações, 
+                            Conhecer os estágios da doença de Alzheimer, bem como conseguir identificar suas manifestações,
                             beneficia o diagnóstico precoce e, consequentemente, a saúde e o bem-estar do paciente e de todos a sua volta. 
                         </p>
                         

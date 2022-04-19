@@ -95,7 +95,7 @@
                         </p>
                     
                         <h2 class="title-subtitle text-subtitle-little">
-                            Doença de Alzheimer é um tipo de demência. Mas o que é demência?¹,²
+                            Doença de Alzheimer é um tipo de demência. Mas o que é demência?¹<sup>,</sup>²
                         </h2>
                     
                         <ul id="brain-activity">
@@ -221,7 +221,7 @@
                             Envelhecer é um processo natural de diminuição progressiva da capacidade funcional do 
                             indivíduo. Contudo, um grande erro comum deve ser continuamente evitado: considerar 
                             que todas as alterações cognitivas e funcionais são decorrentes da idade avançada, 
-                            como parte do envelhecimento4. Isso acontece, por exemplo, com a doença de Alzheimer e 
+                            como parte do envelhecimento⁴. Isso acontece, por exemplo, com a doença de Alzheimer e 
                             seus sintomas iniciais³. 
                         </p>
                     
@@ -229,11 +229,11 @@
                             De vez em quando, esquecer nomes, precisar de ajuda para realizar tarefas, se 
                             confundir com compromissos e datas, perder coisas, e ficar irritado com situações específicas, 
                             por exemplo, são sinais normais entre os idosos. Contudo, é preciso ficar alerta e buscar ajuda 
-                            quando essas situações se tornam frequentes.5
+                            quando essas situações se tornam frequentes.⁵
                         </p>
                     
                         <h2 class="title-subtitle text-subtitle-little">
-                            Algumas coisas aumentam a chance de desenvolver DA6
+                            Algumas coisas aumentam a chance de desenvolver DA⁶
                         </h2>
                     
                         <div class="icon-text-container d-flex flex-column align-items-center align-items-md-start">
@@ -375,7 +375,7 @@
                             Na doença de Alzheimer, é fundamental ter um time de cuidado multidisciplinar, 
                             cujo objetivo é preservar a funcionalidade e independência do paciente, minimizando os distúrbios comportamentais. 
                             Dentre os profissionais envolvidos, além do neurologista, devem constar enfermeiro, nutricionista, psiquiatra e, 
-                            quando necessário, especialista em cuidado domiciliar.8
+                            quando necessário, especialista em cuidado domiciliar.⁸
                         </p>
                     
                         <p class="news-info">

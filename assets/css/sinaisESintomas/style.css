@@ -163,7 +163,7 @@ main#sinais-main
 div#news-container
 div#timeline
 div#sintomas-timeline-text-iniciais::after {
-    content: 'Iniciais7';
+    content: 'Iniciais⁷';
     position: absolute;
     width: 1px;
     top: 0;
@@ -191,7 +191,7 @@ main#sinais-main
 div#news-container
 div#timeline
 div#sintomas-timeline-text-moderados::after {
-    content: 'Moderados7';
+    content: 'Moderados⁷';
     position: absolute;
     width: 1px;
     top: 0;
@@ -219,7 +219,7 @@ main#sinais-main
 div#news-container
 div#timeline
 div#sintomas-timeline-text-severos::after {
-    content: 'Grave7';
+    content: 'Grave⁷';
     position: absolute;
     width: 1px;
     top: 0;

@@ -98,6 +98,13 @@ p.icon-text-item-text-mt-bigger {
 div.icon-text-container
 div.icon-text-container-row
 div.icon-text-item
+p.icon-text-item-text--no-ml {
+    margin-left: 0px !important;
+}
+
+div.icon-text-container
+div.icon-text-container-row
+div.icon-text-item
 img.icon-text-image,
 div.icon-text-container
 div.icon-text-container-row
@@ -473,10 +480,10 @@ a.link-text {
 }
 
 div#news-container
-div#action-card {
+div.action-card {
     margin-top: 4.125rem;
     border: 0.063rem dashed #000;
-    padding: 2.4rem 2.5rem 1.875rem 2.875rem;
+    padding: 1.875rem 2.5rem 1.875rem 2.875rem;
     max-width: 39.563rem;
 }
 
@@ -504,8 +511,8 @@ div.actions-container-item {
 }
 
 div#news-container
-div#action-card
-div#actions-container
+div.action-card
+div.actions-container
 div.actions-container-item {
     margin-top: 1rem;
 }
@@ -622,7 +629,7 @@ img.carousel-image {
 
    div#news-container
    h2.text-subtitle-little {
-       width: 30rem;
+       width: unset;
        margin-bottom: 0px;
    }
 
@@ -705,13 +712,13 @@ img.carousel-image {
         width: 100% !important;
    }
 
-   main#manifesto-main
    div#news-container
-   div#action-card {
-       padding: 1.563rem 1.563rem 1.875rem 1.563rem;
+   div.action-card { 
+       width: 100%;
+       padding: 1.875rem 1.563rem 1.875rem 1.563rem;
+       max-width: unset;
    }
 
-   main#manifesto-main
    div#news-container
    div#action-card
    p.action-card-text {
@@ -841,8 +848,10 @@ img.carousel-image {
    }
 
    div#news-container
-   div#action-card {
-       padding: 0.563rem 1.563rem 1.875rem 1.563rem;
+   div.action-card { 
+       width: 100%;
+       padding: 1.875rem 1.563rem 1.875rem 1.563rem;
+       max-width: unset;
    }
 
    div#news-container

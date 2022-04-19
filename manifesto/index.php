@@ -77,7 +77,7 @@
                             que afeta aqueles que vivem com a doença, suas famílias, e, consequentemente, 
                             os sistemas de saúde. Dezenas de milhões de pessoas em todo o mundo convivem com a DA. 
                             O número aumentará nos próximos anos, ultrapassando os recursos de saúde necessários para gerenciá-la 
-                            e custando bilhões de dólares aos governos²,³,4. 
+                            e custando bilhões de dólares aos governos²<sup>,</sup>³<sup>,</sup>⁴.
                 
                         </p>
                 
@@ -94,8 +94,8 @@
                             DA – como a enxergamos, entendemos e conhecemos.
                         </p>
 
-                        <div class="action-card">
-                            <div id="actions-container">
+                        <div class="action-card d-flex justify-content-center justify-content-xl-start">
+                            <div class="actions-container">
                                 <div class="actions-container-item">
                                     <img class="actions-image" src="../assets/images/manifesto/esta-na-hora.png" alt="">
                                     <span class="actions-text">de (re)pensar a doença de Alzheimer</span>
@@ -148,14 +148,14 @@
                                     <img class="image-container-image" src="../assets/images/manifesto/moedas.svg" alt="">
                                     <span class="image-number">2 trilhões</span>
                                 </div>
-                                <span class="news-image-text-container-item-text">de dólares serão gastos globalmente com demência até 20307</span>
+                                <span class="news-image-text-container-item-text">de dólares serão gastos globalmente com demência até 2030⁷</span>
                             </div> 
                             <div class="news-image-text-container-item">
                                 <div class="image-container">
                                     <img class="image-container-image" src="../assets/images/manifesto/sifrao.svg" alt="">
                                 </div>
                                 <span class="news-image-text-container-item-text">
-                                    Se os custos mundiais do tratamento de demência fossem um país, seria a <span class="image-text-bigger">18º maior</span> economia global8
+                                    Se os custos mundiais do tratamento de demência fossem um país, seria a <span class="image-text-bigger">18º maior</span> economia global⁸
                                 </span>
                             </div>
                         </div>
@@ -172,7 +172,7 @@
                                 </div>
                                 <span class="news-image-text-container-item-text">
                                     <span class="image-text-bigger">55 mil</span>
-                                    novos casos de doença de Alzheimer são esperados anualmente, no Brasil9
+                                    novos casos de doença de Alzheimer são esperados anualmente, no Brasil⁹
                                 </span>
                             </div>
 
@@ -182,7 +182,7 @@
                                 </div>
                                 <span class="news-image-text-container-item-text">
                                     <span class="image-text-bigger">127%</span>
-                                    foi o crescimento nacional do número de pessoas com DA desde 199010
+                                    foi o crescimento nacional do número de pessoas com DA desde 1990¹⁰
                                 </span>
                             </div>
 
@@ -192,12 +192,12 @@
                                 </div>
                                 <span class="news-image-text-container-item-text">
                                     <span class="image-text-bigger">77%</span>
-                                    é a taxa de subdiagnóstico de doença de Alzheimer no Brasil10
+                                    é a taxa de subdiagnóstico de doença de Alzheimer no Brasil¹⁰
                                 </span>
                             </div>
                         </div>
 
-                        <h2 class="title-subtitle text-subtitle-little">Apenas 1 em 4 pessoas com doença de Alzheimer é diagnosticada4</h2>
+                        <h2 class="title-subtitle text-subtitle-little">Apenas 1 em 4 pessoas com doença de Alzheimer é diagnosticada⁴</h2>
 
                         <p class="news-info">
                             É preciso repensar a forma que a DA é definida, a fim de melhorar a capacidade de detectar 
@@ -226,7 +226,7 @@
                             </a>
                         </button>
 
-                        <h2 class="title-subtitle text-subtitle-little">Impactos sociais e econômicos </h2>
+                        <h2 class="title-subtitle text-subtitle-little">Impactos sociais e econômicos</h2>
 
                         <p class="news-info">
                             As consequências do diagnóstico tardio da doença de Alzheimer geram impactos sociais e 
@@ -251,7 +251,7 @@
                                 </div>
                                 <span class="news-image-text-container-item-text">
                                     Entre 2009 e 2013, a DA foi responsável por 4,4% 
-                                    das mortes de idosos no Brasil14
+                                    das mortes de idosos no Brasil¹⁴
                                 </span>
                             </div>
                         </div>
@@ -279,7 +279,7 @@
                         <div id="alert-card">
                             <p id="alert-card-text">
                                 Enquanto você lia nosso manifesto, 60 pessoas desenvolveram 
-                                algum tipo de demência no mundo6*
+                                algum tipo de demência no mundo⁶<sup>*</sup>
                             </p>
                         </div>
 

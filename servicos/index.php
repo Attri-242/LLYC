@@ -35,10 +35,10 @@
     </div>
 
     <div id="title">
-        <section class="w-100 d-none d-xl-flex">
-            <div class="container">
-                <div class="row text-align w-lg-100">
-                    <h1 id="title-text text-center" class="col-12">Serviços</h1>
+        <section class="w-100">
+            <div class="container d-flex justify-content-center justify-content-xl-start">
+                <div class="row w-lg-100">
+                    <h1 id="title-text" class="col-12">Serviços</h1>
                 </div>
             </div>
         </section>
@@ -54,24 +54,24 @@
                                 <div class="row no-gutters justify-content-center justify-content-xl-start icon-text-container-row">
                                     <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="<?= $baseUrl ?>/associacoes/index.php" class="icon-text-item">
-                                            <img class="icon-text-image icon-text-image--little" src="<?= $baseUrl ?>/assets/images/servicos/associacao.png" alt="">
-                                            <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little text-center text-center">
+                                            <img class="icon-text-image text-icon" src="<?= $baseUrl ?>/assets/images/servicos/associacao.png" alt="">
+                                            <p class="icon-text-item-text icon-text-item-text--no-ml icon-text-item-text-mt-bigger text-center">
                                                 Encontre uma associação
                                             </p>
                                         </a>
                                     </div>
                                     <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="" class="icon-text-item">
-                                            <img class="icon-text-image icon-text-image--little" src="<?= $baseUrl ?>/assets/images/servicos/associacao.png" alt="">
-                                            <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little text-center text-center">
+                                            <img class="icon-text-image text-icon" src="<?= $baseUrl ?>/assets/images/servicos/associacao.png" alt="">
+                                            <p class="icon-text-item-text icon-text-item-text--no-ml icon-text-item-text-mt-bigger text-center">
                                                 Encontre um centro de referência
                                             </p>
                                         </a>
                                     </div>
                                     <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="" class="icon-text-item">
-                                            <img class="icon-text-image icon-text-image--little" src="<?= $baseUrl ?>/assets/images/servicos/associacao.png" alt="">
-                                            <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little text-center text-center">
+                                            <img class="icon-text-image text-icon" src="<?= $baseUrl ?>/assets/images/servicos/associacao.png" alt="">
+                                            <p class="icon-text-item-text icon-text-item-text--no-ml icon-text-item-text-mt-bigger text-center">
                                                 Encontre um especialista
                                             </p>
                                         </a>
@@ -81,24 +81,24 @@
                                 <div class="row no-gutters justify-content-center justify-content-xl-start icon-text-container-row">
                                     <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="" class="icon-text-item">
-                                            <img class="icon-text-image icon-text-image--little" src="<?= $baseUrl ?>/assets/images/servicos/grupo.png" alt="">
-                                            <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little text-center text-center">
+                                            <img class="icon-text-image text-icon" src="<?= $baseUrl ?>/assets/images/servicos/grupo.png" alt="">
+                                            <p class="icon-text-item-text icon-text-item-text--no-ml icon-text-item-text-mt-bigger text-center">
                                                 Encontre grupos de apoio
                                             </p>
                                         </a>
                                     </div>
                                     <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="" class="icon-text-item">
-                                            <img class="icon-text-image icon-text-image--little" src="<?= $baseUrl ?>/assets/images/servicos/patients.png" alt="">
-                                            <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--smaller text-center">
+                                            <img class="icon-text-image text-icon" src="<?= $baseUrl ?>/assets/images/servicos/patients.png" alt="">
+                                            <p class="icon-text-item-text icon-text-item-text--no-ml icon-text-item-text-mt-bigger icon-text-item-text--smaller text-center">
                                                 Patients like me
                                             </p>
                                         </a>
                                     </div>
                                     <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="" class="icon-text-item">
-                                            <img class="icon-text-image icon-text-image--little" src="<?= $baseUrl ?>/assets/images/servicos/newsletter.png" alt="">
-                                            <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little text-center text-center">
+                                            <img class="icon-text-image text-icon" src="<?= $baseUrl ?>/assets/images/servicos/newsletter.png" alt="">
+                                            <p class="icon-text-item-text icon-text-item-text--no-ml icon-text-item-text-mt-bigger text-center">
                                                 Assine a nossa newsletter
                                             </p>
                                         </a>
@@ -108,16 +108,16 @@
                                 <div class="row no-gutters justify-content-center justify-content-xl-start icon-text-container-row">
                                     <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="" class="icon-text-item">
-                                            <img class="icon-text-image icon-text-image--little" src="<?= $baseUrl ?>/assets/images/servicos/exercicios.png" alt="">
-                                            <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--little text-center text-center">
+                                            <img class="icon-text-image text-icon" src="<?= $baseUrl ?>/assets/images/servicos/exercicios.png" alt="">
+                                            <p class="icon-text-item-text icon-text-item-text--no-ml icon-text-item-text-mt-bigger text-center">
                                                 Exercícios cognitivos
                                             </p>
                                         </a>
                                     </div>
                                     <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="" class="icon-text-item">
-                                            <img class="icon-text-image icon-text-image--little" src="<?= $baseUrl ?>/assets/images/servicos/ubs.png" alt="">
-                                            <p class="icon-text-item-text icon-text-item-text-mt-bigger icon-text-item-text--smaller text-center">
+                                            <img class="icon-text-image text-icon" src="<?= $baseUrl ?>/assets/images/servicos/ubs.png" alt="">
+                                            <p class="icon-text-item-text icon-text-item-text--no-ml icon-text-item-text-mt-bigger icon-text-item-text--smaller text-center">
                                                 Encontre uma UBS
                                             </p>
                                         </a>

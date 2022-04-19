@@ -95,28 +95,20 @@ header#header
 nav#principal-nav 
 div#principal-nav-container 
 div#principal-nav-items 
-.principal-nav-item-container {
-    /* width: 9.313rem; */
-    height: 2.25rem;
-    display: flex;
-    flex-flow: column;
+.principal-nav-item--medium   {
+    width: 5rem !important
 }
 
 header#header 
 nav#principal-nav 
 div#principal-nav-container 
 div#principal-nav-items 
-.principal-nav-item-container--short {
-    /* width: 6.25rem; */
+.principal-nav-item-container {
+    height: 2.25rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
-
-/* header#header 
-nav#principal-nav 
-div#principal-nav-container 
-div#principal-nav-items 
-.principal-nav-item-container--regular {
-    width: 10.313rem;
-} */
 
 header#header 
 nav#secondary-nav 
@@ -124,7 +116,6 @@ div#secondary-nav-container
 div#secondary-nav-items 
 div#secondary-nav-item-container:first-child {
     margin-left: 0px;
-    /* max-width: 10.313rem; */
     display: flex;
     align-items: center;
 }

@@ -80,9 +80,9 @@
                 </div>
 
                 <div id="principal-nav-items" class="d-flex align-items-end justify-content-end">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-2">
+                    <div class="container p-0 m-0">
+                        <div class="row d-flex justify-content-end">
+                            <div class="col-1">
                                 <?php 
                                     include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php';
                                     showNavItem("QUEM SOMOS", 
@@ -133,7 +133,7 @@
                             <div class="col-2">
                                 <?php 
                                     include_once $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
-                                    showNavItem("CUIDANDO DO PACIENTE", [], 'regular', 'primary', '#'); ?>
+                                    showNavItem("CUIDANDO DO PACIENTE", [], 'medium', 'primary', '#'); ?>
                             </div>
 
                             <div class="col-2">

@@ -4,6 +4,10 @@ main#servicos-main {
     flex-flow: column;
 }
 
+.text-icon {
+    height: 2.813rem !important;
+}
+
 
 @media(min-width: 1200px) {
     .text-align {

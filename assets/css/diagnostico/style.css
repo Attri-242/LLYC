@@ -31,12 +31,6 @@ span.news-impacts-item-text {
 
 main#diagnostico-main
 div#news-container
-h2.text-subtitle-little {
-    width: 37.5rem;
-}
-
-main#diagnostico-main
-div#news-container
 div#news-image-text {
     margin-top: 3.125rem;
     display: flex;
