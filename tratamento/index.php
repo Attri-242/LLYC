@@ -73,7 +73,7 @@
                     <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
                         <p id="news-date">Publicado em 14 de novembro de 2021</p>
                     
-                        <p class="news-info">
+                        <p class="news-info news-info-no--margin-top">
                             O cuidado multidisciplinar olha a pessoa em toda sua universalidade, zelando não só pela sua saúde, 
                             mas também bem-estar e qualidade de vida. Na doença de Alzheimer (DA) esse tipo de atenção é fundamental, 
                             já que os impactos são sentidos tanto pelo paciente, quanto pela pessoa responsável por seu cuidado.
@@ -95,7 +95,7 @@
                 
                         <h2 class="title-subtitle">Profissionais envolvidos no cuidado da pessoa</br> com doença de Alzheimer</h2>
                 
-                        <div class="icon-text-container">
+                        <div class="icon-text-container icon-text-container--no-margin-top">
                             <div class="container p-0">
                                 <div class="row no-gutters justify-content-start icon-text-container-row">
                                     <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
@@ -198,7 +198,7 @@
                 
                         <div class="icon-text-container icon-text-container--no-margin-top">
                             <div class="container p-0">
-                                <div class="row no-gutters justify-content-start icon-text-container-row">
+                                <div class="row no-gutters justify-content-center justify-content-xl-start icon-text-container-row">
                                     <div class="col-12 col-md-3 col-xl-3 icon-text-item d-flex">
                                         <img class="icon-text-image" src="../assets/images/tratamento/musica.svg" alt="">
                                         <p class="icon-text-item-text icon-text-item-text--little">

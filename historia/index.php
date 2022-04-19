@@ -72,7 +72,7 @@
                     <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
                         <p id="news-date">Publicado em 14 de novembro de 2021</p>
                     
-                        <p class="news-info">
+                        <p class="news-info news-info-no--margin-top">
                             Uma rede de apoio sólida é primordial para todos os envolvidos com a doença de Alzheimer (DA). 
                             As pessoas dedicadas à atenção da pessoa com DA podem encontrar-se constantemente sobrecarregadas, 
                             confusas com as adaptações necessárias e até com a saúde mental prejudicada. Nesses momentos, 

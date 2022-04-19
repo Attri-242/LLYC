@@ -675,6 +675,10 @@ img.carousel-image {
         margin-top: 0.875rem;
    }
 
+    p.news-info-no--margin-top {
+        margin-top: 0px;
+    }
+
    div#news-container
    button.news-info-button {
        font-size: 0.813rem !important;
@@ -934,5 +938,8 @@ img.carousel-image {
         margin-top: 1.875rem !important;
     }
 
+    p.news-info-no--margin-top {
+        margin-top: 0px;
+    }
  
 }

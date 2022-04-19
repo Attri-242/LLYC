@@ -74,7 +74,7 @@
                     <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
                         <p id="news-date">Publicado em 14 de novembro de 2021</p>
                     
-                        <p class="news-info">
+                        <p class="news-info news-info-no--margin-top">
                             A doença de Alzheimer (DA) é progressiva, neurodegenerativa, crônica e irreversível, 
                             associada à perda de memória e ao declínio cognitivo. Ela também pode estar acompanhada 
                             de mudanças comportamentais e de personalidade, inclusive com sintomas como apatia e depressão. 

@@ -73,7 +73,7 @@
                     <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
                         <p id="news-date">Publicado em 14 de novembro de 2021</p>
 
-                        <p class="news-info">
+                        <p class="news-info news-info-no--margin-top">
                             A Organização Mundial da Saúde reconhece a demência – incluindo a doença de Alzheimer -como uma prioridade de 
                             saúde pública e estabeleceu em 2017 um plano global que reforça aos países membros a importância da adoção de 
                             estratégias para combater a doença até 2025. Entre as metas estão¹: 

@@ -72,7 +72,7 @@
                     <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
                         <p id="news-date">Publicado em 14 de novembro de 2021</p>
                     
-                        <p class="news-info">
+                        <p class="news-info news-info-no--margin-top">
                             A doença de Alzheimer (DA) é uma crise em escalada de saúde pública global¹, 
                             que afeta aqueles que vivem com a doença, suas famílias, e, consequentemente, 
                             os sistemas de saúde. Dezenas de milhões de pessoas em todo o mundo convivem com a DA. 

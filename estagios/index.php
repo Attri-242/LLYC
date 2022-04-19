@@ -72,7 +72,7 @@
                     <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
                         <p id="news-date">Publicado em 14 de novembro de 2021</p>
                     
-                        <p class="news-info">
+                        <p class="news-info news-info-no--margin-top">
                             Normalmente, ao ouvir falar sobre a doença de Alzheimer (DA), surge uma imagem relacionada aos casos mais graves. 
                             Essa figura entregue pelo senso comum apresenta uma pessoa com alto comprometimento cognitivo, com memória e 
                             independência altamente afetadas. Mas não é bem assim. 

@@ -72,7 +72,7 @@
                     <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
                     <p id="news-date">Publicado em 14 de novembro de 2021</p>
                     
-                    <p class="news-info">
+                    <p class="news-info news-info-no--margin-top">
                         Você sabia que apenas uma em cada quatro pessoas com doença de Alzheimer (DA) é diagnosticada?¹ 
                         Quando é identificada, em geral a DA já está em estágio avançado². A falta de informação sobre seus sintomas 
                         iniciais corrobora para esse cenário, especialmente pela associação com o processo natural do envelhecimento – 
