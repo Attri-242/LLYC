@@ -130,7 +130,7 @@
                             A progressão da doença de Alzheimer
                         </h2>
                     
-                        <img class="news-container-image d-none d-lg-block" src="../assets/images/estagios/infografico.svg" alt="">
+                        <img class="news-container-image image-timeline d-none d-lg-block" src="../assets/images/estagios/infografico.svg" alt="">
                     
                         <div id="estagios-timeline" class="d-flex d-lg-none">
                             <div class="estagios">

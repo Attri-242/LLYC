@@ -361,6 +361,10 @@ div.estagios-container-item--no-ml {
     margin-top: unset;
 }
 
+.image-timeline {
+    max-height: 200px;
+}
+
 main#estagios-main
 div#news-container
 div#estagios-timeline
