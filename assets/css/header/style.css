@@ -246,11 +246,13 @@ nav#nav-mobile {
     background-color: var(--llyc-primary);
     z-index: 1000;
     height: 100%;
-    position: absolute;
+    position: fixed;
     width: 80%;
     right: 0;
     top: 0;
     display: none;
+    overflow-y: scroll;
+    padding-bottom: 30px;
 }
 
 header#header 
@@ -380,7 +382,7 @@ nav#nav-perfil {
     background-color: #FFF;
     z-index: 1000;
     height: 100%;
-    position: absolute;
+    position: fixed;
     width: 100%;
     right: 0;
     top: 0;

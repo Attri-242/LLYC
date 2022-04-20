@@ -86,7 +86,7 @@
                                 As principais especialidades para identificar doença de Alzheimer⁵
                             </p>
 
-                            <div class="container">
+                            <div class="container p-0">
                                 <div class="row no-gutters justify-content-start icon-text-container-row">
                                     <div class="col-12 col-md-6 col-xl-4 icon-text-item
                                                 icon-text-item--no-margin
@@ -391,9 +391,6 @@
                             </div>
                         </div>
 
-                        <!-- <div class="outros-diagnosticos">
-                        </div> -->
-
                         <h2 class="title-subtitle text-subtitle-little">
                             É possível detectar a doença de Alzheimer ainda no estágio pré-clínico?⁵
                         </h2>
@@ -436,7 +433,7 @@
     
                         <h2 class="title-subtitle">Referências</h2>
                     
-                        <ul class="news-info-list style-none">
+                        <ul class="news-info-list style-none p-0">
                             <li class="news-info-list-item news-info-list-item--little">
                                 1.Alzheimer’s Disease International. Dementia statistics. 
                                 Disponível em: https://www.alz.co.uk/research/statistics 

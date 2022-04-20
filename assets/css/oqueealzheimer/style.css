@@ -128,6 +128,106 @@ li.brain-activity-item {
     color: #000;
 }
 
+.icon-image-cidadania {
+    margin-right: 30px;
+}
+
+.icon-image-cidadania--ml-bigger {
+    margin-right: 50px;
+}
+
+.icon-item--no-padding-left {
+    padding-left: 0px;
+}
+
+.icon-image-cidadania--ml-bigger {
+    margin-right: 50px;
+}
+
+div#related-column {
+    margin-top: 150px;
+    width: 295px;
+}
+
+div#related-column
+div#related-doctor {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 22px 17px 20px 18px;
+    border: 1px dashed #000;
+    border-radius: 20px;
+}
+
+
+div#related-column
+div#related-doctor
+p.related-doctor-text {
+    margin-top: 36px;
+    font-size: 12px;
+    line-height: 25px;
+    color: #000000;
+}
+
+div#related-charts {
+    margin-top: 94px
+}
+
+div#related-charts
+div.related-chart {
+    margin-top: 40px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+
+div#related-charts
+div.related-chart
+p.related-chart-text {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000;
+    width: 230px;
+}
+
+h2.subtitle-customized {
+    width: unset;
+}
+
+
+@media(min-width: 1200px) and (max-width: 1326px) {
+    main#alzheimer-main
+    div#news-container
+    ul#brain-activity {
+        margin-top: 3.125rem;
+        width: 34rem;
+    }
+
+    h2.subtitle-customized {
+        width: 34.5rem !important;
+    }    
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    .icon-image-cidadania--ml-bigger {
+        margin-right: 50px;
+    }    
+}
+
+@media(max-width: 1199px) {
+    .icon-image-cidadania {
+        margin-right: unset;
+    }
+
+    .icon-item--no-padding-left {
+        padding-left: unset;
+    }
+}
+
+
 /* md - tablet */
 @media (min-width: 577px) and (max-width: 1199px) {
 

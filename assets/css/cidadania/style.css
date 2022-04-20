@@ -118,6 +118,10 @@ span.news-image-text-item {
     color: #000000;
 }
 
+.image-news {
+    max-width: 700px;
+}
+
 /* md - tablet */
 @media (min-width: 577px) and (max-width: 1199px) {
 

@@ -118,6 +118,13 @@ span.nav-mobile-item-text {
     max-width: 80px;
 }
 
+footer#footer-mobile 
+nav#nav-mobile 
+a.nav-mobile-item 
+span.nav-mobile-item-text--with-margin-top {
+    margin-top: 17px;
+}
+
 @media(min-width: 1440px) {
     footer#footer-desk {
         justify-content: space-between;

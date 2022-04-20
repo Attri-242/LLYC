@@ -55,7 +55,7 @@
         </a>
         <a class="nav-mobile-item" href="<?= $baseUrl ?>/servicos/index.php">
             <img class="nav-mobile-item-icon" src="<?= $baseUrl ?>/assets/images/header/services.png" alt="">
-            <span class="nav-mobile-item-text">
+            <span class="nav-mobile-item-text nav-mobile-item-text--with-margin-top">
                 Serviços
             </span>
         </a>

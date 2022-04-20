@@ -70,11 +70,11 @@
     <div id="news-container">
         <section class="w-100">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
+                <div class="row d-flex justify-content-center justify-content-xl-between">
+                    <div class="col-12 col-xl-7 d-flex flex-column align-items-center align-items-xl-start">
                         <p id="news-date">Publicado em 14 de novembro de 2021</p>
                     
-                        <p class="news-info news-info-no--margin-top">
+                        <p class="news-info news-info-no--margin-top news-info-with-max-width">
                             A doença de Alzheimer (DA) é progressiva, neurodegenerativa, crônica e irreversível, 
                             associada à perda de memória e ao declínio cognitivo. Ela também pode estar acompanhada 
                             de mudanças comportamentais e de personalidade, inclusive com sintomas como apatia e depressão. 
@@ -82,19 +82,19 @@
                             nomes ou eventos, por exemplo.¹ 
                         </p>
                     
-                        <p class="news-info">
+                        <p class="news-info news-info-with-max-width">
                             Ela é causada por alterações cerebrais, como o acúmulo anormal de placas beta-amiloides tóxicas, 
                             o que pode começar até 20 anos antes dos primeiros sintomas da doença. O comprometimento cognitivo leve 
                             (CCL) devido à DA também é um dos estágios iniciais da doença de Alzheimer – é nele em que as 
                             manifestações ficam mais visíveis para o diagnóstico.¹
                         </p>
                     
-                        <p class="news-info">
+                        <p class="news-info news-info-with-max-width">
                             Conforme a DA avança, a comunicação é prejudicada. Desorientação, confusão, mal julgamento e 
                             dificuldade para falar, engolir e andar também fazem parte dos sintomas tardios.¹
                         </p>
                     
-                        <h2 class="title-subtitle text-subtitle-little">
+                        <h2 class="title-subtitle text-subtitle-little subtitle-customized">
                             Doença de Alzheimer é um tipo de demência. Mas o que é demência?¹<sup>,</sup>²
                         </h2>
                     
@@ -130,51 +130,56 @@
                                 Como consigo identificar a doença de Alzheimer?
                             </h3>
                     
-                            <p class="news-info">
+                            <p class="news-info news-info-with-max-width">
                                 Os sinais e sintomas mais comuns são:³
                             </p>
                     
-                            <div class="container">
+                            <div class="container p-0">
                                 <div class="row no-gutters justify-content-start icon-text-container-row">
-                                    <div class="col-12 col-md-6 col-xl-6 icon-text-item d-flex align-items-center">
-                                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/memoria.png" alt="">
+                                    <div class="col-12 col-md-4 col-xl-4 icon-text-item icon-item--no-padding-left d-flex align-items-center align-items-md-start">
+                                        <img class="
+                                                    icon-text-image 
+                                                    icon-image-cidadania 
+                                                    icon-image-cidadania--ml-bigger 
+                                                    align-self-center" 
+                                                src="../assets/images/oqueealzheimer/memoria.png" alt="">
                                         <p class="icon-text-item-text">
                                             Perda de memória recente
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-6 col-xl-6 icon-text-item d-flex align-items-center">
-                                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/perguntas.png" alt="">
+                                    <div class="col-12 col-md-4 col-xl-4 icon-text-item icon-item--no-padding-left d-flex align-items-center align-items-md-start">
+                                        <img class="icon-text-image icon-image-cidadania align-self-center " src="../assets/images/oqueealzheimer/perguntas.png" alt="">
                                         <p class="icon-text-item-text">
                                             Repetir a mesma pergunta várias vezes
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-6 col-xl-6 icon-text-item d-flex align-items-center">
-                                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/conversar.png" alt="">
+                                    <div class="col-12 col-md-4 col-xl-4 icon-text-item icon-item--no-padding-left d-flex align-items-center align-items-md-start">
+                                        <img class="icon-text-image icon-image-cidadania align-self-center " src="../assets/images/oqueealzheimer/conversar.png" alt="">
                                         <p class="icon-text-item-text">
                                             Dificuldade em acompanhar conversas ou raciocínios complexos
                                         </p>
                                     </div>
                     
-                                    <div class="col-12 col-md-6 col-xl-6 icon-text-item d-flex align-items-center">
-                                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/estrategia.png" alt="">
+                                    <div class="col-12 col-md-4 col-xl-4 icon-text-item icon-item--no-padding-left d-flex align-items-center align-items-md-start">
+                                        <img class="icon-text-image icon-image-cidadania align-self-center " src="../assets/images/oqueealzheimer/estrategia.png" alt="">
                                         <p class="icon-text-item-text">
                                             Incapacidade de desenvolver estratégias para solução de problemas
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-6 col-xl-6 icon-text-item d-flex align-items-center">
-                                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/dirigir.png" alt="">
+                                    <div class="col-12 col-md-4 col-xl-4 icon-text-item icon-item--no-padding-left d-flex align-items-center align-items-md-start">
+                                        <img class="icon-text-image icon-image-cidadania align-self-center " src="../assets/images/oqueealzheimer/dirigir.png" alt="">
                                         <p class="icon-text-item-text">
                                             Dificuldade para dirigir e encontrar caminhos conhecidos
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-6 col-xl-6 icon-text-item d-flex align-items-center">
-                                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/expressar.png" alt="">
+                                    <div class="col-12 col-md-4 col-xl-4 icon-text-item icon-item--no-padding-left d-flex align-items-center align-items-md-start">
+                                        <img class="icon-text-image icon-image-cidadania align-self-center " src="../assets/images/oqueealzheimer/expressar.png" alt="">
                                         <p class="icon-text-item-text">
                                             Dificuldade para expressar-se
                                         </p>
                                     </div>
-                                    <div class="col-12 col-md-6 col-xl-6 icon-text-item d-flex align-items-center">
-                                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/comportamento.png" alt="">
+                                    <div class="col-12 col-md-6 col-xl-6 icon-text-item icon-item--no-padding-left d-flex align-items-center align-items-md-start">
+                                        <img class="icon-text-image icon-image-cidadania align-self-center " src="../assets/images/oqueealzheimer/comportamento.png" alt="">
                                         <p class="icon-text-item-text">
                                             Mudanças comportamentais, como irritabilidade, agressividade, passividade, 
                                             interpretações erradas de estímulos visuais ou auditivos, e tendência ao isolamento
@@ -184,7 +189,7 @@
                             </div>
                         </div>
                                                             
-                        <p class="news-info">
+                        <p class="news-info news-info-with-max-width">
                             Existe uma tendência em focar nos casos já moderados e graves da doença de Alzheimer, 
                             mas a evolução da doença de Alzheimer deve ser considerada dentro de um processo contínuo que inclui os estágios: ¹
                         </p>
@@ -217,7 +222,7 @@
                             Será que é da idade? Envelhecer não é sinônimo de doença de Alzheimer
                         </h2>
                     
-                        <p class="news-info">
+                        <p class="news-info news-info-with-max-width">
                             Envelhecer é um processo natural de diminuição progressiva da capacidade funcional do 
                             indivíduo. Contudo, um grande erro comum deve ser continuamente evitado: considerar 
                             que todas as alterações cognitivas e funcionais são decorrentes da idade avançada, 
@@ -225,7 +230,7 @@
                             seus sintomas iniciais³. 
                         </p>
                     
-                        <p class="news-info">
+                        <p class="news-info news-info-with-max-width">
                             De vez em quando, esquecer nomes, precisar de ajuda para realizar tarefas, se 
                             confundir com compromissos e datas, perder coisas, e ficar irritado com situações específicas, 
                             por exemplo, são sinais normais entre os idosos. Contudo, é preciso ficar alerta e buscar ajuda 
@@ -237,7 +242,7 @@
                         </h2>
                     
                         <div class="icon-text-container d-flex flex-column align-items-center align-items-md-start">
-                            <p class="news-info">
+                            <p class="news-info news-info-with-max-width">
                                 Os principais fatores de risco da doença de Alzheimer são:
                             </p>
                     
@@ -349,16 +354,16 @@
                             </div>
                         </div>
                     
-                        <h2 class="title-subtitle text-subtitle-little">E como é feito o diagnóstico?7</h2>
+                        <h2 class="title-subtitle text-subtitle-little">E como é feito o diagnóstico?<sup>7</sup></h2>
                     
-                        <p class="news-info">
+                        <p class="news-info news-info-with-max-width">
                             O diagnóstico é clínico, feito por meio de avaliação médica, exames e história do paciente. 
                             Testes psicológicos para verificar o funcionamento cognitivo em diferentes esferas fazem parte dessa análise. 
                             Seus resultados são associados a dados coletados da observação do comportamento do indivíduo, o que permite 
                             identificar a DA e seu estágio. 
                         </p>
                     
-                        <p class="news-info">
+                        <p class="news-info news-info-with-max-width">
                             A hipótese da presença de outras doenças pode ser excluída a partir da realização de exames de 
                             sangue e de imagem, como tomografia e ressonância magnética do crânio.
                         </p>
@@ -371,14 +376,14 @@
                     
                         <h2 class="title-subtitle text-subtitle-little">Cuidado multidisciplinar é fundamental</h2>
                     
-                        <p class="news-info">
+                        <p class="news-info news-info-with-max-width">
                             Na doença de Alzheimer, é fundamental ter um time de cuidado multidisciplinar, 
                             cujo objetivo é preservar a funcionalidade e independência do paciente, minimizando os distúrbios comportamentais. 
                             Dentre os profissionais envolvidos, além do neurologista, devem constar enfermeiro, nutricionista, psiquiatra e, 
                             quando necessário, especialista em cuidado domiciliar.⁸
                         </p>
                     
-                        <p class="news-info">
+                        <p class="news-info news-info-with-max-width">
                             A doença de Alzheimer não tem cura, mas o cuidado adequado permite melhorar os sinais e 
                             sintomas, e diminuir a progressão da doença ao aumentar o número de neurotransmissores no cérebro.¹
                         </p>
@@ -427,6 +432,84 @@
                             </li>
                         </ul>
                     </div>
+
+                    <div id="related-column" class="col-4 d-none d-xl-flex flex-column align-items-center">
+                        <div id="related-doctor">
+                            <img src="../assets/images/oqueealzheimer/draugusto.png" alt="Doutor Augusto">
+                            <p class="related-doctor-text">
+                                <span class="news-info-bold">Dr. Augusto José</span> é neurologista, loren ipsun dolor sit amet, loren ipsun dolor sit amet, 
+                                loren ipsun dolor sit amet, loren ipsun dolor sit amet, loren ipsun dolor sit amet, 
+                                loren ipsun dolor sit amet.
+                            </p>
+                        </div>
+                        <div id="related-charts">
+                            <h4 id="related-charts-title">Relacionados</h4>
+                            <div class="related-chart">
+                                <img src="../assets/images/oqueealzheimer/primeiro-relacionado.png" alt="Doutor Augusto">
+                                <p class="related-chart-text">
+                                Como seguir a vida após o diagnóstico de Alzheimer
+                                </p>
+                                <div class="card-info-related-container align-items-start">
+                                <div class="card-info-relateds">
+                                    <div class="card-info-related">
+                                        Alzheimer
+                                    </div>
+                                    <div class="card-info-related">
+                                        Diagnóstico
+                                    </div>
+                                </div>
+                                <div class="card-info-relateds">
+                                    <div class="card-info-related">
+                                        Sinais e sintomas
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="related-chart">
+                                <img src="../assets/images/oqueealzheimer/segundo-relacionado.png" alt="Doutor Augusto">
+                                <p class="related-chart-text">
+                                    Uma boa alimentação é essencial para diminuir as chances de desenvolver qualquer doença
+                                </p>
+                                <div class="card-info-related-container align-items-start">
+                                <div class="card-info-relateds">
+                                    <div class="card-info-related">
+                                        Alzheimer
+                                    </div>
+                                    <div class="card-info-related">
+                                        Diagnóstico
+                                    </div>
+                                </div>
+                                <div class="card-info-relateds">
+                                    <div class="card-info-related">
+                                        Sinais e sintomas
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="related-chart">
+                                <img src="../assets/images/oqueealzheimer/terceiro-relacionado.png" alt="Doutor Augusto">
+                                <p class="related-chart-text">
+                                    Os desafios dos relacionamentos com o Alzheimer
+                                </p>
+                                <div class="card-info-related-container align-items-start">
+                                <div class="card-info-relateds">
+                                    <div class="card-info-related">
+                                        Alzheimer
+                                    </div>
+                                    <div class="card-info-related">
+                                        Diagnóstico
+                                    </div>
+                                </div>
+                                <div class="card-info-relateds">
+                                    <div class="card-info-related">
+                                        Sinais e sintomas
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
                     </div>
                 </div>
             </div>

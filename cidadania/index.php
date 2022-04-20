@@ -102,7 +102,7 @@
                             </li>
                         </ul>
 
-                        <div class="icon-text-container">
+                        <div class="icon-text-container icon-text-container--no-margin-top ">
                             <p class="news-info">
                                 A entidade também oferece guias e diretrizes para apoiar a adoção de medidas contra a doença, 
                                 especialmente nos fatores modificáveis, que incluem: 
@@ -242,7 +242,10 @@
                             de forma significativa em países em desenvolvimento. No ranking, o Brasil teve o pior desempenho⁴. 
                         </p>
 
-                        <img class="news-container-image news-container-image--no-margin-top" src="../assets/images/cidadania/grafico.svg" alt="">
+                        <img class="
+                            news-container-image 
+                            news-container-image--no-margin-top 
+                            news-container-image--with-height" src="../assets/images/cidadania/grafico.svg" alt="">
 
                         <p class="news-info">
                             O resultado foi fruto de estratégia e compromisso político, 

@@ -184,7 +184,7 @@
                             
                         </h2>
                     
-                        <p class="news-info">
+                        <p class="news-info news-info-no--margin-top">
                             No Brasil, estima-se que existam:³<sup>,</sup>⁴
                         </p>
                     
