@@ -82,20 +82,25 @@
                 <div id="principal-nav-items" class="d-flex align-items-end justify-content-end">
                     <div class="container p-0 m-0">
                         <div class="row d-flex justify-content-end">
-                            <div class="col-1">
-                                <?php 
-                                    include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php';
-                                    showNavItem("QUEM SOMOS", 
-                                        [
-                                            ["Manifesto", $baseUrl . "/manifesto/index.php"], 
-                                            ["Sobre a Biogen", '#'], 
-                                            ["Contato", '#']
-                                        ], 'short', 'primary', '#');
-                                ?>
+                            <div class="d-flex flex-row flex-wrap 
+                                align-items-center justify-content-center nav-item-container">
+                                <div class="col-1">
+                                    <?php 
+                                        include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php';
+                                        showNavItem("QUEM SOMOS", 
+                                            [
+                                                ["Manifesto", $baseUrl . "/manifesto/index.php"], 
+                                                ["Sobre a Biogen", '#'], 
+                                                ["Contato", '#']
+                                            ], 'short', 'primary', '#');
+                                    ?>
+                                </div>
                             </div>
 
-                            <div class="col-2">
-                                <?php 
+                            <div class="d-flex flex-row flex-wrap 
+                                align-items-center justify-content-center" style="max-width: 6.25rem;">
+                                <div class="col-2">
+                                    <?php 
                                     include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php';
                                     showNavItem("O QUE É ALZHEIMER", 
                                         [
@@ -109,43 +114,61 @@
                                             ["Fatos e números", "#"],
                                             ["O que acontece com o cérebro", "#"]
                                         ], 'short', 'primary', '#');
-                                ?>
+                                    ?>
+                                </div>
+                            </div>
+                            
+
+
+                            <div class="d-flex flex-row flex-wrap 
+                                align-items-center justify-content-center" style="max-width: 9.375rem;">
+                                <div class="col-2">
+                                    <?php 
+                                        include_once $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php';
+                                        showNavItem("SINAIS, SINTOMAS E DIAGNÓSTICO", 
+                                            [
+                                                ["Sinais e sintomas", $baseUrl . "/sinaisESintomas/index.php"],
+                                                ["Comprometimento cognitivo leve", "#"],
+                                                ["Diagnóstico", $baseUrl . "/diagnostico/index.php"],
+                                                ["Diagnóstico precoce", "#"],
+                                                ["Diagnóstico diferencial", "#"],
+                                                ["Biomarcadores", $baseUrl . "/estagios/index.php"],
+                                                ["Testes funcionais e cognitivos", "#"],
+                                                ["Estágios da doença de Alzheimer", "#"],
+                                                ["CCL x DA", "#"]
+                                            ], 'regular', 'primary', '#');
+                                    ?>
+                                </div>
                             </div>
 
-                            <div class="col-2">
-                                <?php 
-                                    include_once $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php';
-                                    showNavItem("SINAIS, SINTOMAS E DIAGNÓSTICO", 
-                                        [
-                                            ["Sinais e sintomas", $baseUrl . "/sinaisESintomas/index.php"],
-                                            ["Comprometimento cognitivo leve", "#"],
-                                            ["Diagnóstico", $baseUrl . "/diagnostico/index.php"],
-                                            ["Diagnóstico precoce", "#"],
-                                            ["Diagnóstico diferencial", "#"],
-                                            ["Biomarcadores", $baseUrl . "/estagios/index.php"],
-                                            ["Testes funcionais e cognitivos", "#"],
-                                            ["Estágios da doença de Alzheimer", "#"],
-                                            ["CCL x DA", "#"]
-                                        ], 'regular', 'primary', '#');
-                                ?>
+                            
+                            <div class="d-flex flex-row flex-wrap 
+                                align-items-center justify-content-center" style="max-width: 7.5rem;">
+                                <div class="col-2">
+                                    <?php 
+                                        include_once $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
+                                        showNavItem("CUIDANDO DO PACIENTE", [], 'medium', 'primary', '#'); ?>
+                                </div>
                             </div>
 
-                            <div class="col-2">
-                                <?php 
-                                    include_once $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
-                                    showNavItem("CUIDANDO DO PACIENTE", [], 'medium', 'primary', '#'); ?>
+                            
+                            <div class="d-flex flex-row flex-wrap 
+                                align-items-center justify-content-center" style="max-width: 9.375rem;">
+                                <div class="col-2">
+                                    <?php 
+                                        include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
+                                        showNavItem("CUIDANDO DE QUEM CUIDA", [], 'regular', 'primary', $baseUrl . "/historia/index.php"); ?>
+                                </div>
                             </div>
 
-                            <div class="col-2">
-                                <?php 
-                                    include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
-                                    showNavItem("CUIDANDO DE QUEM CUIDA", [], 'regular', 'primary', $baseUrl . "/historia/index.php"); ?>
-                            </div>
-
-                            <div class="col-2">
-                                <?php
-                                    include_once $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
-                                    showNavItem("CIDADANIA E POLÍTICAS PÚBLICAS", [], 'regular', 'primary', $baseUrl . '/cidadania/index.php'); ?>
+                            
+                            <div class="d-flex flex-row flex-wrap 
+                                align-items-center justify-content-center" style="max-width: 9.375rem;">
+                                <div class="col-2">
+                                    <?php
+                                        include_once $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
+                                        showNavItem("CIDADANIA E POLÍTICAS PÚBLICAS", [], 'regular', 'primary', $baseUrl . '/cidadania/index.php'); ?>
+                                </div>
                             </div>
                         </div>
                     </div>

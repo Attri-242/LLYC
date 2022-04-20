@@ -214,168 +214,186 @@
                             de Alzheimer de outras demências, tumores cerebrais, hemorragias e fluxos sanguíneos no cérebro¹⁴.
                         </p>
 
-                        <div class="outros-diagnosticos">
-                            <h3 class="outros-diagnosticos-title">Outros diagnósticos diferenciais de demência¹⁵</h3>
-                            
-                            <div class="container p-0">
-                                <div class="row">
-                                    <div class="col-6 d-flex align-items-center sintomas">
-                                        <div class="sintomas-itens">
-                                            Transtornos degenerativos
-                                        </div>
-                                    </div>
+                        <h2 class="title-subtitle text-subtitle-little d-block d-xl-none">
+                            Outros diagnósticos diferenciais de demência¹⁵
+                        </h2>
 
-                                    <div class="col-6">
-                                        <div class="diagnosticos">
-                                            <ul class="diagnosticos-itens">
-                                                <li class="diagnosticos-item">Doença de Alzheimer</li>
-                                                <li class="diagnosticos-item">Demência de corpos de Lewy</li>
-                                                <li class="diagnosticos-item">Demência frontotemporal</li>
-                                                <li class="diagnosticos-item">Doença de Huntington</li>
-                                                <li class="diagnosticos-item">Degeneração gangliônica córtico-basal</li>
-                                                <li class="diagnosticos-item">Doença de Parkinson</li>
-                                                <li class="diagnosticos-item">Paralisia supranuclear progressiva</li>
-                                            </ul>
+                        <div class="container p-0">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="container-table d-flex">
+                                        <div class="outros-diagnosticos">
+                                            <h3 class="outros-diagnosticos-title d-none d-xl-block">
+                                                Outros diagnósticos diferenciais de demência¹⁵
+                                            </h3>
+                                            
+                                            <div class="container p-0">
+                                                <div class="row">
+                                                    <div class="col-6 d-flex align-items-center sintomas">
+                                                        <div class="sintomas-itens">
+                                                            Transtornos degenerativos
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="col-6">
+                                                        <div class="diagnosticos">
+                                                            <ul class="diagnosticos-itens">
+                                                                <li class="diagnosticos-item">Doença de Alzheimer</li>
+                                                                <li class="diagnosticos-item">Demência de corpos de Lewy</li>
+                                                                <li class="diagnosticos-item">Demência frontotemporal</li>
+                                                                <li class="diagnosticos-item">Doença de Huntington</li>
+                                                                <li class="diagnosticos-item">Degeneração gangliônica córtico-basal</li>
+                                                                <li class="diagnosticos-item">Doença de Parkinson</li>
+                                                                <li class="diagnosticos-item">Paralisia supranuclear progressiva</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                    
+                                                <div class="row sintomas--border-top">
+                                                    <div class="col-6 d-flex align-items-center sintomas">
+                                                        <div class="sintomas-itens">
+                                                            Causas vasculares
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="col-6">
+                                                        <div class="diagnosticos">
+                                                            <ul class="diagnosticos-itens">
+                                                                <li class="diagnosticos-item">Demência vascular</li>
+                                                                <li class="diagnosticos-item">
+                                                                    CADASIL (Arteriopatia Cerebral Autossómica Dominante com Enfartes Subcorticais e Leucoencefalopatia)
+                                                                </li>
+                                                                <li class="diagnosticos-item">Vasculite</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                    
+                                                <div class="row sintomas--border-top">
+                                                    <div class="col-6 d-flex align-items-center sintomas">
+                                                        <div class="sintomas-itens">
+                                                            Demência mista
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="col-6">
+                                                        <div class="diagnosticos">
+                                                            <ul class="diagnosticos-itens">
+                                                                <li class="diagnosticos-item">Vascular e DA</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                    
+                                                <div class="row sintomas--border-top">
+                                                    <div class="col-6 d-flex align-items-center sintomas">
+                                                        <div class="sintomas-itens">
+                                                            Trauma
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="col-6">
+                                                        <div class="diagnosticos">
+                                                            <ul class="diagnosticos-itens">
+                                                                <li class="diagnosticos-item">Hematoma sub-dural</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                    
+                                                <div class="row sintomas--border-top">
+                                                    <div class="col-6 d-flex align-items-center sintomas">
+                                                        <div class="sintomas-itens">
+                                                            Tumores intracranianos
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="col-6">
+                                                        <div class="diagnosticos">
+                                                            <ul class="diagnosticos-itens">
+                                                                <li class="diagnosticos-item"></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                    
+                                                <div class="row sintomas--border-top">
+                                                    <div class="col-6 d-flex align-items-center sintomas">
+                                                        <div class="sintomas-itens">
+                                                            Doenças infecciosas
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="col-6">
+                                                        <div class="diagnosticos">
+                                                            <ul class="diagnosticos-itens">
+                                                                <li class="diagnosticos-item">Sífilis</li>
+                                                                <li class="diagnosticos-item">Variante de doença de Creutzfeldt-Jakob</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                    
+                                                <div class="row sintomas--border-top">
+                                                    <div class="col-6 d-flex align-items-center sintomas">
+                                                        <div class="sintomas-itens">
+                                                            Hidrocefalia de pressão-compensada
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="col-6">
+                                                        <div class="diagnosticos">
+                                                            <ul class="diagnosticos-itens">
+                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                    
+                                                <div class="row sintomas--border-top">
+                                                    <div class="col-6 d-flex align-items-center sintomas">
+                                                        <div class="sintomas-itens">
+                                                            Distúrbios tóxicos, endócrinos e metabólicos
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="col-6">
+                                                        <div class="diagnosticos">
+                                                            <ul class="diagnosticos-itens">
+                                                                <li class="diagnosticos-item">Alcoolismo crônico</li>
+                                                                <li class="diagnosticos-item">Intoxicação por droga</li>
+                                                                <li class="diagnosticos-item">Hipotireoidismo</li>
+                                                                <li class="diagnosticos-item">Deficiências de vitamina B2 e ácido fólico</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                    
+                                                <div class="row sintomas--border-top">
+                                                    <div class="col-6 d-flex align-items-center sintomas">
+                                                        <div class="sintomas-itens">
+                                                            Anóxia (privação total do oxigênio dentro dos tecidos ou dos órgãos)
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="col-6">
+                                                        <div class="diagnosticos">
+                                                            <ul class="diagnosticos-itens">
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>                        
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="row sintomas--border-top">
-                                    <div class="col-6 d-flex align-items-center sintomas">
-                                        <div class="sintomas-itens">
-                                            Causas vasculares
-                                        </div>
-                                    </div>
-
-                                    <div class="col-6">
-                                        <div class="diagnosticos">
-                                            <ul class="diagnosticos-itens">
-                                                <li class="diagnosticos-item">Demência vascular</li>
-                                                <li class="diagnosticos-item">
-                                                    CADASIL (Arteriopatia Cerebral Autossómica Dominante com Enfartes Subcorticais e Leucoencefalopatia)
-                                                </li>
-                                                <li class="diagnosticos-item">Vasculite</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row sintomas--border-top">
-                                    <div class="col-6 d-flex align-items-center sintomas">
-                                        <div class="sintomas-itens">
-                                            Demência mista
-                                        </div>
-                                    </div>
-
-                                    <div class="col-6">
-                                        <div class="diagnosticos">
-                                            <ul class="diagnosticos-itens">
-                                                <li class="diagnosticos-item">Vascular e DA</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row sintomas--border-top">
-                                    <div class="col-6 d-flex align-items-center sintomas">
-                                        <div class="sintomas-itens">
-                                            Trauma
-                                        </div>
-                                    </div>
-
-                                    <div class="col-6">
-                                        <div class="diagnosticos">
-                                            <ul class="diagnosticos-itens">
-                                                <li class="diagnosticos-item">Hematoma sub-dural</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row sintomas--border-top">
-                                    <div class="col-6 d-flex align-items-center sintomas">
-                                        <div class="sintomas-itens">
-                                            Tumores intracranianos
-                                        </div>
-                                    </div>
-
-                                    <div class="col-6">
-                                        <div class="diagnosticos">
-                                            <ul class="diagnosticos-itens">
-                                                <li class="diagnosticos-item"></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row sintomas--border-top">
-                                    <div class="col-6 d-flex align-items-center sintomas">
-                                        <div class="sintomas-itens">
-                                            Doenças infecciosas
-                                        </div>
-                                    </div>
-
-                                    <div class="col-6">
-                                        <div class="diagnosticos">
-                                            <ul class="diagnosticos-itens">
-                                                <li class="diagnosticos-item">Sífilis</li>
-                                                <li class="diagnosticos-item">Variante de doença de Creutzfeldt-Jakob</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row sintomas--border-top">
-                                    <div class="col-6 d-flex align-items-center sintomas">
-                                        <div class="sintomas-itens">
-                                            Hidrocefalia de pressão-compensada
-                                        </div>
-                                    </div>
-
-                                    <div class="col-6">
-                                        <div class="diagnosticos">
-                                            <ul class="diagnosticos-itens">
-                                                
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row sintomas--border-top">
-                                    <div class="col-6 d-flex align-items-center sintomas">
-                                        <div class="sintomas-itens">
-                                            Distúrbios tóxicos, endócrinos e metabólicos
-                                        </div>
-                                    </div>
-
-                                    <div class="col-6">
-                                        <div class="diagnosticos">
-                                            <ul class="diagnosticos-itens">
-                                                <li class="diagnosticos-item">Alcoolismo crônico</li>
-                                                <li class="diagnosticos-item">Intoxicação por droga</li>
-                                                <li class="diagnosticos-item">Hipotireoidismo</li>
-                                                <li class="diagnosticos-item">Deficiências de vitamina B2 e ácido fólico</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row sintomas--border-top">
-                                    <div class="col-6 d-flex align-items-center sintomas">
-                                        <div class="sintomas-itens">
-                                            Anóxia (privação total do oxigênio dentro dos tecidos ou dos órgãos)
-                                        </div>
-                                    </div>
-
-                                    <div class="col-6">
-                                        <div class="diagnosticos">
-                                            <ul class="diagnosticos-itens">
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>                        
+                            </div>
                         </div>
+
+                        <!-- <div class="outros-diagnosticos">
+                        </div> -->
+
                         <h2 class="title-subtitle text-subtitle-little">
                             É possível detectar a doença de Alzheimer ainda no estágio pré-clínico?⁵
                         </h2>

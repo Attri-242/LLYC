@@ -248,7 +248,7 @@
                                                 d-flex flex-column flex-md-row align-items-center 
                                                 justify-content-center
                                                 justify-content-md-start">
-                                        <img class="icon-text-image--no-height" src="../assets/images/oqueealzheimer/idade.png" alt="">
+                                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/idade.png" alt="">
                                         <p class="icon-text-item-text">
                                             Idade
                                         </p>

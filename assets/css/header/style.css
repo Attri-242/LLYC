@@ -120,6 +120,10 @@ div#secondary-nav-item-container:first-child {
     align-items: center;
 }
 
+.nav-item-container {
+    max-width: 6.25rem;
+}
+
 /* Nav com os links secundários */
 
 header#header 
@@ -212,11 +216,12 @@ div#secondary-nav-items
         width: 100%;
         padding-left: 2.5rem;
     }
-
 }
 
-@media (min-width: 577px) and (max-width: 1199px) { 
-    
+@media (min-width: 1200px) and (max-width: 1350px) { 
+    .nav-item-container {
+        max-width: 3.125rem;
+    }
 }
 
 /* mobile */

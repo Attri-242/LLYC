@@ -64,39 +64,45 @@
                             <div class="termos-items">
                                 <div class="card-info-related-container d-flex align-items-center">
                                     <div class="card-info-relateds d-flex flex-column flex-sm-row">
-                                        <div class="card-info-related mt-3">
-                                            Alzheimer
-                                        </div>
-                                        <div class="card-info-related mt-3">
-                                            Diagnóstico
-                                        </div>
-                                        <div class="card-info-related mt-3">
-                                            Sinais e sintomas
-                                        </div>
-                                    </div>
-                                    <div class="card-info-relateds d-flex flex-column flex-sm-row">
-                                        <div class="card-info-related mt-3">
-                                            Sinais e sintomas
-                                        </div>
-                                        <div class="card-info-related mt-3">
-                                            Diagnóstico
-                                        </div>
-                                        <div class="card-info-related mt-3">
-                                            Alzheimer
-                                        </div>
-                                        <div class="card-info-related mt-3">
-                                            Sinais e sintomas
+                                        <div class="d-flex flex-row flex-wrap align-items-center justify-content-center" style="max-width: 500px;">
+                                            <div class="card-info-related mt-3">
+                                                Alzheimer
+                                            </div>
+                                            <div class="card-info-related mt-3">
+                                                Diagnóstico
+                                            </div>
+                                            <div class="card-info-related mt-3">
+                                                Sinais e sintomas
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="card-info-relateds d-flex flex-column flex-sm-row">
-                                        <div class="card-info-related mt-3">
-                                            Diagnóstico
+                                        <div class="d-flex flex-row flex-wrap align-items-center justify-content-center" style="max-width: 600px;">
+                                            <div class="card-info-related mt-3">
+                                                Sinais e sintomas
+                                            </div>
+                                            <div class="card-info-related mt-3">
+                                                Diagnóstico
+                                            </div>
+                                            <div class="card-info-related mt-3">
+                                                Alzheimer
+                                            </div>
+                                            <div class="card-info-related mt-3">
+                                                Sinais e sintomas
+                                            </div>
                                         </div>
-                                        <div class="card-info-related mt-3">
-                                            Sinais e sintomas
-                                        </div>
-                                        <div class="card-info-related mt-3">
-                                            Alzheimer
+                                    </div>
+                                    <div class="card-info-relateds d-flex flex-column flex-sm-row">
+                                        <div class="d-flex flex-row flex-wrap align-items-center justify-content-center" style="max-width: 500px;">
+                                            <div class="card-info-related mt-3">
+                                                Alzheimer
+                                            </div>
+                                            <div class="card-info-related mt-3">
+                                                Diagnóstico
+                                            </div>
+                                            <div class="card-info-related mt-3">
+                                                Sinais e sintomas
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

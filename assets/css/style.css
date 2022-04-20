@@ -746,6 +746,12 @@ img.carousel-image {
 
     div.icon-text-container
     div.icon-text-container-row
+    div.icon-text-item--no-margin {
+        margin-top: 1.875rem !important;
+    }
+
+    div.icon-text-container
+    div.icon-text-container-row
     div.icon-text-item
     p.icon-text-item-text {
         max-width: unset;

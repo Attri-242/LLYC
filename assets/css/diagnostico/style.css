@@ -64,15 +64,29 @@ ul.news-info-list {
     margin-top: 3.125rem;
 }
 
+/* table {
+    min-width: 550px;
+} */
+
 main#diagnostico-main
 div#news-container
+div.container-table
 div.outros-diagnosticos {
     border: 1px dashed black;
     max-width: 42.375rem;
+    margin-top: 3rem;
+    min-width: 550px;
 }
 
 main#diagnostico-main
 div#news-container
+.container-table {
+    justify-content: start;
+}
+
+main#diagnostico-main
+div#news-container
+div.container-table
 div.outros-diagnosticos
 h3.outros-diagnosticos-title {
     font-weight: 500;
@@ -87,6 +101,7 @@ h3.outros-diagnosticos-title {
 
 main#diagnostico-main
 div#news-container
+div.container-table
 div.outros-diagnosticos
 div.sintomas {
     border-right: 1px dashed black;
@@ -94,6 +109,7 @@ div.sintomas {
 
 main#diagnostico-main
 div#news-container
+div.container-table
 div.outros-diagnosticos
 div.sintomas--border-top {
     border-top: 1px dashed black;
@@ -102,6 +118,7 @@ div.sintomas--border-top {
 
 main#diagnostico-main
 div#news-container
+div.container-table
 div.outros-diagnosticos
 div.sintomas-itens {
     display: flex;
@@ -116,6 +133,7 @@ div.sintomas-itens {
 
 main#diagnostico-main
 div#news-container
+div.container-table
 div.outros-diagnosticos
 div.diagnosticos {
     display: flex;
@@ -126,6 +144,7 @@ div.diagnosticos {
 
 main#diagnostico-main
 div#news-container
+div.container-table
 div.outros-diagnosticos
 div.diagnosticos
 ul.diagnosticos-itens {
@@ -134,6 +153,7 @@ ul.diagnosticos-itens {
 
 main#diagnostico-main
 div#news-container
+div.container-table
 div.outros-diagnosticos
 div.diagnosticos
 ul.diagnosticos-itens
@@ -182,6 +202,20 @@ li.diagnosticos-item {
     div.outros-diagnosticos
     div.sintomas-itens {
         font-size: 1rem;
+    }
+    
+    .container-table {
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 600px) {
+    main#diagnostico-main
+    div#news-container
+    .container-table {
+        overflow-x: scroll;
+        display: flex;
+        justify-content: unset !important;
     }
 }
 

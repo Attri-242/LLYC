@@ -115,6 +115,7 @@ span.nav-mobile-item-text {
     color: #E03C31;
     margin-top: 13px;
     text-decoration: none;
+    max-width: 80px;
 }
 
 @media(min-width: 1440px) {
