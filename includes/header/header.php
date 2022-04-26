@@ -203,7 +203,10 @@
     </div>
 
     <div class="d-flex d-xl-none align-items-center justify-content-center" id="nav-mobile-container">
-        <a href="<?= $baseUrl ?>. /index.php">
+        <?php 
+            $current_url = $baseUrl . "/index.php";
+        ?>
+        <a href="<?= $baseUrl ?>">
             <img id="logo" src="<?= $baseUrl ?>/assets/images/header/logo-mobile.png" alt="logo">
         </a>
         <i id="nav-mobile-icon" onclick="toggleMobileMenu()" class="bi bi-list">
