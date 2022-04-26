@@ -488,6 +488,11 @@ button.news-info-button {
 }
 
 div#news-container
+button.news-info-button--no-margin {
+    margin-left: 0px;
+}
+
+div#news-container
 button.news-info-button
 a.link-text {
     font-size: 1rem;

@@ -195,7 +195,7 @@
                                 possível realizar o diagnóstico adequado da doença de Alzheimer. 
                             </p>
                         
-                            <button class="news-info-button align-self-center">
+                            <button class="news-info-button align-self-center news-info-button--no-margin">
                                 Saiba mais sobre o CCL
                             </button>
                         </div>
