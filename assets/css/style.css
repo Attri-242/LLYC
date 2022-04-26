@@ -12,6 +12,8 @@
 
 * {
    box-sizing: border-box;
+   font-family: 'Source Sans Pro', 'Open Sans';
+   font-weight: 400;
 }
 
 html, body {
@@ -20,12 +22,12 @@ html, body {
 }
 
 .font-regular {
-   font-family: 'Trade Gothic Next LT Pro', 'Open Sans';
+   font-family: 'Source Sans Pro', 'Open Sans';
    font-weight: 400;
 }
 
 .font-bold {
-   font-family: 'Trade Gothic Next LT Pro', 'Open Sans';
+   font-family: 'Source Sans Pro', 'Open Sans';
    font-weight: 700;
 }
 
@@ -383,6 +385,7 @@ p#news-date {
 p.news-info {
     width: 41.563rem;
     margin-top: 3.125rem;
+    margin-bottom: 0px;
     font-weight: 400;
     font-size: 1.25rem;
     line-height: 1.875rem;
@@ -410,13 +413,10 @@ p.news-info-with-max-width {
     width: 33.75rem;
 }
 
-span.news-info-bold {
-    font-weight: 500;
-}
-
 div#news-container
 h2.title-subtitle {
     margin-top: 3.125rem;
+    margin-bottom: 0px;
     font-weight: 500;
     font-size: 1.75rem;
     line-height: 1.875rem;
@@ -450,6 +450,19 @@ li.news-info-list-item {
 
 div#news-container
 ul.news-info-list
+li.news-info-list-item--no-bold {
+    font-weight: 400;
+}
+
+div#news-container
+ul.news-info-list
+li.news-info-list-item
+span.span--no-bold {
+    font-weight: 400;
+}
+
+div#news-container
+ul.news-info-list
 li.news-info-list-item--little {
     width: 40.625rem;
 }
@@ -471,6 +484,7 @@ button.news-info-button {
     border-radius: 0.625rem;
     font-weight: 700;
     max-width: 41.563rem;
+    margin-left: 150px;
 }
 
 div#news-container
@@ -595,11 +609,8 @@ img.carousel-image {
 
     p.news-info-with-max-width {
         width: 100% !important;
-    }
-    
-    
+    }    
 }
-
 
 
 @media (min-width: 980px) and (max-width: 1199px) {
@@ -703,6 +714,7 @@ img.carousel-image {
        padding: 0.625rem !important;
        width: 100%;
        max-width: unset;
+       margin-left: 0px;
    }
 
    div#news-container
@@ -832,6 +844,7 @@ img.carousel-image {
        padding: 0.625rem !important;
        width: 100%;
        max-width: unset;
+       margin-left: 0px;
    }
    
    div#news-container

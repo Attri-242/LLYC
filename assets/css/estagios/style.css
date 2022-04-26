@@ -12,6 +12,11 @@ h2.title-italic {
     width: unset !important;
 }
 
+
+.icon-margin-left {
+    margin-left: 20px;
+}
+
 /************** estagios column ****************/
 main#estagios-main
 div#news-container
@@ -136,7 +141,7 @@ main#estagios-main
 div#news-container
 div#timeline
 div#sintomas-timeline-text-severos::after {
-    content: 'Demência severa';
+    content: 'Demência grave';
     position: absolute;
     width: 1px;
     top: 0;

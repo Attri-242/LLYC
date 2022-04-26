@@ -70,9 +70,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
-                        <p id="news-date">Publicado em 14 de novembro de 2021</p>
-                        
-                        <p class="news-info news-info-no--margin-top">
+                        <p class="news-info">
                             Você sabia que apenas uma em cada quatro pessoas com doença de Alzheimer (DA) é diagnosticada?¹ 
                             Quando é identificada, em geral a DA já está em estágio avançado². A falta de informação sobre seus sintomas 
                             iniciais corrobora para esse cenário, especialmente pela associação com o processo natural do envelhecimento – 
@@ -162,19 +160,19 @@
                             </div>
                         </div>
 
-                        <h2 class="title-subtitle text-subtitle-little">
+                        <p class="news-info">
                             E qual a importância do diagnóstico precoce?
-                        </h2>
+                        </p>
 
                         <ul class="news-info-list">
                             <li class="news-info-list-item news-info-list-item--little">
                                 Diagnóstico precoce contribui para melhor prognóstico da DA, inclusive oferecendo 
-                                melhores perspectivas de redução da sua progressão5
+                                melhores perspectivas de redução da sua progressão<sup>5</sup>
                             </li>
                             <li class="news-info-list-item news-info-list-item--little">
                                 Identificar a doença de Alzheimer nos estágios de CCL ou de demência leve permite 
                                 que a pessoa tome decisões sobre seu futuro enquanto ainda é capaz, como questões relacionadas 
-                                às finanças e às adaptações necessárias na casa e no dia a dia⁷<sup>-</sup>⁹
+                                às finanças e às adaptações necessárias na casa e no dia a dia<sup>7-9</sup>
                             </li>
                             <li class="news-info-list-item news-info-list-item--little">
                                 Paciente e família têm benefícios psicológicos com a diminuição da incerteza acerca 
@@ -415,12 +413,15 @@
                                 para iniciar algumas práticas de saúde: exercícios físicos, atividades mentais e envolvimento social.
                             </p>
                         </div>
-    
-                        <button class="news-info-button">
-                            <a class="link-text" href="<?= $baseUrl ?>. /estagios/index.php">
+
+                        <?php 
+                            $current_url = $baseUrl . "/estagios/index.php";
+                        ?>
+                        <a class="link-text" href="<?= $current_url ?>">
+                            <button class="news-info-button">
                                 Conheça os estágios da doença de Alzheimer
-                            </a>
-                        </button>
+                            </button>
+                        </a>
     
                         <h2 class="title-subtitle">Como comunicar o diagnóstico da DA?¹⁶</h2>
     
@@ -434,42 +435,42 @@
                         <h2 class="title-subtitle">Referências</h2>
                     
                         <ul class="news-info-list style-none p-0">
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 1.Alzheimer’s Disease International. Dementia statistics. 
                                 Disponível em: https://www.alz.co.uk/research/statistics 
                                 Acesso em 22/11/2021
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 2.World Health Organization. Global action plan on the public health response 
                                 to dementia 2017–2025. Disponível em: 
                                 https://www.who.int/publications/i/
                                 item/9789241513487 
                                 Acesso em 24/11/2021
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 3.Wilkinson D, Stave C, Keohane D, Vincenzino O. The role of general practitioners 
                                 in the diagnosis and treatment of Alzheimer’s  disease: a multinational survey. 
                                 J Int Med Res. 2004;32(2):149–59.
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 4.Alzheimer’s Association. Earlier Diagnosis 2021. 
                                 Disponível em: https://www.alz.org/alzheimers-dementia
                                 /research_progress/earlier-diagnosis 
                                 Acesso em 6/1/2022
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 5.Alzheimer’s Association. 2021 Alzheimer’s Disease Facts and Figures. 
                                 Disponível em: https://www.alz.org/media/documents/
                                 alzheimers-facts-and-figures.pdf. 
                                 Acesso 24/11/2021
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 6.Ministério da Saúde. Secretaria de Atenção à Saúde. 
                                 Portaria conjunta Nº 13, de 28 de novembro de 2017. 
                                 Protocolo Clínico e Diretrizes Terapêuticas da Doença de Alzheimer. 
                                 33 p.
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 7.Alzheimer’s Disease International. World Alzheimer Report 2011. 
                                 The benefits of early diagnosis and intervention. Alzheimer’s Disease International. 
                                 2011. Disponível em: https://www.alz.co.uk/research
@@ -477,56 +478,56 @@
                                 Acesso em 6/1/2022
                             </li>
     
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 8.Brooker D, Fontaine J, Evans S, Bray J, Saad K. Public health guidance to facilitate 
                                 timely diagnosis of dementia: Alzheimer’s Cooperative Valuation in Europe recommendations. 
                                 Int J Geriatr Psychiatry 2014; 29: 682–693
                             </li>
     
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 9.Bradford A, Kunik ME, Schulz P, Williams SP, Singh H. Missed and delayed diagnosis of dementia 
                                 in primary care: prevalence and contributing factors. Alzheimer Dis Assoc Disord. 2009;23(4):306–314
                             </li>
     
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 10.Alzheimer Europe. European Carers’ Report 2018. 
                                 Disponível em: https://eurocarers.org/2018-annual
                                 -report/ Acesso em 6/1/2022
                             </li>
     
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 11. de Wilde A, van der Flier WM, Pelkmans W, et al. Association of Amyloid Positron 
                                 Emission Tomography With Changes in Diagnosis and Patient Treatment in an Unselected Memory 
                                 Clinic Cohort: The ABIDE Project. JAMA Neurol. 
                                 2018;75(9):1062–1070.
                             </li>
     
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 12.Ngandu T, Lehtisalo J, Solomon A, et al. A 2 year multidomain intervention of diet, exercise, 
                                 cognitive training, and vascular risk monitoring versus control to prevent cognitive decline in at-risk 
                                 elderly people (FINGER): a randomised controlled trial. The Lancet. 2015; 385(9984): 2255-2263.​
                             </li>
     
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 13.National Institute on Aging. Alzheimer's Disease Diagnostic Guidelines. 
                                 Estados Unidos. https://www.nia.nih.gov/health/alzheimers-disease
                                 -diagnostic-guidelines. 
                                 Acesso 24/11/21
                             </li>
     
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 14.Alzheimer Portugal. Exames utilizados no Diagnóstico de Demência. 
                                 Disponível em: https://alzheimerportugal.org/pt/text-0-9
                                 -33-21-exames-utilizados-no-diagnostico-de-demencia. 
                                 Acesso em 26/11/2021
                             </li>
     
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 15.Associação Brasileira de Alzheimer. Projeto Sinapses. Aula 1, Avaliação diagnóstica das síndromes demenciais. 
                                 Aula fornecida por Dr. Rodrigo Schultz, presidente da Abraz.
                             </li>
     
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 16.World Health Organization. How to deliver the diagnosis of dementia. 
                                 Disponível em: https://www.who.int/teams/mental-health-and-substance-use/
                                 treatment-care/mental-health-gap-action-programme/evidence-centre/dementia/

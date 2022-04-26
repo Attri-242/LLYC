@@ -66,7 +66,7 @@ div.news-image-text-container-item
 span.news-image-text-container-item-text {
     margin-left: 3.438rem;
     color: #E03C31;
-    margin-bottom: 1.25rem;
+    /* margin-bottom: 1.25rem; */
     max-width: 21.563rem;
 }
 

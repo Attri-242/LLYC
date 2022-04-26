@@ -71,10 +71,8 @@
         <section class="w-100">
             <div class="container">
                 <div class="row d-flex justify-content-center justify-content-xl-between">
-                    <div class="col-12 col-xl-7 d-flex flex-column align-items-center align-items-xl-start">
-                        <p id="news-date">Publicado em 14 de novembro de 2021</p>
-                    
-                        <p class="news-info news-info-no--margin-top news-info-with-max-width">
+                    <div class="col-12 col-xl-7 d-flex flex-column align-items-center align-items-xl-start">                    
+                        <p class="news-info news-info-with-max-width">
                             A doença de Alzheimer (DA) é progressiva, neurodegenerativa, crônica e irreversível, 
                             associada à perda de memória e ao declínio cognitivo. Ela também pode estar acompanhada 
                             de mudanças comportamentais e de personalidade, inclusive com sintomas como apatia e depressão. 
@@ -211,13 +209,16 @@
                                 demência grave. 
                             </li>
                         </ul>
-
-                        <button class="news-info-button">
-                            <a class="link-text" href="<?= $baseUrl ?>. /estagios/index.php">
-                                Saiba mais sobre os estágios da doença de Alzheimer
-                            </a>
-                        </button>
                     
+                        <?php 
+                            $current_url = $baseUrl . "/estagios/index.php";
+                        ?>
+                        <a class="link-text" href="<?= $current_url ?>">
+                            <button class="news-info-button">
+                                Saiba mais sobre os estágios da doença de Alzheimer
+                            </button>
+                        </a>
+
                         <h2 class="title-subtitle text-subtitle-little">
                             Será que é da idade? Envelhecer não é sinônimo de doença de Alzheimer
                         </h2>
@@ -263,6 +264,15 @@
                                                 d-flex flex-column flex-md-row align-items-center 
                                                 justify-content-center 
                                                 justify-content-md-start">
+                                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/diabetes.png" alt="">
+                                        <p class="icon-text-item-text">
+                                            Diabetes
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-6 icon-text-item
+                                                d-flex flex-column flex-md-row align-items-center 
+                                                justify-content-center 
+                                                justify-content-md-start">
                                         <img class="icon-text-image" src="../assets/images/oqueealzheimer/lesao.png" alt="">
                                         <p class="icon-text-item-text">
                                             Lesão cerebral traumática
@@ -272,12 +282,11 @@
                                                 d-flex flex-column flex-md-row align-items-center 
                                                 justify-content-center 
                                                 justify-content-md-start">
-                                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/hipertensao.png" alt="">
+                                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/escolaridade.png" alt="">
                                         <p class="icon-text-item-text">
-                                            Hipertensão
+                                            Baixa escolaridade
                                         </p>
                                     </div>
-                    
                                     <div class="col-12 col-md-6 col-xl-6 icon-text-item 
                                                 d-flex flex-column flex-md-row align-items-center 
                                                 justify-content-center 
@@ -285,15 +294,6 @@
                                         <img class="icon-text-image" src="../assets/images/oqueealzheimer/vascular.png" alt="">
                                         <p class="icon-text-item-text">
                                             Doença vascular
-                                        </p>
-                                    </div>
-                                    <div class="col-12 col-md-6 col-xl-6 icon-text-item 
-                                                d-flex flex-column flex-md-row align-items-center 
-                                                justify-content-center 
-                                                justify-content-md-start">
-                                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/obesidade.png" alt="">
-                                        <p class="icon-text-item-text">
-                                            Obesidade
                                         </p>
                                     </div>
                                     <div class="col-12 col-md-6 col-xl-6 icon-text-item 
@@ -309,9 +309,9 @@
                                                 d-flex flex-column flex-md-row align-items-center 
                                                 justify-content-center 
                                                 justify-content-md-start">
-                                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/diabetes.png" alt="">
+                                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/hipertensao.png" alt="">
                                         <p class="icon-text-item-text">
-                                            Diabetes
+                                            Hipertensão
                                         </p>
                                     </div>
                                     <div class="col-12 col-md-6 col-xl-6 icon-text-item 
@@ -327,9 +327,9 @@
                                                 d-flex flex-column flex-md-row align-items-center 
                                                 justify-content-center 
                                                 justify-content-md-start">
-                                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/escolaridade.png" alt="">
+                                        <img class="icon-text-image" src="../assets/images/oqueealzheimer/obesidade.png" alt="">
                                         <p class="icon-text-item-text">
-                                            Baixa escolaridade
+                                            Obesidade
                                         </p>
                                     </div>
                                     <div class="col-12 col-md-6 col-xl-6 icon-text-item 
@@ -367,12 +367,15 @@
                             A hipótese da presença de outras doenças pode ser excluída a partir da realização de exames de 
                             sangue e de imagem, como tomografia e ressonância magnética do crânio.
                         </p>
-  
-                        <button class="news-info-button">
-                            <a class="link-text" href="<?= $baseUrl ?>. /diagnostico/index.php">
+
+                        <?php 
+                            $current_url = $baseUrl . "/diagnostico/index.php";
+                        ?>
+                        <a class="link-text" href="<?= $current_url ?>">
+                            <button class="news-info-button">
                                 Saiba mais sobre os diagnóstico da doença de Alzheimer
-                            </a>
-                        </button>
+                            </button>
+                        </a>
                     
                         <h2 class="title-subtitle text-subtitle-little">Cuidado multidisciplinar é fundamental</h2>
                     
@@ -391,41 +394,41 @@
                         <h2 class="title-subtitle">Referências</h2>
                     
                         <ul class="news-info-list style-none p-0">
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 1. Alzheimer’s Association. 2021 Alzheimer’s Disease Facts and Figures. 
                                 Disponível em: https://www.alz.org/media/documents/
                                 alzheimers-facts-and-figures.pdf Acesso em 23/11/21
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 2.World Health Organization. Dementia Fact Sheet. Disponível em: 
                                 https://www.who.int/news-room/fact-sheets/detail/
                                 dementia Acesso em 22/11/21
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 3.Ministério da Saúde. Alzheimer: o que é, causas, sintomas,
                                  tratamento, diagnóstico e prevenção. Disponível em: 
                                  https://bvsms.saude.gov.br/doenca-de-
                                  alzheimer-3/ Acesso 23/11/21
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 4. Ministério da Saúde. Envelhecimento e saúde da pessoa idosa. Cadernos de Atenção Básica - n.º 19. 
                                 Disponível em: https://bvsms.saude.gov.br/bvs/publicacoes
                                 /evelhecimento_saude_pessoa_idosa.pdf Acesso em 5/1/2022
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 5.Alzheimer's Association. 10 warn signs. Disponível em: 
                                 https://www.alz.org/national/documents/
                                 aa_brochure_10warnsigns.pdf Acesso 23/11/21
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 6.A Armstrong R. Risk factors for Alzheimer’s disease. Folia Neuropathol. 2019;57(2):87–105.
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 7.Associação Brasileira de Alzheimer. Sobre Alzheimer - Diagnóstico. Disponível em 
                                 https://abraz.org.br/2020/sobre-alzheimer/
                                 diagnostico-2/ Acesso em 5/1/2022
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 8.Jurkowski CL. A multidisciplinary approach to Alzheimer's disease: who should be members 
                                 of the team? Am J Med. 1998 Apr 27;104(4A):13S-16S; discussion 39S-42S. doi: 
                                 10.1016/s0002-9343(98)00023-0. PMID: 9617847

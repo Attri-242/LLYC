@@ -31,8 +31,7 @@ header#header
 nav#secondary-nav 
 div#secondary-nav-container {
     height: 100%;
-    /* padding-left: 43.938rem; */
-    padding-right: 10rem;
+    padding-right: 11.5rem;
     position: relative;
     justify-content: flex-end;
 }
@@ -80,7 +79,15 @@ nav#principal-nav
 div#principal-nav-container 
 div#principal-nav-items 
 .principal-nav-item--regular   {
-    width: 7.175rem !important
+    width: 8.175rem !important
+}
+
+header#header 
+nav#secondary-nav 
+div#secondary-nav-container 
+div#secondary-nav-items 
+.principal-nav-item--regular   {
+    width: 8.175rem !important
 }
 
 header#header 
@@ -175,7 +182,7 @@ div#secondary-nav-item-container
 .principal-nav-item {
     margin-left: 0.625rem;
     position: relative;
-    font-size: 0.813rem;
+    font-size: 0.75rem;
     line-height: 1.125rem;
     text-decoration: none;
     max-width: 4.375rem;
@@ -192,6 +199,7 @@ div#secondary-nav-items
     height: 2.25rem;
     display: flex;
     flex-flow: column;
+    justify-content: center;
 }
 
 header#header 
@@ -200,6 +208,14 @@ div#secondary-nav-container
 div#secondary-nav-items
 .principal-nav-item-container--short {
     width: 6.25rem;
+}
+
+header#header 
+nav#secondary-nav 
+div#secondary-nav-container 
+div#secondary-nav-items
+.principal-nav-item--regular   {
+    width: 8.175rem !important
 }
 
 @media (min-width: 1200px) and (max-width: 1300px) {
@@ -220,7 +236,7 @@ div#secondary-nav-items
 
 @media (min-width: 1200px) and (max-width: 1350px) { 
     .nav-item-container {
-        max-width: 3.125rem;
+        max-width: 3.625rem;
     }
 }
 

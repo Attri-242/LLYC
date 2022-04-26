@@ -129,7 +129,7 @@
                         </div>
                 
                         <button class="news-info-button">
-                            Leia mais sobre como diagnosticar a doença de Alzheimer
+                            Saiba mais sobre a diferença de envelhecimento saudável e DA
                         </button>
 
                         <h2 class="title-subtitle">5 critérios clínicos diagnósticos⁵</h2>
@@ -194,11 +194,11 @@
                                 ou não para alguma dessas doenças¹. Por isso, é fundamental identificar de forma correta o CCL, para que seja 
                                 possível realizar o diagnóstico adequado da doença de Alzheimer. 
                             </p>
+                        
+                            <button class="news-info-button align-self-center">
+                                Saiba mais sobre o CCL
+                            </button>
                         </div>
-                
-                        <button class="news-info-button">
-                            Saiba mais sobre o CCL
-                        </button>
                 
                         <h2 class="title-subtitle">Veja as manifestações da DA em cada fase da doença</h2>
                 
@@ -329,22 +329,25 @@
                             </div>
                         </div>
 
-                        <button class="news-info-button">
-                            <a class="link-text" href="<?= $baseUrl ?>. /estagios/index.php">
-                                Saiba mais sobre os estágios da doença de Alzheimer
-                            </a>
-                        </button>
+                        <?php 
+                            $current_url = $baseUrl . "/estagios/index.php";
+                        ?>
+                        <a class="link-text" href="<?= $current_url ?>">
+                            <button class="news-info-button">
+                                Conheça os estágios da doença de Alzheimer
+                            </button>
+                        </a>
                 
                         <h2 class="title-subtitle">Referências</h2>
                 
                         <ul class="news-info-list style-none p-0">
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 1. 2021 Alzheimer’s Disease Facts and Figures. Alzheimer’s Association. Disponível em:
                                 https://www.alz.org/media/
                                 documents
                                 /alzheimers-facts-and-figures.pdf. Acesso 23/11/21
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 2.James, A. Wilcox; Duffy PR. Is it a “senior moment” or early dementia? 
                                 Addressing memory concerns in older patients. Curr Psychiatr [Internet]. 
                                 15(5)(28-30,32-34,40). Disponível em: https://www.mdedge.com/psychiatry/
@@ -352,26 +355,26 @@
                                 or-early-dementia-addressing-memory. 
                                 Acesso em 5/1/2022
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 3.Alzheimer’s Disease International. World Alzheimer Report 2019, Attitudes to dementia. 2019.
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 4.Alzheimer's Association. 10 warn signs. 
                                 Disponível em: https://www.alz.org/national/
                                 documents/aa_brochure_10warnsigns.pdf. 
                                 Acesso 23/11/21
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 5.National Institute of Aging and Alzheimer's Association Workgroup / DC-ABN
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 6.Vaughn, Peggy. Alzheimer's diagnostic guidelines updated for first time in decades. 
                                 Estados Unidos. National Institutes of Health e the Alzheimer’s Association, 2011. 
                                 Disponível em: https://www.nia.nih.gov/news/alzheimers-
                                 diagnostic-guidelines-updated-first-time-decades. 
                                 Acesso 23/11/21
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 7.National Institute on Aging. What Are the Signs of Alzheimer's Disease?. 
                                 Disponível em: https://www.nia.nih.gov/health/what-
                                 are-signs-alzheimers-disease. 

@@ -263,13 +263,30 @@ button.secondary {
     color: #6C4E45;
 }
   
-/* md - tablet */
 @media(min-width:1600px) {
     div.cookies-container {
         height: 65.5rem;
     }   
- }
+}
  
+@media(min-width: 1200px) and (max-width: 1282px) {
+    main#home-main
+    .cards
+    .card-info
+    .card-info-relateds
+    .card-info-related {
+        border: 1px solid #E03C31;
+        border-radius: 0.875rem;
+        font-size: 0.8rem;
+        color: #E03C31;
+        font-weight: 700;
+        padding: 0 0.6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
 
 
 /* md - tablet */

@@ -5,19 +5,40 @@
 
 <footer id="footer-desk">
     <nav id="primary-nav" class="d-flex flex-column">
-        <a class="primary-nav-item" href="<?= $baseUrl ?>. /manifesto/index.php">QUEM SOMOS</a>
-        <a class="primary-nav-item" href="<?= $baseUrl ?>. /oqueealzheimer/index.php">O QUE É ALZHEIMER</a>
-        <a class="primary-nav-item" href="<?= $baseUrl ?>. /sinaisESintomas/index.php">SINAIS, SINTOMAS E DIAGNÓSTICO</a>
+        <?php 
+            $current_url = $baseUrl . "/manifesto/index.php";
+        ?>
+        <a class="primary-nav-item" href="<?= $current_url ?>">QUEM SOMOS</a>
+        <?php 
+            $current_url = $baseUrl . "/oqueealzheimer/index.php";
+        ?>
+        <a class="primary-nav-item" href="<?= $current_url ?>">O QUE É ALZHEIMER</a>
+        <?php 
+            $current_url = $baseUrl . "/sinaisESintomas/index.php";
+        ?>
+        <a class="primary-nav-item" href="<?= $current_url ?>">SINAIS, SINTOMAS E DIAGNÓSTICO</a>
         <a class="primary-nav-item" href="#">CUIDANDO DO PACIANTE</a>
-        <a class="primary-nav-item" href="<?= $baseUrl ?> . /historia/index.php">CUIDANDO DE QUEM CUIDA</a>
-        <a class="primary-nav-item" href="<?= $baseUrl ?>. /cidadania/index.php">CIDADANIA</a>
+        <?php 
+            $current_url = $baseUrl . "/historia/index.php";
+        ?>
+        <a class="primary-nav-item" href="<?= $current_url ?>">CUIDANDO DE QUEM CUIDA</a>
+        <?php 
+            $current_url = $baseUrl . "/cidadania/index.php";
+        ?>
+        <a class="primary-nav-item" href="<?= $current_url ?>">CIDADANIA</a>
         <a class="primary-nav-item" href="#">ENCONTRE APOIO</a>
     </nav>
     <nav id="secondary-nav" class="d-flex flex-column">
         <a class="secondary-nav-item" href="#">EXPLORE O CONTEÚDO</a>
-        <a class="secondary-nav-item" href="<?= $baseUrl ?>/busqueinformacao/index.php">BUSQUE INFORMAÇÃO</a>
+        <?php 
+            $current_url = $baseUrl . "/busqueinformacao/index.php";
+        ?>
+        <a class="secondary-nav-item" href="<?= $current_url ?>">BUSQUE INFORMAÇÃO</a>
         <a class="secondary-nav-item" href="#">SEUS FAVORITOS</a>
-        <a class="secondary-nav-item" href="<?= $baseUrl ?>/servicos/index.php">SERVIÇOS</a>
+        <?php 
+            $current_url = $baseUrl . "/servicos/index.php";
+        ?>
+        <a class="secondary-nav-item" href="<?= $current_url ?>">SERVIÇOS</a>
     </nav>
     <div id="footer-info" class="d-flex flex-column align-items-end">
         <img class="footer-logo" src="<?= $baseUrl ?>/assets/images/footer/logo-footer.png" alt="Biogen">

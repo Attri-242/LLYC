@@ -55,7 +55,7 @@
                                     <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="<?= $baseUrl ?>/associacoes/index.php" class="icon-text-item">
                                             <img class="icon-text-image text-icon" src="<?= $baseUrl ?>/assets/images/servicos/associacao.png" alt="">
-                                            <p class="icon-text-item-text icon-text-item-text--no-ml icon-text-item-text-mt-bigger text-center">
+                                            <p class="icon-text-item-text icon-text-item-text--no-ml icons-text-margin-top text-center">
                                                 Encontre uma associação
                                             </p>
                                         </a>
@@ -63,7 +63,7 @@
                                     <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="" class="icon-text-item">
                                             <img class="icon-text-image text-icon" src="<?= $baseUrl ?>/assets/images/servicos/associacao.png" alt="">
-                                            <p class="icon-text-item-text icon-text-item-text--no-ml icon-text-item-text-mt-bigger text-center">
+                                            <p class="icon-text-item-text icon-text-item-text--no-ml icons-text-margin-top text-center">
                                                 Encontre um centro de referência
                                             </p>
                                         </a>
@@ -71,7 +71,7 @@
                                     <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="" class="icon-text-item">
                                             <img class="icon-text-image text-icon" src="<?= $baseUrl ?>/assets/images/servicos/associacao.png" alt="">
-                                            <p class="icon-text-item-text icon-text-item-text--no-ml icon-text-item-text-mt-bigger text-center">
+                                            <p class="icon-text-item-text icon-text-item-text--no-ml icons-text-margin-top text-center">
                                                 Encontre um especialista
                                             </p>
                                         </a>
@@ -82,7 +82,7 @@
                                     <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="" class="icon-text-item">
                                             <img class="icon-text-image text-icon" src="<?= $baseUrl ?>/assets/images/servicos/grupo.png" alt="">
-                                            <p class="icon-text-item-text icon-text-item-text--no-ml icon-text-item-text-mt-bigger text-center">
+                                            <p class="icon-text-item-text icon-text-item-text--no-ml icons-text-margin-top text-center">
                                                 Encontre grupos de apoio
                                             </p>
                                         </a>
@@ -90,7 +90,7 @@
                                     <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="" class="icon-text-item">
                                             <img class="icon-text-image text-icon" src="<?= $baseUrl ?>/assets/images/servicos/patients.png" alt="">
-                                            <p class="icon-text-item-text icon-text-item-text--no-ml icon-text-item-text-mt-bigger icon-text-item-text--smaller text-center">
+                                            <p class="icon-text-item-text icon-text-item-text--no-ml icons-text-margin-top icon-text-item-text--smaller text-center">
                                                 Patients like me
                                             </p>
                                         </a>
@@ -98,7 +98,7 @@
                                     <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="" class="icon-text-item">
                                             <img class="icon-text-image text-icon" src="<?= $baseUrl ?>/assets/images/servicos/newsletter.png" alt="">
-                                            <p class="icon-text-item-text icon-text-item-text--no-ml icon-text-item-text-mt-bigger text-center">
+                                            <p class="icon-text-item-text icon-text-item-text--no-ml icons-text-margin-top text-center">
                                                 Assine a nossa newsletter
                                             </p>
                                         </a>
@@ -109,7 +109,7 @@
                                     <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="" class="icon-text-item">
                                             <img class="icon-text-image text-icon" src="<?= $baseUrl ?>/assets/images/servicos/exercicios.png" alt="">
-                                            <p class="icon-text-item-text icon-text-item-text--no-ml icon-text-item-text-mt-bigger text-center">
+                                            <p class="icon-text-item-text icon-text-item-text--no-ml icons-text-margin-top text-center">
                                                 Exercícios cognitivos
                                             </p>
                                         </a>
@@ -117,7 +117,7 @@
                                     <div class="col-4 col-md-4 col-xl-3 icon-text-item d-block d-md-flex">
                                         <a href="" class="icon-text-item">
                                             <img class="icon-text-image text-icon" src="<?= $baseUrl ?>/assets/images/servicos/ubs.png" alt="">
-                                            <p class="icon-text-item-text icon-text-item-text--no-ml icon-text-item-text-mt-bigger icon-text-item-text--smaller text-center">
+                                            <p class="icon-text-item-text icon-text-item-text--no-ml icons-text-margin-top icon-text-item-text--smaller text-center">
                                                 Encontre uma UBS
                                             </p>
                                         </a>

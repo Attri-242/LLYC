@@ -69,33 +69,30 @@
         <section class="w-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
-                        <p id="news-date">Publicado em 14 de novembro de 2021</p>
-                    
-                        <p class="news-info news-info-no--margin-top">
+                    <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">                    
+                        <p class="news-info">
                             Uma rede de apoio sólida é primordial para todos os envolvidos com a doença de Alzheimer (DA). 
                             As pessoas dedicadas à atenção da pessoa com DA podem encontrar-se constantemente sobrecarregadas, 
                             confusas com as adaptações necessárias e até com a saúde mental prejudicada. Nesses momentos, 
                             encontrar suporte pode ajudar a tornar essa vivência mais plena e fluida. 
                         </p>
                     
-                        <h2 class="title-subtitle">Dentre os benefícios, estão</h2>
+                        <h2 class="title-subtitle">Benefícios de uma rede apoio</h2>
                     
-                        <ul id="benefits-list">
-                        
-                            <li class="benefits-list-item">
+                        <ul class="news-info-list">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 Trocar experiências sobre os cuidados necessários na DA;
                             </li>
-                            <li class="benefits-list-item">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 Aprender sobre como controlar situações de crise;
                             </li>
-                            <li class="benefits-list-item">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 Compartilhar inseguranças e medos acerca do avanço da doença;
                             </li>
-                            <li class="benefits-list-item">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 Fortalecer-se para cuidar do paciente;
                             </li>
-                            <li class="benefits-list-item">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 Encontrar mais informações sobre doença de Alzheimer.
                             </li>
                         </ul>
@@ -159,11 +156,14 @@
                             cuidado da doença de Alzheimer.
                         </p>
 
-                        <button class="news-info-button">
-                            <a class="link-text" href="<?= $baseUrl ?>. /associacoes/index.php">
+                        <?php 
+                            $current_url = $baseUrl . "/associacoes/index.php";
+                        ?>
+                        <a class="link-text" href="<?= $current_url ?>">
+                            <button class="news-info-button">
                                 Ache uma associação perto de você
-                            </a>
-                        </button>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>

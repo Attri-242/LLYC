@@ -8,6 +8,10 @@ main#servicos-main {
     height: 2.813rem !important;
 }
 
+.icons-text-margin-top {
+    margin-top: 45px !important;
+}
+
 
 @media(min-width: 1200px) {
     .text-align {

@@ -69,10 +69,8 @@
         <section class="w-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
-                        <p id="news-date">Publicado em 14 de novembro de 2021</p>
-                    
-                        <p class="news-info news-info-no--margin-top">
+                    <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">                    
+                        <p class="news-info">
                             Normalmente, ao ouvir falar sobre a doença de Alzheimer (DA), surge uma imagem relacionada aos casos mais graves. 
                             Essa figura entregue pelo senso comum apresenta uma pessoa com alto comprometimento cognitivo, com memória e 
                             independência altamente afetadas. Mas não é bem assim. 
@@ -88,19 +86,19 @@
                                 <div class="row no-gutters justify-content-start icon-text-container-row--column">
                                     <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
                                         <img class="icon-text-image" src="../assets/images/estagios/pre-clinico.svg" alt="">
-                                        <p class="icon-text-item-text icon-text-item-text--no-mw">
+                                        <p class="icon-text-item-text icon-text-item-text--no-mw icon-margin-left">
                                             Pré-clínico, quando já existe o acúmulo de beta-amiloide no cérebro, mas ainda não há sintomas
                                         </p>
                                     </div>
                                     <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
                                         <img class="icon-text-image" src="../assets/images/estagios/comprometimento.svg" alt="">
-                                        <p class="icon-text-item-text icon-text-item-text--no-mw">
+                                        <p class="icon-text-item-text icon-text-item-text--no-mw icon-margin-left">
                                             Comprometimento cognitivo leve (CCL), em que há sintomas, mas não impactam nas atividades do dia a dia
                                         </p>
                                     </div>
                                     <div class="col-12 col-md-12 col-xl-12 icon-text-item d-flex align-items-center">
                                         <img class="icon-text-image" src="../assets/images/estagios/demencia.svg" alt="">
-                                        <p class="icon-text-item-text icon-text-item-text--no-mw">
+                                        <p class="icon-text-item-text icon-text-item-text--no-mw icon-margin-left">
                                             Demência devido à DA, com notável repercussão na capacidade cognitiva e funcional
                                         </p>
                                     </div>
@@ -190,16 +188,28 @@
                     
                         <ul class="news-info-list news-info-list--no-margin-top">
                             <li class="news-info-list-item news-info-list-item--little">
-                                9,5 milhões de pessoas com CCL devido à DA
+                                9,5 milhões 
+                                <span class="span--no-bold">
+                                    de pessoas com CCL devido à DA
+                                </span>
                             </li>
                             <li class="news-info-list-item news-info-list-item--little">
-                                2,8 milhões de pessoas com demência leve devido à DA
+                                2,8 milhões 
+                                <span class="span--no-bold">
+                                    de pessoas com demência leve devido à DA
+                                </span>
                             </li>
                             <li class="news-info-list-item news-info-list-item--little">
-                                1,7 milhão de pessoas com demência moderada devido à DA
+                                1,7 milhão
+                                <span class="span--no-bold">
+                                    de pessoas com demência moderada devido à DA
+                                </span>
                             </li>
                             <li class="news-info-list-item news-info-list-item--little">
-                                1,4 milhão de pessoas com demência grave devido à DA
+                                1,4 milhão 
+                                <span class="span--no-bold">
+                                    de pessoas com demência grave devido à DA
+                                </span>
                             </li>
                         </ul>
                     
@@ -303,35 +313,35 @@
                     
                         <h2 class="title-subtitle">Referências</h2>
                         <ul class="news-info-list style-none p-0">
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 1. Alzheimer’s Association. 2021 Alzheimer’s Disease Facts and Figures. 
                                 Disponível em: https://www.alz.org/media/documents/
                                 alzheimers-facts-and-figures.pdf. 
                                 Acesso 24/11/21
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 2. Dubois B, Hampel H, Feldman H, et al. Preclinical Alzheimer’s disease: 
                                 Definition, natural history, and diagnostic criteria. Alzheimer’s Dement. 2016;12(3):292–323
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 3. Knopman DS et al. Alzheimer Dement (Amst.). 2016; 2:1:11
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 4. Biogen. Apresentação, doença de Alzheimer
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 5. World Health Organization. Dementia Fact Sheet. 
                                 Disponível em: https://www.who.int/news-room/
                                 fact-sheets/detail/dementia 
                                 Acesso em 7/1/2022
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 7. Alzheimer’s Disease International. Dementia statistics. 
                                 Disponível em: https://www.alz.co.uk/research/
                                 statistics 
                                 Acesso em 7/1/2022
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 8. Garrison L, Baumgart M, El-Hayek Y, Holzapfel D, Leibman C. Defining elements of value in Alzheimer’s disease. 
                                 Value & Outcomes Spotlight. 2021;7(Suppl. 1):S7–1
                             </li>

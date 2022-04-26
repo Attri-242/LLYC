@@ -70,10 +70,8 @@
         <section class="w-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
-                        <p id="news-date">Publicado em 14 de novembro de 2021</p>
-                    
-                        <p class="news-info news-info-no--margin-top">
+                    <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">                    
+                        <p class="news-info">
                             O cuidado multidisciplinar olha a pessoa em toda sua universalidade, zelando não só pela sua saúde, 
                             mas também bem-estar e qualidade de vida. Na doença de Alzheimer (DA) esse tipo de atenção é fundamental, 
                             já que os impactos são sentidos tanto pelo paciente, quanto pela pessoa responsável por seu cuidado.
@@ -93,7 +91,9 @@
                             contar com um time multidisciplinar para cuidar da pessoa com a doença.¹
                         </p>
                 
-                        <h2 class="title-subtitle text-subtitle-little">Profissionais envolvidos no cuidado da pessoa com doença de Alzheimer</h2>
+                        <h2 class="title-subtitle text-subtitle-little">
+                            Profissionais envolvidos no cuidado da pessoa com doença de Alzheimer²
+                        </h2>
                 
                         <div class="icon-text-container icon-text-container--no-margin-top">
                             <div class="container p-0">
@@ -166,11 +166,15 @@
                             suas primeiras manifestações e buscar um médico para diagnosticar e tratar o quanto antes. 
                         </p>
 
-                        <button class="news-info-button">
-                            <a class="link-text" href="<?= $baseUrl ?>. /estagios/index.php">
-                             Confira os estágios da DA
-                            </a>
-                        </button>
+                        <?php 
+                            $current_url = $baseUrl . "/estagios/index.php";
+                        ?>
+                        <a class="link-text" href="<?= $current_url ?>">
+                            <button class="news-info-button">
+                                Confira os estágios da DA
+                            </button>
+                        </a>
+                
                 
                         <h2 class="title-subtitle">Cuidando da saúde física²<sup>,</sup>⁷</h2>
                 
@@ -233,19 +237,19 @@
                             O tratamento desses casos envolve:
                         </p>
                         <ul class="news-info-list news-info-list--no-margin-top">
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 Acompanhamento psiquiátrico
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 Construção de uma rotina 
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 Participar de grupos de pacientes
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 Envolver a pessoa nas atividades da família
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 Se necessário, o médico pode indicar tratamento farmacológico
                             </li>
                         </ul>
@@ -261,14 +265,14 @@
                             Tempo dedicado ao cuidado da pessoa com DA por mês de acordo com o estágio da doença:⁹
                         </p>
                         <ul class="news-info-list news-info-list--no-margin-top">
-                            <li class="news-info-list-item news-info-list-item--little">
-                                Leve – 4,7 dias
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
+                                <span class="news-info-bold">Leve</span> – 4,7 dias
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
-                                Moderada – 7 dias
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
+                                <span class="news-info-bold">Moderada</span> – 7 dias
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
-                                Grave – 12,4 dias
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
+                                <span class="news-info-bold">Grave</span> – 12,4 dias                           
                             </li>
                         </ul>
                 
@@ -287,44 +291,44 @@
                         <h2 class="title-subtitle">Referências</h2>
                 
                         <ul class="news-info-list style-none p-0">
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 1. Zucchella C, Sinforiani E, Tamburin S, Federico A, Mantovani E, Bernini S, Casale R, 
                                 Bartolo M. The Multidisciplinary Approach to Alzheimer's Disease and Dementia. 
                                 A Narrative Review of Non-Pharmacological Treatment. Front Neurol. 2018 Dec 13;9:1058.
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 2. Grand JH, Caspar S, Macdonald SW. Clinical features and multidisciplinary approaches to dementia care. 
                                 J Multidiscip Healthc. 2011;4:125-147.
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 3. Feldman HH, Woodward M. Neurology 2005;65:S10-S17
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 4. Sot ME, et al. J Nutr Heealth Aging 2008; 12-703-713
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 5. Hui JS, et al. Neurology 2003;61:1356-1361
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 6. Wilson RS, et al. Int J Geriatr Psychiatry 2006;21:356-362
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 7. Alzheimer’s Association. 2021 Alzheimer’s Disease Facts and Figures. 
                                 Disponível em: https://www.alz.org/media/documents/
                                 alzheimers-facts-and-figures.pdf. 
                                 Acesso 26/11/21
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 8. Alzheimer’s Association. Depression. Disponível em: 
                                 https://www.alz.org/help-support/caregiving
                                 /stages-behaviors/depression 
                                 Acesso 26/11/21
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 9. Garrison LP Jr, Baumgart M, El-Hayek YH, Holzapfel D LC. 
                                 Defining elements of value in Alzheimer’s disease. Value & Outcomes Spotlight.
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 10. Laks J, Goren A, Duenas H, Novick D, Kahle-Wrobleski K. Caregiving for patients with 
                                 Alzheimer’s disease or dementia and its association with psychiatric and clinical comorbidities 
                                 and other health outcomes in Brazil. Int J Geriatr Psychiatry [Internet]. 2016 Feb;31(2):176–85.

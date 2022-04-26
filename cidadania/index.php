@@ -71,33 +71,31 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
-                        <p id="news-date">Publicado em 14 de novembro de 2021</p>
-
-                        <p class="news-info news-info-no--margin-top">
+                        <p class="news-info">
                             A Organização Mundial da Saúde reconhece a demência – incluindo a doença de Alzheimer - como uma prioridade de 
                             saúde pública e estabeleceu em 2017 um plano global que reforça aos países membros a importância da adoção de 
                             estratégias para combater a doença até 2025. Entre as metas estão¹: 
                         </p>
                         <ul class="news-info-list news-info-list--no-margin-top">
-                            <li class="news-info-list-item news-info-list-item--little">
-                                Tratar a demência como uma prioridade de saúde pública; 
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
+                                Tratar a demência como uma prioridade de saúde pública;
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 Aumentar a conscientização sobre a demência e criar uma sociedade mais inclusiva; 
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 Reduzir o risco de demência; 
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 Diagnosticar, tratar e cuidar dos pacientes; 
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 Criar sistemas de informação para demência; 
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 Oferecer suporte para cuidadores de pacientes; 
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 Promover a pesquisa e a inovação. 
                             </li>
                         </ul>
@@ -319,22 +317,26 @@
                             foco em cuidados preventivos³.
                         </p>
 
-                        <button class="news-info-button">
-                            <a class="link-text" href="<?= $baseUrl ?>. /manifesto/index.php">
+                        <?php 
+                            $current_url = $baseUrl . "/manifesto/index.php";
+                        ?>
+                        <a class="link-text" href="<?= $current_url ?>">
+                            <button class="news-info-button">
                                 Está na hora de pensar a doença de Alzheimer. Confira o nosso manifesto
-                            </a>
-                        </button>
+                            </button>
+                        </a>
+
                 
                         <h2 class="title-subtitle">Referências</h2>
                 
                         <ul class="news-info-list style-none p-0">
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 1. Dementia Fact Sheet. World Health Organization, 2021. 
                                 Disponível em: https://www.who.int/news-room/
                                 fact-sheets/detail/dementia. 
                                 Acesso 26/11/2021
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 2. Strategy and Plan of Action on Dementias in Older Persons. Resolution. 
                                 Pan American Health Organization (PAHO), Washington. 28 set. 2015. 
                                 Disponível em: https://www.paho.org/en/documents/
@@ -342,12 +344,12 @@
                                 persons-resolution-2015. 
                                 Acesso 11/01/2022.
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 3. Implicações de novos tratamentos para a doença de Alzheimer na organização 
                                 e financiamento da política de saúde e prática médica no Brasil. 
                                 USC Dornsife Center for Economic and Social Research.
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 4. Dementia Innovation Readiness Index. Global Coalition on Aging (GCOA) e 
                                 Alzheimer’s Disease International (ADI). 2018. Disponível em: 
                                 https://globalcoalitiononaging.com/wp-
@@ -355,7 +357,7 @@
                                 -web-3.pdf. 
                                 Acesso 11/1/2022.
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 5. BRASIL. Portaria nº 2.528 de 19 de outubro de 2006. Institui Política Nacional de Saúde 
                                 da Pessoa Idosa. Ministério da Saúde, Brasília. 
                                 Disponível em: https://bvsms.saude.gov.br/bvs/saudelegis

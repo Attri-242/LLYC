@@ -69,16 +69,13 @@
         <section class="w-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
-                        <p id="news-date">Publicado em 14 de novembro de 2021</p>
-                    
-                        <p class="news-info news-info-no--margin-top">
+                    <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">                    
+                        <p class="news-info">
                             A doença de Alzheimer (DA) é uma crise em escalada de saúde pública global¹, 
                             que afeta aqueles que vivem com a doença, suas famílias, e, consequentemente, 
                             os sistemas de saúde. Dezenas de milhões de pessoas em todo o mundo convivem com a DA. 
                             O número aumentará nos próximos anos, ultrapassando os recursos de saúde necessários para gerenciá-la 
-                            e custando bilhões de dólares aos governos²<sup>,</sup>³<sup>,</sup>⁴.
-                
+                            e custando bilhões de dólares aos governos<sup>2,3,4</sup>.
                         </p>
                 
                         <p class="news-info">
@@ -125,30 +122,36 @@
                         </p>
 
                         <p class="news-info">
-                            A cada três segundos, uma pessoa desenvolve demência no mundo6.
+                            A cada três segundos, uma pessoa desenvolve demência no mundo<sup>6</sup>.
                         </p>
 
                         <div class="news-image-text-container">
                             <div class="news-image-text-container-item">
                                 <div class="image-container">
                                     <img class="image-container-image" src="../assets/images/manifesto/globo.svg" alt="">
-                                    <span class="image-number">55 milhões</span>
                                 </div>
-                                <span class="news-image-text-container-item-text">de pessoas têm demência no mundo²</span>
+                                <span class="news-image-text-container-item-text">
+                                    <span class="image-text-bigger">55 milhões</span>
+                                    de pessoas têm demência no mundo²
+                                </span>
                             </div>
                             <div class="news-image-text-container-item">
                                 <div class="image-container">
                                     <img class="image-container-image" src="../assets/images/manifesto/pessoas.svg" alt="">
-                                    <span class="image-number">10 milhões</span>
                                 </div>
-                                <span class="news-image-text-container-item-text">de novos casos são esperados por ano, no mundo</span>
+                                <span class="news-image-text-container-item-text">
+                                    <span class="image-text-bigger">10 milhões</span>
+                                    de novos casos são esperados por ano mundialmente²
+                                </span>
                             </div> 
                             <div class="news-image-text-container-item">
                                 <div class="image-container">
                                     <img class="image-container-image" src="../assets/images/manifesto/moedas.svg" alt="">
-                                    <span class="image-number">2 trilhões</span>
                                 </div>
-                                <span class="news-image-text-container-item-text">de dólares serão gastos globalmente com demência até 2030⁷</span>
+                                <span class="news-image-text-container-item-text">
+                                    <span class="image-number">2 trilhões</span>
+                                    de dólares serão gastos globalmente com demência até 2030⁷
+                                </span>
                             </div> 
                             <div class="news-image-text-container-item">
                                 <div class="image-container">
@@ -220,11 +223,14 @@
                             seu papel no reconhecimento das primeiras manifestações da doença de Alzheimer. 
                         </p>
 
-                        <button class="news-info-button">
-                            <a class="link-text" href="<?= $baseUrl ?>. /manifesto/index.php">
+                        <?php 
+                            $current_url = $baseUrl . "/sinaisESintomas/index.php";
+                        ?>
+                        <a class="link-text" href="<?= $current_url ?>">
+                            <button class="news-info-button">
                                 Conheça os sinais e sintomas da doença de Alzheimer
-                            </a>
-                        </button>
+                            </button>
+                        </a>
 
                         <h2 class="title-subtitle text-subtitle-little">Impactos sociais e econômicos</h2>
 
@@ -263,12 +269,12 @@
                         </p>
 
                         <p class="news-info">
-                            Nosso propósito é ser um canal que transforme a maneira que a doença de 
+                            Nosso <span class="news-info-bold">propósito</span> é ser um canal que transforme a maneira que a doença de 
                             Alzheimer é (re)pensada no Brasil. 
                         </p>
 
                         <p class="news-info">
-                            Nossa missão é engajar, informar e transformar a visão sobre a doença de 
+                            Nossa <span class="news-info-bold">missão</span> é engajar, informar e transformar a visão sobre a doença de 
                             Alzheimer por meio do conhecimento compartilhado.
                         </p>
 
@@ -278,7 +284,7 @@
 
                         <div id="alert-card">
                             <p id="alert-card-text">
-                                Enquanto você lia nosso manifesto, 60 pessoas desenvolveram 
+                                Enquanto você lia nosso manifesto, <span class="news-info-bold">60 pessoas</span> desenvolveram 
                                 algum tipo de demência no mundo⁶<sup>*</sup>
                             </p>
                         </div>
@@ -290,61 +296,61 @@
                         <h2 class="title-subtitle">Referências</h2>
                 
                         <ul class="news-info-list style-none p-0">
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 1.Arndt JW, Qian F, Smith BA, Quan C, Kilambi KP, Bush MW, et al. Structural and 
                                 kinetic basis for the selectivity of aducanumab for aggregated forms  of amyloid-β. 
                                 Sci Rep. 2018 Apr;8(1):6412
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 2.World Health Organization. Dementia Fact Sheet. 
                                 Disponível em: https://www.who.int/news-room/fact-sheets/detail/dementia Acesso 22/11/2021.
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 3.Global, regional, and national burden of neurological disorders, 1990-2016: 
                                 a systematic analysis for the Global Burden of Disease Study 2016. Lancet Neurol. 
                                 2019 May;18(5):459–80.
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 4.Alzheimer’s Disease International. Dementia statistics. 
                                 Disponível em: https://www.alz.co.uk/research/statistics Acesso em 22/11/2021
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 5.United Stated Census Bureau. An Aging World: 2015. International Population Reports. 
                                 2016. Disponível em: https://www.census.gov/
                                 content/dam/Census/library/publications/
                                 2016/demo/p95-16-1.pdf 
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 6.Alzheimer’s Disease International. World Alzheimer Report 2019. 
                                 Disponível em: https://www.alzint.org/u/
                                 WorldAlzheimerReport2019.pdf Acesso em 22/11/2021
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 7.Alzheimer’s Disease International. World Alzheimer Report 2018. 
                                 Disponível em: https://www.alz.co.uk/research/
                                 WorldAlzheimerReport2018.pdf?2. Acesso em 4/1/2022
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 8.Alzheimer’s Disease International. World Alzheimer Report 2015. 
                                 Disponível em: https://www.alz.co.uk/research/
                                 WorldAlzheimerReport2015.pdf Acesso 4/1/2022
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 9.Gutierrez BAO, Silva HS da, Guimaraes C, Campino AC. Economic impact of Alzheimer’s 
                                 Disease in Brazil: is it possible to improve care and minimize costs?. 
                                 Cien Saude Colet. 2014 Nov;19(11):4479–86.
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 10.Feter N, Leite JS, Caputo EL, Cardoso RK, Rombaldi AJ. Who are the people 
                                 with Alzheimer's disease in Brazil? Findings from the Brazilian Longitudinal Study 
                                 of Aging. Rev Bras Epidemiol. 2021 Apr 14;24:e210018.
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 11.Panza F, Lozupone M, Logroscino G, Imbimbo BP. A critical appraisal 
                                 of amyloid-beta-targeting therapies for Alzheimer disease. Nat Rev Neurol 
                                 [Internet]. 2019 Feb;15(2):73–88
                             </li>
-                            <li class="news-info-list-item news-info-list-item--little">
+                            <li class="news-info-list-item news-info-list-item--no-bold news-info-list-item--little">
                                 12.Dubois B, Padovani A, Scheltens P, Rossi A, Dell’Agnello G. Timely Diagnosis 
                                 for Alzheimer’s Disease: A Literature Review on Benefits and  Challenges. 
                                 J Alzheimers Dis. 2016;49(3):617–31.
