@@ -31,7 +31,7 @@ header#header
 nav#secondary-nav 
 div#secondary-nav-container {
     height: 100%;
-    padding-right: 11.5rem;
+    padding-right: 14rem;
     position: relative;
     justify-content: flex-end;
 }
@@ -131,6 +131,10 @@ div#secondary-nav-item-container:first-child {
     max-width: 6.25rem;
 }
 
+.mt--little {
+    margin-top: 7px;
+}
+
 /* Nav com os links secundários */
 
 header#header 
@@ -199,7 +203,7 @@ div#secondary-nav-items
     height: 2.25rem;
     display: flex;
     flex-flow: column;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 header#header 

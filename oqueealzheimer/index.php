@@ -242,7 +242,7 @@
                             Algumas coisas aumentam a chance de desenvolver DA⁶
                         </h2>
                     
-                        <div class="icon-text-container d-flex flex-column align-items-center align-items-md-start">
+                        <div class="icon-text-container d-flex flex-column align-items-center align-items-md-start icon-text-container--no-margin-top">
                             <p class="news-info news-info-with-max-width">
                                 Os principais fatores de risco da doença de Alzheimer são:
                             </p>

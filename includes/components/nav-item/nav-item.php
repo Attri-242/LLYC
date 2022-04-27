@@ -1,6 +1,6 @@
 <?php 
-    function showNavItem($param, $array, $type, $menuType, $redirectLink, $fontWeight) {
-        echo '<div id="' . $param .'" class="principal-nav-item-container principal-nav-item-container--' . $type . '">
+    function showNavItem($param, $array, $type, $menuType, $redirectLink, $fontWeight, $justify) {
+        echo '<div id="' . $param .'" class="principal-nav-item-container principal-nav-item-container--' . $type . ' '. $justify  . '">
                 <a onclick="showMenu(event)" 
                     class="'. $fontWeight . ' principal-nav-item principal-nav-item--' . $type . '" href="' . $redirectLink . '">' . $param . 
                 '</a>';

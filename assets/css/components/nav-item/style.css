@@ -17,8 +17,8 @@
 .floating-menu--secondary {
    background: #FDF8EC;
    border: 0.063rem solid #E03C31;
-   left: -10rem;
-   bottom: 0;
+   left: -9rem;
+   bottom: -15px;
 }
 
 .floating-menu--block {

@@ -18,7 +18,7 @@
                                         <img src="<?= $baseUrl ?>/assets/images/header/explore.png" alt="">
                                         <?php 
                                             include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
-                                            showNavItem("EXPLORE O CONTEÚDO", [], 'regular', 'primary', "#", 'font-regular'); ?>
+                                            showNavItem("EXPLORE O CONTEÚDO", [], 'regular', 'primary', "#", 'font-regular', "justify-content-center"); ?>
                                     </div>
                                 </div>
                             </div>
@@ -31,7 +31,14 @@
                                         <img src="<?= $baseUrl ?>/assets/images/header/search.png" alt="">
                                         <?php 
                                             include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
-                                            showNavItem("BUSQUE INFORMAÇÃO", [], 'regular', 'primary',  $baseUrl . '/busqueinformacao/index.php', 'font-regular'); ?>
+                                            showNavItem(
+                                                "BUSQUE INFORMAÇÃO", 
+                                                [], 
+                                                'regular', 
+                                                'primary',  
+                                                $baseUrl . '/busqueinformacao/index.php', 
+                                                'font-regular', 
+                                                "justify-content-center"); ?>
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +52,7 @@
     
                                         <?php 
                                             include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
-                                            showNavItem("MAIS ACESSADOS", [], 'regular', 'primary', '#', 'font-regular'); ?>
+                                            showNavItem("MAIS ACESSADOS", [], 'regular', 'primary', '#', 'font-regular', "justify-content-center"); ?>
                                     </div>
                                 </div>
                             </div>
@@ -58,13 +65,13 @@
                                         <img src="<?= $baseUrl ?>/assets/images/header/services.png" alt="">
                                         <?php 
                                             include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
-                                            showNavItem("SERVIÇOS", [], 'regular', 'primary',  $baseUrl . '/servicos/index.php', 'font-regular'); ?>
+                                            showNavItem("SERVIÇOS", [], 'regular', 'primary',  $baseUrl . '/servicos/index.php', 'font-regular', "justify-content-center"); ?>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="d-flex flex-row flex-wrap 
-                                    align-items-center justify-content-center" style="max-width: 9rem;">
+                                    align-items-center justify-content-center" style="max-width: 5rem;">
                             
                                 <div class="col-2">
                                     <div id="secondary-nav-item-container">
@@ -81,7 +88,7 @@
                                                     ["Sou curioso", "#"]
                                                 ],
                                                 'regular',
-                                                'secondary', '#', 'font-regular');
+                                                'secondary', '#', 'font-regular', "");
                                         ?>
                                     </div>
                                 </div>
@@ -117,7 +124,7 @@
                                                 ["Manifesto", $baseUrl . "/manifesto/index.php"], 
                                                 ["Sobre a Biogen", '#'], 
                                                 ["Contato", '#']
-                                            ], 'short', 'primary', '#', 'font-bold');
+                                            ], 'short', 'primary', '#', 'font-bold', "");
                                     ?>
                                 </div>
                             </div>
@@ -138,7 +145,7 @@
                                             ["Prevenção", "#"],
                                             ["Fatos e números", "#"],
                                             ["O que acontece com o cérebro", "#"]
-                                        ], 'short', 'primary', '#', 'font-bold');
+                                        ], 'short', 'primary', '#', 'font-bold', "");
                                     ?>
                                 </div>
                             </div>
@@ -161,7 +168,7 @@
                                                 ["Testes funcionais e cognitivos", "#"],
                                                 ["Estágios da doença de Alzheimer", "#"],
                                                 ["CCL x DA", "#"]
-                                            ], 'regular', 'primary', '#', 'font-bold');
+                                            ], 'regular', 'primary', '#', 'font-bold', "");
                                     ?>
                                 </div>
                             </div>
@@ -172,7 +179,7 @@
                                 <div class="col-2">
                                     <?php 
                                         include_once $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
-                                        showNavItem("CUIDANDO DO PACIENTE", [], 'medium', 'primary', '#', 'font-bold'); ?>
+                                        showNavItem("CUIDANDO DO PACIENTE", [], 'medium', 'primary', '#', 'font-bold', "justify-content-center"); ?>
                                 </div>
                             </div>
 
@@ -182,7 +189,7 @@
                                 <div class="col-2">
                                     <?php 
                                         include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
-                                        showNavItem("CUIDANDO DE QUEM CUIDA", [], 'medium', 'primary', $baseUrl . "/historia/index.php", 'font-bold'); ?>
+                                        showNavItem("CUIDANDO DE QUEM CUIDA", [], 'medium', 'primary', $baseUrl . "/historia/index.php", 'font-bold', "justify-content-center"); ?>
                                 </div>
                             </div>
 
@@ -192,7 +199,7 @@
                                 <div class="col-2">
                                     <?php
                                         include_once $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
-                                        showNavItem("CIDADANIA E POLÍTICAS PÚBLICAS", [], 'regular', 'primary', $baseUrl . '/cidadania/index.php', 'font-bold'); ?>
+                                        showNavItem("CIDADANIA E POLÍTICAS PÚBLICAS", [], 'regular', 'primary', $baseUrl . '/cidadania/index.php', 'font-bold', "justify-content-center"); ?>
                                 </div>
                             </div>
                         </div>

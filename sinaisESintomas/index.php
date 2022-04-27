@@ -70,9 +70,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 d-flex flex-column align-items-center align-items-xl-start">
-                        <p id="news-date">Publicado em 14 de novembro de 2021</p>
-                    
-                        <p class="news-info news-info-no--margin-top">
+                        <p class="news-info">
                             É comum que os sintomas iniciais da doença de Alzheimer (DA) sejam confundidos com o processo de 
                             envelhecimento normal – o que tende a adiar a busca por orientação profissional e diagnóstico¹. 
                             Indivíduos com DA, bem como pessoas próximas a eles, deixam passar manifestações da doença, 

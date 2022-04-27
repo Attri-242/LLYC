@@ -116,6 +116,7 @@ div#news-container
 ul#brain-activity {
     margin-top: 3.125rem;
     width: 40.063rem;
+    margin-bottom: 0px;
 }
 
 main#alzheimer-main
