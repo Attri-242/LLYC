@@ -482,10 +482,6 @@ p.news-info-with-max-width {
     width: 33.75rem !important;
 }
 
-span.news-info-bold {
-    font-weight: 500;
-}
-
 /* md - tablet */
 @media (min-width: 577px) and (max-width: 1199px) {
 

@@ -19,7 +19,7 @@
         <a class="primary-nav-item" href="<?= $current_url ?>">SINAIS, SINTOMAS E DIAGNÓSTICO</a>
         <a class="primary-nav-item" href="#">CUIDANDO DO PACIANTE</a>
         <?php 
-            $current_url = $baseUrl . "/historia/index.php";
+            $current_url = $baseUrl . "/cuidandodequemcuida/index.php";
         ?>
         <a class="primary-nav-item" href="<?= $current_url ?>">CUIDANDO DE QUEM CUIDA</a>
         <?php 

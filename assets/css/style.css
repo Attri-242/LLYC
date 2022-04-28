@@ -488,7 +488,6 @@ button.news-info-button {
     border-radius: 0.625rem;
     font-weight: 700;
     max-width: 41.563rem;
-    margin-left: 150px;
 }
 
 div#news-container
@@ -620,14 +619,6 @@ img.carousel-image {
         width: 100% !important;
     }    
 }
-
-@media(min-width: 1200px) and (max-width: 1382px) {
-    div#news-container
-    button.news-info-button {
-        width: 27.813rem;
-    }
-}
-
 
 @media (min-width: 980px) and (max-width: 1199px) {
     div#news-container

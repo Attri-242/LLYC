@@ -188,25 +188,25 @@
                     
                         <ul class="news-info-list news-info-list--no-margin-top">
                             <li class="news-info-list-item news-info-list-item--little">
-                                9,5 milhões 
+                                <span class="news-info-bold">9,5 milhões</span> 
                                 <span class="span--no-bold">
                                     de pessoas com CCL devido à DA
                                 </span>
                             </li>
                             <li class="news-info-list-item news-info-list-item--little">
-                                2,8 milhões 
+                                <span class="news-info-bold">2,8 milhões</span>  
                                 <span class="span--no-bold">
                                     de pessoas com demência leve devido à DA
                                 </span>
                             </li>
                             <li class="news-info-list-item news-info-list-item--little">
-                                1,7 milhão
+                                <span class="news-info-bold">1,7 milhão</span>  
                                 <span class="span--no-bold">
                                     de pessoas com demência moderada devido à DA
                                 </span>
                             </li>
                             <li class="news-info-list-item news-info-list-item--little">
-                                1,4 milhão 
+                                <span class="news-info-bold">1,4 milhão</span>  
                                 <span class="span--no-bold">
                                     de pessoas com demência grave devido à DA
                                 </span>

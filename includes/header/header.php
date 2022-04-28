@@ -149,8 +149,6 @@
                                     ?>
                                 </div>
                             </div>
-                            
-
 
                             <div class="d-flex flex-row flex-wrap 
                                 align-items-center justify-content-center" style="max-width: 10.7rem;">
@@ -164,9 +162,9 @@
                                                 ["Diagnóstico", $baseUrl . "/diagnostico/index.php"],
                                                 ["Diagnóstico precoce", "#"],
                                                 ["Diagnóstico diferencial", "#"],
-                                                ["Biomarcadores", $baseUrl . "/estagios/index.php"],
+                                                ["Biomarcadores", "#"],
                                                 ["Testes funcionais e cognitivos", "#"],
-                                                ["Estágios da doença de Alzheimer", "#"],
+                                                ["Estágios da doença de Alzheimer", $baseUrl . "/estagios/index.php"],
                                                 ["CCL x DA", "#"]
                                             ], 'regular', 'primary', '#', 'font-bold', "");
                                     ?>
@@ -189,7 +187,7 @@
                                 <div class="col-2">
                                     <?php 
                                         include_once  $_SERVER['DOCUMENT_ROOT'] . '/LLYC/includes/components/nav-item/nav-item.php'; 
-                                        showNavItem("CUIDANDO DE QUEM CUIDA", [], 'medium', 'primary', $baseUrl . "/historia/index.php", 'font-bold', "justify-content-center"); ?>
+                                        showNavItem("CUIDANDO DE QUEM CUIDA", [], 'medium', 'primary', $baseUrl . "/cuidandodequemcuida/index.php", 'font-bold', "justify-content-center"); ?>
                                 </div>
                             </div>
 
@@ -307,7 +305,7 @@
             <div class="nav-mobile-item-container">
                 <li class="nav-mobile-item">
                     <?php 
-                        $current_url = $baseUrl . "/historia/index.php";
+                        $current_url = $baseUrl . "/cuidandodequemcuida/index.php";
                     ?>    
                     <a href="<?= $current_url ?>">
                         CUIDANDO DE QUEM CUIDA
