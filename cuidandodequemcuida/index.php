@@ -132,12 +132,11 @@
                                 <img class="news-container-image historia-img" src="../assets/images/historia/historia-video.jpg" alt="">
                                 <img class="news-container-image play play--to-left" src="../assets/images/historia/play.png" alt="">
                             </div>
-                    
-                            <p class="news-info info-video">
-                                Uma dessas histórias é a da brasileira Maria Cecilia e sua filha Thayná. 
-                            </p>
-                    
                         </a>
+
+                        <p class="news-info">
+                            Uma dessas histórias é a da brasileira Maria Cecilia e sua filha Thayná. 
+                        </p>
                         
                         <p class="news-info">
                             Identificada aos 64 anos com doença de Alzheimer, Maria Cecilia fala sobre a importância 
